@@ -1,0 +1,10 @@
+<map id="remmina_main_on_action_connection_delete" name="remmina_main_on_action_connection_delete">
+<area shape="rect" id="node2" href="$d5/d16/remmina__file_8c.html#a55f66f2bb81bf427d6837e1adb7fe1d4" title="remmina_file_delete" alt="" coords="254,64,393,91"/>
+<area shape="rect" id="node9" href="$dc/d1a/remmina__icon_8c.html#af80ed314f91d653237249d839c7fc3b2" title="remmina_icon_populate_menu" alt="" coords="224,115,423,141"/>
+<area shape="rect" id="node3" href="$d5/d16/remmina__file_8c.html#ac1cc2d7f827f7d64c7fd3edf10e9383e" title="remmina_file_load" alt="" coords="480,5,607,32"/>
+<area shape="rect" id="node4" href="$d5/d16/remmina__file_8c.html#a6a79eb0cd9dc195cc5bd1904e2e1e26c" title="remmina_file_unsave\l_password" alt="" coords="471,57,616,98"/>
+<area shape="rect" id="node8" href="$d5/d16/remmina__file_8c.html#abd2f06bf0a5ddcf7156e5ef7d0c8d4d7" title="remmina_file_free" alt="" coords="481,123,606,149"/>
+<area shape="rect" id="node5" href="$d5/d16/remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="669,35,829,61"/>
+<area shape="rect" id="node7" href="$de/d5d/remmina__plugin__manager_8c.html#a3872c8656a8a3d5147bcc603471c1932" title="remmina_plugin_manager\l_get_plugin" alt="" coords="664,86,835,127"/>
+<area shape="rect" id="node6" href="$d5/d16/remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="883,35,1065,61"/>
+</map>

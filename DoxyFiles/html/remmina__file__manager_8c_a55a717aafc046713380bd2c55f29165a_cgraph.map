@@ -1,5 +1,0 @@
-<map id="remmina_file_manager_iterate" name="remmina_file_manager_iterate">
-<area shape="rect" id="node2" href="$remmina__file__manager_8c.html#aa65bc30beb59d607ba430d966e7e27f5" title="remmina_file_get_datadir" alt="" coords="207,5,373,32"/>
-<area shape="rect" id="node3" href="$remmina__file_8c.html#ac1cc2d7f827f7d64c7fd3edf10e9383e" title="remmina_file_load" alt="" coords="227,56,353,83"/>
-<area shape="rect" id="node4" href="$remmina__file_8c.html#abd2f06bf0a5ddcf7156e5ef7d0c8d4d7" title="remmina_file_free" alt="" coords="227,107,353,133"/>
-</map>

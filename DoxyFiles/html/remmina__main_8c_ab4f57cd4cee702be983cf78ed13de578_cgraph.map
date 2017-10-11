@@ -1,8 +1,0 @@
-<map id="remmina_main_on_action_application_mpchange" name="remmina_main_on_action_application_mpchange">
-<area shape="rect" id="node2" href="$remmina__file_8c.html#ac1cc2d7f827f7d64c7fd3edf10e9383e" title="remmina_file_load" alt="" coords="260,5,387,32"/>
-<area shape="rect" id="node3" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="243,56,403,83"/>
-<area shape="rect" id="node6" href="$remmina__mpchange_8c.html#ac84b71e36fe02a6ff8cb295269316960" title="remmina_mpchange_schedule" alt="" coords="224,107,423,133"/>
-<area shape="rect" id="node7" href="$remmina__file_8c.html#abd2f06bf0a5ddcf7156e5ef7d0c8d4d7" title="remmina_file_free" alt="" coords="261,157,386,184"/>
-<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="471,17,625,58"/>
-<area shape="rect" id="node5" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="471,82,625,123"/>
-</map>

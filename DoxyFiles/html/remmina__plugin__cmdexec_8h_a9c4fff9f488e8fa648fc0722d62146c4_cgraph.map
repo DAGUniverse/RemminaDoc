@@ -1,6 +1,0 @@
-<map id="remmina_plugin_cmdexec_new" name="remmina_plugin_cmdexec_new">
-<area shape="rect" id="node2" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="257,46,417,73"/>
-<area shape="rect" id="node5" href="$remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="260,97,415,139"/>
-<area shape="rect" id="node3" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="465,5,620,47"/>
-<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="465,71,620,112"/>
-</map>

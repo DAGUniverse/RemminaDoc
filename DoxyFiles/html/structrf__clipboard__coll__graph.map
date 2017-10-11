@@ -1,8 +1,0 @@
-<map id="rf_clipboard" name="rf_clipboard">
-<area shape="rect" id="node2" href="$structrf__context.html" title="rf_context" alt="" coords="55,199,135,225"/>
-<area shape="rect" id="node3" href="$struct___remmina_protocol_widget.html" title="_RemminaProtocolWidget" alt="" coords="181,109,356,136"/>
-<area shape="rect" id="node4" href="$struct___remmina_protocol_widget_priv.html" title="_RemminaProtocolWidgetPriv" alt="" coords="306,199,503,225"/>
-<area shape="rect" id="node5" href="$struct___remmina_protocol_feature.html" title="_RemminaProtocolFeature" alt="" coords="338,5,516,32"/>
-<area shape="rect" id="node6" href="$struct___remmina_protocol_plugin.html" title="_RemminaProtocolPlugin" alt="" coords="504,109,673,136"/>
-<area shape="rect" id="node7" href="$struct___remmina_protocol_setting.html" title="_RemminaProtocolSetting" alt="" coords="540,5,714,32"/>
-</map>

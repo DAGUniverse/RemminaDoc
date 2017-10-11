@@ -1,0 +1,22 @@
+<map id="remmina_file.c" name="remmina_file.c">
+<area shape="rect" id="node2" href="$db/d16/config_8h.html" title="config.h" alt="" coords="2201,333,2269,360"/>
+<area shape="rect" id="node16" href="$d1/d53/remmina__public_8h.html" title="remmina_public.h" alt="" coords="2102,251,2226,278"/>
+<area shape="rect" id="node17" href="$da/d9a/remmina__log_8h.html" title="remmina_log.h" alt="" coords="1501,87,1608,114"/>
+<area shape="rect" id="node18" href="$d3/d97/remmina__crypt_8h.html" title="remmina_crypt.h" alt="" coords="1633,87,1751,114"/>
+<area shape="rect" id="node19" href="$d3/d89/remmina__file__manager_8h.html" title="remmina_file_manager.h" alt="" coords="1549,169,1713,196"/>
+<area shape="rect" id="node22" href="$d0/d0a/remmina__plugin__manager_8h.html" title="remmina_plugin_manager.h" alt="" coords="5,87,187,114"/>
+<area shape="rect" id="node24" href="$de/d66/remmina__trace__calls_8h.html" title="remmina/remmina_trace\l_calls.h" alt="" coords="1383,244,1545,285"/>
+<area shape="rect" id="node25" href="$d3/d05/remmina__pref_8h.html" title="remmina_pref.h" alt="" coords="2021,87,2133,114"/>
+<area shape="rect" id="node26" href="$d9/d30/remmina__main_8h.html" title="remmina_main.h" alt="" coords="1827,87,1946,114"/>
+<area shape="rect" id="node28" href="$d8/d84/remmina__masterthread__exec_8h.html" title="remmina_masterthread\l_exec.h" alt="" coords="2580,80,2735,121"/>
+<area shape="rect" id="node20" href="$de/d15/remmina__file_8h.html" title="remmina_file.h" alt="" coords="1709,251,1816,278"/>
+<area shape="rect" id="node21" href="$d9/d49/types_8h.html" title="remmina/types.h" alt="" coords="1495,333,1614,360"/>
+<area shape="rect" id="node23" href="$d9/dc4/plugin_8h.html" title="remmina/plugin.h" alt="" coords="1285,169,1406,196"/>
+<area shape="rect" id="node27" href="$d2/d9f/remmina__string__array_8h.html" title="remmina_string_array.h" alt="" coords="1737,169,1895,196"/>
+<area shape="rect" id="node30" href="$d4/d6f/remmina__protocol__widget_8h.html" title="remmina_protocol_widget.h" alt="" coords="2208,169,2389,196"/>
+<area shape="rect" id="node31" href="$d2/d06/remmina__init__dialog_8h.html" title="remmina_init_dialog.h" alt="" coords="2533,251,2681,278"/>
+<area shape="rect" id="node33" href="$de/d5c/remmina__sftp__client_8h.html" title="remmina_sftp_client.h" alt="" coords="2779,251,2930,278"/>
+<area shape="rect" id="node34" href="$da/d2e/remmina__ftp__client_8h.html" title="remmina_ftp_client.h" alt="" coords="2414,169,2557,196"/>
+<area shape="rect" id="node35" href="$da/d9e/remmina__ssh__plugin_8h.html" title="remmina_ssh_plugin.h" alt="" coords="2581,169,2733,196"/>
+<area shape="rect" id="node32" href="$d5/d09/remmina__ssh_8h.html" title="remmina_ssh.h" alt="" coords="2250,251,2361,278"/>
+</map>

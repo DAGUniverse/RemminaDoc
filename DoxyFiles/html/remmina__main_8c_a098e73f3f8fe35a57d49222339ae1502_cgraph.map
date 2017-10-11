@@ -1,9 +1,0 @@
-<map id="remmina_main_on_action_connection_edit" name="remmina_main_on_action_connection_edit">
-<area shape="rect" id="node2" href="$remmina__file__editor_8c.html#aa9345cfe3fb32d326b652e96ee55eaea" title="remmina_file_editor\l_new_from_filename" alt="" coords="224,89,367,130"/>
-<area shape="rect" id="node3" href="$remmina__file__manager_8c.html#af7b58659604660eb0cb40b0e0f8348ab" title="remmina_file_manager\l_load_file" alt="" coords="415,55,568,97"/>
-<area shape="rect" id="node6" href="$remmina__file__editor_8c.html#a08327d6951c345808628dbb5784aba06" title="remmina_file_editor\l_new_from_file" alt="" coords="424,121,559,162"/>
-<area shape="rect" id="node4" href="$remmina__file_8c.html#ac1cc2d7f827f7d64c7fd3edf10e9383e" title="remmina_file_load" alt="" coords="641,5,768,32"/>
-<area shape="rect" id="node5" href="$remmina__plugin__manager_8c.html#a859348bddc9069f06195915692b65076" title="remmina_plugin_manager\l_get_import_file_handler" alt="" coords="619,57,790,98"/>
-<area shape="rect" id="node7" href="$remmina__file_8c.html#ad1e4f3a0f64cd98e301044b6c38a1f1d" title="remmina_file_get_filename" alt="" coords="616,125,793,152"/>
-<area shape="rect" id="node8" href="$remmina__public_8c.html#a995da243f78002153d18616b46dcdf63" title="remmina_public_create\l_group" alt="" coords="627,177,783,218"/>
-</map>

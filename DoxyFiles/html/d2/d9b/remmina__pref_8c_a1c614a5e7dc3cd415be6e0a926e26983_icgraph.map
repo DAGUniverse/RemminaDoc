@@ -1,0 +1,6 @@
+<map id="remmina_pref_save" name="remmina_pref_save">
+<area shape="rect" id="node2" href="$d9/d10/remmina__main_8c.html#a05c17338704e3469b687275d2a0f8054" title="remmina_main_on_action\l_view_statusbar" alt="" coords="189,5,360,47"/>
+<area shape="rect" id="node3" href="$d9/d10/remmina__main_8c.html#af53a0f0667da4a5198655a69f7a4af3e" title="remmina_main_on_action\l_view_file_mode" alt="" coords="189,71,360,112"/>
+<area shape="rect" id="node4" href="$d9/d10/remmina__main_8c.html#a3d60de4c121cae0c82e60b13873073db" title="remmina_main_on_date\l_column_sort_clicked" alt="" coords="195,136,355,177"/>
+<area shape="rect" id="node5" href="$d6/df3/remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d" title="remmina_pref_on_dialog\l_destroy" alt="" coords="193,201,356,243"/>
+</map>

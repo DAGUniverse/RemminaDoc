@@ -1,0 +1,6 @@
+<map id="remmina_protocol_widget_set_hostkey_func" name="remmina_protocol_widget_set_hostkey_func">
+<area shape="rect" id="node2" href="$d2/d58/remmina__init__dialog_8c.html#a0091e150b446faa19e9af16f3d4de3cf" title="remmina_init_dialog\l_set_status" alt="" coords="241,37,378,79"/>
+<area shape="rect" id="node5" href="$d6/d0f/remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af" title="remmina_protocol_widget\l_set_error" alt="" coords="224,103,395,144"/>
+<area shape="rect" id="node3" href="$d7/d0b/remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="443,5,597,47"/>
+<area shape="rect" id="node4" href="$d7/d0b/remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="443,71,597,112"/>
+</map>

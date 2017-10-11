@@ -1,6 +1,0 @@
-<map id="remmina_file_update_screen_resolution" name="remmina_file_update_screen_resolution">
-<area shape="rect" id="node2" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="196,45,356,71"/>
-<area shape="rect" id="node5" href="$remmina__file_8c.html#af153b0d289ac93f6ecdaa15d5f3b9b8c" title="remmina_file_set_int" alt="" coords="205,95,347,122"/>
-<area shape="rect" id="node3" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="404,5,559,47"/>
-<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="404,71,559,112"/>
-</map>

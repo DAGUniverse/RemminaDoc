@@ -1,5 +1,0 @@
-<map id="remmina_icon_init" name="remmina_icon_init">
-<area shape="rect" id="node2" href="$remmina__sysinfo_8c.html#ae6ecf91edb905f3b2b39e33e05325590" title="remmina_sysinfo_is\l_appindicator_available" alt="" coords="201,5,358,47"/>
-<area shape="rect" id="node3" href="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="remmina_sysinfo_get\l_gnome_shell_version" alt="" coords="204,71,355,112"/>
-<area shape="rect" id="node4" href="$remmina__icon_8c.html#af80ed314f91d653237249d839c7fc3b2" title="remmina_icon_populate_menu" alt="" coords="180,137,379,163"/>
-</map>

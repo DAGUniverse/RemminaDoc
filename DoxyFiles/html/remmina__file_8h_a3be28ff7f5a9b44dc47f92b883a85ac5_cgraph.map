@@ -1,6 +1,0 @@
-<map id="remmina_file_store_secret_plugin_password" name="remmina_file_store_secret_plugin_password">
-<area shape="rect" id="node2" href="$remmina__plugin__manager_8c.html#ad380a98f6624aa8c830015c8b428b7b4" title="remmina_plugin_manager\l_get_secret_plugin" alt="" coords="223,5,393,47"/>
-<area shape="rect" id="node3" href="$remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="228,71,388,98"/>
-<area shape="rect" id="node5" href="$remmina__file_8c.html#a8c893a5deec9bc446bd89cc9973416c7" title="remmina_file_save" alt="" coords="243,122,373,149"/>
-<area shape="rect" id="node4" href="$remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="441,71,624,98"/>
-</map>

@@ -1,0 +1,5 @@
+<map id="remmina_protocol_widget_chat_receive" name="remmina_protocol_widget_chat_receive">
+<area shape="rect" id="node2" href="$d7/d0b/remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="224,5,379,47"/>
+<area shape="rect" id="node3" href="$d7/d0b/remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="224,71,379,112"/>
+<area shape="rect" id="node4" href="$d7/dc7/remmina__chat__window_8c.html#a45724aed5474dd741563ffbf89237022" title="remmina_chat_window\l_receive" alt="" coords="224,136,379,177"/>
+</map>

@@ -1,9 +1,0 @@
-<map id="remmina_rdp_event_queue_ui_sync_retint" name="remmina_rdp_event_queue_ui_sync_retint">
-<area shape="rect" id="node2" href="$rdp__graphics_8c.html#a9fb6fb540ec75254cb763ae974fb5129" title="rf_Pointer_New" alt="" coords="252,5,364,32"/>
-<area shape="rect" id="node4" href="$rdp__graphics_8c.html#afe709335471a30a29f9c97587d43088f" title="rf_Pointer_Free" alt="" coords="253,56,363,83"/>
-<area shape="rect" id="node5" href="$rdp__graphics_8c.html#aee54ac34465e6b70a5a7bbd799e9b747" title="rf_Pointer_Set" alt="" coords="255,107,361,133"/>
-<area shape="rect" id="node6" href="$rdp__graphics_8c.html#aeb108afe0c6da4dfa5a485137921437a" title="rf_Pointer_SetNull" alt="" coords="244,157,372,184"/>
-<area shape="rect" id="node7" href="$rdp__graphics_8c.html#ac2abd9da136bc6f446c836a3d53ab8b6" title="rf_Pointer_SetDefault" alt="" coords="235,208,381,235"/>
-<area shape="rect" id="node8" href="$rdp__graphics_8c.html#a4c2407f4e8db3ae44123066c373b705c" title="rf_Pointer_SetPosition" alt="" coords="232,259,384,285"/>
-<area shape="rect" id="node3" href="$rdp__graphics_8h.html#a95732c40c35499f3440715b6526279b1" title="rf_register_graphics" alt="" coords="432,132,568,159"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="remmina_file_manager_get_group_tree" name="remmina_file_manager_get_group_tree">
-<area shape="rect" id="node2" href="$remmina__file__manager_8c.html#aa65bc30beb59d607ba430d966e7e27f5" title="remmina_file_get_datadir" alt="" coords="207,5,373,32"/>
-<area shape="rect" id="node3" href="$remmina__file_8c.html#ac1cc2d7f827f7d64c7fd3edf10e9383e" title="remmina_file_load" alt="" coords="227,56,353,83"/>
-<area shape="rect" id="node4" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="210,107,370,133"/>
-<area shape="rect" id="node5" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="421,66,576,107"/>
-<area shape="rect" id="node6" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="421,131,576,173"/>
-</map>

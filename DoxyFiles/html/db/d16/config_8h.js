@@ -1,0 +1,25 @@
+var config_8h =
+[
+    [ "GETTEXT_PACKAGE", "db/d16/config_8h.html#ab23870bd5469d09c183b5a4e89efd81d", null ],
+    [ "GTK_VERSION", "db/d16/config_8h.html#a78bcfdce2680037c12388d2cc527bc59", null ],
+    [ "HAVE_ARPA_INET_H", "db/d16/config_8h.html#a7d1a71461e07569d0c9003da24c30a59", null ],
+    [ "HAVE_ERRNO_H", "db/d16/config_8h.html#ae655a511fd230d2fd6b99ff2801df201", null ],
+    [ "HAVE_FCNTL_H", "db/d16/config_8h.html#a765d75020849aa0a9b6becd9a5b7a193", null ],
+    [ "HAVE_NETDB_H", "db/d16/config_8h.html#a9fe2d1d4726a6b846483a2276866dc6e", null ],
+    [ "HAVE_NETINET_IN_H", "db/d16/config_8h.html#a0938658b988a082864efcee2d1b2bfd2", null ],
+    [ "HAVE_NETINET_TCP_H", "db/d16/config_8h.html#a73764f445d28d141ebf0465a69004864", null ],
+    [ "HAVE_SYS_PARAM_H", "db/d16/config_8h.html#a05aa9fc25e1231d8eb347390558e4e22", null ],
+    [ "HAVE_SYS_SOCKET_H", "db/d16/config_8h.html#afb96c2bc08ebf33cca68c714f624a58d", null ],
+    [ "HAVE_SYS_UN_H", "db/d16/config_8h.html#a95093913a3bf813693d2988f65edd6b1", null ],
+    [ "HAVE_TERMIOS_H", "db/d16/config_8h.html#a55e62c01f41f9c5850dfce5f89a6bb98", null ],
+    [ "HAVE_UNISTD_H", "db/d16/config_8h.html#a219b06937831d0da94d801ab13987639", null ],
+    [ "remmina", "db/d16/config_8h.html#a2cc9a1c99762f2910941b0b7769ead5c", null ],
+    [ "REMMINA_GIT_REVISION", "db/d16/config_8h.html#a861ba4ae83de0e4c90c582f73b3d9a18", null ],
+    [ "REMMINA_RUNTIME_DATADIR", "db/d16/config_8h.html#a918b6c3a9a0e77390faada4731157dcc", null ],
+    [ "REMMINA_RUNTIME_EXTERNAL_TOOLS_DIR", "db/d16/config_8h.html#aa644f4167ab5b8841da64a446b3e6c2e", null ],
+    [ "REMMINA_RUNTIME_LOCALEDIR", "db/d16/config_8h.html#aba127e7146091407342004c8d8da6549", null ],
+    [ "REMMINA_RUNTIME_PLUGINDIR", "db/d16/config_8h.html#a41f8423dcdf9937840e289fcaab70adb", null ],
+    [ "REMMINA_RUNTIME_UIDIR", "db/d16/config_8h.html#ac7ced50148c2ddb3106aa6585d7609ff", null ],
+    [ "UNIQUE_APPNAME", "db/d16/config_8h.html#ab25206ed02a9b055a925e00beda12341", null ],
+    [ "VERSION", "db/d16/config_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf", null ]
+];

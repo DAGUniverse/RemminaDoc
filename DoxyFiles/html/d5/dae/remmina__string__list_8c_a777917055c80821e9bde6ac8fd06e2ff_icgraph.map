@@ -1,0 +1,7 @@
+<map id="remmina_string_list_update_buttons_state" name="remmina_string_list_update_buttons_state">
+<area shape="rect" id="node2" href="$d5/dae/remmina__string__list_8c.html#a4f02ba383d1c5376606dd494771d5a1b" title="remmina_string_list\l_on_action_add" alt="" coords="208,5,343,47"/>
+<area shape="rect" id="node3" href="$d5/dae/remmina__string__list_8c.html#a45c42dcabd4f5365e26b77a7ab5f18ae" title="remmina_string_list\l_on_action_remove" alt="" coords="208,71,343,112"/>
+<area shape="rect" id="node4" href="$de/db1/remmina__string__list_8h.html#ab1bacc097f59c20b477d954bb863a5e0" title="remmina_string_list\l_set_text" alt="" coords="208,136,343,177"/>
+<area shape="rect" id="node5" href="$d6/df3/remmina__pref__dialog_8c.html#ad4b3f23a900c8f07814fd0fb26f29e5f" title="remmina_pref_on_button\l_resolutions_clicked" alt="" coords="391,103,556,144"/>
+<area shape="rect" id="node6" href="$d6/df3/remmina__pref__dialog_8c.html#a0c5f28eea2fe32297da5f7833df7b131" title="remmina_pref_on_button\l_keystrokes_clicked" alt="" coords="391,168,556,209"/>
+</map>

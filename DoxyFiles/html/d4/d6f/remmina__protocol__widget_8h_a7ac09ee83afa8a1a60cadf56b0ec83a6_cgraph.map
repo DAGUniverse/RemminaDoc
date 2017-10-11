@@ -1,0 +1,7 @@
+<map id="remmina_protocol_widget_init_save_cred" name="remmina_protocol_widget_init_save_cred">
+<area shape="rect" id="node2" href="$d7/d0b/remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="227,5,381,47"/>
+<area shape="rect" id="node3" href="$d7/d0b/remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="227,71,381,112"/>
+<area shape="rect" id="node4" href="$d5/d16/remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="224,137,384,163"/>
+<area shape="rect" id="node6" href="$d5/d16/remmina__file_8c.html#a8c893a5deec9bc446bd89cc9973416c7" title="remmina_file_save" alt="" coords="239,187,369,214"/>
+<area shape="rect" id="node5" href="$d5/d16/remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="432,137,615,163"/>
+</map>

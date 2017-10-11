@@ -1,0 +1,9 @@
+<map id="remmina_application_condexit" name="remmina_application_condexit">
+<area shape="rect" id="node2" href="$d0/d36/remmina__widget__pool_8c.html#a9cbb5b8d01a6d44ba7b46434467c02f8" title="remmina_widget_pool\l_count" alt="" coords="213,5,361,47"/>
+<area shape="rect" id="node3" href="$d9/d10/remmina__main_8c.html#a7740488de65c0e642895cc9dfba07b6e" title="remmina_main_get_window" alt="" coords="196,71,379,98"/>
+<area shape="rect" id="node4" href="$dc/d1a/remmina__icon_8c.html#a42f087b679b43b8a1d36cd9e9781a8b6" title="remmina_icon_is_available" alt="" coords="198,122,377,149"/>
+<area shape="rect" id="node7" href="$d2/dd7/remmina__exec_8c.html#a206abe0e916081b29c5faa52330e2271" title="remmina_exec_exitremmina" alt="" coords="195,173,380,199"/>
+<area shape="rect" id="node8" href="$d0/d36/remmina__widget__pool_8c.html#a53fad3994b2550300cfd4fd8bb2a2b5b" title="remmina_widget_pool\l_foreach" alt="" coords="433,199,581,240"/>
+<area shape="rect" id="node5" href="$dc/d33/remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="remmina_sysinfo_get\l_gnome_shell_version" alt="" coords="431,59,582,100"/>
+<area shape="rect" id="node6" href="$dc/d33/remmina__sysinfo_8c.html#ae6ecf91edb905f3b2b39e33e05325590" title="remmina_sysinfo_is\l_appindicator_available" alt="" coords="428,124,585,165"/>
+</map>

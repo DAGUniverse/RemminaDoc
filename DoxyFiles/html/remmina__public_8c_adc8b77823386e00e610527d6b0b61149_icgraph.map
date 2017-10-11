@@ -1,5 +1,0 @@
-<map id="remmina_public_get_server_port" name="remmina_public_get_server_port">
-<area shape="rect" id="node2" href="$remmina__protocol__widget_8h.html#a9d55210413d6a313478f81cf76ecf1b7" title="remmina_protocol_widget\l_start_direct_tunnel" alt="" coords="192,5,363,47"/>
-<area shape="rect" id="node3" href="$remmina__protocol__widget_8h.html#a12eddf3428a53201ee0a2ec422d2fa4a" title="remmina_protocol_widget\l_ssh_exec" alt="" coords="192,71,363,112"/>
-<area shape="rect" id="node4" href="$remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4" title="remmina_protocol_widget\l_start_xport_tunnel" alt="" coords="192,136,363,177"/>
-</map>

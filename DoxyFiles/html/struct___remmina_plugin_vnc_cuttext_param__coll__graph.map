@@ -1,7 +1,0 @@
-<map id="_RemminaPluginVncCuttextParam" name="_RemminaPluginVncCuttextParam">
-<area shape="rect" id="node2" href="$struct___remmina_protocol_widget.html" title="_RemminaProtocolWidget" alt="" coords="69,109,243,136"/>
-<area shape="rect" id="node3" href="$struct___remmina_protocol_widget_priv.html" title="_RemminaProtocolWidgetPriv" alt="" coords="216,206,413,233"/>
-<area shape="rect" id="node4" href="$struct___remmina_protocol_feature.html" title="_RemminaProtocolFeature" alt="" coords="226,5,403,32"/>
-<area shape="rect" id="node5" href="$struct___remmina_protocol_plugin.html" title="_RemminaProtocolPlugin" alt="" coords="391,109,561,136"/>
-<area shape="rect" id="node6" href="$struct___remmina_protocol_setting.html" title="_RemminaProtocolSetting" alt="" coords="427,5,602,32"/>
-</map>

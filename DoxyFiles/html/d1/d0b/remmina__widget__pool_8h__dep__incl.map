@@ -1,0 +1,12 @@
+<map id="remmina_widget_pool.h" name="remmina_widget_pool.h">
+<area shape="rect" id="node2" href="$d5/d7a/remmina_8c.html" title="remmina.c" alt="" coords="5,87,88,114"/>
+<area shape="rect" id="node3" href="$d0/dc5/remmina__connection__window_8c.html" title="remmina_connection\l_window.c" alt="" coords="113,80,255,121"/>
+<area shape="rect" id="node4" href="$d2/dd7/remmina__exec_8c.html" title="remmina_exec.c" alt="" coords="279,87,398,114"/>
+<area shape="rect" id="node5" href="$dd/d11/remmina__file__editor_8c.html" title="remmina_file_editor.c" alt="" coords="423,87,569,114"/>
+<area shape="rect" id="node6" href="$dc/d1a/remmina__icon_8c.html" title="remmina_icon.c" alt="" coords="593,87,708,114"/>
+<area shape="rect" id="node7" href="$d2/d58/remmina__init__dialog_8c.html" title="remmina_init_dialog.c" alt="" coords="733,87,881,114"/>
+<area shape="rect" id="node8" href="$d9/d10/remmina__main_8c.html" title="remmina_main.c" alt="" coords="905,87,1023,114"/>
+<area shape="rect" id="node9" href="$de/d5d/remmina__plugin__manager_8c.html" title="remmina_plugin_manager.c" alt="" coords="1048,87,1229,114"/>
+<area shape="rect" id="node10" href="$d6/df3/remmina__pref__dialog_8c.html" title="remmina_pref_dialog.c" alt="" coords="1254,87,1407,114"/>
+<area shape="rect" id="node11" href="$d0/d36/remmina__widget__pool_8c.html" title="remmina_widget_pool.c" alt="" coords="1431,87,1590,114"/>
+</map>

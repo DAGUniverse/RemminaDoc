@@ -1,8 +1,0 @@
-<map id="remmina_pref_on_button_keystrokes_clicked" name="remmina_pref_on_button_keystrokes_clicked">
-<area shape="rect" id="node2" href="$remmina__string__list_8c.html#a11147c41297537effe55f18a63ce9f7e" title="remmina_string_list_new" alt="" coords="219,14,385,41"/>
-<area shape="rect" id="node4" href="$remmina__string__list_8c.html#ab1bacc097f59c20b477d954bb863a5e0" title="remmina_string_list\l_set_text" alt="" coords="235,68,369,109"/>
-<area shape="rect" id="node6" href="$remmina__string__list_8c.html#aa9ca6ccf40b954051a0daa5c1efeef87" title="remmina_string_list\l_set_titles" alt="" coords="235,133,369,175"/>
-<area shape="rect" id="node7" href="$remmina__string__list_8c.html#a74058eac0af28c05a55d041103457aec" title="remmina_string_list\l_get_text" alt="" coords="235,199,369,240"/>
-<area shape="rect" id="node3" href="$remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="433,5,588,47"/>
-<area shape="rect" id="node5" href="$remmina__string__list_8c.html#a777917055c80821e9bde6ac8fd06e2ff" title="remmina_string_list\l_update_buttons_state" alt="" coords="433,71,588,112"/>
-</map>

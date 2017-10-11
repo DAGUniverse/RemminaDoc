@@ -1,0 +1,5 @@
+<map id="remmina_icon_populate_menu" name="remmina_icon_populate_menu">
+<area shape="rect" id="node2" href="$d6/de0/remmina__icon_8h.html#a741c81815e562f40672c4485172306d6" title="remmina_icon_init" alt="" coords="274,13,401,39"/>
+<area shape="rect" id="node4" href="$d9/d10/remmina__main_8c.html#aa0cd57e00874ae6ca8b0ee83213267da" title="remmina_main_on_action\l_connection_delete" alt="" coords="252,64,423,105"/>
+<area shape="rect" id="node3" href="$d6/df3/remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d" title="remmina_pref_on_dialog\l_destroy" alt="" coords="471,5,633,47"/>
+</map>

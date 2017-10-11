@@ -1,0 +1,25 @@
+<map id="remmina_plugin.h" name="remmina_plugin.h">
+<area shape="rect" id="node2" href="$d3/ddb/nx__plugin_8c.html" title="nx_plugin.c" alt="" coords="82,80,170,107"/>
+<area shape="rect" id="node3" href="$db/dd7/nx__session_8c.html" title="nx_session.c" alt="" coords="194,80,293,107"/>
+<area shape="rect" id="node4" href="$d1/da6/nx__session__manager_8c.html" title="nx_session_manager.c" alt="" coords="317,80,473,107"/>
+<area shape="rect" id="node5" href="$d8/dc9/rdp__plugin_8h.html" title="rdp_plugin.h" alt="" coords="497,80,589,107"/>
+<area shape="rect" id="node11" href="$d0/d9a/rdp__file_8c.html" title="rdp_file.c" alt="" coords="709,155,783,181"/>
+<area shape="rect" id="node15" href="$d7/d79/spice__plugin_8h.html" title="spice_plugin.h" alt="" coords="724,80,829,107"/>
+<area shape="rect" id="node19" href="$d7/dd9/telepathy__channel__handler_8c.html" title="telepathy_channel_handler.c" alt="" coords="854,80,1041,107"/>
+<area shape="rect" id="node20" href="$d4/d00/telepathy__handler_8c.html" title="telepathy_handler.c" alt="" coords="1065,80,1200,107"/>
+<area shape="rect" id="node21" href="$d4/dc9/telepathy__plugin_8c.html" title="telepathy_plugin.c" alt="" coords="1224,80,1351,107"/>
+<area shape="rect" id="node22" href="$d4/daa/plugin_8c.html" title="plugin.c" alt="" coords="1375,80,1442,107"/>
+<area shape="rect" id="node23" href="$da/d39/vnc__plugin_8c.html" title="vnc_plugin.c" alt="" coords="1467,80,1561,107"/>
+<area shape="rect" id="node24" href="$da/d8c/xdmcp__plugin_8c.html" title="xdmcp_plugin.c" alt="" coords="1585,80,1699,107"/>
+<area shape="rect" id="node6" href="$d6/d97/rdp__channels_8c.html" title="rdp_channels.c" alt="" coords="5,229,116,256"/>
+<area shape="rect" id="node7" href="$d1/dbb/rdp__cliprdr_8h.html" title="rdp_cliprdr.h" alt="" coords="181,155,274,181"/>
+<area shape="rect" id="node8" href="$d3/db3/rdp__cliprdr_8c.html" title="rdp_cliprdr.c" alt="" coords="141,229,234,256"/>
+<area shape="rect" id="node9" href="$dc/dd7/rdp__event_8c.html" title="rdp_event.c" alt="" coords="258,229,349,256"/>
+<area shape="rect" id="node10" href="$d5/db5/rdp__plugin_8c.html" title="rdp_plugin.c" alt="" coords="373,229,465,256"/>
+<area shape="rect" id="node12" href="$dd/d24/rdp__graphics_8c.html" title="rdp_graphics.c" alt="" coords="490,229,597,256"/>
+<area shape="rect" id="node13" href="$df/d13/rdp__graphics_8h.html" title="rdp_graphics.h" alt="" coords="399,155,506,181"/>
+<area shape="rect" id="node14" href="$d3/dc2/rdp__settings_8c.html" title="rdp_settings.c" alt="" coords="581,155,685,181"/>
+<area shape="rect" id="node16" href="$d8/d17/spice__plugin_8c.html" title="spice_plugin.c" alt="" coords="808,155,913,181"/>
+<area shape="rect" id="node17" href="$dc/d09/spice__plugin__file__transfer_8c.html" title="spice_plugin_file_transfer.c" alt="" coords="937,155,1117,181"/>
+<area shape="rect" id="node18" href="$dd/d1d/spice__plugin__usb_8c.html" title="spice_plugin_usb.c" alt="" coords="1142,155,1275,181"/>
+</map>
