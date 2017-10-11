@@ -1,0 +1,5 @@
+<map id="remmina_init_dialog_serverkey_changed" name="remmina_init_dialog_serverkey_changed">
+<area shape="rect" id="node2" href="$remmina__init__dialog_8c.html#a11fba22fe5f7f85985e01b499a52e534" title="remmina_init_dialog\l_serverkey_confirm" alt="" coords="196,39,333,80"/>
+<area shape="rect" id="node3" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="381,5,536,47"/>
+<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="381,71,536,112"/>
+</map>

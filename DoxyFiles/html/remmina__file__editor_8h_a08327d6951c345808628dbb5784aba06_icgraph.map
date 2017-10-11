@@ -1,0 +1,11 @@
+<map id="remmina_file_editor_new_from_file" name="remmina_file_editor_new_from_file">
+<area shape="rect" id="node2" href="$remmina__file__editor_8h.html#ab563344276cbcdf0fcea05b0b64c7aeb" title="remmina_file_editor\l_new_full" alt="" coords="192,73,327,115"/>
+<area shape="rect" id="node6" href="$remmina__file__editor_8h.html#aa5c50852f8569f075eec5d5db30c2ebf" title="remmina_file_editor\l_new_copy" alt="" coords="192,204,327,245"/>
+<area shape="rect" id="node8" href="$remmina__file__editor_8h.html#aa9345cfe3fb32d326b652e96ee55eaea" title="remmina_file_editor\l_new_from_filename" alt="" coords="188,139,331,180"/>
+<area shape="rect" id="node3" href="$remmina__exec_8h.html#a424cabdcff647797061e7482049d62a7" title="remmina_exec_command" alt="" coords="379,87,549,114"/>
+<area shape="rect" id="node4" href="$remmina__file__editor_8h.html#aa4e8657ca722e4cce3f3c42c0cfec51e" title="remmina_file_editor_new" alt="" coords="381,13,547,39"/>
+<area shape="rect" id="node5" href="$remmina__main_8c.html#a2ca39ab0b22fd98257504ded7eeec618" title="remmina_main_on_action\l_connections_new" alt="" coords="597,5,768,47"/>
+<area shape="rect" id="node7" href="$remmina__main_8c.html#a58b83c6d07785319ed55f937b1c734f5" title="remmina_main_on_action\l_connection_copy" alt="" coords="379,204,549,245"/>
+<area shape="rect" id="node9" href="$remmina__main_8c.html#a098e73f3f8fe35a57d49222339ae1502" title="remmina_main_on_action\l_connection_edit" alt="" coords="379,139,549,180"/>
+<area shape="rect" id="node10" href="$remmina__main_8c.html#aba1a89a2400c5cc8373c6bd34602ac10" title="remmina_main_file_list\l_on_row_activated" alt="" coords="605,139,760,180"/>
+</map>

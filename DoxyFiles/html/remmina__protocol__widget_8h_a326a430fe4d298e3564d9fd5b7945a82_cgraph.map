@@ -1,0 +1,8 @@
+<map id="remmina_protocol_widget_close_connection" name="remmina_protocol_widget_close_connection">
+<area shape="rect" id="node2" href="$remmina__protocol__widget_8c.html#ac3e5a7f14aef4adb2e57d35e9c180b3b" title="remmina_protocol_widget\l_emit_signal" alt="" coords="476,5,647,47"/>
+<area shape="rect" id="node5" href="$remmina__plugin__cmdexec_8c.html#a9c4fff9f488e8fa648fc0722d62146c4" title="remmina_plugin_cmdexec_new" alt="" coords="224,78,428,105"/>
+<area shape="rect" id="node3" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="695,20,849,61"/>
+<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="695,100,849,141"/>
+<area shape="rect" id="node6" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="481,137,641,163"/>
+<area shape="rect" id="node7" href="$remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="484,71,639,112"/>
+</map>

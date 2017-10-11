@@ -1,0 +1,7 @@
+<map id="remmina_public_str_replace" name="remmina_public_str_replace">
+<area shape="rect" id="node2" href="$remmina__key__chooser_8h.html#ae4901c270a9c35ed2258c92cdc897474" title="remmina_key_chooser\l_get_keyval" alt="" coords="188,5,341,47"/>
+<area shape="rect" id="node4" href="$remmina__public_8h.html#a8d7d9b3c8050545469b1af9a35b043a2" title="remmina_public_str\l_replace_in_place" alt="" coords="197,71,332,112"/>
+<area shape="rect" id="node6" href="$remmina__string__list_8c.html#afa74f7320b1d5b8487eaadcd97d0d085" title="remmina_string_list\l_on_cell_edited" alt="" coords="197,136,332,177"/>
+<area shape="rect" id="node3" href="$remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d" title="remmina_pref_on_dialog\l_destroy" alt="" coords="393,5,556,47"/>
+<area shape="rect" id="node5" href="$remmina__protocol__widget_8h.html#affb2413c00f0681fe08f90523f7e1471" title="remmina_protocol_widget\l_send_keystrokes" alt="" coords="389,71,560,112"/>
+</map>

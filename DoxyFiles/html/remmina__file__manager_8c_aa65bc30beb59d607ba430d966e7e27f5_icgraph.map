@@ -1,0 +1,10 @@
+<map id="remmina_file_get_datadir" name="remmina_file_get_datadir">
+<area shape="rect" id="node2" href="$remmina__applet__menu_8h.html#a8029065504aef0e850d79f3823d18f66" title="remmina_applet_menu\l_populate" alt="" coords="220,5,373,47"/>
+<area shape="rect" id="node3" href="$remmina__file_8h.html#ac952f8ddb715314f11cef1ccc513fb7e" title="remmina_file_generate\l_filename" alt="" coords="220,71,373,112"/>
+<area shape="rect" id="node7" href="$remmina__file__manager_8h.html#a55a717aafc046713380bd2c55f29165a" title="remmina_file_manager\l_iterate" alt="" coords="220,136,373,177"/>
+<area shape="rect" id="node8" href="$remmina__file__manager_8h.html#a536edeef371d907ab3936f4d65c3003d" title="remmina_file_manager\l_get_groups" alt="" coords="220,201,373,243"/>
+<area shape="rect" id="node9" href="$remmina__file__manager_8h.html#a6593a3f297f420f012405fa582819857" title="remmina_file_manager\l_get_group_tree" alt="" coords="220,267,373,308"/>
+<area shape="rect" id="node4" href="$remmina__file_8h.html#ac1685edf35a793a396ce039d7eec5343" title="remmina_file_copy" alt="" coords="421,78,552,105"/>
+<area shape="rect" id="node5" href="$remmina__file__editor_8h.html#aa5c50852f8569f075eec5d5db30c2ebf" title="remmina_file_editor\l_new_copy" alt="" coords="600,71,735,112"/>
+<area shape="rect" id="node6" href="$remmina__main_8c.html#a58b83c6d07785319ed55f937b1c734f5" title="remmina_main_on_action\l_connection_copy" alt="" coords="783,71,953,112"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="remmina/src/remmina_pref.h" name="remmina/src/remmina_pref.h">
+<area shape="rect" id="node2" href="$remmina_8c.html" title="remmina/src/remmina.c" alt="" coords="5,102,164,129"/>
+<area shape="rect" id="node3" href="$remmina__connection__window_8c.html" title="remmina/src/remmina\l_connection_window.c" alt="" coords="189,95,343,136"/>
+<area shape="rect" id="node4" href="$remmina__crypt_8c.html" title="remmina/src/remmina\l_crypt.c" alt="" coords="368,95,516,136"/>
+<area shape="rect" id="node5" href="$remmina__exec_8c.html" title="remmina/src/remmina\l_exec.c" alt="" coords="540,95,688,136"/>
+<area shape="rect" id="node6" href="$remmina__file_8c.html" title="remmina/src/remmina\l_file.c" alt="" coords="712,95,860,136"/>
+<area shape="rect" id="node7" href="$remmina__file__editor_8c.html" title="remmina/src/remmina\l_file_editor.c" alt="" coords="884,95,1032,136"/>
+<area shape="rect" id="node8" href="$remmina__ftp__client_8c.html" title="remmina/src/remmina\l_ftp_client.c" alt="" coords="1056,95,1204,136"/>
+<area shape="rect" id="node9" href="$remmina__icon_8c.html" title="remmina/src/remmina\l_icon.c" alt="" coords="1228,95,1376,136"/>
+<area shape="rect" id="node10" href="$remmina__main_8c.html" title="remmina/src/remmina\l_main.c" alt="" coords="1400,95,1548,136"/>
+<area shape="rect" id="node11" href="$remmina__mpchange_8c.html" title="remmina/src/remmina\l_mpchange.c" alt="" coords="1572,95,1720,136"/>
+<area shape="rect" id="node12" href="$remmina__plugin__manager_8c.html" title="remmina/src/remmina\l_plugin_manager.c" alt="" coords="1744,95,1892,136"/>
+<area shape="rect" id="node13" href="$remmina__pref_8c.html" title="remmina/src/remmina\l_pref.c" alt="" coords="1916,95,2064,136"/>
+<area shape="rect" id="node14" href="$remmina__pref__dialog_8c.html" title="remmina/src/remmina\l_pref_dialog.c" alt="" coords="2088,95,2236,136"/>
+<area shape="rect" id="node15" href="$remmina__protocol__widget_8c.html" title="remmina/src/remmina\l_protocol_widget.c" alt="" coords="2260,95,2408,136"/>
+<area shape="rect" id="node16" href="$remmina__scrolled__viewport_8c.html" title="remmina/src/remmina\l_scrolled_viewport.c" alt="" coords="2432,95,2580,136"/>
+</map>

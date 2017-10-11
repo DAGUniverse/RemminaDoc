@@ -1,0 +1,7 @@
+<map id="remmina_sysinfo_is_appindicator_available" name="remmina_sysinfo_is_appindicator_available">
+<area shape="rect" id="node2" href="$remmina__icon_8h.html#a42f087b679b43b8a1d36cd9e9781a8b6" title="remmina_icon_is_available" alt="" coords="211,17,389,43"/>
+<area shape="rect" id="node5" href="$remmina__icon_8h.html#a741c81815e562f40672c4485172306d6" title="remmina_icon_init" alt="" coords="237,71,363,98"/>
+<area shape="rect" id="node3" href="$remmina__exec_8h.html#aaa67e07e2426828d7e7b9b30d2038d31" title="remmina_application\l_condexit" alt="" coords="448,5,589,47"/>
+<area shape="rect" id="node4" href="$remmina__main_8c.html#a4948f36273d9da969521981851149271" title="remmina_main_on_action\l_application_quit" alt="" coords="648,5,819,47"/>
+<area shape="rect" id="node6" href="$remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d" title="remmina_pref_on_dialog\l_destroy" alt="" coords="437,71,600,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="remmina_protocol_widget_emit_signal" name="remmina_protocol_widget_emit_signal">
+<area shape="rect" id="node2" href="$remmina__protocol__widget_8h.html#a326a430fe4d298e3564d9fd5b7945a82" title="remmina_protocol_widget\l_close_connection" alt="" coords="224,39,395,80"/>
+<area shape="rect" id="node3" href="$remmina__protocol__widget_8c.html#a76ad91e7f8648699f71c466e203aa6dd" title="remmina_protocol_widget\l_open_connection_real" alt="" coords="443,5,613,47"/>
+<area shape="rect" id="node4" href="$remmina__protocol__widget_8h.html#a12eddf3428a53201ee0a2ec422d2fa4a" title="remmina_protocol_widget\l_ssh_exec" alt="" coords="443,71,613,112"/>
+</map>

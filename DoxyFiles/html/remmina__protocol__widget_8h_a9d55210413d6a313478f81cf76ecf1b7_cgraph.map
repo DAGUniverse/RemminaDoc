@@ -1,0 +1,9 @@
+<map id="remmina_protocol_widget_start_direct_tunnel" name="remmina_protocol_widget_start_direct_tunnel">
+<area shape="rect" id="node2" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="229,74,389,101"/>
+<area shape="rect" id="node5" href="$remmina__public_8c.html#adc8b77823386e00e610527d6b0b61149" title="remmina_public_get\l_server_port" alt="" coords="240,125,379,167"/>
+<area shape="rect" id="node6" href="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="238,191,381,218"/>
+<area shape="rect" id="node7" href="$remmina__init__dialog_8c.html#a0091e150b446faa19e9af16f3d4de3cf" title="remmina_init_dialog\l_set_status" alt="" coords="241,8,378,49"/>
+<area shape="rect" id="node8" href="$remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af" title="remmina_protocol_widget\l_set_error" alt="" coords="224,243,395,284"/>
+<area shape="rect" id="node3" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="443,5,597,47"/>
+<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="443,71,597,112"/>
+</map>

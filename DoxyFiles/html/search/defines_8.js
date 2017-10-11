@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['idle_5fadd',['IDLE_ADD',['../remmina__public_8h.html#a7d2392436f1ee21b0cde70babdde0f14',1,'IDLE_ADD():&#160;remmina_public.h'],['../remmina__plugin_8h.html#a7d2392436f1ee21b0cde70babdde0f14',1,'IDLE_ADD():&#160;remmina_plugin.h']]],
+  ['implement',['IMPLEMENT',['../telepathy__handler_8c.html#a03db53d26e3803c7f0d01ff06948eef6',1,'telepathy_handler.c']]],
+  ['include_5fget_5favailable_5fxdisplay',['INCLUDE_GET_AVAILABLE_XDISPLAY',['../remmina__plugin_8h.html#a892f4f4298d51ee2a11a806f7702d875',1,'remmina_plugin.h']]],
+  ['is_5fempty',['IS_EMPTY',['../remmina__applet__menu__item_8c.html#a93fb8e6b78ccba1b77ae07d44bcad573',1,'remmina_applet_menu_item.c']]]
+];
