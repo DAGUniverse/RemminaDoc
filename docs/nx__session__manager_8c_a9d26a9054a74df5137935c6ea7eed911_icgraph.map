@@ -1,0 +1,10 @@
+<map id="remmina_nx_session_manager_set_sensitive" name="remmina_nx_session_manager_set_sensitive">
+<area shape="rect" id="node2" href="$nx__session__manager_8c.html#a1da3561ad5f667b639738b9289b73d08" title="remmina_nx_session\l_manager_selection_func" alt="" coords="216,5,387,47"/>
+<area shape="rect" id="node3" href="$nx__session__manager_8c.html#ad065dfe6474f3d04c41c45568b79dc02" title="remmina_nx_session\l_manager_main" alt="" coords="435,64,580,105"/>
+<area shape="rect" id="node9" href="$nx__session__manager_8c.html#a6e1362868bf6ce2402193ee1da978a51" title="remmina_nx_session\l_manager_on_response" alt="" coords="221,123,381,164"/>
+<area shape="rect" id="node4" href="$nx__session__manager_8h.html#a24df61d5f718595f3586647718caa3e5" title="remmina_nx_session\l_manager_start" alt="" coords="628,64,773,105"/>
+<area shape="rect" id="node5" href="$nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="821,64,988,105"/>
+<area shape="rect" id="node6" href="$nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="1036,71,1205,98"/>
+<area shape="rect" id="node7" href="$nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="1253,64,1423,105"/>
+<area shape="rect" id="node8" href="$nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1471,64,1640,105"/>
+</map>

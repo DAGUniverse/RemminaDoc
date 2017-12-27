@@ -1,0 +1,17 @@
+<map id="remmina_plugin_vnc_event_push" name="remmina_plugin_vnc_event_push">
+<area shape="rect" id="node2" href="$vnc__plugin_8c.html#aae9ff42cb268892f94cf7ed3070d4b5a" title="remmina_plugin_vnc\l_chat_on_send" alt="" coords="195,309,336,350"/>
+<area shape="rect" id="node3" href="$vnc__plugin_8c.html#a4d672e305030849447b5b8b522d82242" title="remmina_plugin_vnc\l_open_chat" alt="" coords="384,250,525,291"/>
+<area shape="rect" id="node9" href="$vnc__plugin_8c.html#ad43b46448de165f501529d6b203ca8ca" title="remmina_plugin_vnc\l_chat_on_destroy" alt="" coords="195,191,336,233"/>
+<area shape="rect" id="node10" href="$vnc__plugin_8c.html#a47762f374c697476aed0a36ed26a0aa1" title="remmina_plugin_vnc\l_on_motion" alt="" coords="780,23,921,65"/>
+<area shape="rect" id="node11" href="$vnc__plugin_8c.html#a4dc4f7fbf26336d69aa468e6d81d9b0a" title="remmina_plugin_vnc\l_on_button" alt="" coords="987,82,1128,123"/>
+<area shape="rect" id="node12" href="$vnc__plugin_8c.html#a6f8fd3a6a5f00aef49bd4e3404be5697" title="remmina_plugin_vnc\l_on_scroll" alt="" coords="573,141,715,182"/>
+<area shape="rect" id="node13" href="$vnc__plugin_8c.html#a3ba650386c03a1daa8a46546c81820c4" title="remmina_plugin_vnc\l_release_key" alt="" coords="195,374,336,415"/>
+<area shape="rect" id="node14" href="$vnc__plugin_8c.html#a4f528272dda8a3538cbdce39254ecc81" title="remmina_plugin_vnc\l_on_key" alt="" coords="384,374,525,415"/>
+<area shape="rect" id="node15" href="$vnc__plugin_8c.html#a987d6ebfa00d29578dada803f33d6a99" title="remmina_plugin_vnc\l_on_cuttext_request" alt="" coords="384,461,525,502"/>
+<area shape="rect" id="node4" href="$vnc__plugin_8c.html#a1aaa1353346af3f9e18347768d5dc5b1" title="remmina_plugin_vnc\l_rfb_chat" alt="" coords="573,250,715,291"/>
+<area shape="rect" id="node8" href="$vnc__plugin_8c.html#a626a6a09f076b133df208d5bc04233b6" title="remmina_plugin_vnc\l_call_feature" alt="" coords="573,315,715,357"/>
+<area shape="rect" id="node5" href="$vnc__plugin_8c.html#a8648ba06e3c1b7093147ae9a1c576452" title="remmina_plugin_vnc_main" alt="" coords="763,257,939,284"/>
+<area shape="rect" id="node6" href="$vnc__plugin_8c.html#a14c13d425ace0c90144b0e486e6893b8" title="remmina_plugin_vnc\l_main_thread" alt="" coords="987,199,1128,241"/>
+<area shape="rect" id="node7" href="$vnc__plugin_8c.html#a29fb120041bcace9f201cbdf3a3f6f2f" title="remmina_plugin_vnc\l_open_connection" alt="" coords="1176,199,1317,241"/>
+<area shape="rect" id="node16" href="$vnc__plugin_8c.html#a7bce24c89cf4554a664693a6b5e1a78d" title="remmina_plugin_vnc\l_on_cuttext" alt="" coords="780,434,921,475"/>
+</map>

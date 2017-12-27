@@ -1,0 +1,25 @@
+var rdp__settings_8c =
+[
+    [ "_RemminaPluginRdpsetGrid", "struct___remmina_plugin_rdpset_grid.html", "struct___remmina_plugin_rdpset_grid" ],
+    [ "_RemminaPluginRdpsetGridClass", "struct___remmina_plugin_rdpset_grid_class.html", "struct___remmina_plugin_rdpset_grid_class" ],
+    [ "RemminaPluginRdpsetGrid", "rdp__settings_8c.html#afb0bb9a09b27c474802a18b351f1ed4b", null ],
+    [ "RemminaPluginRdpsetGridClass", "rdp__settings_8c.html#a5f02af8e46a0a8766481466400a31ea4", null ],
+    [ "remmina_rdp_settings_appscale_on_changed", "rdp__settings_8c.html#ab69390b3995c4b4fed872d5bb363d9d5", null ],
+    [ "remmina_rdp_settings_get_keyboard_layout", "rdp__settings_8c.html#a4052ab6359b14e8f9a4cf76bed4da90c", null ],
+    [ "remmina_rdp_settings_get_orientation_scale_prefs", "rdp__settings_8c.html#a5f05047cf10611ffb7a23a248650cb4c", null ],
+    [ "remmina_rdp_settings_grid_destroy", "rdp__settings_8c.html#a407235521d446266678392af62bd05a2", null ],
+    [ "remmina_rdp_settings_grid_get_type", "rdp__settings_8c.html#ab75cf9f565cf282e7fc2d2d80a5150ea", null ],
+    [ "remmina_rdp_settings_grid_init", "rdp__settings_8c.html#a5303ffdbd1873d9d0097b50baef1972d", null ],
+    [ "remmina_rdp_settings_grid_load_desktoporientation_combo", "rdp__settings_8c.html#af89ffbe792a083122e09a276f2295463", null ],
+    [ "remmina_rdp_settings_grid_load_devicescalefactor_combo", "rdp__settings_8c.html#ab07ddb91bc3e60f3bbc95d2a048f4fa7", null ],
+    [ "remmina_rdp_settings_grid_load_layout", "rdp__settings_8c.html#a87769608a9bc40e8f05db66198e9153c", null ],
+    [ "remmina_rdp_settings_grid_load_quality", "rdp__settings_8c.html#a1180d1f04b8a7bc00f58c770ecadc4dc", null ],
+    [ "remmina_rdp_settings_init", "rdp__settings_8c.html#acf37368f3376add8547723d13443cccb", null ],
+    [ "remmina_rdp_settings_kbd_init", "rdp__settings_8c.html#a6ed11971f5d908da70e3104067efe485", null ],
+    [ "remmina_rdp_settings_new", "rdp__settings_8c.html#adc5f59377e21db6e1aef8bfc2da24b53", null ],
+    [ "remmina_rdp_settings_quality_on_changed", "rdp__settings_8c.html#a06bfe79d2df19ff863a1ed66c53fea35", null ],
+    [ "remmina_rdp_settings_quality_option_on_toggled", "rdp__settings_8c.html#a93a69764a9bcb6eb014542009271d222", null ],
+    [ "remmina_rdp_settings_set_combo_active_item", "rdp__settings_8c.html#acf62b97c1b4a42513a9204350030ed13", null ],
+    [ "keyboard_layout", "rdp__settings_8c.html#a75d6e28b9664511ab5b048727befbf63", null ],
+    [ "rdp_keyboard_layout", "rdp__settings_8c.html#a526c9f77caff8ae5ba1f00e7c94c7444", null ]
+];

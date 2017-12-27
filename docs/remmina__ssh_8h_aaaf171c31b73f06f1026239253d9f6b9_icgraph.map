@@ -1,0 +1,8 @@
+<map id="remmina_sftp_free" name="remmina_sftp_free">
+<area shape="rect" id="node2" href="$remmina__sftp__client_8c.html#aea3e3b72fb51d466fee78af11234d7b7" title="remmina_sftp_client\l_thread_main" alt="" coords="186,9,325,51"/>
+<area shape="rect" id="node5" href="$remmina__sftp__client_8c.html#a396c50263fbc60962481655bdb7b24f2" title="remmina_sftp_client\l_destroy" alt="" coords="377,71,515,112"/>
+<area shape="rect" id="node6" href="$remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9" title="remmina_plugin_sftp\l_main_thread" alt="" coords="184,132,327,173"/>
+<area shape="rect" id="node3" href="$remmina__sftp__client_8c.html#a788420fb944ee5059cbc53f8648e9636" title="remmina_sftp_client\l_on_newtask" alt="" coords="377,5,515,47"/>
+<area shape="rect" id="node4" href="$remmina__sftp__client_8c.html#a52b86e14d8abd0a5b6ddeb464a22a5f0" title="remmina_sftp_client_init" alt="" coords="565,46,728,73"/>
+<area shape="rect" id="node7" href="$remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4" title="remmina_plugin_sftp\l_open_connection" alt="" coords="375,136,517,177"/>
+</map>

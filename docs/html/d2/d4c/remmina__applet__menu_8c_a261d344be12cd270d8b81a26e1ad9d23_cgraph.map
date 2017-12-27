@@ -1,6 +1,0 @@
-<map id="remmina_applet_menu_add_item" name="remmina_applet_menu_add_item">
-<area shape="rect" id="node2" href="$d2/d4c/remmina__applet__menu_8c.html#a9103d33954ab8afdfe3e3892db7caabb" title="remmina_applet_menu\l_add_group" alt="" coords="208,5,361,47"/>
-<area shape="rect" id="node3" href="$d2/d4c/remmina__applet__menu_8c.html#a00ccc046ebf9862d7030dac635a86dc6" title="remmina_applet_menu\l_increase_group_count" alt="" coords="207,71,363,112"/>
-<area shape="rect" id="node4" href="$d2/d4c/remmina__applet__menu_8c.html#abb924051b4e37930bed6aed12b653751" title="remmina_applet_menu\l_register_item" alt="" coords="208,136,361,177"/>
-<area shape="rect" id="node5" href="$d2/d4c/remmina__applet__menu_8c.html#ae92f8313a24f778e5ef39fdfb92a73f2" title="remmina_applet_menu\l_on_item_activate" alt="" coords="411,136,564,177"/>
-</map>

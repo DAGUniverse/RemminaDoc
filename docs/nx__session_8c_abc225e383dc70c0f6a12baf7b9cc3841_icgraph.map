@@ -1,0 +1,15 @@
+<map id="remmina_nx_session_expect_status" name="remmina_nx_session_expect_status">
+<area shape="rect" id="node2" href="$nx__session_8h.html#a6d58e7958d408e2a0abd015688ba912b" title="remmina_nx_session_open" alt="" coords="199,5,379,32"/>
+<area shape="rect" id="node7" href="$nx__session_8h.html#aa912b495508a0f74fe8e121c5b532f6b" title="remmina_nx_session\l_login" alt="" coords="216,82,361,123"/>
+<area shape="rect" id="node8" href="$nx__session_8c.html#a563a10864cfa73bffc2899141b6a35ea" title="remmina_nx_session\l_send_session_command" alt="" coords="202,198,375,239"/>
+<area shape="rect" id="node14" href="$nx__session_8h.html#a7373c5ab0ca53f54c493f9e461ae679d" title="remmina_nx_session\l_tunnel_open" alt="" coords="216,325,361,366"/>
+<area shape="rect" id="node3" href="$nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="644,178,811,219"/>
+<area shape="rect" id="node4" href="$nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="859,185,1028,212"/>
+<area shape="rect" id="node5" href="$nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="1076,178,1245,219"/>
+<area shape="rect" id="node6" href="$nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1293,178,1463,219"/>
+<area shape="rect" id="node9" href="$nx__session_8h.html#a128499f3768aae8bc5c233f6fb616a76" title="remmina_nx_session_list" alt="" coords="427,93,596,120"/>
+<area shape="rect" id="node10" href="$nx__session_8h.html#a2123ed756f82d65c5c6f4062606803c6" title="remmina_nx_session\l_start" alt="" coords="439,145,584,186"/>
+<area shape="rect" id="node11" href="$nx__session_8h.html#aacd5938d1a58872644a3a68bc1cac66d" title="remmina_nx_session\l_attach" alt="" coords="439,210,584,251"/>
+<area shape="rect" id="node12" href="$nx__session_8h.html#a0de55cb12904503503d7d9ab3338aa33" title="remmina_nx_session\l_restore" alt="" coords="439,275,584,317"/>
+<area shape="rect" id="node13" href="$nx__session_8h.html#ad217fb5180a6ed57c47f174a0b20cf8c" title="remmina_nx_session\l_terminate" alt="" coords="439,341,584,382"/>
+</map>

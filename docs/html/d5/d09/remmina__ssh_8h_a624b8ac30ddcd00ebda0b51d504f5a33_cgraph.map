@@ -1,8 +1,0 @@
-<map id="remmina_ssh_init_session" name="remmina_ssh_init_session">
-<area shape="rect" id="node2" href="$d3/d18/remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="456,26,588,53"/>
-<area shape="rect" id="node5" href="$d3/d18/remmina__log_8c.html#a96f5bb72acbdcbf8793b4a5f4a6132b5" title="remmina_log_running" alt="" coords="246,26,391,53"/>
-<area shape="rect" id="node6" href="$d7/deb/remmina__ssh_8c.html#a5a3191a46707e450ee51286976531225" title="remmina_ssh_log_callback" alt="" coords="229,77,408,104"/>
-<area shape="rect" id="node7" href="$d7/deb/remmina__ssh_8c.html#abc556f0a4335083436f6e19c204fa553" title="remmina_ssh_set_error" alt="" coords="239,128,398,154"/>
-<area shape="rect" id="node3" href="$d3/d18/remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="636,26,792,53"/>
-<area shape="rect" id="node4" href="$d3/d18/remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="840,19,975,60"/>
-</map>

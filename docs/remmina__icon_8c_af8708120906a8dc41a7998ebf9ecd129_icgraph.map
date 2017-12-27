@@ -1,0 +1,13 @@
+<map id="remmina_icon_on_edit_item" name="remmina_icon_on_edit_item">
+<area shape="rect" id="node2" href="$remmina__icon_8c.html#a2847311861df3a2f1c8bbcd35cf3fd6f" title="remmina_icon_populate\l_extra_menu_item" alt="" coords="237,165,396,207"/>
+<area shape="rect" id="node3" href="$remmina__icon_8h.html#af80ed314f91d653237249d839c7fc3b2" title="remmina_icon_populate_menu" alt="" coords="444,143,643,170"/>
+<area shape="rect" id="node12" href="$remmina__icon_8c.html#af175fef31eb95974094088235b3a2b1d" title="remmina_icon_on_activate" alt="" coords="455,198,632,225"/>
+<area shape="rect" id="node4" href="$remmina__file__editor_8c.html#ac2a5cf9cdcf640986e245eb04be9c4ad" title="remmina_file_editor\l_on_save" alt="" coords="709,5,843,47"/>
+<area shape="rect" id="node6" href="$remmina__file__editor_8c.html#a57224f3f69f04f398de563b71be6b18e" title="remmina_file_editor\l_on_save_connect" alt="" coords="709,71,843,112"/>
+<area shape="rect" id="node7" href="$remmina__icon_8h.html#a741c81815e562f40672c4485172306d6" title="remmina_icon_init" alt="" coords="713,202,839,229"/>
+<area shape="rect" id="node11" href="$remmina__main_8c.html#aa0cd57e00874ae6ca8b0ee83213267da" title="remmina_main_on_action\l_connection_delete" alt="" coords="691,136,861,177"/>
+<area shape="rect" id="node5" href="$remmina__file__editor_8c.html#a9afd8d41c66f547320930eb331f3124d" title="remmina_file_editor_init" alt="" coords="911,46,1070,73"/>
+<area shape="rect" id="node8" href="$remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a" title="remmina_on_startup" alt="" coords="921,173,1061,199"/>
+<area shape="rect" id="node10" href="$remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d" title="remmina_pref_on_dialog\l_destroy" alt="" coords="909,224,1072,265"/>
+<area shape="rect" id="node9" href="$remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1120,173,1171,199"/>
+</map>

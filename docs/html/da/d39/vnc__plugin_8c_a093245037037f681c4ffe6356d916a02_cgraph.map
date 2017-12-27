@@ -1,5 +1,0 @@
-<map id="remmina_plugin_vnc_main_loop" name="remmina_plugin_vnc_main_loop">
-<area shape="rect" id="node2" href="$da/d39/vnc__plugin_8c.html#aee8a8cf42ad03be152f4f5a751798383" title="remmina_plugin_vnc\l_process_vnc_event" alt="" coords="195,39,337,80"/>
-<area shape="rect" id="node3" href="$da/d39/vnc__plugin_8c.html#ae185dbf1d0a8f2f2d225b7f7a2d1deb8" title="remmina_plugin_vnc\l_event_queue_pop_head" alt="" coords="385,5,552,47"/>
-<area shape="rect" id="node4" href="$da/d39/vnc__plugin_8c.html#aeba06240e996cdffb95cf9ca4c461449" title="remmina_plugin_vnc\l_event_free" alt="" coords="398,71,539,112"/>
-</map>

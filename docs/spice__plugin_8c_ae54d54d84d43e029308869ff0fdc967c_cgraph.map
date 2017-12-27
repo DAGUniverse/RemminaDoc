@@ -1,0 +1,8 @@
+<map id="remmina_plugin_spice_file_transfer_new_cb" name="remmina_plugin_spice_file_transfer_new_cb">
+<area shape="rect" id="node2" href="$spice__plugin__file__transfer_8c.html#a57ea32649a7b0bea121deb5a7eca5668" title="remmina_plugin_spice\l_file_transfer_finished_cb" alt="" coords="206,5,377,47"/>
+<area shape="rect" id="node3" href="$spice__plugin__file__transfer_8c.html#ad856e9ce78b9657cacd06baf2ddd3a19" title="remmina_plugin_spice\l_xfer_widgets_free" alt="" coords="216,71,367,112"/>
+<area shape="rect" id="node4" href="$spice__plugin__file__transfer_8c.html#aaefe8f1222c349626add7c86be98707a" title="remmina_plugin_spice\l_file_transfer_dialog\l_response_cb" alt="" coords="216,137,367,193"/>
+<area shape="rect" id="node5" href="$spice__plugin__file__transfer_8c.html#a26ba6d7eb231b0ebf29759a86f54ff38" title="remmina_plugin_spice\l_xfer_widgets_new" alt="" coords="216,217,367,259"/>
+<area shape="rect" id="node7" href="$spice__plugin__file__transfer_8c.html#a513dbc015b2f3b9d2a280331fd65c30b" title="remmina_plugin_spice\l_file_transfer_progress_cb" alt="" coords="204,283,379,324"/>
+<area shape="rect" id="node6" href="$spice__plugin__file__transfer_8c.html#a31987484a4b93605462bce59f4833249" title="remmina_plugin_spice\l_file_transfer_cancel_cb" alt="" coords="427,217,589,259"/>
+</map>

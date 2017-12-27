@@ -1,0 +1,13 @@
+<map id="remmina_rdp_settings_get_orientation_scale_prefs" name="remmina_rdp_settings_get_orientation_scale_prefs">
+<area shape="rect" id="node2" href="$rdp__event_8c.html#a35376ff50915de1c14285e6326bc943e" title="remmina_rdp_event_delayed\l_monitor_layout" alt="" coords="241,71,429,112"/>
+<area shape="rect" id="node9" href="$rdp__plugin_8c.html#a12e0199d082d510648cb27168486f4e0" title="remmina_rdp_main" alt="" coords="269,137,401,163"/>
+<area shape="rect" id="node12" href="$rdp__settings_8c.html#a5303ffdbd1873d9d0097b50baef1972d" title="remmina_rdp_settings\l_grid_init" alt="" coords="260,188,411,229"/>
+<area shape="rect" id="node3" href="$rdp__event_8h.html#ac7c8d626470553c1659312697811dbfe" title="remmina_rdp_event_send\l_delayed_monitor_layout" alt="" coords="479,71,650,112"/>
+<area shape="rect" id="node4" href="$rdp__channels_8h.html#a759a6601ddb16301f0f6c39a6e88425a" title="remmina_rdp_OnChannelConnected\lEventHandler" alt="" coords="700,5,932,47"/>
+<area shape="rect" id="node7" href="$rdp__event_8c.html#a3a722112276948dbc5823a9adec2e225" title="remmina_rdp_event_on\l_configure" alt="" coords="737,71,895,112"/>
+<area shape="rect" id="node5" href="$rdp__plugin_8c.html#a0bc4113554537fd1a9e4c8bb9201e789" title="remmina_rdp_pre_connect" alt="" coords="980,17,1155,43"/>
+<area shape="rect" id="node6" href="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309" title="remmina_rdp_init" alt="" coords="1203,46,1324,73"/>
+<area shape="rect" id="node8" href="$rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc" title="remmina_rdp_event_init" alt="" coords="987,71,1147,98"/>
+<area shape="rect" id="node10" href="$rdp__plugin_8c.html#a3b62e33da1cb6cfa69c44f565ad53c54" title="remmina_rdp_main_thread" alt="" coords="477,137,652,163"/>
+<area shape="rect" id="node11" href="$rdp__plugin_8c.html#a5f88cb338f10185c43bfc7d711dddee5" title="remmina_rdp_open_connection" alt="" coords="715,137,917,163"/>
+</map>

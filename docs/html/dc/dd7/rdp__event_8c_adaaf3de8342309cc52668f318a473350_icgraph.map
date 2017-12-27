@@ -1,8 +1,0 @@
-<map id="remmina_rdp_event_queue_ui_sync_retptr" name="remmina_rdp_event_queue_ui_sync_retptr">
-<area shape="rect" id="node2" href="$d3/db3/rdp__cliprdr_8c.html#a8afec91e9f54fc3a0ea8f25d8349bd8b" title="remmina_rdp_cliprdr\l_send_client_format_list" alt="" coords="232,5,395,47"/>
-<area shape="rect" id="node3" href="$d3/db3/rdp__cliprdr_8c.html#a5c9890f4354ef9a8dedcf3a371a2a16f" title="remmina_rdp_cliprdr\l_monitor_ready" alt="" coords="443,5,581,47"/>
-<area shape="rect" id="node4" href="$d1/dbb/rdp__cliprdr_8h.html#a9425378cc9b2da11eb4b866c8069e4aa" title="remmina_rdp_cliprdr_init" alt="" coords="629,13,792,39"/>
-<area shape="rect" id="node5" href="$db/dd7/rdp__channels_8h.html#a759a6601ddb16301f0f6c39a6e88425a" title="remmina_rdp_OnChannelConnected\lEventHandler" alt="" coords="840,5,1072,47"/>
-<area shape="rect" id="node6" href="$d5/db5/rdp__plugin_8c.html#a0bc4113554537fd1a9e4c8bb9201e789" title="remmina_rdp_pre_connect" alt="" coords="1120,13,1295,39"/>
-<area shape="rect" id="node7" href="$d5/db5/rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309" title="remmina_rdp_init" alt="" coords="1343,13,1464,39"/>
-</map>

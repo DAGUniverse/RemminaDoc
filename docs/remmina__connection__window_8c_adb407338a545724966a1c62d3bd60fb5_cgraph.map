@@ -1,0 +1,6 @@
+<map id="remmina_connection_holder_update_toolbar_autofit_button" name="remmina_connection_holder_update_toolbar_autofit_button">
+<area shape="rect" id="node2" href="$remmina__connection__window_8c.html#abbc84b2c450f62c288ff827c5d2c5cd2" title="get_current_allowed\l_scale_mode" alt="" coords="209,39,348,80"/>
+<area shape="rect" id="node3" href="$remmina__protocol__widget_8c.html#a5ec62969da54155e24edcb1d998f93f7" title="remmina_protocol_widget\l_get_current_scale_mode" alt="" coords="396,5,567,47"/>
+<area shape="rect" id="node4" href="$remmina__protocol__widget_8c.html#adbe15328275677cb38bd8c8a2d5e039d" title="remmina_protocol_widget\l_query_feature_by_type" alt="" coords="396,71,567,112"/>
+<area shape="rect" id="node5" href="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="615,78,757,105"/>
+</map>

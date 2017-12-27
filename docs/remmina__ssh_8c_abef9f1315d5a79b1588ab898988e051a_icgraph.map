@@ -1,0 +1,5 @@
+<map id="remmina_ssh_shell_thread" name="remmina_ssh_shell_thread">
+<area shape="rect" id="node2" href="$remmina__ssh_8h.html#a1c095a955af21b3ed9952ba2ea94691b" title="remmina_ssh_shell_open" alt="" coords="231,13,400,39"/>
+<area shape="rect" id="node3" href="$remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee" title="Remmina Protocol plugin main function. " alt="" coords="448,5,589,47"/>
+<area shape="rect" id="node4" href="$remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f" title="Initialize the the main window properties and the pthread. " alt="" coords="637,5,779,47"/>
+</map>

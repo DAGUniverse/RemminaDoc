@@ -1,0 +1,37 @@
+<map id="remmina_public_create_combo_map" name="remmina_public_create_combo_map">
+<area shape="rect" id="node2" href="$remmina__file__editor_8c.html#ad80ab042ac78231e88473aab8cfab877" title="remmina_file_editor\l_create_select" alt="" coords="220,272,355,313"/>
+<area shape="rect" id="node36" href="$remmina__public_8h.html#ad1feef5a6d19225b8fcbfd0f9555306b" title="remmina_public_create\l_combo_mapint" alt="" coords="209,337,365,379"/>
+<area shape="rect" id="node3" href="$remmina__file__editor_8c.html#a727f967cf81d4af3f953046b0c4cf08d" title="remmina_file_editor\l_create_settings" alt="" coords="413,272,548,313"/>
+<area shape="rect" id="node4" href="$remmina__file__editor_8c.html#a6415f73260076747c4f933af7f9f4b38" title="remmina_file_editor\l_create_all_settings" alt="" coords="596,272,735,313"/>
+<area shape="rect" id="node5" href="$remmina__file__editor_8c.html#a333de350f1b07add2d0fd06320c80d16" title="remmina_file_editor\l_protocol_combo_on_changed" alt="" coords="783,272,981,313"/>
+<area shape="rect" id="node6" href="$remmina__file__editor_8h.html#a08327d6951c345808628dbb5784aba06" title="remmina_file_editor\l_new_from_file" alt="" coords="1029,272,1164,313"/>
+<area shape="rect" id="node7" href="$remmina__file__editor_8h.html#ab563344276cbcdf0fcea05b0b64c7aeb" title="remmina_file_editor\l_new_full" alt="" coords="1216,272,1351,313"/>
+<area shape="rect" id="node31" href="$remmina__file__editor_8h.html#aa5c50852f8569f075eec5d5db30c2ebf" title="remmina_file_editor\l_new_copy" alt="" coords="1216,337,1351,379"/>
+<area shape="rect" id="node33" href="$remmina__file__editor_8h.html#aa9345cfe3fb32d326b652e96ee55eaea" title="remmina_file_editor\l_new_from_filename" alt="" coords="1212,207,1355,248"/>
+<area shape="rect" id="node8" href="$remmina__exec_8h.html#a424cabdcff647797061e7482049d62a7" title="remmina_exec_command" alt="" coords="1403,223,1573,250"/>
+<area shape="rect" id="node29" href="$remmina__file__editor_8h.html#aa4e8657ca722e4cce3f3c42c0cfec51e" title="remmina_file_editor_new" alt="" coords="1405,283,1571,310"/>
+<area shape="rect" id="node9" href="$remmina_8c.html#aeb286fc5bd52ab5382ab8cb495dc2914" title="remmina_on_command_line" alt="" coords="1879,71,2063,98"/>
+<area shape="rect" id="node11" href="$remmina__icon_8c.html#a920476110ab6410c8fc8cf734109e497" title="remmina_icon_main" alt="" coords="1653,375,1791,402"/>
+<area shape="rect" id="node22" href="$remmina__icon_8c.html#ad3b0e3d12e4854eae05b1afea19da404" title="remmina_icon_preferences" alt="" coords="1633,274,1811,301"/>
+<area shape="rect" id="node23" href="$remmina__icon_8c.html#a5cdf1958ef01e49889bcee2e90e2cf71" title="remmina_icon_about" alt="" coords="1651,325,1793,351"/>
+<area shape="rect" id="node24" href="$remmina__icon_8c.html#ad1699688680e12abcfd5c74dd2f76d83" title="remmina_icon_on_launch_item" alt="" coords="1621,173,1823,199"/>
+<area shape="rect" id="node27" href="$remmina__icon_8c.html#af8708120906a8dc41a7998ebf9ecd129" title="remmina_icon_on_edit_item" alt="" coords="1630,223,1814,250"/>
+<area shape="rect" id="node28" href="$remmina__icon_8c.html#a444be76e3c3a065279c5f9abc7fae833" title="remmina_icon_popdown_menu" alt="" coords="1871,143,2072,170"/>
+<area shape="rect" id="node10" href="$remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="2803,97,2853,123"/>
+<area shape="rect" id="node12" href="$remmina__icon_8c.html#a8aaf73ed94cf20dcce1c7be26262cb56" title="remmina_icon_populate\l_additional_menu_item" alt="" coords="1892,276,2051,317"/>
+<area shape="rect" id="node13" href="$remmina__icon_8h.html#af80ed314f91d653237249d839c7fc3b2" title="remmina_icon_populate_menu" alt="" coords="2123,283,2322,310"/>
+<area shape="rect" id="node21" href="$remmina__icon_8c.html#a95b917790eeb38e48137018796bdda93" title="remmina_icon_on_popup_menu" alt="" coords="2120,209,2325,235"/>
+<area shape="rect" id="node14" href="$remmina__file__editor_8c.html#ac2a5cf9cdcf640986e245eb04be9c4ad" title="remmina_file_editor\l_on_save" alt="" coords="2391,284,2526,325"/>
+<area shape="rect" id="node16" href="$remmina__file__editor_8c.html#a57224f3f69f04f398de563b71be6b18e" title="remmina_file_editor\l_on_save_connect" alt="" coords="2391,219,2526,260"/>
+<area shape="rect" id="node17" href="$remmina__icon_8h.html#a741c81815e562f40672c4485172306d6" title="remmina_icon_init" alt="" coords="2395,167,2522,194"/>
+<area shape="rect" id="node20" href="$remmina__main_8c.html#aa0cd57e00874ae6ca8b0ee83213267da" title="remmina_main_on_action\l_connection_delete" alt="" coords="2373,349,2544,391"/>
+<area shape="rect" id="node15" href="$remmina__file__editor_8c.html#a9afd8d41c66f547320930eb331f3124d" title="remmina_file_editor_init" alt="" coords="2594,270,2753,297"/>
+<area shape="rect" id="node18" href="$remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a" title="remmina_on_startup" alt="" coords="2603,122,2743,149"/>
+<area shape="rect" id="node19" href="$remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d" title="remmina_pref_on_dialog\l_destroy" alt="" coords="2592,173,2755,215"/>
+<area shape="rect" id="node25" href="$remmina__icon_8c.html#a2847311861df3a2f1c8bbcd35cf3fd6f" title="remmina_icon_populate\l_extra_menu_item" alt="" coords="1892,207,2051,248"/>
+<area shape="rect" id="node26" href="$remmina__icon_8c.html#af175fef31eb95974094088235b3a2b1d" title="remmina_icon_on_activate" alt="" coords="2134,158,2311,185"/>
+<area shape="rect" id="node30" href="$remmina__main_8c.html#a2ca39ab0b22fd98257504ded7eeec618" title="remmina_main_on_action\l_connections_new" alt="" coords="1637,427,1807,468"/>
+<area shape="rect" id="node32" href="$remmina__main_8c.html#a58b83c6d07785319ed55f937b1c734f5" title="remmina_main_on_action\l_connection_copy" alt="" coords="1403,337,1573,379"/>
+<area shape="rect" id="node34" href="$remmina__main_8c.html#a098e73f3f8fe35a57d49222339ae1502" title="remmina_main_on_action\l_connection_edit" alt="" coords="1403,69,1573,111"/>
+<area shape="rect" id="node35" href="$remmina__main_8c.html#aba1a89a2400c5cc8373c6bd34602ac10" title="remmina_main_file_list\l_on_row_activated" alt="" coords="1645,5,1799,47"/>
+</map>

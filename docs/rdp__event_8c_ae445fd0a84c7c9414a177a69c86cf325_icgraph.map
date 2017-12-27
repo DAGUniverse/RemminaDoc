@@ -1,0 +1,10 @@
+<map id="remmina_rdp_event_queue_ui_async" name="remmina_rdp_event_queue_ui_async">
+<area shape="rect" id="node2" href="$rdp__plugin_8c.html#a6dc42bd40842f63939e962828c19cfc7" title="rf_auto_reconnect" alt="" coords="232,5,359,32"/>
+<area shape="rect" id="node7" href="$rdp__plugin_8c.html#ab5b2b1181588e07e68c083c9539fa84f" title="rf_end_paint" alt="" coords="249,56,342,83"/>
+<area shape="rect" id="node8" href="$rdp__plugin_8c.html#ac8d1ec82167ad20b7634ed545d4badbc" title="remmina_rdp_post_connect" alt="" coords="407,81,589,108"/>
+<area shape="rect" id="node3" href="$rdp__plugin_8c.html#adb2d2f801618ad1e5ff14b4ebf2a9eb9" title="remmina_rdp_main_loop" alt="" coords="417,5,579,32"/>
+<area shape="rect" id="node4" href="$rdp__plugin_8c.html#a12e0199d082d510648cb27168486f4e0" title="remmina_rdp_main" alt="" coords="637,5,769,32"/>
+<area shape="rect" id="node5" href="$rdp__plugin_8c.html#a3b62e33da1cb6cfa69c44f565ad53c54" title="remmina_rdp_main_thread" alt="" coords="817,5,992,32"/>
+<area shape="rect" id="node6" href="$rdp__plugin_8c.html#a5f88cb338f10185c43bfc7d711dddee5" title="remmina_rdp_open_connection" alt="" coords="1040,5,1243,32"/>
+<area shape="rect" id="node9" href="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309" title="remmina_rdp_init" alt="" coords="643,81,764,108"/>
+</map>

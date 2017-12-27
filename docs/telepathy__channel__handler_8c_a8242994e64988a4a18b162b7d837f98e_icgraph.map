@@ -1,0 +1,8 @@
+<map id="remmina_tp_channel_handler_on_response" name="remmina_tp_channel_handler_on_response">
+<area shape="rect" id="node2" href="$telepathy__channel__handler_8c.html#a2b30990f1b0ed8b69a6a81dd597d17bb" title="remmina_tp_channel\l_handler_get_contacts" alt="" coords="205,5,359,47"/>
+<area shape="rect" id="node3" href="$telepathy__channel__handler_8c.html#a6c4c20f7e570ff32e5ed7b6a41285e2b" title="remmina_tp_channel\l_handler_channel_ready" alt="" coords="407,5,569,47"/>
+<area shape="rect" id="node4" href="$telepathy__channel__handler_8c.html#a9119f529c6953951fedc06c7983fe61e" title="remmina_tp_channel\l_handler_connection_ready" alt="" coords="617,5,797,47"/>
+<area shape="rect" id="node5" href="$telepathy__channel__handler_8c.html#ae5596ef18518b35ac215d1dafe7f5537" title="remmina_tp_channel\l_handler_account_ready" alt="" coords="845,5,1008,47"/>
+<area shape="rect" id="node6" href="$telepathy__channel__handler_8h.html#a3b6b67c39029f39b2eee1cd37b29f13c" title="remmina_tp_channel\l_handler_new" alt="" coords="1056,5,1199,47"/>
+<area shape="rect" id="node7" href="$telepathy__handler_8c.html#a06517aa54c7e917f0358a66565f0013a" title="remmina_tp_handler\l_handle_channels" alt="" coords="1247,5,1385,47"/>
+</map>

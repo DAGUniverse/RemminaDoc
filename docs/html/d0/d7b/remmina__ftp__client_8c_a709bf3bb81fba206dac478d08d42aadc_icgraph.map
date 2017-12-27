@@ -1,8 +1,0 @@
-<map id="remmina_ftp_client_get_dir" name="remmina_ftp_client_get_dir">
-<area shape="rect" id="node2" href="$d9/dc2/remmina__sftp__client_8c.html#aea3e3b72fb51d466fee78af11234d7b7" title="remmina_sftp_client\l_thread_main" alt="" coords="185,5,324,47"/>
-<area shape="rect" id="node5" href="$d9/dc2/remmina__sftp__client_8c.html#a476effba1e0cf529dab3f75a501341ea" title="remmina_sftp_client\l_on_opendir" alt="" coords="185,71,324,112"/>
-<area shape="rect" id="node3" href="$d9/dc2/remmina__sftp__client_8c.html#a788420fb944ee5059cbc53f8648e9636" title="remmina_sftp_client\l_on_newtask" alt="" coords="372,5,511,47"/>
-<area shape="rect" id="node4" href="$d9/dc2/remmina__sftp__client_8c.html#a52b86e14d8abd0a5b6ddeb464a22a5f0" title="remmina_sftp_client_init" alt="" coords="559,42,721,69"/>
-<area shape="rect" id="node6" href="$d9/dc2/remmina__sftp__client_8c.html#ae87948f1c87c6eb6b16664665cac9a2c" title="remmina_sftp_client\l_refresh" alt="" coords="372,123,511,164"/>
-<area shape="rect" id="node7" href="$d9/dc2/remmina__sftp__client_8c.html#aa43b65303f43a0658201bf8f27e232f8" title="G_DEFINE_TYPE" alt="" coords="575,130,705,157"/>
-</map>

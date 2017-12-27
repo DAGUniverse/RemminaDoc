@@ -1,0 +1,6 @@
+<map id="remmina_plugin_vnc_scale_coordinates" name="remmina_plugin_vnc_scale_coordinates">
+<area shape="rect" id="node2" href="$vnc__plugin_8c.html#a47762f374c697476aed0a36ed26a0aa1" title="remmina_plugin_vnc\l_on_motion" alt="" coords="195,5,336,47"/>
+<area shape="rect" id="node4" href="$vnc__plugin_8c.html#a4dc4f7fbf26336d69aa468e6d81d9b0a" title="remmina_plugin_vnc\l_on_button" alt="" coords="195,71,336,112"/>
+<area shape="rect" id="node5" href="$vnc__plugin_8c.html#a6f8fd3a6a5f00aef49bd4e3404be5697" title="remmina_plugin_vnc\l_on_scroll" alt="" coords="195,136,336,177"/>
+<area shape="rect" id="node3" href="$vnc__plugin_8c.html#a29fb120041bcace9f201cbdf3a3f6f2f" title="remmina_plugin_vnc\l_open_connection" alt="" coords="384,71,525,112"/>
+</map>

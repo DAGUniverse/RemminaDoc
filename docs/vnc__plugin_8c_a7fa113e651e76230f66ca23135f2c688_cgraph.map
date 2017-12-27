@@ -1,0 +1,5 @@
+<map id="remmina_plugin_vnc_close_connection" name="remmina_plugin_vnc_close_connection">
+<area shape="rect" id="node2" href="$vnc__plugin_8c.html#a5a66b50e38de8f8f7ff4c47455145a61" title="remmina_plugin_vnc\l_close_connection_timeout" alt="" coords="195,5,375,47"/>
+<area shape="rect" id="node3" href="$vnc__plugin_8c.html#a2b47331cd4f72ee2c69573ffb3142c10" title="remmina_plugin_vnc\l_event_free_all" alt="" coords="423,5,564,47"/>
+<area shape="rect" id="node4" href="$vnc__plugin_8c.html#aeba06240e996cdffb95cf9ca4c461449" title="remmina_plugin_vnc\l_event_free" alt="" coords="612,5,753,47"/>
+</map>

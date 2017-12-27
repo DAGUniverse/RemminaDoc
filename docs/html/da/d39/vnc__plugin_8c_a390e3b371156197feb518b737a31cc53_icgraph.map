@@ -1,9 +1,0 @@
-<map id="onMainThread_schedule_callback_and_wait" name="onMainThread_schedule_callback_and_wait">
-<area shape="rect" id="node2" href="$da/d39/vnc__plugin_8c.html#a1f57bda271e77f086885101650e8d82c" title="remmina_plugin_vnc\l_update_scale" alt="" coords="216,57,357,98"/>
-<area shape="rect" id="node3" href="$da/d39/vnc__plugin_8c.html#a9ba8e968998b64b3832e484a2ca7dfc1" title="onMainThread_cb" alt="" coords="413,5,539,32"/>
-<area shape="rect" id="node4" href="$da/d39/vnc__plugin_8c.html#a91cf510208363f5678c65f420d2d0586" title="remmina_plugin_vnc\l_rfb_allocfb" alt="" coords="405,57,547,98"/>
-<area shape="rect" id="node8" href="$da/d39/vnc__plugin_8c.html#a626a6a09f076b133df208d5bc04233b6" title="remmina_plugin_vnc\l_call_feature" alt="" coords="405,122,547,163"/>
-<area shape="rect" id="node5" href="$da/d39/vnc__plugin_8c.html#a8648ba06e3c1b7093147ae9a1c576452" title="remmina_plugin_vnc_main" alt="" coords="595,64,771,91"/>
-<area shape="rect" id="node6" href="$da/d39/vnc__plugin_8c.html#a14c13d425ace0c90144b0e486e6893b8" title="remmina_plugin_vnc\l_main_thread" alt="" coords="819,27,960,69"/>
-<area shape="rect" id="node7" href="$da/d39/vnc__plugin_8c.html#a29fb120041bcace9f201cbdf3a3f6f2f" title="remmina_plugin_vnc\l_open_connection" alt="" coords="1008,57,1149,98"/>
-</map>

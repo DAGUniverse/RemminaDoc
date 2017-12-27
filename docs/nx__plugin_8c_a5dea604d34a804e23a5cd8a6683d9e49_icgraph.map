@@ -1,0 +1,8 @@
+<map id="onMainThread_cleanup_handler" name="onMainThread_cleanup_handler">
+<area shape="rect" id="node2" href="$nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="209,5,372,47"/>
+<area shape="rect" id="node3" href="$nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="420,5,595,47"/>
+<area shape="rect" id="node4" href="$nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="643,5,809,47"/>
+<area shape="rect" id="node5" href="$nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="857,13,1027,39"/>
+<area shape="rect" id="node6" href="$nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="1075,5,1244,47"/>
+<area shape="rect" id="node7" href="$nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1292,5,1461,47"/>
+</map>

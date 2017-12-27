@@ -1,6 +1,0 @@
-<map id="remmina_connection_window_init" name="remmina_connection_window_init">
-<area shape="rect" id="node2" href="$d0/d36/remmina__widget__pool_8c.html#ae3c9c9853eb5bedbfeadbfac1d495b95" title="remmina_widget_pool\l_register" alt="" coords="201,5,349,47"/>
-<area shape="rect" id="node4" href="$d0/dc5/remmina__connection__window_8c.html#a80906d852763452c11199efbbb1d4cf3" title="remmina_connection\l_window_toolbar_place\l_signal" alt="" coords="196,71,353,127"/>
-<area shape="rect" id="node3" href="$d0/d36/remmina__widget__pool_8c.html#aa5fd17580202843eab40cabb258d2664" title="remmina_widget_pool\l_on_widget_destroy" alt="" coords="401,5,549,47"/>
-<area shape="rect" id="node5" href="$d0/dc5/remmina__connection__window_8c.html#a3627c2a73e45f25e4672fcce27af9a18" title="remmina_connection\l_holder_place_toolbar" alt="" coords="401,79,549,120"/>
-</map>

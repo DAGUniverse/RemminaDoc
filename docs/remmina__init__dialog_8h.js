@@ -1,0 +1,25 @@
+var remmina__init__dialog_8h =
+[
+    [ "_RemminaInitDialog", "struct___remmina_init_dialog.html", "struct___remmina_init_dialog" ],
+    [ "_RemminaInitDialogClass", "struct___remmina_init_dialog_class.html", "struct___remmina_init_dialog_class" ],
+    [ "RemminaInitDialog", "remmina__init__dialog_8h.html#a252747a7ecde49b0c99a9112ba3993c7", null ],
+    [ "RemminaInitDialogClass", "remmina__init__dialog_8h.html#a9f7c10329a25ec852f1a0b0bd516f557", null ],
+    [ "REMMINA_INIT_MODE_CONNECTING", "remmina__init__dialog_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a9c88c675e8ea1635a87bc575529e96a5", null ],
+    [ "REMMINA_INIT_MODE_AUTHPWD", "remmina__init__dialog_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a7c683c4add6585278ca4fab19318385e", null ],
+    [ "REMMINA_INIT_MODE_AUTHUSERPWD", "remmina__init__dialog_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aed3e3b2d664b9f77b5e44504acb65a39", null ],
+    [ "REMMINA_INIT_MODE_AUTHX509", "remmina__init__dialog_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57af632cbbb0c61e44c78e5e2f2ec1a69d2", null ],
+    [ "REMMINA_INIT_MODE_SERVERKEY_CONFIRM", "remmina__init__dialog_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57ace78f52da7a4390a877a83505b0e0264", null ],
+    [ "REMMINA_INIT_MODE_CERTIFICATE", "remmina__init__dialog_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa04377837b60c9cc61c7cd259bd489a5", null ],
+    [ "remmina_init_dialog_authpwd", "remmina__init__dialog_8h.html#a755fc90b41b65cd6106915ab501433fa", null ],
+    [ "remmina_init_dialog_authuserpwd", "remmina__init__dialog_8h.html#ad941f2348cd1752fc9d58c263690726c", null ],
+    [ "remmina_init_dialog_authx509", "remmina__init__dialog_8h.html#a022dc4f1c87b00dac294837358394ddf", null ],
+    [ "remmina_init_dialog_certificate", "remmina__init__dialog_8h.html#abd47233840e1eefc1d511bc4e153b98b", null ],
+    [ "remmina_init_dialog_certificate_changed", "remmina__init__dialog_8h.html#a0cbfeb3db8a35acbb0293401a0976a97", null ],
+    [ "remmina_init_dialog_get_type", "remmina__init__dialog_8h.html#ae0d063c039c935f9271e43914a4e9b27", null ],
+    [ "remmina_init_dialog_new", "remmina__init__dialog_8h.html#ad5817659d78830d10cfbab93af51ddab", null ],
+    [ "remmina_init_dialog_serverkey_changed", "remmina__init__dialog_8h.html#a493c615103fc257d1783125745018f1a", null ],
+    [ "remmina_init_dialog_serverkey_confirm", "remmina__init__dialog_8h.html#a11fba22fe5f7f85985e01b499a52e534", null ],
+    [ "remmina_init_dialog_serverkey_unknown", "remmina__init__dialog_8h.html#a1c2d938b96a52fa9a3c11ebc8a091d8b", null ],
+    [ "remmina_init_dialog_set_status", "remmina__init__dialog_8h.html#a0091e150b446faa19e9af16f3d4de3cf", null ],
+    [ "remmina_init_dialog_set_status_temp", "remmina__init__dialog_8h.html#a930ccc7162308c419af5842b75bd333e", null ]
+];

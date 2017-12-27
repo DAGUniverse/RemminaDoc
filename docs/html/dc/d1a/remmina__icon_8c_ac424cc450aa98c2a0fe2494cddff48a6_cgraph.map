@@ -1,9 +1,0 @@
-<map id="remmina_icon_enable_avahi" name="remmina_icon_enable_avahi">
-<area shape="rect" id="node2" href="$de/d58/remmina__avahi_8c.html#a1ec851b22607dd1171ecdd5cca735b71" title="remmina_avahi_start" alt="" coords="201,78,344,105"/>
-<area shape="rect" id="node7" href="$de/d58/remmina__avahi_8c.html#a74b9962d6ef442e9c0a84293e2eaed30" title="remmina_avahi_stop" alt="" coords="201,129,344,155"/>
-<area shape="rect" id="node8" href="$d2/d9b/remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983" title="remmina_pref_save" alt="" coords="205,179,341,206"/>
-<area shape="rect" id="node3" href="$de/d58/remmina__avahi_8c.html#a06890e127f3d58d93e6ba31051c816d7" title="remmina_avahi_client\l_callback" alt="" coords="397,5,545,47"/>
-<area shape="rect" id="node4" href="$de/d58/remmina__avahi_8c.html#a1275ffa50fdda727520512496ef6f80d" title="remmina_avahi_browse\l_callback" alt="" coords="392,71,551,112"/>
-<area shape="rect" id="node6" href="$de/d58/remmina__avahi_8c.html#ab7c9f88b990e204955c7e02f6fee17c9" title="remmina_avahi_iterate" alt="" coords="395,137,548,163"/>
-<area shape="rect" id="node5" href="$de/d58/remmina__avahi_8c.html#afc3091cc602d3fa0670405c6c17125de" title="remmina_avahi_resolve\l_callback" alt="" coords="599,71,757,112"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="remmina_masterthread_exec.h" name="remmina_masterthread_exec.h">
-<area shape="rect" id="node2" href="$d5/d7a/remmina_8c.html" title="remmina.c" alt="" coords="5,102,88,129"/>
-<area shape="rect" id="node3" href="$d5/d16/remmina__file_8c.html" title="remmina_file.c" alt="" coords="112,102,219,129"/>
-<area shape="rect" id="node4" href="$d0/d7b/remmina__ftp__client_8c.html" title="remmina_ftp_client.c" alt="" coords="243,102,386,129"/>
-<area shape="rect" id="node5" href="$d2/d58/remmina__init__dialog_8c.html" title="remmina_init_dialog.c" alt="" coords="410,102,558,129"/>
-<area shape="rect" id="node6" href="$d7/d0b/remmina__masterthread__exec_8c.html" title="remmina_masterthread\l_exec.c" alt="" coords="583,95,737,136"/>
-<area shape="rect" id="node7" href="$de/d5d/remmina__plugin__manager_8c.html" title="remmina_plugin_manager.c" alt="" coords="761,102,943,129"/>
-<area shape="rect" id="node8" href="$d6/d0f/remmina__protocol__widget_8c.html" title="remmina_protocol_widget.c" alt="" coords="967,102,1148,129"/>
-</map>

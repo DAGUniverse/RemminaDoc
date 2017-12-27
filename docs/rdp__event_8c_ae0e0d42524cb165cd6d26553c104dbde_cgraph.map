@@ -1,0 +1,5 @@
+<map id="remmina_rdp_ui_event_update_scale" name="remmina_rdp_ui_event_update_scale">
+<area shape="rect" id="node2" href="$rdp__event_8c.html#a64ce0c66bb4cb6ddaee263ce8563f497" title="remmina_rdp_event_update\l_scale" alt="" coords="207,39,389,80"/>
+<area shape="rect" id="node3" href="$rdp__event_8c.html#a789ec99777755da7cae468216a74095a" title="remmina_rdp_event_create\l_cairo_surface" alt="" coords="439,5,618,47"/>
+<area shape="rect" id="node4" href="$rdp__event_8c.html#a6076424eb759c91ca9c8da59432c66d6" title="remmina_rdp_event_update\l_scale_factor" alt="" coords="437,71,620,112"/>
+</map>

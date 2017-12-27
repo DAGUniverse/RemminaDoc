@@ -1,6 +1,0 @@
-<map id="remmina_ssh_call_exit_callback_on_main_thread" name="remmina_ssh_call_exit_callback_on_main_thread">
-<area shape="rect" id="node2" href="$d7/deb/remmina__ssh_8c.html#abef9f1315d5a79b1588ab898988e051a" title="remmina_ssh_shell_thread" alt="" coords="229,13,407,39"/>
-<area shape="rect" id="node3" href="$d5/d09/remmina__ssh_8h.html#a1c095a955af21b3ed9952ba2ea94691b" title="remmina_ssh_shell_open" alt="" coords="455,13,624,39"/>
-<area shape="rect" id="node4" href="$d4/d61/remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee" title="Remmina Protocol plugin main function. " alt="" coords="672,5,813,47"/>
-<area shape="rect" id="node5" href="$d4/d61/remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f" title="Initialize the the main window properties and the pthread. " alt="" coords="861,5,1003,47"/>
-</map>

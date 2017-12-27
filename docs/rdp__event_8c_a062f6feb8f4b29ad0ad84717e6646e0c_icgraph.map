@@ -1,0 +1,6 @@
+<map id="remmina_rdp_event_release_key" name="remmina_rdp_event_release_key">
+<area shape="rect" id="node2" href="$rdp__event_8c.html#ab6e9a485532ccf8c22005dd7a7137fd2" title="keypress_list_add" alt="" coords="267,5,393,32"/>
+<area shape="rect" id="node3" href="$rdp__event_8c.html#ad8f0d0f1b1b75646523f3b241f124e56" title="remmina_rdp_event_on_key" alt="" coords="441,5,627,32"/>
+<area shape="rect" id="node4" href="$rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc" title="remmina_rdp_event_init" alt="" coords="675,5,835,32"/>
+<area shape="rect" id="node5" href="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309" title="remmina_rdp_init" alt="" coords="883,5,1004,32"/>
+</map>

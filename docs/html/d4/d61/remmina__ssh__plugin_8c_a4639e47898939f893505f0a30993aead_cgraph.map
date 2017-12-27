@@ -1,8 +1,0 @@
-<map id="remmina_plugin_ssh_popup_ui" name="remmina_plugin_ssh_popup_ui">
-<area shape="rect" id="node2" href="$d4/d61/remmina__ssh__plugin_8c.html#a3e8e08f2a9b05530e85962f9b8c556e9" title="remmina_ssh_plugin\l_popup_menu" alt="" coords="197,5,338,47"/>
-<area shape="rect" id="node3" href="$d4/d61/remmina__ssh__plugin_8c.html#a3290489a1ff9e51fbc013424fbfc8505" title="remmina_plugin_ssh\l_vte_select_all" alt="" coords="197,71,338,112"/>
-<area shape="rect" id="node4" href="$d4/d61/remmina__ssh__plugin_8c.html#acb6514abadc6fcf387ef91e3c36bb146" title="remmina_plugin_ssh\l_vte_copy_clipboard" alt="" coords="197,136,338,177"/>
-<area shape="rect" id="node5" href="$d4/d61/remmina__ssh__plugin_8c.html#adf8c8f3dd7fa5412d8c580668cc36146" title="remmina_plugin_ssh\l_vte_paste_clipboard" alt="" coords="195,201,340,243"/>
-<area shape="rect" id="node6" href="$d4/d61/remmina__ssh__plugin_8c.html#a4fcffcd3b4d288aa52087e48c78d6570" title="remmina_plugin_ssh\l_vte_save_session" alt="" coords="197,267,338,308"/>
-<area shape="rect" id="node7" href="$db/d22/remmina__public_8c.html#a893f0cfe2d694ab700975f4f427ee2f6" title="remmina_public_send\l_notification" alt="" coords="388,267,536,308"/>
-</map>

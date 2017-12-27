@@ -1,6 +1,0 @@
-<map id="remmina_plugin_vnc_queuecursor" name="remmina_plugin_vnc_queuecursor">
-<area shape="rect" id="node2" href="$da/d39/vnc__plugin_8c.html#a7f128e63501e5f28aaf50c6d77111b14" title="remmina_plugin_vnc\l_rfb_cursor_shape" alt="" coords="195,35,336,76"/>
-<area shape="rect" id="node3" href="$da/d39/vnc__plugin_8c.html#a8648ba06e3c1b7093147ae9a1c576452" title="remmina_plugin_vnc_main" alt="" coords="384,42,560,69"/>
-<area shape="rect" id="node4" href="$da/d39/vnc__plugin_8c.html#a14c13d425ace0c90144b0e486e6893b8" title="remmina_plugin_vnc\l_main_thread" alt="" coords="608,5,749,47"/>
-<area shape="rect" id="node5" href="$da/d39/vnc__plugin_8c.html#a29fb120041bcace9f201cbdf3a3f6f2f" title="remmina_plugin_vnc\l_open_connection" alt="" coords="797,35,939,76"/>
-</map>

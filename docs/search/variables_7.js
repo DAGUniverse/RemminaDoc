@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['gcry_5fthread_5foption_5fpthread_5fimpl',['GCRY_THREAD_OPTION_PTHREAD_IMPL',['../remmina_8c.html#a3d760300165528383af409d2964d79d2',1,'remmina.c']]],
+  ['gcrypt_5fthread_5finitialized',['gcrypt_thread_initialized',['../remmina_8c.html#a87cf5ad579b1e914ce7ea788cead4104',1,'remmina.c']]],
+  ['get_5fpassword',['get_password',['../struct___remmina_secret_plugin.html#aaa4bb101e0da125111dedf732a34b629',1,'_RemminaSecretPlugin']]],
+  ['get_5fplugin_5fscreenshot',['get_plugin_screenshot',['../struct___remmina_protocol_plugin.html#a4be346ca0b8c8169ee7e066a2c79d5ad',1,'_RemminaProtocolPlugin']]],
+  ['get_5fpref_5fbody',['get_pref_body',['../struct___remmina_pref_plugin.html#a691d1ca711b31813c15a58e18161b989',1,'_RemminaPrefPlugin']]],
+  ['get_5fprofile_5fremote_5fheight',['get_profile_remote_height',['../struct___remmina_plugin_service.html#a6f7d0d4396813af4d85997f22ca6a1ac',1,'_RemminaPluginService']]],
+  ['get_5fprofile_5fremote_5fwidth',['get_profile_remote_width',['../struct___remmina_plugin_service.html#a88a661b56a204fac9dd2011a053765f9',1,'_RemminaPluginService']]],
+  ['get_5fserver_5fport',['get_server_port',['../struct___remmina_plugin_service.html#a3924f0bd0b9688d7f318e087d8cae278',1,'_RemminaPluginService']]],
+  ['glyph',['glyph',['../structrf__glyph.html#ac258216d1331ac44afc01a3329357e94',1,'rf_glyph']]],
+  ['gmainthreadid',['gMainThreadID',['../remmina__masterthread__exec_8c.html#a8eeacd537241e5af184a2007c476baf0',1,'remmina_masterthread_exec.c']]],
+  ['gp',['gp',['../structremmina__masterthread__exec__data.html#aca5558e097d2874a89f561a14bdd407c',1,'remmina_masterthread_exec_data::gp()'],['../struct___remmina_protocol_widget_signal_data.html#a7a8b9ad6fdff86250a5eef649693d64a',1,'_RemminaProtocolWidgetSignalData::gp()'],['../structon_main_thread__cb__data.html#ad4019cdd5ac560eb1cd47d9f924831bb',1,'onMainThread_cb_data::gp()'],['../struct___remmina_plugin_vnc_cuttext_param.html#a3acb975cf5fb33970f68bed221978a09',1,'_RemminaPluginVncCuttextParam::gp()']]],
+  ['grid',['grid',['../struct___remmina_plugin_rdpset_grid.html#adf5582328d395582e4c364d64c3561a3',1,'_RemminaPluginRdpsetGrid']]],
+  ['group',['group',['../struct___remmina_applet_menu_item.html#a561b4a6b148ac58ce0fafff8e299fc7e',1,'_RemminaAppletMenuItem::group()'],['../struct___remmina_group_data.html#a0044a7fb68569135efeb5769229d7f09',1,'_RemminaGroupData::group()'],['../structmpchanger__params.html#a098952d194a183d4a505aa065797864b',1,'mpchanger_params::group()']]],
+  ['gruvbox_5fpalette',['gruvbox_palette',['../remmina__ssh__plugin_8c.html#afa1c17a29abc1a6b89929a73b89e7173',1,'remmina_ssh_plugin.c']]],
+  ['gsversion',['gsversion',['../struct___remmina_icon.html#aee3da1b92eed8cec42813a737e482b2c',1,'_RemminaIcon']]],
+  ['gtk_5flabel_5fset_5ftext',['gtk_label_set_text',['../structremmina__masterthread__exec__data.html#a85a0c3a54c87297e585fac9d52cd83c1',1,'remmina_masterthread_exec_data']]],
+  ['gtk_5fsession',['gtk_session',['../struct___remmina_plugin_spice_data.html#a1420dc8738b8485e95441823b4157f69',1,'_RemminaPluginSpiceData']]],
+  ['gtksocket_5favailable',['gtksocket_available',['../struct___remmina_plugin_service.html#a06ba66f0a8b001d38be36a4580eb74c8',1,'_RemminaPluginService']]]
+];

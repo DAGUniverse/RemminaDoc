@@ -1,0 +1,11 @@
+<map id="remmina_protocol_widget_update_alignment" name="remmina_protocol_widget_update_alignment">
+<area shape="rect" id="node2" href="$remmina__connection__window_8c.html#abbc84b2c450f62c288ff827c5d2c5cd2" title="get_current_allowed\l_scale_mode" alt="" coords="240,37,379,79"/>
+<area shape="rect" id="node6" href="$remmina__protocol__widget_8c.html#a25bcb2ae99449624fed6f770218e3d25" title="remmina_protocol_widget\l_get_expand" alt="" coords="224,103,395,144"/>
+<area shape="rect" id="node7" href="$remmina__protocol__widget_8c.html#aaf355ea7103fc57a4cbc7b815cde2995" title="remmina_protocol_widget\l_get_width" alt="" coords="224,168,395,209"/>
+<area shape="rect" id="node8" href="$remmina__protocol__widget_8c.html#ae609b351fff17c235251b0ba7c480da5" title="remmina_protocol_widget\l_get_height" alt="" coords="224,233,395,275"/>
+<area shape="rect" id="node9" href="$remmina__connection__window_8c.html#ad6f6d8dd7e157f8fffabb6c22ec604e3" title="remmina_connection\l_holder_grab_focus" alt="" coords="238,299,381,340"/>
+<area shape="rect" id="node3" href="$remmina__protocol__widget_8c.html#a5ec62969da54155e24edcb1d998f93f7" title="remmina_protocol_widget\l_get_current_scale_mode" alt="" coords="443,5,613,47"/>
+<area shape="rect" id="node4" href="$remmina__protocol__widget_8c.html#adbe15328275677cb38bd8c8a2d5e039d" title="remmina_protocol_widget\l_query_feature_by_type" alt="" coords="443,71,613,112"/>
+<area shape="rect" id="node5" href="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="661,78,804,105"/>
+<area shape="rect" id="node10" href="$remmina__protocol__widget_8c.html#a290eb68f0e86de1b7b82e2d98a1494d1" title="remmina_protocol_widget\l_grab_focus" alt="" coords="443,299,613,340"/>
+</map>

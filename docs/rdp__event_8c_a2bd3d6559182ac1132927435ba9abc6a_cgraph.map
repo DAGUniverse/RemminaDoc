@@ -1,0 +1,5 @@
+<map id="remmina_rdp_event_on_clipboard" name="remmina_rdp_event_on_clipboard">
+<area shape="rect" id="node2" href="$rdp__cliprdr_8c.html#accb7cad54767b8f658b8ea438690ef4f" title="remmina_rdp_cliprdr\l_get_client_format_list" alt="" coords="239,5,393,47"/>
+<area shape="rect" id="node4" href="$rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580" title="remmina_rdp_event_event_push" alt="" coords="211,71,421,98"/>
+<area shape="rect" id="node3" href="$rdp__cliprdr_8c.html#a7eb7cd7eeab0e52c33721cc0564964ea" title="remmina_rdp_cliprdr\l_get_format_from_gdkatom" alt="" coords="469,5,651,47"/>
+</map>

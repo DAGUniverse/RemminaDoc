@@ -1,0 +1,5 @@
+<map id="remmina_plugin_vnc_open_chat" name="remmina_plugin_vnc_open_chat">
+<area shape="rect" id="node2" href="$vnc__plugin_8c.html#aae9ff42cb268892f94cf7ed3070d4b5a" title="remmina_plugin_vnc\l_chat_on_send" alt="" coords="195,5,336,47"/>
+<area shape="rect" id="node3" href="$vnc__plugin_8c.html#a885240d470f95a89ac67051da38fa01d" title="remmina_plugin_vnc\l_event_push" alt="" coords="384,64,525,105"/>
+<area shape="rect" id="node4" href="$vnc__plugin_8c.html#ad43b46448de165f501529d6b203ca8ca" title="remmina_plugin_vnc\l_chat_on_destroy" alt="" coords="195,123,336,164"/>
+</map>

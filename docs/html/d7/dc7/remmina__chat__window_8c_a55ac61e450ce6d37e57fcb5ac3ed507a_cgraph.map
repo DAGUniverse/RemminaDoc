@@ -1,6 +1,0 @@
-<map id="remmina_chat_window_send_text_on_key" name="remmina_chat_window_send_text_on_key">
-<area shape="rect" id="node2" href="$d7/dc7/remmina__chat__window_8c.html#a62d706863c048c8ddb580786c6abcf50" title="remmina_chat_window_send" alt="" coords="208,46,399,73"/>
-<area shape="rect" id="node3" href="$d7/dc7/remmina__chat__window_8c.html#adfffc86df4856aabe2593de07742985f" title="remmina_chat_window\l_append_text" alt="" coords="447,5,601,47"/>
-<area shape="rect" id="node5" href="$d7/dc7/remmina__chat__window_8c.html#a4372d0db2832db8ed190390580f1dd1e" title="remmina_chat_window\l_clear_send_text" alt="" coords="447,71,601,112"/>
-<area shape="rect" id="node4" href="$d7/dc7/remmina__chat__window_8c.html#a2a4bc3ded8ebf89c8f60d9b565fe2d70" title="remmina_chat_window\l_scroll_proc" alt="" coords="649,5,804,47"/>
-</map>

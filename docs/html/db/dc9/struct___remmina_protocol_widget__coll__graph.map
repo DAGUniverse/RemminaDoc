@@ -1,9 +1,0 @@
-<map id="_RemminaProtocolWidget" name="_RemminaProtocolWidget">
-<area shape="rect" id="node2" href="$de/da8/struct___remmina_protocol_widget_priv.html" title="_RemminaProtocolWidgetPriv" alt="" coords="182,216,379,243"/>
-<area shape="rect" id="node3" href="$de/de4/struct___remmina_s_s_h_tunnel.html" title="_RemminaSSHTunnel" alt="" coords="205,118,357,145"/>
-<area shape="rect" id="node4" href="$dd/dc0/struct___remmina_s_s_h.html" title="_RemminaSSH" alt="" coords="68,5,181,32"/>
-<area shape="rect" id="node5" href="$db/d4a/struct___remmina_s_s_h_tunnel_buffer.html" title="_RemminaSSHTunnelBuffer" alt="" coords="206,5,393,32"/>
-<area shape="rect" id="node6" href="$dc/de3/struct___remmina_protocol_feature.html" title="_RemminaProtocolFeature" alt="" coords="436,5,613,32"/>
-<area shape="rect" id="node7" href="$d0/d02/struct___remmina_protocol_plugin.html" title="_RemminaProtocolPlugin" alt="" coords="601,118,771,145"/>
-<area shape="rect" id="node8" href="$d5/db7/struct___remmina_protocol_setting.html" title="_RemminaProtocolSetting" alt="" coords="637,5,812,32"/>
-</map>

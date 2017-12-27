@@ -1,0 +1,7 @@
+<map id="remmina_rdp_event_translate_pos" name="remmina_rdp_event_translate_pos">
+<area shape="rect" id="node2" href="$rdp__event_8c.html#ac27328f2796bd021d174c0f4b172c024" title="remmina_rdp_event_on\l_motion" alt="" coords="275,5,432,47"/>
+<area shape="rect" id="node5" href="$rdp__event_8c.html#a0caf4ffb4011d001301ea10f2c3f75e6" title="remmina_rdp_event_on\l_button" alt="" coords="275,71,432,112"/>
+<area shape="rect" id="node6" href="$rdp__event_8c.html#a9d63c3ac635001e62851ec4bc5fb7469" title="remmina_rdp_event_on\l_scroll" alt="" coords="275,136,432,177"/>
+<area shape="rect" id="node3" href="$rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc" title="remmina_rdp_event_init" alt="" coords="480,78,640,105"/>
+<area shape="rect" id="node4" href="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309" title="remmina_rdp_init" alt="" coords="688,78,809,105"/>
+</map>

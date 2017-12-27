@@ -1,0 +1,10 @@
+<map id="remmina_file_editor_update" name="remmina_file_editor_update">
+<area shape="rect" id="node2" href="$remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="380,67,540,93"/>
+<area shape="rect" id="node3" href="$remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="588,41,771,68"/>
+<area shape="rect" id="node5" href="$remmina__public_8c.html#af1679d83834c8409f23e00c555d677fb" title="remmina_public_combo\l_get_active_text" alt="" coords="381,169,539,210"/>
+<area shape="rect" id="node6" href="$remmina__public_8c.html#aaf3fdb980c24cd06965b85ebcdd79173" title="remmina_public_split\l_resolution_string" alt="" coords="188,250,332,291"/>
+<area shape="rect" id="node7" href="$remmina__file__editor_8c.html#af56d68ee8ab4f5e5a8f19188ebed0120" title="remmina_file_editor\l_update_ssh" alt="" coords="193,133,327,174"/>
+<area shape="rect" id="node9" href="$remmina__file__editor_8c.html#a1a88820e6278cc50eb59a6333c7f40dd" title="remmina_file_editor\l_update_settings" alt="" coords="193,67,327,109"/>
+<area shape="rect" id="node4" href="$remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7" title="remmina_main_show_warning\l_dialog" alt="" coords="819,34,1016,75"/>
+<area shape="rect" id="node8" href="$remmina__file_8c.html#af153b0d289ac93f6ecdaa15d5f3b9b8c" title="remmina_file_set_int" alt="" coords="389,117,531,144"/>
+</map>

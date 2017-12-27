@@ -1,7 +1,0 @@
-<map id="remmina_scrolled_viewport_new" name="remmina_scrolled_viewport_new">
-<area shape="rect" id="node2" href="$de/d62/remmina__scrolled__viewport_8c.html#a4125a8458ff5e18fb10be420921e01c7" title="remmina_scrolled_viewport\l_destroy" alt="" coords="264,5,444,47"/>
-<area shape="rect" id="node4" href="$de/d62/remmina__scrolled__viewport_8c.html#ac06419d58d2ab93bc593ead674eb7cb5" title="remmina_scrolled_viewport\l_enter" alt="" coords="264,71,444,112"/>
-<area shape="rect" id="node5" href="$de/d62/remmina__scrolled__viewport_8c.html#a9d6732462f9ec91d0c00e96bd0c3692e" title="remmina_scrolled_viewport\l_leave" alt="" coords="264,136,444,177"/>
-<area shape="rect" id="node3" href="$de/d62/remmina__scrolled__viewport_8c.html#a0ba56f429a9c1ec05b093f5f78be692c" title="remmina_scrolled_viewport\l_remove_motion" alt="" coords="492,39,672,80"/>
-<area shape="rect" id="node6" href="$de/d62/remmina__scrolled__viewport_8c.html#ab6821a1bbe2dbd787512236a68493b4f" title="remmina_scrolled_viewport\l_motion_timeout" alt="" coords="492,136,672,177"/>
-</map>

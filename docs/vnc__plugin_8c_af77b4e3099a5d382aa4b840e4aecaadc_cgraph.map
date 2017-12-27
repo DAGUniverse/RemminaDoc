@@ -1,0 +1,7 @@
+<map id="remmina_plugin_vnc_rfb_updatefb" name="remmina_plugin_vnc_rfb_updatefb">
+<area shape="rect" id="node2" href="$vnc__plugin_8c.html#a1266cacd4af9e75fb043669f88fbd108" title="remmina_plugin_vnc\l_rfb_fill_buffer" alt="" coords="195,5,336,47"/>
+<area shape="rect" id="node4" href="$vnc__plugin_8c.html#ac0d402aa12eeef76a267a3b27e85fbb0" title="remmina_plugin_vnc\l_scale_area" alt="" coords="195,71,336,112"/>
+<area shape="rect" id="node5" href="$vnc__plugin_8c.html#adf7b4c8b2fa3722af25cc40dc66a83b9" title="remmina_plugin_vnc\l_queue_draw_area" alt="" coords="195,136,336,177"/>
+<area shape="rect" id="node3" href="$vnc__plugin_8c.html#af1a91949fa5f1c5ff978046e8186a5f8" title="remmina_plugin_vnc_bits" alt="" coords="384,13,553,39"/>
+<area shape="rect" id="node6" href="$vnc__plugin_8c.html#a8908f48e85693e75dc871ed7e2eb1ddc" title="remmina_plugin_vnc\l_queue_draw_area_real" alt="" coords="389,136,548,177"/>
+</map>

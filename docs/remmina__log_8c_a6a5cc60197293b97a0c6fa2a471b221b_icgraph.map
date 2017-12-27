@@ -1,0 +1,51 @@
+<map id="remmina_log_scroll_to_end" name="remmina_log_scroll_to_end">
+<area shape="rect" id="node2" href="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="188,520,344,547"/>
+<area shape="rect" id="node3" href="$remmina__log_8h.html#aca8f826a273194e22f4467421af9b3aa" title="remmina_log_print" alt="" coords="392,491,520,518"/>
+<area shape="rect" id="node22" href="$remmina__log_8h.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="793,698,925,724"/>
+<area shape="rect" id="node4" href="$remmina__connection__window_8c.html#a10b3a54bf50f7522ee272932673e9419" title="remmina_connection\l_window_go_fullscreen" alt="" coords="568,388,725,429"/>
+<area shape="rect" id="node5" href="$remmina__connection__window_8c.html#ae67ca4d276339723c1ff87fc224eaccf" title="remmina_connection\l_holder_create_fullscreen" alt="" coords="773,250,944,292"/>
+<area shape="rect" id="node6" href="$remmina__connection__window_8c.html#a02ac20f50f1b7b816bd7208127efdbee" title="remmina_connection\l_holder_toolbar_fullscreen" alt="" coords="1275,333,1449,374"/>
+<area shape="rect" id="node14" href="$remmina__connection__window_8c.html#abef663d930076deb3105f86dabe2a9c3" title="remmina_connection\l_window_hostkey_func" alt="" coords="2620,450,2779,492"/>
+<area shape="rect" id="node15" href="$remmina__connection__window_8c.html#a0ad685a873ecef95ec13caba17e0c22e" title="remmina_connection\l_object_on_connect" alt="" coords="1963,185,2106,226"/>
+<area shape="rect" id="node19" href="$remmina__connection__window_8c.html#a0e99d0ff8c39f2c6de508eee9ef498c5" title="remmina_connection\l_holder_viewport_fullscreen_mode" alt="" coords="992,282,1215,324"/>
+<area shape="rect" id="node21" href="$remmina__connection__window_8c.html#aa25cae5c0e15e13b817b925e42a044a9" title="remmina_connection\l_holder_scrolled_fullscreen_mode" alt="" coords="994,217,1213,258"/>
+<area shape="rect" id="node7" href="$remmina__connection__window_8c.html#af8138da72278e9e9000276e08a6fd984" title="remmina_connection\l_holder_create_toolbar" alt="" coords="1521,274,1675,316"/>
+<area shape="rect" id="node8" href="$remmina__connection__window_8c.html#a967dca6c1876afc3e6bcb763f9709d43" title="remmina_connection\l_holder_create_floating\l_toolbar" alt="" coords="1742,100,1898,156"/>
+<area shape="rect" id="node11" href="$remmina__connection__window_8c.html#a57b3656c37df65d276ddd50a16906dc7" title="remmina_connection\l_holder_create_scrolled" alt="" coords="1741,285,1899,326"/>
+<area shape="rect" id="node9" href="$remmina__connection__window_8c.html#ab2edcb806312b3367c70fbb13c383ae0" title="remmina_connection\l_holder_create_overlay\l_ftb_overlay" alt="" coords="1957,50,2113,106"/>
+<area shape="rect" id="node10" href="$remmina__connection__window_8c.html#a15c9b2bd929f8f2bb64d0bb6fa60f067" title="remmina_connection\l_window_ftb_drag_drop" alt="" coords="2179,25,2338,66"/>
+<area shape="rect" id="node12" href="$remmina__connection__window_8c.html#a2f5fc595c1aad851962aa58e2009bcce" title="remmina_connection\l_holder_on_notebook\l_create_window" alt="" coords="1962,302,2107,358"/>
+<area shape="rect" id="node13" href="$remmina__connection__window_8c.html#ae616dc409c5775dc73d9a83c1f081705" title="remmina_connection\l_holder_create_notebook" alt="" coords="2175,309,2342,350"/>
+<area shape="rect" id="node16" href="$remmina__connection__window_8h.html#adbf2b670ca3bae96a99cb0b36021a961" title="remmina_connection\l_window_open_from_file_full" alt="" coords="2164,214,2353,256"/>
+<area shape="rect" id="node17" href="$remmina__connection__window_8h.html#a1c7f722a89609523cc4de079cc82f23c" title="remmina_connection\l_window_open_from_file" alt="" coords="2404,214,2569,256"/>
+<area shape="rect" id="node18" href="$remmina__protocol__widget_8h.html#a605b69a9aa4393024369cc5070488692" title="remmina_protocol_widget\l_call_feature_by_ref" alt="" coords="2401,337,2572,378"/>
+<area shape="rect" id="node20" href="$remmina__connection__window_8c.html#a1415cdcbed0e6fe9a7978586bf132207" title="remmina_connection\l_holder_toolbar_fullscreen\l_option" alt="" coords="1275,252,1449,308"/>
+<area shape="rect" id="node23" href="$remmina__connection__window_8c.html#a7959ed5b51966bb0fb9e7b84bbb9878d" title="remmina_connection\l_holder_toolbar_screenshot" alt="" coords="1271,534,1453,576"/>
+<area shape="rect" id="node24" href="$remmina__file_8h.html#a3560cd6da715aad2428f8eab2a96b4e3" title="remmina_file_touch" alt="" coords="1036,1048,1171,1075"/>
+<area shape="rect" id="node27" href="$remmina__mpchange_8c.html#a525273e9a7f849c9d072467d216762b2" title="remmina_file_multipasswd\l_changer_mt" alt="" coords="1015,658,1191,700"/>
+<area shape="rect" id="node30" href="$remmina__protocol__widget_8h.html#a57ac13fc4a2653c40e0601183628c0ca" title="remmina_protocol_widget\l_plugin_screenshot" alt="" coords="1018,593,1189,634"/>
+<area shape="rect" id="node31" href="$remmina__ssh_8c.html#a5a3191a46707e450ee51286976531225" title="remmina_ssh_log_callback" alt="" coords="1014,927,1193,954"/>
+<area shape="rect" id="node32" href="$remmina__ssh_8h.html#a624b8ac30ddcd00ebda0b51d504f5a33" title="remmina_ssh_init_session" alt="" coords="1274,956,1450,983"/>
+<area shape="rect" id="node45" href="$remmina__ssh_8c.html#a2c47bcbe038c0d5a393a781c96a5a549" title="remmina_ssh_tunnel\l_main_thread_proc" alt="" coords="1032,724,1175,765"/>
+<area shape="rect" id="node25" href="$remmina__main_8c.html#ae023d1cb099a4f7bee79f13760566cbf" title="remmina_main_on_action\l_connection_connect" alt="" coords="1277,1117,1447,1158"/>
+<area shape="rect" id="node26" href="$remmina__main_8c.html#aba1a89a2400c5cc8373c6bd34602ac10" title="remmina_main_file_list\l_on_row_activated" alt="" coords="1521,1210,1675,1252"/>
+<area shape="rect" id="node28" href="$remmina__mpchange_8h.html#a8627f0b2ac822c2f57a4eddc843a8fed" title="remmina_mpchange_schedule" alt="" coords="1263,634,1461,660"/>
+<area shape="rect" id="node29" href="$remmina__main_8c.html#ab4f57cd4cee702be983cf78ed13de578" title="remmina_main_on_action\l_application_mpchange" alt="" coords="1513,585,1683,626"/>
+<area shape="rect" id="node33" href="$remmina__protocol__widget_8c.html#a8c7b715825ff576b24d2878976d20f20" title="remmina_protocol_widget\l_init_tunnel" alt="" coords="1513,818,1683,860"/>
+<area shape="rect" id="node37" href="$remmina__sftp__client_8c.html#aea3e3b72fb51d466fee78af11234d7b7" title="remmina_sftp_client\l_thread_main" alt="" coords="1529,1145,1667,1186"/>
+<area shape="rect" id="node40" href="$remmina__sftp__client_8c.html#a65bc7fd4a50bc7d1aa9de2d3ae6b2282" title="remmina_sftp_client\l_new_init" alt="" coords="1529,1014,1667,1056"/>
+<area shape="rect" id="node41" href="$remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9" title="remmina_plugin_sftp\l_main_thread" alt="" coords="1527,1080,1669,1121"/>
+<area shape="rect" id="node43" href="$remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee" title="Remmina Protocol plugin main function. " alt="" coords="1527,949,1669,990"/>
+<area shape="rect" id="node34" href="$remmina__protocol__widget_8h.html#a9d55210413d6a313478f81cf76ecf1b7" title="Start an SSH tunnel if possible and return the host:port string. " alt="" coords="1735,665,1905,706"/>
+<area shape="rect" id="node35" href="$remmina__protocol__widget_8h.html#aa6d9f2f558fcd9e7fe58eefcde1c3c5c" title="remmina_protocol_widget\l_start_reverse_tunnel" alt="" coords="1735,866,1905,908"/>
+<area shape="rect" id="node36" href="$remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4" title="remmina_protocol_widget\l_start_xport_tunnel" alt="" coords="1735,769,1905,810"/>
+<area shape="rect" id="node38" href="$remmina__sftp__client_8c.html#a788420fb944ee5059cbc53f8648e9636" title="remmina_sftp_client\l_on_newtask" alt="" coords="1751,1145,1889,1186"/>
+<area shape="rect" id="node39" href="$remmina__sftp__client_8c.html#a52b86e14d8abd0a5b6ddeb464a22a5f0" title="remmina_sftp_client_init" alt="" coords="1953,1152,2116,1179"/>
+<area shape="rect" id="node42" href="$remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4" title="remmina_plugin_sftp\l_open_connection" alt="" coords="1749,1080,1891,1121"/>
+<area shape="rect" id="node44" href="$remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f" title="Initialize the the main window properties and the pthread. " alt="" coords="1749,949,1891,990"/>
+<area shape="rect" id="node46" href="$remmina__ssh_8c.html#a879c1981a3b643529d64107a653016a6" title="remmina_ssh_tunnel\l_main_thread" alt="" coords="1291,724,1433,765"/>
+<area shape="rect" id="node47" href="$remmina__ssh_8h.html#a52b3f47eac79f2781ba81d61505f4f53" title="remmina_ssh_tunnel_open" alt="" coords="1509,651,1687,678"/>
+<area shape="rect" id="node48" href="$remmina__ssh_8h.html#ac6d58beb4df141c6353e897c39748146" title="remmina_ssh_tunnel_x11" alt="" coords="1513,702,1683,728"/>
+<area shape="rect" id="node49" href="$remmina__ssh_8h.html#aba49db2ced40e21e8adfad69dcfda2c4" title="remmina_ssh_tunnel\l_xport" alt="" coords="1527,753,1669,794"/>
+<area shape="rect" id="node50" href="$remmina__ssh_8h.html#ae47c8270267b02b9c0ff5b36074101c2" title="remmina_ssh_tunnel\l_reverse" alt="" coords="1527,884,1669,925"/>
+</map>

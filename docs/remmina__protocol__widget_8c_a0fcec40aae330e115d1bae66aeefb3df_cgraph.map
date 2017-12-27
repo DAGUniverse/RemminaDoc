@@ -1,0 +1,7 @@
+<map id="remmina_protocol_widget_init" name="remmina_protocol_widget_init">
+<area shape="rect" id="node2" href="$remmina__protocol__widget_8c.html#a7e54d9bb42d2d337527d3af657ef1e1f" title="remmina_protocol_widget\l_destroy" alt="" coords="248,5,419,47"/>
+<area shape="rect" id="node4" href="$remmina__protocol__widget_8c.html#a072f2b57d184a77b56d171360dfcfb51" title="remmina_protocol_widget\l_connect" alt="" coords="248,136,419,177"/>
+<area shape="rect" id="node6" href="$remmina__protocol__widget_8c.html#a5a5d4d4e76b14b6a6d4131edd9759f0c" title="remmina_protocol_widget\l_disconnect" alt="" coords="248,71,419,112"/>
+<area shape="rect" id="node3" href="$remmina__protocol__widget_8c.html#a62caf5696f67badbc6e4c20f68a3a15e" title="remmina_protocol_widget\l_hide_init_dialog" alt="" coords="467,71,637,112"/>
+<area shape="rect" id="node5" href="$remmina__ssh_8c.html#ae9f52b1a3a545acae8c93007e20ec909" title="remmina_ssh_tunnel\l_cancel_accept" alt="" coords="481,136,623,177"/>
+</map>

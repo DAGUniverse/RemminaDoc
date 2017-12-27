@@ -1,0 +1,5 @@
+<map id="remmina_init_dialog_init" name="remmina_init_dialog_init">
+<area shape="rect" id="node2" href="$remmina__init__dialog_8c.html#a18cb28ce48bb4b15fd7104721fdd8066" title="remmina_init_dialog\l_destroy" alt="" coords="220,5,357,47"/>
+<area shape="rect" id="node3" href="$remmina__widget__pool_8c.html#ae3c9c9853eb5bedbfeadbfac1d495b95" title="remmina_widget_pool\l_register" alt="" coords="215,71,363,112"/>
+<area shape="rect" id="node4" href="$remmina__widget__pool_8c.html#aa5fd17580202843eab40cabb258d2664" title="remmina_widget_pool\l_on_widget_destroy" alt="" coords="411,71,559,112"/>
+</map>

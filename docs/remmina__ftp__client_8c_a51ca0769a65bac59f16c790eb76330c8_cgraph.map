@@ -1,0 +1,12 @@
+<map id="remmina_ftp_client_file_list_on_button_press" name="remmina_ftp_client_file_list_on_button_press">
+<area shape="rect" id="node2" href="$remmina__ftp__client_8c.html#adaedc425109ff59a35610144513181ac" title="remmina_ftp_client\l_popup_menu" alt="" coords="227,155,359,196"/>
+<area shape="rect" id="node4" href="$remmina__ftp__client_8c.html#a651eef678fd9d6d1e3bc0712f4517854" title="remmina_ftp_client\l_get_download_dir" alt="" coords="621,5,753,47"/>
+<area shape="rect" id="node5" href="$remmina__ftp__client_8c.html#ae4e945748f44486be2a906ab42c6f805" title="remmina_ftp_client\l_download" alt="" coords="621,71,753,112"/>
+<area shape="rect" id="node11" href="$remmina__ftp__client_8c.html#aebd9739e88aa215c1dc3d4138219d286" title="remmina_ftp_client\l_open_dir" alt="" coords="836,251,968,292"/>
+<area shape="rect" id="node3" href="$remmina__ftp__client_8c.html#a3872b49a2c0bea73d51d0500c5cee488" title="remmina_ftp_client\l_action_download" alt="" coords="407,120,539,161"/>
+<area shape="rect" id="node6" href="$remmina__ftp__client_8c.html#afca2c32cbd85de1f9f59141805f565dd" title="remmina_ftp_client\l_action_upload" alt="" coords="407,252,539,293"/>
+<area shape="rect" id="node8" href="$remmina__ftp__client_8c.html#a5a433db0f6129e0bc4ec2fdc8f7588f6" title="remmina_ftp_client\l_action_delete" alt="" coords="407,185,539,227"/>
+<area shape="rect" id="node7" href="$remmina__ftp__client_8c.html#a8bdee1727836cb01a794c4164da50406" title="remmina_ftp_client\l_upload_folder_on_toggled" alt="" coords="599,253,775,295"/>
+<area shape="rect" id="node9" href="$remmina__public_8c.html#a86940733e5b9cf77b276084e437dcac0" title="remmina_public_combine_path" alt="" coords="587,137,788,163"/>
+<area shape="rect" id="node10" href="$remmina__ftp__client_8c.html#a630692ba90aee542f5504fbd845805ee" title="remmina_ftp_client\l_action_refresh" alt="" coords="621,188,753,229"/>
+</map>

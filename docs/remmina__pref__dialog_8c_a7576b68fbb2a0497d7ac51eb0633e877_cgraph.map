@@ -1,0 +1,6 @@
+<map id="remmina_pref_dialog_on_key_chooser" name="remmina_pref_dialog_on_key_chooser">
+<area shape="rect" id="node2" href="$remmina__key__chooser_8c.html#a9e8586623c819a2e24b6d7b1d3efde94" title="remmina_key_chooser_new" alt="" coords="196,46,380,73"/>
+<area shape="rect" id="node5" href="$remmina__key__chooser_8c.html#a5aba1462f1026818581e91155b12618f" title="remmina_key_chooser\l_get_value" alt="" coords="211,97,365,139"/>
+<area shape="rect" id="node3" href="$remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="428,5,583,47"/>
+<area shape="rect" id="node4" href="$remmina__key__chooser_8c.html#a2dc21f6f759474cbff56dbfaf8b87a46" title="remmina_key_chooser\l_dialog_on_key_press" alt="" coords="429,71,582,112"/>
+</map>

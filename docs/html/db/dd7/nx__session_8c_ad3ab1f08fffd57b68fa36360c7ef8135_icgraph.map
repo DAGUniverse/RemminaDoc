@@ -1,7 +1,0 @@
-<map id="remmina_get_keytype" name="remmina_get_keytype">
-<area shape="rect" id="node2" href="$d1/de0/nx__session_8h.html#a6d58e7958d408e2a0abd015688ba912b" title="remmina_nx_session_open" alt="" coords="204,13,384,39"/>
-<area shape="rect" id="node3" href="$d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="432,5,599,47"/>
-<area shape="rect" id="node4" href="$d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="647,13,816,39"/>
-<area shape="rect" id="node5" href="$d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="864,5,1033,47"/>
-<area shape="rect" id="node6" href="$d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1081,5,1251,47"/>
-</map>

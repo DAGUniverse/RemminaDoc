@@ -1,0 +1,13 @@
+<map id="remmina_plugin_rdp_ui_object" name="remmina_plugin_rdp_ui_object">
+<area shape="rect" id="node2" href="$structrf__clipboard.html" title="rf_clipboard" alt="" coords="161,118,251,145"/>
+<area shape="rect" id="node3" href="$structrf__context.html" title="rf_context" alt="" coords="254,223,334,250"/>
+<area shape="rect" id="node4" href="$struct___remmina_protocol_widget.html" title="_RemminaProtocolWidget" alt="" coords="317,118,492,145"/>
+<area shape="rect" id="node5" href="$struct___remmina_protocol_widget_priv.html" title="_RemminaProtocolWidgetPriv" alt="" coords="538,223,735,250"/>
+<area shape="rect" id="node6" href="$struct___remmina_s_s_h_tunnel.html" title="_RemminaSSHTunnel" alt="" coords="517,118,669,145"/>
+<area shape="rect" id="node7" href="$struct___remmina_s_s_h.html" title="_RemminaSSH" alt="" coords="380,5,493,32"/>
+<area shape="rect" id="node8" href="$struct___remmina_s_s_h_tunnel_buffer.html" title="_RemminaSSHTunnelBuffer" alt="" coords="518,5,705,32"/>
+<area shape="rect" id="node9" href="$struct___remmina_protocol_feature.html" title="_RemminaProtocolFeature" alt="" coords="748,5,925,32"/>
+<area shape="rect" id="node10" href="$struct___remmina_protocol_plugin.html" title="_RemminaProtocolPlugin" alt="" coords="913,118,1083,145"/>
+<area shape="rect" id="node11" href="$struct___remmina_protocol_setting.html" title="_RemminaProtocolSetting" alt="" coords="949,5,1124,32"/>
+<area shape="rect" id="node12" href="$structrf__pointer.html" title="rf_pointer" alt="" coords="5,118,81,145"/>
+</map>

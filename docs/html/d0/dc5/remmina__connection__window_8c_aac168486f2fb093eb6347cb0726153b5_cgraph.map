@@ -1,9 +1,0 @@
-<map id="remmina_connection_window_focus_in_event" name="remmina_connection_window_focus_in_event">
-<area shape="rect" id="node2" href="$d0/dc5/remmina__connection__window_8c.html#a6f4427665eeef5af2091621c1e89b589" title="remmina_connection\l_window_focus_in" alt="" coords="221,50,364,91"/>
-<area shape="rect" id="node3" href="$d0/dc5/remmina__connection__window_8c.html#aab1db8671426ff3a525451b96479c4f2" title="remmina_connection\l_holder_floating_toolbar\l_visible" alt="" coords="412,5,571,61"/>
-<area shape="rect" id="node6" href="$d0/dc5/remmina__connection__window_8c.html#a6bcba3905245597b6393bbdc8a210e3d" title="remmina_connection\l_holder_keyboard_grab" alt="" coords="413,86,569,127"/>
-<area shape="rect" id="node4" href="$d0/dc5/remmina__connection__window_8c.html#a2b7b33331e6fe8c8c70be62038f9f5ea" title="remmina_connection\l_holder_floating_toolbar\l_update" alt="" coords="625,5,783,61"/>
-<area shape="rect" id="node5" href="$d0/dc5/remmina__connection__window_8c.html#a0a92f6f998590a56e44964f0345f942b" title="remmina_connection\l_holder_floating_toolbar\l_motion" alt="" coords="837,5,996,61"/>
-<area shape="rect" id="node7" href="$d5/d16/remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="633,89,775,116"/>
-<area shape="rect" id="node8" href="$d0/dc5/remmina__connection__window_8c.html#af137217cf6ef1ea58f40781f54fd8fe9" title="remmina_connection\l_holder_keyboard_ungrab" alt="" coords="619,141,789,182"/>
-</map>
