@@ -31,15 +31,15 @@ var searchData=
   ['applet_5fenable_5favahi',['applet_enable_avahi',['../d3/d26/struct___remmina_pref.html#abbd08ed0c74b8f216e633aae6b141792',1,'_RemminaPref']]],
   ['applet_5fhide_5fcount',['applet_hide_count',['../d3/d26/struct___remmina_pref.html#acee9d7384a5e3949df53cdf54390bbcd',1,'_RemminaPref']]],
   ['applet_5fnew_5fontop',['applet_new_ontop',['../d3/d26/struct___remmina_pref.html#a999b74e3aab2e7fbc4431e803511b568',1,'_RemminaPref']]],
-  ['architecture_5fid',['ARCHITECTURE_ID',['../d1/d3a/_c_make_c_compiler_id_8c.html#aba35d0d200deaeb06aee95ca297acb28',1,'CMakeCCompilerId.c']]],
   ['aspectframe',['aspectframe',['../d7/dd4/struct___remmina_connection_object.html#a45652d9f81875c51991ddf6942d7b2ae',1,'_RemminaConnectionObject']]],
   ['attach_5fsession',['attach_session',['../de/db3/struct___remmina_plugin_nx_data.html#ad23fdec26a110b8974c90650dfe05e54',1,'_RemminaPluginNxData']]],
   ['audio',['audio',['../d2/d8c/struct___remmina_plugin_spice_data.html#a1c88ad311d86fb0de1dc441150a7da02',1,'_RemminaPluginSpiceData']]],
+  ['auth',['auth',['../dd/dc0/struct___remmina_s_s_h.html#abf5a73c3444790177635a6eab6417d03',1,'_RemminaSSH']]],
   ['auth_5fcalled',['auth_called',['../d0/df1/struct___remmina_plugin_vnc_data.html#a782a902d036e12eb08bfcd1006c12b97',1,'_RemminaPluginVncData']]],
   ['auth_5ffirst',['auth_first',['../d0/df1/struct___remmina_plugin_vnc_data.html#a5b17067fb2b9437f1fdf607334dfade3',1,'_RemminaPluginVncData']]],
-  ['auto_5fmode',['AUTO_MODE',['../d3/d05/remmina__pref_8h.html#a0ed680fdb405e7195d9f14032851eebbab1d633b014db4f3b67ec587e14035755',1,'remmina_pref.h']]],
+  ['authenticated',['authenticated',['../dd/dc0/struct___remmina_s_s_h.html#ac148c436afa70f426d665b4ddd2d8f4d',1,'_RemminaSSH']]],
+  ['auto_5fmode',['AUTO_MODE',['../d3/d05/remmina__pref_8h.html#a0944a4353780132eeab7b06e3e42291dab1d633b014db4f3b67ec587e14035755',1,'remmina_pref.h']]],
   ['auto_5fscroll_5fstep',['auto_scroll_step',['../d3/d26/struct___remmina_pref.html#a65a1f2b90d033425fd0c041fccae320c',1,'_RemminaPref']]],
   ['autostart_5ffile',['autostart_file',['../d4/d5b/struct___remmina_icon.html#aebee73e3ede3fd37332d4d0bf6eb1cca',1,'_RemminaIcon']]],
-  ['avahi',['avahi',['../d4/d5b/struct___remmina_icon.html#a1f2c31cd1f9af1feefc6b7ba7480f5d2',1,'_RemminaIcon']]],
-  ['avahi_5fservice_5ftype',['avahi_service_type',['../dc/d3e/struct___remmina_file_editor_priv.html#a4b3f2a7b5a76a009d48baa416f22b28c',1,'_RemminaFileEditorPriv']]]
+  ['avahi',['avahi',['../d4/d5b/struct___remmina_icon.html#a1f2c31cd1f9af1feefc6b7ba7480f5d2',1,'_RemminaIcon']]]
 ];

@@ -89,22 +89,7 @@ $(document).ready(function(){initNavTree('d4/dc9/telepathy__plugin_8c.html','../
 <div class="title">telepathy_plugin.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d23/remmina__plugin_8h_source.html">common/remmina_plugin.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/da1/telepathy__handler_8h_source.html">telepathy_handler.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for telepathy_plugin.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d8/d42/telepathy__plugin_8c__incl.png" border="0" usemap="#telepathy__plugin_8c" alt=""/></div>
-<map name="telepathy__plugin_8c" id="telepathy__plugin_8c">
-<area shape="rect" id="node2" href="../../d8/d23/remmina__plugin_8h.html" title="common/remmina_plugin.h" alt="" coords="510,80,689,107"/>
-<area shape="rect" id="node15" href="../../df/da1/telepathy__handler_8h.html" title="telepathy_handler.h" alt="" coords="713,80,848,107"/>
-<area shape="rect" id="node3" href="../../db/d16/config_8h.html" title="config.h" alt="" coords="5,155,73,181"/>
-<area shape="rect" id="node7" href="../../d9/dc4/plugin_8h.html" title="remmina/plugin.h" alt="" coords="440,155,561,181"/>
-<area shape="rect" id="node9" href="../../de/d66/remmina__trace__calls_8h.html" title="remmina/remmina_trace\l_calls.h" alt="" coords="518,229,681,271"/>
-<area shape="rect" id="node8" href="../../d9/d49/types_8h.html" title="remmina/types.h" alt="" coords="375,237,493,263"/>
-</map>
-</div>
-</div>
+
 <p><a href="../../d4/dc9/telepathy__plugin_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -118,6 +103,10 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ad6a9e111bcd9487a6215c417ea70e052"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc9/telepathy__plugin_8c.html#ad6a9e111bcd9487a6215c417ea70e052">remmina_plugin_telepathy_service</a> = NULL</td></tr>
 <tr class="separator:ad6a9e111bcd9487a6215c417ea70e052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e255408ada3d8096a2bc959a55ae5c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/da1/telepathy__handler_8h.html#abbc770ec8bf7b54b51010a5afcdfe7d0">RemminaTpHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc9/telepathy__plugin_8c.html#a1e255408ada3d8096a2bc959a55ae5c0">remmina_tp_handler</a> = NULL</td></tr>
+<tr class="separator:a1e255408ada3d8096a2bc959a55ae5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509c855e1783653e907f8dfe290a5b58"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dc4/plugin_8h.html#a3dee6a0774488524b232ab1eeeb939bb">RemminaEntryPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc9/telepathy__plugin_8c.html#a509c855e1783653e907f8dfe290a5b58">remmina_plugin_telepathy</a></td></tr>
+<tr class="separator:a509c855e1783653e907f8dfe290a5b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a56e5020de11446dbc23f3480e313f208"></a>
@@ -136,7 +125,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html#l00065">65</a> of file <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html">telepathy_plugin.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html#l00064">64</a> of file <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html">telepathy_plugin.c</a>.</p>
 
 </div>
 </div>
@@ -163,12 +152,40 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d4/dc9/telepathy__plugin_8c_abe272567d07c7d9bd59c819ab545c356_cgraph.png" border="0" usemap="#d4/dc9/telepathy__plugin_8c_abe272567d07c7d9bd59c819ab545c356_cgraph" alt=""/></div>
 <map name="d4/dc9/telepathy__plugin_8c_abe272567d07c7d9bd59c819ab545c356_cgraph" id="d4/dc9/telepathy__plugin_8c_abe272567d07c7d9bd59c819ab545c356_cgraph">
 <area shape="rect" id="node2" href="../../d4/d00/telepathy__handler_8c.html#a9a0d7f717ce6b2d808b18d5da290f3d6" title="remmina_tp_handler_new" alt="" coords="227,13,397,39"/>
+<area shape="rect" id="node3" href="../../d4/d00/telepathy__handler_8c.html#ae71fa1e8591ba79daedb9ad8bc5714c9" title="remmina_tp_handler\l_register" alt="" coords="445,5,584,47"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a509c855e1783653e907f8dfe290a5b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509c855e1783653e907f8dfe290a5b58">&#9670;&nbsp;</a></span>remmina_plugin_telepathy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dc4/plugin_8h.html#a3dee6a0774488524b232ab1eeeb939bb">RemminaEntryPlugin</a> remmina_plugin_telepathy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    <a class="code" href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aae2648710d57bdd48a15a95e9c4cc234e">REMMINA_PLUGIN_TYPE_ENTRY</a>,                      </div><div class="line">    <span class="stringliteral">&quot;telepathy&quot;</span>,                                    </div><div class="line">    <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Telepathy - Desktop Sharing&quot;</span>),              </div><div class="line">    GETTEXT_PACKAGE,                                </div><div class="line">    VERSION,                                        </div><div class="line">    <a class="code" href="../../d4/dc9/telepathy__plugin_8c.html#abe272567d07c7d9bd59c819ab545c356">remmina_plugin_telepathy_entry</a>                  </div><div class="line">}</div><div class="ttc" id="telepathy__plugin_8c_html_abe272567d07c7d9bd59c819ab545c356"><div class="ttname"><a href="../../d4/dc9/telepathy__plugin_8c.html#abe272567d07c7d9bd59c819ab545c356">remmina_plugin_telepathy_entry</a></div><div class="ttdeci">void remmina_plugin_telepathy_entry(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc9/telepathy__plugin_8c_source.html#l00044">telepathy_plugin.c:44</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+<div class="ttc" id="plugin_8h_html_aaf53c620d115a4642130227cff4a624aae2648710d57bdd48a15a95e9c4cc234e"><div class="ttname"><a href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aae2648710d57bdd48a15a95e9c4cc234e">REMMINA_PLUGIN_TYPE_ENTRY</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc4/plugin_8h_source.html#l00046">plugin.h:46</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html#l00053">53</a> of file <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html">telepathy_plugin.c</a>.</p>
+
+</div>
+</div>
 <a id="ad6a9e111bcd9487a6215c417ea70e052"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6a9e111bcd9487a6215c417ea70e052">&#9670;&nbsp;</a></span>remmina_plugin_telepathy_service</h2>
 
@@ -182,6 +199,30 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html#l00040">40</a> of file <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html">telepathy_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a1e255408ada3d8096a2bc959a55ae5c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e255408ada3d8096a2bc959a55ae5c0">&#9670;&nbsp;</a></span>remmina_tp_handler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/da1/telepathy__handler_8h.html#abbc770ec8bf7b54b51010a5afcdfe7d0">RemminaTpHandler</a>* remmina_tp_handler = NULL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html#l00042">42</a> of file <a class="el" href="../../d4/dc9/telepathy__plugin_8c_source.html">telepathy_plugin.c</a>.</p>
 
 </div>
 </div>

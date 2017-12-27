@@ -2,12 +2,6 @@ var remmina__file__editor_8h =
 [
     [ "_RemminaFileEditor", "da/d06/struct___remmina_file_editor.html", "da/d06/struct___remmina_file_editor" ],
     [ "_RemminaFileEditorClass", "db/dea/struct___remmina_file_editor_class.html", "db/dea/struct___remmina_file_editor_class" ],
-    [ "REMMINA_FILE_EDITOR", "d4/dae/remmina__file__editor_8h.html#ac20faa4f1f648642524e75d995c21506", null ],
-    [ "REMMINA_FILE_EDITOR_CLASS", "d4/dae/remmina__file__editor_8h.html#a404a7dc1ff00c6d57578fb633faf7ef2", null ],
-    [ "REMMINA_FILE_EDITOR_GET_CLASS", "d4/dae/remmina__file__editor_8h.html#a68a1bbac0e748517bb42c448322ce14b", null ],
-    [ "REMMINA_IS_FILE_EDITOR", "d4/dae/remmina__file__editor_8h.html#a0363d34796fdd446c8df4aee776b1d8b", null ],
-    [ "REMMINA_IS_FILE_EDITOR_CLASS", "d4/dae/remmina__file__editor_8h.html#a0f0a5249e138dd43db57fe8c23fc3291", null ],
-    [ "REMMINA_TYPE_FILE_EDITOR", "d4/dae/remmina__file__editor_8h.html#ac828e70125988c5634ca2adbb470cc13", null ],
     [ "RemminaFileEditor", "d4/dae/remmina__file__editor_8h.html#a16a58b48a99ec5a073a5fc6f5b0d9498", null ],
     [ "RemminaFileEditorClass", "d4/dae/remmina__file__editor_8h.html#ad2662b100a2d321db52fc1280c899208", null ],
     [ "RemminaFileEditorPriv", "d4/dae/remmina__file__editor_8h.html#abbeeb0b88810f1f479ffb1fadfbf6530", null ],

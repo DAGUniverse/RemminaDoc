@@ -1,21 +1,5 @@
 var remmina__public_8h =
 [
-    [ "BIND_TEMPLATE_CHILD", "d1/d53/remmina__public_8h.html#a08a3726c4c61d36a769026c742977454", null ],
-    [ "CANCEL_ASYNC", "d1/d53/remmina__public_8h.html#a0217e3fd8e00ca76249f6879117c31ff", null ],
-    [ "CANCEL_DEFER", "d1/d53/remmina__public_8h.html#a3b468f0fe572e7b3956493e277af9f8e", null ],
-    [ "CHAR_DELIMITOR", "d1/d53/remmina__public_8h.html#a73d02801c1349cb66c1b9ac3653c22b6", null ],
-    [ "IDLE_ADD", "d1/d53/remmina__public_8h.html#a7d2392436f1ee21b0cde70babdde0f14", null ],
-    [ "MAX_PATH_LEN", "d1/d53/remmina__public_8h.html#abdd33f362ae3bbdacb5de76473aa8a2f", null ],
-    [ "MAX_X_DISPLAY_NUMBER", "d1/d53/remmina__public_8h.html#a4779701296f43d33bb3c5ac91096cdb9", null ],
-    [ "MOUSE_BUTTON_LEFT", "d1/d53/remmina__public_8h.html#a67d41b5dcdb6d241343bf97e15304079", null ],
-    [ "MOUSE_BUTTON_MIDDLE", "d1/d53/remmina__public_8h.html#ad3379a48b44213dfa6b756488082902a", null ],
-    [ "MOUSE_BUTTON_RIGHT", "d1/d53/remmina__public_8h.html#ae62804387f4df3c1b2ab28e4ad8a7fa3", null ],
-    [ "STRING_DELIMITOR", "d1/d53/remmina__public_8h.html#af56a7929f366cd5e89102d240b9dc4c3", null ],
-    [ "STRING_DELIMITOR2", "d1/d53/remmina__public_8h.html#a0d6ad9fca45ba49b0b07b3302af294a5", null ],
-    [ "THREADS_ENTER", "d1/d53/remmina__public_8h.html#a79ae36bd3e4687758b0df8cb9ef1f783", null ],
-    [ "THREADS_LEAVE", "d1/d53/remmina__public_8h.html#a98783ed387893416c4aafbc754536abf", null ],
-    [ "TIMEOUT_ADD", "d1/d53/remmina__public_8h.html#ad68b9fa8979bd077837971a13e744232", null ],
-    [ "X_UNIX_SOCKET", "d1/d53/remmina__public_8h.html#a074177c154d1bb8d69f7ddb0f98f7c6e", null ],
     [ "remmina_public_combine_path", "d1/d53/remmina__public_8h.html#a86940733e5b9cf77b276084e437dcac0", null ],
     [ "remmina_public_combo_get_active_text", "d1/d53/remmina__public_8h.html#af1679d83834c8409f23e00c555d677fb", null ],
     [ "remmina_public_create_combo", "d1/d53/remmina__public_8h.html#ab4a593956dfe89aba3242a5c264a681f", null ],
@@ -37,6 +21,7 @@ var remmina__public_8h =
     [ "remmina_public_popup_position", "d1/d53/remmina__public_8h.html#a92025b5f6512955f9c29608b5451a12c", null ],
     [ "remmina_public_resolution_validation_func", "d1/d53/remmina__public_8h.html#a098786d3aa6991aeba43a61e29d534d0", null ],
     [ "remmina_public_send_notification", "d1/d53/remmina__public_8h.html#a893f0cfe2d694ab700975f4f427ee2f6", null ],
+    [ "remmina_public_split_resolution_string", "d1/d53/remmina__public_8h.html#aaf3fdb980c24cd06965b85ebcdd79173", null ],
     [ "remmina_public_str_replace", "d1/d53/remmina__public_8h.html#aea7547abe3a67e6126addc9ed91af640", null ],
     [ "remmina_public_str_replace_in_place", "d1/d53/remmina__public_8h.html#a8d7d9b3c8050545469b1af9a35b043a2", null ]
 ];

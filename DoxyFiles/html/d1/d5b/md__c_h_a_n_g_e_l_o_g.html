@@ -86,7 +86,123 @@ $(document).ready(function(){initNavTree('d1/d5b/md__c_h_a_n_g_e_l_o_g.html','..
 <div class="title">Change Log </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.21">v1.2.0-rcgit.21</a> (2017-10-08)</h2>
+<div class="textblock"><h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.25">v1.2.0-rcgit.25</a> (2017-12-20)</h2>
+<p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.24...v1.2.0-rcgit.25">Full Changelog</a></p>
+<p><b>Implemented enhancements:</b></p>
+<ul>
+<li>Allow external commands without protocols in create connection dialog <a href="https://github.com/FreeRDP/Remmina/issues/1391">#1391</a></li>
+<li>Feature request - Option to completely hide the floating toolbar when in fullscreen. <a href="https://github.com/FreeRDP/Remmina/issues/1379">#1379</a></li>
+<li>Option to run Pre Command before ANYTHING else <a href="https://github.com/FreeRDP/Remmina/issues/1363">#1363</a></li>
+<li>Rename the plugin 'remmina-plugins-gnome' in 'remmina-plugins-secret' <a href="https://github.com/FreeRDP/Remmina/issues/1343">#1343</a></li>
+<li>Enhancement - Variables for pre- and post-commands <a href="https://github.com/FreeRDP/Remmina/issues/849">#849</a></li>
+<li>Failed to load plugin: remmina-plugin-telepathy.so - undefined symbol: remmina_tp_handler_new <a href="https://github.com/FreeRDP/Remmina/issues/714">#714</a></li>
+<li>Implement an exec protocol plugin <a href="https://github.com/FreeRDP/Remmina/pull/1406">#1406</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Add SPICE Native WebDAV shared folder support <a href="https://github.com/FreeRDP/Remmina/pull/1401">#1401</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>Added encryption algorithms options for SSH <a href="https://github.com/FreeRDP/Remmina/pull/1397">#1397</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>SSH tunnel and pre/post commands improvements <a href="https://github.com/FreeRDP/Remmina/pull/1385">#1385</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Prior commands improvements <a href="https://github.com/FreeRDP/Remmina/pull/1378">#1378</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>flatpak: add manifest for flatpak-builder <a href="https://github.com/FreeRDP/Remmina/pull/1368">#1368</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>telepathy: properly setup dbus activation <a href="https://github.com/FreeRDP/Remmina/pull/1365">#1365</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>Add avahi host discovery for ssh and sftp plugins <a href="https://github.com/FreeRDP/Remmina/pull/1355">#1355</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>Refactoring - Rename remmina-plugins-gnome in remmina-plugin-secret <a href="https://github.com/FreeRDP/Remmina/pull/1348">#1348</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Refactoring - Part 1 <a href="https://github.com/FreeRDP/Remmina/pull/1336">#1336</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+</ul>
+<p><b>Fixed bugs:</b></p>
+<ul>
+<li>Un-check of "Fullscreen on the same monitor as the connection window" won't save <a href="https://github.com/FreeRDP/Remmina/issues/1344">#1344</a></li>
+<li>Remmina resets screen resolution settings in RDP shortcut <a href="https://github.com/FreeRDP/Remmina/issues/1323">#1323</a></li>
+<li>Failed to load plugin: remmina-plugin-telepathy.so - undefined symbol: remmina <a href="https://github.com/FreeRDP/Remmina/issues/714">#714</a></li>
+<li>Align SFTP and SSH plugins authentication and tunnel functionalities. <a href="https://github.com/FreeRDP/Remmina/pull/1393">#1393</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Fix Telepathy plugin compilation <a href="https://github.com/FreeRDP/Remmina/pull/1356">#1356</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>__func__ keyword must not be quoted <a href="https://github.com/FreeRDP/Remmina/pull/1350">#1350</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+</ul>
+<p><b>Closed issues:</b></p>
+<ul>
+<li>The password in the connections is not saved after upgrading Remmina <a href="https://github.com/FreeRDP/Remmina/issues/1402">#1402</a></li>
+<li>remmina fails to open sftp window, connected to ssh2 server with public key auth <a href="https://github.com/FreeRDP/Remmina/issues/1392">#1392</a></li>
+<li>Please add hostbased mechanism support for ssh <a href="https://github.com/FreeRDP/Remmina/issues/1373">#1373</a></li>
+<li>Remmina tray icon not visible anymore <a href="https://github.com/FreeRDP/Remmina/issues/1371">#1371</a></li>
+<li>Spacebar button bug with "use client mapping" RDP option enabled <a href="https://github.com/FreeRDP/Remmina/issues/1364">#1364</a></li>
+<li>Window 0x555b79d3d650 has not been made visible in GdkSeatGrabPrepareFunc <a href="https://github.com/FreeRDP/Remmina/issues/1359">#1359</a></li>
+<li>WARNING: the "resolution" setting in .pref files is deprecated <a href="https://github.com/FreeRDP/Remmina/issues/1358">#1358</a></li>
+<li>Wrong keyboard layout in VNC <a href="https://github.com/FreeRDP/Remmina/issues/1352">#1352</a></li>
+<li>remmina shows pop-up notification only for first screenshot <a href="https://github.com/FreeRDP/Remmina/issues/1347">#1347</a></li>
+<li>SFTP identity File <a href="https://github.com/FreeRDP/Remmina/issues/1301">#1301</a></li>
+<li>Password not saved <a href="https://github.com/FreeRDP/Remmina/issues/1047">#1047</a></li>
+<li>minimize button does not function well <a href="https://github.com/FreeRDP/Remmina/issues/921">#921</a></li>
+</ul>
+<p><b>Merged pull requests:</b></p>
+<ul>
+<li>Updated <a class="el" href="../../d9/dd6/_r_e_a_d_m_e_8md.html">README.MD</a> with Debian install instructions <a href="https://github.com/FreeRDP/Remmina/pull/1399">#1399</a> (<a href="https://github.com/MagicFab">MagicFab</a>)</li>
+<li>update simplified Chinese translations. <a href="https://github.com/FreeRDP/Remmina/pull/1367">#1367</a> (<a href="https://github.com/sotux">sotux</a>)</li>
+<li>Fix 'consistant' -&gt; 'consistent' typo <a href="https://github.com/FreeRDP/Remmina/pull/1362">#1362</a> (<a href="https://github.com/mfvescovi">mfvescovi</a>)</li>
+<li>ssh_userauth_publickey_auto: should accept empty passphrase <a href="https://github.com/FreeRDP/Remmina/pull/1361">#1361</a> (<a href="https://github.com/rayrapetyan">rayrapetyan</a>)</li>
+<li>Remove a couple of legacy "resolution" fields, fixes #1358 <a href="https://github.com/FreeRDP/Remmina/pull/1360">#1360</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Un-check of 'Fullscreen on the same monitor' <a href="https://github.com/FreeRDP/Remmina/pull/1349">#1349</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Create CODE_OF_CONDUCT <a href="https://github.com/FreeRDP/Remmina/pull/1341">#1341</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+</ul>
+<h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.24">v1.2.0-rcgit.24</a> (2017-10-25)</h2>
+<p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.23...v1.2.0-rcgit.24">Full Changelog</a></p>
+<p><b>Closed issues:</b></p>
+<ul>
+<li>vte no longer optional <a href="https://github.com/FreeRDP/Remmina/issues/1327">#1327</a></li>
+<li>libwinpr.so.2 dependcy missing <a href="https://github.com/FreeRDP/Remmina/issues/1312">#1312</a></li>
+</ul>
+<p><b>Merged pull requests:</b></p>
+<ul>
+<li>Another fix for #1323 <a href="https://github.com/FreeRDP/Remmina/pull/1339">#1339</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+</ul>
+<h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.23">v1.2.0-rcgit.23</a> (2017-10-23)</h2>
+<p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.22...v1.2.0-rcgit.23">Full Changelog</a></p>
+<p><b>Implemented enhancements:</b></p>
+<ul>
+<li>SSH session log to file <a href="https://github.com/FreeRDP/Remmina/issues/1320">#1320</a></li>
+<li>Save SSH session to file #1320 <a href="https://github.com/FreeRDP/Remmina/pull/1333">#1333</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+</ul>
+<p><b>Merged pull requests:</b></p>
+<ul>
+<li>Fixes for issue #1327, optional VTE an SSH <a href="https://github.com/FreeRDP/Remmina/pull/1335">#1335</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>snap: add password-manager-service interface for gnome-keyring <a href="https://github.com/FreeRDP/Remmina/pull/1334">#1334</a> (<a href="https://github.com/dfiloni">dfiloni</a>)</li>
+<li>Fix window state saving for remmina_connection_window and main window <a href="https://github.com/FreeRDP/Remmina/pull/1331">#1331</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Update da.po (fully translated) <a href="https://github.com/FreeRDP/Remmina/pull/1330">#1330</a> (<a href="https://github.com/scootergrisen">scootergrisen</a>)</li>
+<li>Fixes for deprecated "resolution" setting, issue #1323 <a href="https://github.com/FreeRDP/Remmina/pull/1329">#1329</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+</ul>
+<h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.22">v1.2.0-rcgit.22</a> (2017-10-20)</h2>
+<p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.21...v1.2.0-rcgit.22">Full Changelog</a></p>
+<p><b>Implemented enhancements:</b></p>
+<ul>
+<li>Add support for ayatana-appindicators <a href="https://github.com/FreeRDP/Remmina/pull/1309">#1309</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>[snap] Use the new desktop, desktop-legacy and wayland interfaces <a href="https://github.com/FreeRDP/Remmina/pull/1306">#1306</a> (<a href="https://github.com/kenvandine">kenvandine</a>)</li>
+</ul>
+<p><b>Fixed bugs:</b></p>
+<ul>
+<li>Crashes when I try opening Preferences <a href="https://github.com/FreeRDP/Remmina/issues/1313">#1313</a></li>
+<li>Resolution and Passwords Not Saving in Connection Profiles <a href="https://github.com/FreeRDP/Remmina/issues/1307">#1307</a></li>
+<li>Add background and foreground colors for old versions of VTE <a href="https://github.com/FreeRDP/Remmina/pull/1318">#1318</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Make remmina_file_editor_on_save behave correcthly <a href="https://github.com/FreeRDP/Remmina/pull/1308">#1308</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+</ul>
+<p><b>Closed issues:</b></p>
+<ul>
+<li>RDP connection profile settings are not used when opening session <a href="https://github.com/FreeRDP/Remmina/issues/1325">#1325</a></li>
+<li>Remmina removes the desktop application bar when placed in fullscreen mode (Linux Mint v18.2) <a href="https://github.com/FreeRDP/Remmina/issues/1317">#1317</a></li>
+<li>Remmina only shows black screen without any text after connection to an SSH server <a href="https://github.com/FreeRDP/Remmina/issues/1316">#1316</a></li>
+<li>Shared file timestamp <a href="https://github.com/FreeRDP/Remmina/issues/1310">#1310</a></li>
+<li>Tab size - SSH Sessions <a href="https://github.com/FreeRDP/Remmina/issues/1305">#1305</a></li>
+<li>no rdp in the window option and no remmina command available in terminal <a href="https://github.com/FreeRDP/Remmina/issues/1302">#1302</a></li>
+<li>Unsolvable dependencies on Debian 9 <a href="https://github.com/FreeRDP/Remmina/issues/1298">#1298</a></li>
+<li>Remmina doesn't respect the <code>SSH Tunnel</code> <code>SSH authentication</code> <code>User name</code> setting <a href="https://github.com/FreeRDP/Remmina/issues/1278">#1278</a></li>
+<li>Debian 9 - Remmina - RDP Plugin <a href="https://github.com/FreeRDP/Remmina/issues/1201">#1201</a></li>
+<li>Win key stays pressed in remote desktop when remmina loses focus <a href="https://github.com/FreeRDP/Remmina/issues/1058">#1058</a></li>
+<li>Remmina crashes after reconnection attempt after entering wrong password <a href="https://github.com/FreeRDP/Remmina/issues/1054">#1054</a></li>
+<li>Remmina is not aware of additional screen added <a href="https://github.com/FreeRDP/Remmina/issues/938">#938</a></li>
+</ul>
+<p><b>Merged pull requests:</b></p>
+<ul>
+<li>Focus-out-event should call UNFOCUS plugin feature, fixes #1058 <a href="https://github.com/FreeRDP/Remmina/pull/1315">#1315</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Fix some memory leaks <a href="https://github.com/FreeRDP/Remmina/pull/1314">#1314</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Dev documentation and Copyright update <a href="https://github.com/FreeRDP/Remmina/pull/1311">#1311</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+</ul>
+<h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.21">v1.2.0-rcgit.21</a> (2017-10-08)</h2>
 <p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.20...v1.2.0-rcgit.21">Full Changelog</a></p>
 <p><b>Implemented enhancements:</b></p>
 <ul>
@@ -179,7 +295,6 @@ $(document).ready(function(){initNavTree('d1/d5b/md__c_h_a_n_g_e_l_o_g.html','..
 <li>Color on SSH terminal window being applied <a href="https://github.com/FreeRDP/Remmina/issues/1238">#1238</a></li>
 <li>Tray applet closing when last window gets closed <a href="https://github.com/FreeRDP/Remmina/issues/1236">#1236</a></li>
 <li>Systray icon closes when closing 'Main Window' or RDP connection <a href="https://github.com/FreeRDP/Remmina/issues/1229">#1229</a></li>
-<li>SSH Tunneling is broken with SSH Agent with public key <a href="https://github.com/FreeRDP/Remmina/issues/1228">#1228</a></li>
 <li>Missing icons after compiling latest Git release <a href="https://github.com/FreeRDP/Remmina/issues/1221">#1221</a></li>
 <li>RDP quality settings not saved <a href="https://github.com/FreeRDP/Remmina/issues/1216">#1216</a></li>
 <li>Cannot connect after upgrading Ubuntu to 16.04 <a href="https://github.com/FreeRDP/Remmina/issues/946">#946</a></li>
@@ -739,11 +854,11 @@ $(document).ready(function(){initNavTree('d1/d5b/md__c_h_a_n_g_e_l_o_g.html','..
 <li>Indicator menu gone? <a href="https://github.com/FreeRDP/Remmina/issues/688">#688</a></li>
 <li>fatal error: gst/gstconfig.h: No such file or directory <a href="https://github.com/FreeRDP/Remmina/issues/678">#678</a></li>
 <li>remmina in gnome wayland _XInternAtom(): remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/677">#677</a></li>
-<li>remmina_rdp_cliprdr_monitor_ready(): remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/676">#676</a></li>
-<li>remmina_rdp_event_release_key(): remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/675">#675</a></li>
-<li>remmina: remmina_rdp_event_update_scale_factor(): remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/674">#674</a></li>
+<li><a class="el" href="../../d3/db3/rdp__cliprdr_8c.html#a5c9890f4354ef9a8dedcf3a371a2a16f">remmina_rdp_cliprdr_monitor_ready()</a>: remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/676">#676</a></li>
+<li><a class="el" href="../../dc/dd7/rdp__event_8c.html#a062f6feb8f4b29ad0ad84717e6646e0c">remmina_rdp_event_release_key()</a>: remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/675">#675</a></li>
+<li>remmina: <a class="el" href="../../dc/dd7/rdp__event_8c.html#a6076424eb759c91ca9c8da59432c66d6">remmina_rdp_event_update_scale_factor()</a>: remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/674">#674</a></li>
 <li>remmina: ringbuffer_destroy(): remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/673">#673</a></li>
-<li>remmina: remmina_connection_holder_toolbar_preferences_popdown(): remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/672">#672</a></li>
+<li>remmina: <a class="el" href="../../d0/dc5/remmina__connection__window_8c.html#a7f0d68059b8fe91317c6b62d9315ca44">remmina_connection_holder_toolbar_preferences_popdown()</a>: remmina killed by SIGSEGV <a href="https://github.com/FreeRDP/Remmina/issues/672">#672</a></li>
 <li>remmina: _g_log_abort(): remmina killed by SIGTRAP <a href="https://github.com/FreeRDP/Remmina/issues/671">#671</a></li>
 <li>Concurrent remote desktop sessions on Win XP Pro <a href="https://github.com/FreeRDP/Remmina/issues/670">#670</a></li>
 <li>Optimize screen space usage <a href="https://github.com/FreeRDP/Remmina/issues/661">#661</a></li>

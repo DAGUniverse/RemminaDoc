@@ -1,0 +1,8 @@
+<map id="remmina_plugin_vnc_bits" name="remmina_plugin_vnc_bits">
+<area shape="rect" id="node2" href="$da/d39/vnc__plugin_8c.html#a1266cacd4af9e75fb043669f88fbd108" title="remmina_plugin_vnc\l_rfb_fill_buffer" alt="" coords="223,39,364,80"/>
+<area shape="rect" id="node3" href="$da/d39/vnc__plugin_8c.html#af77b4e3099a5d382aa4b840e4aecaadc" title="remmina_plugin_vnc\l_rfb_updatefb" alt="" coords="412,5,553,47"/>
+<area shape="rect" id="node7" href="$da/d39/vnc__plugin_8c.html#a7f128e63501e5f28aaf50c6d77111b14" title="remmina_plugin_vnc\l_rfb_cursor_shape" alt="" coords="412,71,553,112"/>
+<area shape="rect" id="node4" href="$da/d39/vnc__plugin_8c.html#a8648ba06e3c1b7093147ae9a1c576452" title="remmina_plugin_vnc_main" alt="" coords="601,46,777,73"/>
+<area shape="rect" id="node5" href="$da/d39/vnc__plugin_8c.html#a14c13d425ace0c90144b0e486e6893b8" title="remmina_plugin_vnc\l_main_thread" alt="" coords="825,9,967,51"/>
+<area shape="rect" id="node6" href="$da/d39/vnc__plugin_8c.html#a29fb120041bcace9f201cbdf3a3f6f2f" title="remmina_plugin_vnc\l_open_connection" alt="" coords="1015,39,1156,80"/>
+</map>

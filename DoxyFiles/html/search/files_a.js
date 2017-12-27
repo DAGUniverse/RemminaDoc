@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xdmcp_5fplugin_2ec',['xdmcp_plugin.c',['../da/d8c/xdmcp__plugin_8c.html',1,'']]]
+  ['ubuntu_2dbuild_2esh',['ubuntu-build.sh',['../d1/d1e/ubuntu-build_8sh.html',1,'']]]
 ];

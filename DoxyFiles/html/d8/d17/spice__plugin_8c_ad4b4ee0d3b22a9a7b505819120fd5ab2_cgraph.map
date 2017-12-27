@@ -1,0 +1,7 @@
+<map id="remmina_plugin_spice_call_feature" name="remmina_plugin_spice_call_feature">
+<area shape="rect" id="node2" href="$d8/d17/spice__plugin_8c.html#a8bb09ec5a9744ac23907a07ad38ef1b9" title="remmina_plugin_spice\l_update_scale" alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node3" href="$d8/d17/spice__plugin_8c.html#a4d5a9190784bce617effa0b90e73a660" title="remmina_plugin_spice\l_send_ctrlaltdel" alt="" coords="204,71,355,112"/>
+<area shape="rect" id="node5" href="$d8/d17/spice__plugin_8c.html#a4d5d7d8022476b79a9e4b517adefa9a4" title="remmina_plugin_spice\l_select_usb_devices" alt="" coords="204,136,355,177"/>
+<area shape="rect" id="node4" href="$d8/d17/spice__plugin_8c.html#a96515e819c13b1eb4c4a1416df215317" title="remmina_plugin_spice\l_keystroke" alt="" coords="409,71,559,112"/>
+<area shape="rect" id="node6" href="$dd/d1d/spice__plugin__usb_8c.html#af6d5cac7fa54b6b8e432cf07b05eed7b" title="remmina_plugin_spice\l_usb_connect_failed_cb" alt="" coords="403,136,565,177"/>
+</map>

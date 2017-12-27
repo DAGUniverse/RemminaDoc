@@ -1,0 +1,5 @@
+<map id="remmina_plugin_spice_main_channel_event_cb" name="remmina_plugin_spice_main_channel_event_cb">
+<area shape="rect" id="node2" href="$d8/d17/spice__plugin_8c.html#a2d6055bfb90c38ca9808bcdfd54ab8cb" title="remmina_plugin_spice\l_close_connection" alt="" coords="223,5,373,47"/>
+<area shape="rect" id="node3" href="$d8/d17/spice__plugin_8c.html#a3d724d152ea404c75d370514962afebe" title="remmina_plugin_spice\l_channel_new_cb" alt="" coords="223,71,373,112"/>
+<area shape="rect" id="node4" href="$d8/d17/spice__plugin_8c.html#a4c883dd4ccf9e73e7efb763625d662bb" title="remmina_plugin_spice_init" alt="" coords="421,78,596,105"/>
+</map>

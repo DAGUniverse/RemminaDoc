@@ -18,6 +18,7 @@ var struct___remmina_connection_window_priv =
     [ "on_delete_confirm_mode", "d5/d9c/struct___remmina_connection_window_priv.html#af38c48c87527853f1dbf4306d50bc8a3", null ],
     [ "pin_button", "d5/d9c/struct___remmina_connection_window_priv.html#aab1adc559ce12b7371844b0d9650f0ee", null ],
     [ "pin_down", "d5/d9c/struct___remmina_connection_window_priv.html#a00b4a23111f7820ca07b40172cf3c75f", null ],
+    [ "savestate_eventsourceid", "d5/d9c/struct___remmina_connection_window_priv.html#ab13fdaf1786a29e15253b0ab3c7893ba", null ],
     [ "scaler_option_button", "d5/d9c/struct___remmina_connection_window_priv.html#aa2bd5de08f89ddf0ae7424aec42ba37e", null ],
     [ "sticky", "d5/d9c/struct___remmina_connection_window_priv.html#a58813e6a3170839e066910edc37fd434", null ],
     [ "switch_page_handler", "d5/d9c/struct___remmina_connection_window_priv.html#a95e2cd8818cbe62c7b42687b0f357974", null ],

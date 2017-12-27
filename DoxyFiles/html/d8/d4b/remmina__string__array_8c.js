@@ -1,6 +1,7 @@
 var remmina__string__array_8c =
 [
     [ "remmina_string_array_add", "d8/d4b/remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0", null ],
+    [ "remmina_string_array_compare_func", "d8/d4b/remmina__string__array_8c.html#a404140e205363c778476feb6f320f5f5", null ],
     [ "remmina_string_array_find", "d8/d4b/remmina__string__array_8c.html#ab93a69850cfb4117c223a3f145ced986", null ],
     [ "remmina_string_array_free", "d8/d4b/remmina__string__array_8c.html#a8ab78913d299df665a408a8a5ec51bbe", null ],
     [ "remmina_string_array_intersect", "d8/d4b/remmina__string__array_8c.html#abf64b35316d6e97f5c5001913b307308", null ],

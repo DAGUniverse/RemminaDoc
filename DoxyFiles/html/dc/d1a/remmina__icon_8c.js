@@ -2,10 +2,24 @@ var remmina__icon_8c =
 [
     [ "_RemminaIcon", "d4/d5b/struct___remmina_icon.html", "d4/d5b/struct___remmina_icon" ],
     [ "RemminaIcon", "dc/d1a/remmina__icon_8c.html#a7d506eafc267175d941402f28744d2d5", null ],
+    [ "remmina_icon_about", "dc/d1a/remmina__icon_8c.html#a5cdf1958ef01e49889bcee2e90e2cf71", null ],
+    [ "remmina_icon_create_autostart_file", "dc/d1a/remmina__icon_8c.html#a5a3b4f281c19f24645a895d3caab3ea0", null ],
     [ "remmina_icon_destroy", "dc/d1a/remmina__icon_8c.html#a25b1d13f76ddf6a51836d780eda5fab1", null ],
+    [ "remmina_icon_enable_avahi", "dc/d1a/remmina__icon_8c.html#ac424cc450aa98c2a0fe2494cddff48a6", null ],
     [ "remmina_icon_init", "dc/d1a/remmina__icon_8c.html#afbd7758d1d43c61a014b7ef00f11fa58", null ],
     [ "remmina_icon_is_autostart", "dc/d1a/remmina__icon_8c.html#ae477ccd85ab1d878d243aed7fa5e48ae", null ],
     [ "remmina_icon_is_available", "dc/d1a/remmina__icon_8c.html#a42f087b679b43b8a1d36cd9e9781a8b6", null ],
+    [ "remmina_icon_main", "dc/d1a/remmina__icon_8c.html#a920476110ab6410c8fc8cf734109e497", null ],
+    [ "remmina_icon_on_activate", "dc/d1a/remmina__icon_8c.html#af175fef31eb95974094088235b3a2b1d", null ],
+    [ "remmina_icon_on_edit_item", "dc/d1a/remmina__icon_8c.html#af8708120906a8dc41a7998ebf9ecd129", null ],
+    [ "remmina_icon_on_launch_item", "dc/d1a/remmina__icon_8c.html#ad1699688680e12abcfd5c74dd2f76d83", null ],
+    [ "remmina_icon_on_popup_menu", "dc/d1a/remmina__icon_8c.html#a95b917790eeb38e48137018796bdda93", null ],
+    [ "remmina_icon_popdown_menu", "dc/d1a/remmina__icon_8c.html#a444be76e3c3a065279c5f9abc7fae833", null ],
+    [ "remmina_icon_populate_additional_menu_item", "dc/d1a/remmina__icon_8c.html#a8aaf73ed94cf20dcce1c7be26262cb56", null ],
+    [ "remmina_icon_populate_extra_menu_item", "dc/d1a/remmina__icon_8c.html#a2847311861df3a2f1c8bbcd35cf3fd6f", null ],
     [ "remmina_icon_populate_menu", "dc/d1a/remmina__icon_8c.html#af80ed314f91d653237249d839c7fc3b2", null ],
-    [ "remmina_icon_set_autostart", "dc/d1a/remmina__icon_8c.html#a5b1bc5b1130b31ea9c9cb7164fb82f1d", null ]
+    [ "remmina_icon_preferences", "dc/d1a/remmina__icon_8c.html#ad3b0e3d12e4854eae05b1afea19da404", null ],
+    [ "remmina_icon_save_autostart_file", "dc/d1a/remmina__icon_8c.html#a15b625603bb0eb191fca9e77d2821735", null ],
+    [ "remmina_icon_set_autostart", "dc/d1a/remmina__icon_8c.html#a5b1bc5b1130b31ea9c9cb7164fb82f1d", null ],
+    [ "remmina_icon", "dc/d1a/remmina__icon_8c.html#a912ed1addd1481ff94b775aad48731f0", null ]
 ];

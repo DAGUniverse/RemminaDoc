@@ -1,11 +1,14 @@
 var searchData=
 [
-  ['c_5fdialect',['C_DIALECT',['../d1/d3a/_c_make_c_compiler_id_8c.html#a07f8e5783674099cd7f5110e22a78cdb',1,'CMakeCCompilerId.c']]],
-  ['cancel_5fasync',['CANCEL_ASYNC',['../d1/d53/remmina__public_8h.html#a0217e3fd8e00ca76249f6879117c31ff',1,'CANCEL_ASYNC():&#160;remmina_public.h'],['../d8/d23/remmina__plugin_8h.html#a0217e3fd8e00ca76249f6879117c31ff',1,'CANCEL_ASYNC():&#160;remmina_plugin.h']]],
-  ['cancel_5fdefer',['CANCEL_DEFER',['../d1/d53/remmina__public_8h.html#a3b468f0fe572e7b3956493e277af9f8e',1,'CANCEL_DEFER():&#160;remmina_public.h'],['../d8/d23/remmina__plugin_8h.html#a3b468f0fe572e7b3956493e277af9f8e',1,'CANCEL_DEFER():&#160;remmina_plugin.h']]],
-  ['char_5fdelimitor',['CHAR_DELIMITOR',['../d1/d53/remmina__public_8h.html#a73d02801c1349cb66c1b9ac3653c22b6',1,'remmina_public.h']]],
-  ['clipboard_5ftransfer_5fwait_5ftime',['CLIPBOARD_TRANSFER_WAIT_TIME',['../d3/db3/rdp__cliprdr_8c.html#a4b5e1a8aa294d1ebf5ae48b1819f6f1a',1,'rdp_cliprdr.c']]],
-  ['column_5fdescription',['COLUMN_DESCRIPTION',['../d5/dae/remmina__string__list_8c.html#a61a70fc515929c108aec736835fb0d09',1,'remmina_string_list.c']]],
-  ['column_5fvalue',['COLUMN_VALUE',['../d5/dae/remmina__string__list_8c.html#ac63daae636112c7e8696448dc3c8e67b',1,'remmina_string_list.c']]],
-  ['compiler_5fid',['COMPILER_ID',['../d1/d3a/_c_make_c_compiler_id_8c.html#a81dee0709ded976b2e0319239f72d174',1,'CMakeCCompilerId.c']]]
+  ['debug_5fkb_5fgrabbing',['DEBUG_KB_GRABBING',['../d0/dc5/remmina__connection__window_8c.html#a72cff164ac17cf7b7e99f6fa49e07720',1,'remmina_connection_window.c']]],
+  ['declare_5fcnnobj',['DECLARE_CNNOBJ',['../d0/dc5/remmina__connection__window_8c.html#ab8933da97dd8f2fce9d4678c9a8fab23',1,'remmina_connection_window.c']]],
+  ['declare_5fcnnobj_5fwith_5freturn',['DECLARE_CNNOBJ_WITH_RETURN',['../d0/dc5/remmina__connection__window_8c.html#af8bccdafc9302bdf228e5bceaf3355a9',1,'remmina_connection_window.c']]],
+  ['default_5fquality_5f0',['DEFAULT_QUALITY_0',['../d8/dc9/rdp__plugin_8h.html#afe2d7714782068b3db60f578fb6cec79',1,'rdp_plugin.h']]],
+  ['default_5fquality_5f1',['DEFAULT_QUALITY_1',['../d8/dc9/rdp__plugin_8h.html#a48b04df4f9d67b0412a9a5583127725b',1,'rdp_plugin.h']]],
+  ['default_5fquality_5f2',['DEFAULT_QUALITY_2',['../d8/dc9/rdp__plugin_8h.html#a862d431b370e09c3a79463440a2864f0',1,'rdp_plugin.h']]],
+  ['default_5fquality_5f9',['DEFAULT_QUALITY_9',['../d8/dc9/rdp__plugin_8h.html#a72890e2ce928a8ad6efbab20e7287633',1,'rdp_plugin.h']]],
+  ['default_5fssh_5floglevel',['DEFAULT_SSH_LOGLEVEL',['../d3/d05/remmina__pref_8h.html#a1d6de5a439998879806efc8618dbe467',1,'remmina_pref.h']]],
+  ['default_5fssh_5fparseconfig',['DEFAULT_SSH_PARSECONFIG',['../d3/d05/remmina__pref_8h.html#aafa5d26872488fe1806dadd0ba78aabc',1,'remmina_pref.h']]],
+  ['default_5fssh_5fport',['DEFAULT_SSH_PORT',['../d3/d05/remmina__pref_8h.html#a92d6e66546886d40295a13d80b0212e9',1,'remmina_pref.h']]],
+  ['default_5fsshtunnel_5fport',['DEFAULT_SSHTUNNEL_PORT',['../d3/d05/remmina__pref_8h.html#a108fac4fc20d96525b9e8d3536328d27',1,'remmina_pref.h']]]
 ];

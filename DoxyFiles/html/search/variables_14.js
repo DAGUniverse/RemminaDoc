@@ -12,6 +12,8 @@ var searchData=
   ['use_5fclient_5fkeymap',['use_client_keymap',['../d0/dc9/structrf__context.html#ac1f3330674d320c9d0ae408c551be6b8',1,'rf_context']]],
   ['use_5fclient_5fkeymap_5fcheck',['use_client_keymap_check',['../d7/d84/struct___remmina_plugin_rdpset_grid.html#aff981af8772341c9c7adc7515bec3970',1,'_RemminaPluginRdpsetGrid']]],
   ['use_5fmodifiers',['use_modifiers',['../d6/d78/struct___remmina_key_chooser_arguments.html#a9afcfe09663fddc96755b08e5a62ef03',1,'_RemminaKeyChooserArguments']]],
+  ['user',['user',['../dd/dc0/struct___remmina_s_s_h.html#a3a8dc7679e22208bbdf076c520f25bbb',1,'_RemminaSSH']]],
   ['user_5fcancelled',['user_cancelled',['../d0/dc9/structrf__context.html#acacad775c2c168f900deaa6c90481319',1,'rf_context']]],
+  ['user_5fdata',['user_data',['../dd/d1e/struct___remmina_s_s_h_shell.html#adedb04066148973fed2de9f04b80286d',1,'_RemminaSSHShell']]],
   ['username',['username',['../de/d0b/struct___remmina_init_dialog.html#aa238a0f08b719aa2a5b698f5c53f2cca',1,'_RemminaInitDialog::username()'],['../d3/d61/structmpchanger__params.html#a634dd9d08486b2a435fba15119db6742',1,'mpchanger_params::username()']]]
 ];

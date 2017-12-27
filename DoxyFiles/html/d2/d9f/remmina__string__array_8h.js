@@ -1,6 +1,5 @@
 var remmina__string__array_8h =
 [
-    [ "remmina_string_array_index", "d2/d9f/remmina__string__array_8h.html#a098e49178e7ce76828bb36f3b2bbf59c", null ],
     [ "remmina_string_array_add", "d2/d9f/remmina__string__array_8h.html#a2aaacca7db4b86f836486cfb559398f0", null ],
     [ "remmina_string_array_find", "d2/d9f/remmina__string__array_8h.html#ab93a69850cfb4117c223a3f145ced986", null ],
     [ "remmina_string_array_free", "d2/d9f/remmina__string__array_8h.html#a8ab78913d299df665a408a8a5ec51bbe", null ],

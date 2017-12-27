@@ -1,0 +1,5 @@
+<map id="remmina_plugin_exec_run" name="remmina_plugin_exec_run">
+<area shape="rect" id="node2" href="$dc/db1/exec__plugin_8c.html#ae5fe6643dc64e9250dc2a33e9f266e71" title="cb_child_watch" alt="" coords="227,5,339,32"/>
+<area shape="rect" id="node3" href="$dc/db1/exec__plugin_8c.html#aa6294507761837488c3777f21096d219" title="cb_out_watch" alt="" coords="231,56,334,83"/>
+<area shape="rect" id="node4" href="$dc/db1/exec__plugin_8c.html#ab43db37b96c68093747620fbde879327" title="cb_err_watch" alt="" coords="233,107,333,133"/>
+</map>

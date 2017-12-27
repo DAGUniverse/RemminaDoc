@@ -1,13 +1,11 @@
 var remmina__file_8h =
 [
     [ "_RemminaFile", "d7/dc4/struct___remmina_file.html", "d7/dc4/struct___remmina_file" ],
-    [ "TOOLBAR_OPACITY_LEVEL", "de/d15/remmina__file_8h.html#a114781a070fd2da3839ae838b0978089", null ],
-    [ "TOOLBAR_OPACITY_MIN", "de/d15/remmina__file_8h.html#a413d469508101ec5ff1a8aab7847d47c", null ],
-    [ "SSH_AUTH_PASSWORD", "de/d15/remmina__file_8h.html#abc6126af1d45847bc59afa0aa3216b04a7d995a7868d2d2f81e9dd2f898b206fe", null ],
-    [ "SSH_AUTH_PUBLICKEY", "de/d15/remmina__file_8h.html#abc6126af1d45847bc59afa0aa3216b04aeba5f4ff7657d7b15519556793ee8930", null ],
-    [ "SSH_AUTH_AGENT", "de/d15/remmina__file_8h.html#abc6126af1d45847bc59afa0aa3216b04a39a8dcea793c406f0fe90f3175c4318e", null ],
-    [ "SSH_AUTH_AUTO_PUBLICKEY", "de/d15/remmina__file_8h.html#abc6126af1d45847bc59afa0aa3216b04a9f6024449a620d679eab2c09ea77877e", null ],
-    [ "SSH_AUTH_GSSAPI", "de/d15/remmina__file_8h.html#abc6126af1d45847bc59afa0aa3216b04a6264a71469928ad51fa802f65f1a934a", null ],
+    [ "SSH_AUTH_PASSWORD", "de/d15/remmina__file_8h.html#a99fb83031ce9923c84392b4e92f956b5a7d995a7868d2d2f81e9dd2f898b206fe", null ],
+    [ "SSH_AUTH_PUBLICKEY", "de/d15/remmina__file_8h.html#a99fb83031ce9923c84392b4e92f956b5aeba5f4ff7657d7b15519556793ee8930", null ],
+    [ "SSH_AUTH_AGENT", "de/d15/remmina__file_8h.html#a99fb83031ce9923c84392b4e92f956b5a39a8dcea793c406f0fe90f3175c4318e", null ],
+    [ "SSH_AUTH_AUTO_PUBLICKEY", "de/d15/remmina__file_8h.html#a99fb83031ce9923c84392b4e92f956b5a9f6024449a620d679eab2c09ea77877e", null ],
+    [ "SSH_AUTH_GSSAPI", "de/d15/remmina__file_8h.html#a99fb83031ce9923c84392b4e92f956b5a6264a71469928ad51fa802f65f1a934a", null ],
     [ "remmina_file_copy", "de/d15/remmina__file_8h.html#ac1685edf35a793a396ce039d7eec5343", null ],
     [ "remmina_file_delete", "de/d15/remmina__file_8h.html#a55f66f2bb81bf427d6837e1adb7fe1d4", null ],
     [ "remmina_file_dup", "de/d15/remmina__file_8h.html#a3fb992fced83e0f1c4e4e3c8d2206be5", null ],
@@ -29,6 +27,5 @@ var remmina__file_8h =
     [ "remmina_file_set_string_ref", "de/d15/remmina__file_8h.html#a74951c1067a1a5e1341f5e1c1206dec6", null ],
     [ "remmina_file_store_secret_plugin_password", "de/d15/remmina__file_8h.html#a3be28ff7f5a9b44dc47f92b883a85ac5", null ],
     [ "remmina_file_touch", "de/d15/remmina__file_8h.html#a3560cd6da715aad2428f8eab2a96b4e3", null ],
-    [ "remmina_file_unsave_password", "de/d15/remmina__file_8h.html#a6a79eb0cd9dc195cc5bd1904e2e1e26c", null ],
-    [ "remmina_file_update_screen_resolution", "de/d15/remmina__file_8h.html#afdc462f203d1f6cfcb45ed7404810727", null ]
+    [ "remmina_file_unsave_password", "de/d15/remmina__file_8h.html#a6a79eb0cd9dc195cc5bd1904e2e1e26c", null ]
 ];

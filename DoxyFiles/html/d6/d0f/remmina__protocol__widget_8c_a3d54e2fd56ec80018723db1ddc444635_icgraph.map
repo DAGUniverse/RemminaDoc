@@ -1,0 +1,6 @@
+<map id="remmina_protocol_widget_get_init_dialog" name="remmina_protocol_widget_get_init_dialog">
+<area shape="rect" id="node2" href="$df/d41/remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9" title="remmina_plugin_sftp\l_main_thread" alt="" coords="224,5,367,47"/>
+<area shape="rect" id="node4" href="$d4/d61/remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee" title="Remmina Protocol plugin main function. " alt="" coords="225,71,366,112"/>
+<area shape="rect" id="node3" href="$df/d41/remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4" title="remmina_plugin_sftp\l_open_connection" alt="" coords="415,5,557,47"/>
+<area shape="rect" id="node5" href="$d4/d61/remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f" title="Initialize the the main window properties and the pthread. " alt="" coords="415,71,557,112"/>
+</map>

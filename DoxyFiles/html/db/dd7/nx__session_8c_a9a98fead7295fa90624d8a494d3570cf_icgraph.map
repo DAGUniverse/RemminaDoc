@@ -1,0 +1,7 @@
+<map id="remmina_nx_session_get_proxy_option" name="remmina_nx_session_get_proxy_option">
+<area shape="rect" id="node2" href="$d1/de0/nx__session_8h.html#ad01b66a877f8c30dc4bdf1ba6f3beac0" title="remmina_nx_session\l_invoke_proxy" alt="" coords="199,5,344,47"/>
+<area shape="rect" id="node3" href="$d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="392,5,559,47"/>
+<area shape="rect" id="node4" href="$d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="607,13,776,39"/>
+<area shape="rect" id="node5" href="$d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="824,5,993,47"/>
+<area shape="rect" id="node6" href="$d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1041,5,1211,47"/>
+</map>

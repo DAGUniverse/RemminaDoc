@@ -84,40 +84,20 @@ $(document).ready(function(){initNavTree('da/d8c/xdmcp__plugin_8c.html','../../'
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">xdmcp_plugin.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d23/remmina__plugin_8h_source.html">common/remmina_plugin.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for xdmcp_plugin.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d3/d5f/xdmcp__plugin_8c__incl.png" border="0" usemap="#xdmcp__plugin_8c" alt=""/></div>
-<map name="xdmcp__plugin_8c" id="xdmcp__plugin_8c">
-<area shape="rect" id="node2" href="../../d8/d23/remmina__plugin_8h.html" title="common/remmina_plugin.h" alt="" coords="510,80,689,107"/>
-<area shape="rect" id="node3" href="../../db/d16/config_8h.html" title="config.h" alt="" coords="5,155,73,181"/>
-<area shape="rect" id="node7" href="../../d9/dc4/plugin_8h.html" title="remmina/plugin.h" alt="" coords="440,155,561,181"/>
-<area shape="rect" id="node9" href="../../de/d66/remmina__trace__calls_8h.html" title="remmina/remmina_trace\l_calls.h" alt="" coords="518,229,681,271"/>
-<area shape="rect" id="node8" href="../../d9/d49/types_8h.html" title="remmina/types.h" alt="" coords="375,237,493,263"/>
-</map>
-</div>
-</div>
+
 <p><a href="../../da/d8c/xdmcp__plugin_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/struct___remmina_plugin_xdmcp_data.html">_RemminaPluginXdmcpData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ad90f60b543a07606c60fe78415e44952"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#ad90f60b543a07606c60fe78415e44952">REMMINA_PLUGIN_XDMCP_FEATURE_TOOL_SENDCTRLALTDEL</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ad90f60b543a07606c60fe78415e44952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28bb4a6b8535bd032c00f0139eee41d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a28bb4a6b8535bd032c00f0139eee41d0">GET_PLUGIN_DATA</a>(gp)&#160;&#160;&#160;(<a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#aae253598e26aefaa6dbf8b3e9454cbbe">RemminaPluginXdmcpData</a>*) g_object_get_data(G_OBJECT(gp), &quot;plugin-data&quot;);</td></tr>
-<tr class="separator:a28bb4a6b8535bd032c00f0139eee41d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -126,46 +106,46 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:acd32ced333bbc15aad93a20f19cf7277"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#acd32ced333bbc15aad93a20f19cf7277">remmina_plugin_xdmcp_on_plug_added</a> (GtkSocket *socket, <a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:acd32ced333bbc15aad93a20f19cf7277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7acd735b6cf8c094479df760c61e78b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a7acd735b6cf8c094479df760c61e78b7">remmina_plugin_xdmcp_on_plug_removed</a> (GtkSocket *socket, <a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a7acd735b6cf8c094479df760c61e78b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70492afa4dd7e3057d18341dfe6ffb5"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#ab70492afa4dd7e3057d18341dfe6ffb5">remmina_plugin_xdmcp_start_xephyr</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:ab70492afa4dd7e3057d18341dfe6ffb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7665092e175fe8af02f5e2df7d6dd632"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a7665092e175fe8af02f5e2df7d6dd632">remmina_plugin_xdmcp_tunnel_init_callback</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, gint remotedisplay, const gchar *server, gint port)</td></tr>
+<tr class="separator:a7665092e175fe8af02f5e2df7d6dd632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dade278b46f4e40fad8cebad339a2ba"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a0dade278b46f4e40fad8cebad339a2ba">remmina_plugin_xdmcp_main</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a0dade278b46f4e40fad8cebad339a2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3552e5aef4eb415e5cc0d4131323e0"><td class="memItemLeft" align="right" valign="top">static gpointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a2c3552e5aef4eb415e5cc0d4131323e0">remmina_plugin_xdmcp_main_thread</a> (gpointer data)</td></tr>
+<tr class="separator:a2c3552e5aef4eb415e5cc0d4131323e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e551a299d079ea2284cf3bb173ca26"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a25e551a299d079ea2284cf3bb173ca26">remmina_plugin_xdmcp_init</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a25e551a299d079ea2284cf3bb173ca26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7afe88899cc91a4454fce5240228b86c"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a7afe88899cc91a4454fce5240228b86c">remmina_plugin_xdmcp_open_connection</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a7afe88899cc91a4454fce5240228b86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d6630e713576f37dfedce6a1492903"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#ae5d6630e713576f37dfedce6a1492903">remmina_plugin_xdmcp_close_connection</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:ae5d6630e713576f37dfedce6a1492903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4b19300ad6acc9a23eb22f737510d2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#aed4b19300ad6acc9a23eb22f737510d2">remmina_plugin_xdmcp_send_ctrlaltdel</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:aed4b19300ad6acc9a23eb22f737510d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66eb3437f42e934e4b5405e20708d694"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a66eb3437f42e934e4b5405e20708d694">remmina_plugin_xdmcp_query_feature</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *feature)</td></tr>
+<tr class="separator:a66eb3437f42e934e4b5405e20708d694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e18171d023a93791dc7a84cd28f2f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a42e18171d023a93791dc7a84cd28f2f8">remmina_plugin_xdmcp_call_feature</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *feature)</td></tr>
+<tr class="separator:a42e18171d023a93791dc7a84cd28f2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e5020de11446dbc23f3480e313f208"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">remmina_plugin_entry</a> (<a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a> *service)</td></tr>
 <tr class="separator:a56e5020de11446dbc23f3480e313f208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3898216f03a8f3aad9e93d2f9ef6136f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dc4/plugin_8h.html#a52531fe685f868ce2bf593ed7328e8fd">RemminaProtocolPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a3898216f03a8f3aad9e93d2f9ef6136f">remmina_plugin_xdmcp</a></td></tr>
+<tr class="separator:a3898216f03a8f3aad9e93d2f9ef6136f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9493664f6bdafe3f5b593c3e5e1eacc7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a9493664f6bdafe3f5b593c3e5e1eacc7">remmina_plugin_service</a> = NULL</td></tr>
+<tr class="separator:a9493664f6bdafe3f5b593c3e5e1eacc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6c92b318e43b96efddbcaa9400c1f1"><td class="memItemLeft" align="right" valign="top">static gpointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a7d6c92b318e43b96efddbcaa9400c1f1">colordepth_list</a> []</td></tr>
+<tr class="separator:a7d6c92b318e43b96efddbcaa9400c1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105f3cbe86826bb563e0fa44e33e1c7d"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#a105f3cbe86826bb563e0fa44e33e1c7d">remmina_plugin_xdmcp_basic_settings</a> []</td></tr>
+<tr class="separator:a105f3cbe86826bb563e0fa44e33e1c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e946c3e11a699ffc35df843d04292a"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#ac9e946c3e11a699ffc35df843d04292a">remmina_plugin_xdmcp_features</a> []</td></tr>
+<tr class="separator:ac9e946c3e11a699ffc35df843d04292a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a28bb4a6b8535bd032c00f0139eee41d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28bb4a6b8535bd032c00f0139eee41d0">&#9670;&nbsp;</a></span>GET_PLUGIN_DATA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_PLUGIN_DATA</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">gp</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../da/d8c/xdmcp__plugin_8c.html#aae253598e26aefaa6dbf8b3e9454cbbe">RemminaPluginXdmcpData</a>*) g_object_get_data(G_OBJECT(gp), &quot;plugin-data&quot;);</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00046">46</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
-
-</div>
-</div>
-<a id="ad90f60b543a07606c60fe78415e44952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad90f60b543a07606c60fe78415e44952">&#9670;&nbsp;</a></span>REMMINA_PLUGIN_XDMCP_FEATURE_TOOL_SENDCTRLALTDEL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REMMINA_PLUGIN_XDMCP_FEATURE_TOOL_SENDCTRLALTDEL&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00044">44</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="aae253598e26aefaa6dbf8b3e9454cbbe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae253598e26aefaa6dbf8b3e9454cbbe">&#9670;&nbsp;</a></span>RemminaPluginXdmcpData</h2>
@@ -198,7 +178,665 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00443">443</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00412">412</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a42e18171d023a93791dc7a84cd28f2f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e18171d023a93791dc7a84cd28f2f8">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_call_feature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_xdmcp_call_feature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *&#160;</td>
+          <td class="paramname"><em>feature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00333">333</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a42e18171d023a93791dc7a84cd28f2f8_cgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a42e18171d023a93791dc7a84cd28f2f8_cgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a42e18171d023a93791dc7a84cd28f2f8_cgraph" id="da/d8c/xdmcp__plugin_8c_a42e18171d023a93791dc7a84cd28f2f8_cgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#aed4b19300ad6acc9a23eb22f737510d2" title="remmina_plugin_xdmcp\l_send_ctrlaltdel" alt="" coords="212,5,371,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae5d6630e713576f37dfedce6a1492903"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d6630e713576f37dfedce6a1492903">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_close_connection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_xdmcp_close_connection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00295">295</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a25e551a299d079ea2284cf3bb173ca26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25e551a299d079ea2284cf3bb173ca26">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_xdmcp_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00237">237</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a25e551a299d079ea2284cf3bb173ca26_cgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a25e551a299d079ea2284cf3bb173ca26_cgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a25e551a299d079ea2284cf3bb173ca26_cgraph" id="da/d8c/xdmcp__plugin_8c_a25e551a299d079ea2284cf3bb173ca26_cgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#acd32ced333bbc15aad93a20f19cf7277" title="remmina_plugin_xdmcp\l_on_plug_added" alt="" coords="236,5,395,47"/>
+<area shape="rect" id="node3" href="../../da/d8c/xdmcp__plugin_8c.html#a7acd735b6cf8c094479df760c61e78b7" title="remmina_plugin_xdmcp\l_on_plug_removed" alt="" coords="236,71,395,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0dade278b46f4e40fad8cebad339a2ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dade278b46f4e40fad8cebad339a2ba">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_xdmcp_main </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00200">200</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_cgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_cgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_cgraph" id="da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_cgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a7665092e175fe8af02f5e2df7d6dd632" title="remmina_plugin_xdmcp\l_tunnel_init_callback" alt="" coords="248,5,407,47"/>
+<area shape="rect" id="node3" href="../../da/d8c/xdmcp__plugin_8c.html#ab70492afa4dd7e3057d18341dfe6ffb5" title="remmina_plugin_xdmcp\l_start_xephyr" alt="" coords="455,35,613,76"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_icgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_icgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_icgraph" id="da/d8c/xdmcp__plugin_8c_a0dade278b46f4e40fad8cebad339a2ba_icgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a2c3552e5aef4eb415e5cc0d4131323e0" title="remmina_plugin_xdmcp\l_main_thread" alt="" coords="248,5,407,47"/>
+<area shape="rect" id="node3" href="../../da/d8c/xdmcp__plugin_8c.html#a7afe88899cc91a4454fce5240228b86c" title="remmina_plugin_xdmcp\l_open_connection" alt="" coords="455,35,613,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2c3552e5aef4eb415e5cc0d4131323e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c3552e5aef4eb415e5cc0d4131323e0">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_main_thread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gpointer remmina_plugin_xdmcp_main_thread </td>
+          <td>(</td>
+          <td class="paramtype">gpointer&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00225">225</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_cgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_cgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_cgraph" id="da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_cgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a0dade278b46f4e40fad8cebad339a2ba" title="remmina_plugin_xdmcp_main" alt="" coords="212,42,407,69"/>
+<area shape="rect" id="node3" href="../../da/d8c/xdmcp__plugin_8c.html#a7665092e175fe8af02f5e2df7d6dd632" title="remmina_plugin_xdmcp\l_tunnel_init_callback" alt="" coords="455,5,613,47"/>
+<area shape="rect" id="node4" href="../../da/d8c/xdmcp__plugin_8c.html#ab70492afa4dd7e3057d18341dfe6ffb5" title="remmina_plugin_xdmcp\l_start_xephyr" alt="" coords="661,35,820,76"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_icgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_icgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_icgraph" id="da/d8c/xdmcp__plugin_8c_a2c3552e5aef4eb415e5cc0d4131323e0_icgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a7afe88899cc91a4454fce5240228b86c" title="remmina_plugin_xdmcp\l_open_connection" alt="" coords="212,5,371,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acd32ced333bbc15aad93a20f19cf7277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd32ced333bbc15aad93a20f19cf7277">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_on_plug_added()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_xdmcp_on_plug_added </td>
+          <td>(</td>
+          <td class="paramtype">GtkSocket *&#160;</td>
+          <td class="paramname"><em>socket</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00067">67</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_acd32ced333bbc15aad93a20f19cf7277_icgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_acd32ced333bbc15aad93a20f19cf7277_icgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_acd32ced333bbc15aad93a20f19cf7277_icgraph" id="da/d8c/xdmcp__plugin_8c_acd32ced333bbc15aad93a20f19cf7277_icgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a25e551a299d079ea2284cf3bb173ca26" title="remmina_plugin_xdmcp_init" alt="" coords="212,13,395,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7acd735b6cf8c094479df760c61e78b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7acd735b6cf8c094479df760c61e78b7">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_on_plug_removed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_xdmcp_on_plug_removed </td>
+          <td>(</td>
+          <td class="paramtype">GtkSocket *&#160;</td>
+          <td class="paramname"><em>socket</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00076">76</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a7acd735b6cf8c094479df760c61e78b7_icgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a7acd735b6cf8c094479df760c61e78b7_icgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a7acd735b6cf8c094479df760c61e78b7_icgraph" id="da/d8c/xdmcp__plugin_8c_a7acd735b6cf8c094479df760c61e78b7_icgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a25e551a299d079ea2284cf3bb173ca26" title="remmina_plugin_xdmcp_init" alt="" coords="212,13,395,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7afe88899cc91a4454fce5240228b86c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7afe88899cc91a4454fce5240228b86c">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_open_connection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_xdmcp_open_connection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00256">256</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a7afe88899cc91a4454fce5240228b86c_cgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a7afe88899cc91a4454fce5240228b86c_cgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a7afe88899cc91a4454fce5240228b86c_cgraph" id="da/d8c/xdmcp__plugin_8c_a7afe88899cc91a4454fce5240228b86c_cgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a2c3552e5aef4eb415e5cc0d4131323e0" title="remmina_plugin_xdmcp\l_main_thread" alt="" coords="212,5,371,47"/>
+<area shape="rect" id="node3" href="../../da/d8c/xdmcp__plugin_8c.html#a0dade278b46f4e40fad8cebad339a2ba" title="remmina_plugin_xdmcp_main" alt="" coords="419,42,613,69"/>
+<area shape="rect" id="node4" href="../../da/d8c/xdmcp__plugin_8c.html#a7665092e175fe8af02f5e2df7d6dd632" title="remmina_plugin_xdmcp\l_tunnel_init_callback" alt="" coords="661,5,820,47"/>
+<area shape="rect" id="node5" href="../../da/d8c/xdmcp__plugin_8c.html#ab70492afa4dd7e3057d18341dfe6ffb5" title="remmina_plugin_xdmcp\l_start_xephyr" alt="" coords="868,35,1027,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a66eb3437f42e934e4b5405e20708d694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66eb3437f42e934e4b5405e20708d694">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_query_feature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_xdmcp_query_feature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *&#160;</td>
+          <td class="paramname"><em>feature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00327">327</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="aed4b19300ad6acc9a23eb22f737510d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4b19300ad6acc9a23eb22f737510d2">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_send_ctrlaltdel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_xdmcp_send_ctrlaltdel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00317">317</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_aed4b19300ad6acc9a23eb22f737510d2_icgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_aed4b19300ad6acc9a23eb22f737510d2_icgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_aed4b19300ad6acc9a23eb22f737510d2_icgraph" id="da/d8c/xdmcp__plugin_8c_aed4b19300ad6acc9a23eb22f737510d2_icgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a42e18171d023a93791dc7a84cd28f2f8" title="remmina_plugin_xdmcp\l_call_feature" alt="" coords="212,5,371,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab70492afa4dd7e3057d18341dfe6ffb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70492afa4dd7e3057d18341dfe6ffb5">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_start_xephyr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_xdmcp_start_xephyr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00082">82</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_ab70492afa4dd7e3057d18341dfe6ffb5_icgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_ab70492afa4dd7e3057d18341dfe6ffb5_icgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_ab70492afa4dd7e3057d18341dfe6ffb5_icgraph" id="da/d8c/xdmcp__plugin_8c_ab70492afa4dd7e3057d18341dfe6ffb5_icgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a7665092e175fe8af02f5e2df7d6dd632" title="remmina_plugin_xdmcp\l_tunnel_init_callback" alt="" coords="212,5,371,47"/>
+<area shape="rect" id="node3" href="../../da/d8c/xdmcp__plugin_8c.html#a0dade278b46f4e40fad8cebad339a2ba" title="remmina_plugin_xdmcp_main" alt="" coords="419,42,613,69"/>
+<area shape="rect" id="node4" href="../../da/d8c/xdmcp__plugin_8c.html#a2c3552e5aef4eb415e5cc0d4131323e0" title="remmina_plugin_xdmcp\l_main_thread" alt="" coords="661,5,820,47"/>
+<area shape="rect" id="node5" href="../../da/d8c/xdmcp__plugin_8c.html#a7afe88899cc91a4454fce5240228b86c" title="remmina_plugin_xdmcp\l_open_connection" alt="" coords="868,35,1027,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7665092e175fe8af02f5e2df7d6dd632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7665092e175fe8af02f5e2df7d6dd632">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_tunnel_init_callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_xdmcp_tunnel_init_callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gint&#160;</td>
+          <td class="paramname"><em>remotedisplay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>server</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gint&#160;</td>
+          <td class="paramname"><em>port</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00175">175</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_cgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_cgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_cgraph" id="da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_cgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#ab70492afa4dd7e3057d18341dfe6ffb5" title="remmina_plugin_xdmcp\l_start_xephyr" alt="" coords="212,5,371,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_icgraph.png" border="0" usemap="#da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_icgraph" alt=""/></div>
+<map name="da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_icgraph" id="da/d8c/xdmcp__plugin_8c_a7665092e175fe8af02f5e2df7d6dd632_icgraph">
+<area shape="rect" id="node2" href="../../da/d8c/xdmcp__plugin_8c.html#a0dade278b46f4e40fad8cebad339a2ba" title="remmina_plugin_xdmcp_main" alt="" coords="212,42,407,69"/>
+<area shape="rect" id="node3" href="../../da/d8c/xdmcp__plugin_8c.html#a2c3552e5aef4eb415e5cc0d4131323e0" title="remmina_plugin_xdmcp\l_main_thread" alt="" coords="455,5,613,47"/>
+<area shape="rect" id="node4" href="../../da/d8c/xdmcp__plugin_8c.html#a7afe88899cc91a4454fce5240228b86c" title="remmina_plugin_xdmcp\l_open_connection" alt="" coords="661,35,820,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a7d6c92b318e43b96efddbcaa9400c1f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6c92b318e43b96efddbcaa9400c1f1">&#9670;&nbsp;</a></span>colordepth_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gpointer colordepth_list[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    <span class="stringliteral">&quot;0&quot;</span>,  <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Default&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;2&quot;</span>,  <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Grayscale&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;8&quot;</span>,  <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;256 colors&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;16&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;High color (16 bit)&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;24&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;True color (24 bit)&quot;</span>),</div><div class="line">    NULL</div><div class="line">}</div><div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00349">349</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a9493664f6bdafe3f5b593c3e5e1eacc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9493664f6bdafe3f5b593c3e5e1eacc7">&#9670;&nbsp;</a></span>remmina_plugin_service</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a>* remmina_plugin_service = NULL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00064">64</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a3898216f03a8f3aad9e93d2f9ef6136f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3898216f03a8f3aad9e93d2f9ef6136f">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/dc4/plugin_8h.html#a52531fe685f868ce2bf593ed7328e8fd">RemminaProtocolPlugin</a> remmina_plugin_xdmcp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    <a class="code" href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24">REMMINA_PLUGIN_TYPE_PROTOCOL</a>,                   </div><div class="line">    <span class="stringliteral">&quot;XDMCP&quot;</span>,                                        </div><div class="line">    <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;XDMCP - X Remote Session&quot;</span>),                 </div><div class="line">    GETTEXT_PACKAGE,                                </div><div class="line">    VERSION,                                        </div><div class="line">    <span class="stringliteral">&quot;remmina-xdmcp&quot;</span>,                                </div><div class="line">    <span class="stringliteral">&quot;remmina-xdmcp-ssh&quot;</span>,                            </div><div class="line">    <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#a105f3cbe86826bb563e0fa44e33e1c7d">remmina_plugin_xdmcp_basic_settings</a>,            </div><div class="line">    NULL,                                           </div><div class="line">    <a class="code" href="../../d9/d49/types_8h.html#a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a">REMMINA_PROTOCOL_SSH_SETTING_TUNNEL</a>,            </div><div class="line">    <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#ac9e946c3e11a699ffc35df843d04292a">remmina_plugin_xdmcp_features</a>,                  </div><div class="line">    <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#a25e551a299d079ea2284cf3bb173ca26">remmina_plugin_xdmcp_init</a>,                      </div><div class="line">    <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#a7afe88899cc91a4454fce5240228b86c">remmina_plugin_xdmcp_open_connection</a>,           </div><div class="line">    <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#ae5d6630e713576f37dfedce6a1492903">remmina_plugin_xdmcp_close_connection</a>,          </div><div class="line">    <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#a66eb3437f42e934e4b5405e20708d694">remmina_plugin_xdmcp_query_feature</a>,             </div><div class="line">    <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#a42e18171d023a93791dc7a84cd28f2f8">remmina_plugin_xdmcp_call_feature</a>,              </div><div class="line">    NULL,                                           </div><div class="line">    NULL                                            </div><div class="line">}</div><div class="ttc" id="plugin_8h_html_aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24"><div class="ttname"><a href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24">REMMINA_PLUGIN_TYPE_PROTOCOL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc4/plugin_8h_source.html#l00045">plugin.h:45</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_ac9e946c3e11a699ffc35df843d04292a"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#ac9e946c3e11a699ffc35df843d04292a">remmina_plugin_xdmcp_features</a></div><div class="ttdeci">static const RemminaProtocolFeature remmina_plugin_xdmcp_features[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00382">xdmcp_plugin.c:382</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_a66eb3437f42e934e4b5405e20708d694"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#a66eb3437f42e934e4b5405e20708d694">remmina_plugin_xdmcp_query_feature</a></div><div class="ttdeci">static gboolean remmina_plugin_xdmcp_query_feature(RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00327">xdmcp_plugin.c:327</a></div></div>
+<div class="ttc" id="types_8h_html_a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a"><div class="ttname"><a href="../../d9/d49/types_8h.html#a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a">REMMINA_PROTOCOL_SSH_SETTING_TUNNEL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00105">types.h:105</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_a42e18171d023a93791dc7a84cd28f2f8"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#a42e18171d023a93791dc7a84cd28f2f8">remmina_plugin_xdmcp_call_feature</a></div><div class="ttdeci">static void remmina_plugin_xdmcp_call_feature(RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00333">xdmcp_plugin.c:333</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_a7afe88899cc91a4454fce5240228b86c"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#a7afe88899cc91a4454fce5240228b86c">remmina_plugin_xdmcp_open_connection</a></div><div class="ttdeci">static gboolean remmina_plugin_xdmcp_open_connection(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00256">xdmcp_plugin.c:256</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_ae5d6630e713576f37dfedce6a1492903"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#ae5d6630e713576f37dfedce6a1492903">remmina_plugin_xdmcp_close_connection</a></div><div class="ttdeci">static gboolean remmina_plugin_xdmcp_close_connection(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00295">xdmcp_plugin.c:295</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_a105f3cbe86826bb563e0fa44e33e1c7d"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#a105f3cbe86826bb563e0fa44e33e1c7d">remmina_plugin_xdmcp_basic_settings</a></div><div class="ttdeci">static const RemminaProtocolSetting remmina_plugin_xdmcp_basic_settings[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00368">xdmcp_plugin.c:368</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_a25e551a299d079ea2284cf3bb173ca26"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#a25e551a299d079ea2284cf3bb173ca26">remmina_plugin_xdmcp_init</a></div><div class="ttdeci">static void remmina_plugin_xdmcp_init(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00237">xdmcp_plugin.c:237</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00049">49</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a105f3cbe86826bb563e0fa44e33e1c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a105f3cbe86826bb563e0fa44e33e1c7d">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_basic_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a> remmina_plugin_xdmcp_basic_settings[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92">REMMINA_PROTOCOL_SETTING_TYPE_SERVER</a>,     NULL,        NULL,                   FALSE, NULL,        NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350aa045109309280606ff11a9de1862e2ba">REMMINA_PROTOCOL_SETTING_TYPE_RESOLUTION</a>, NULL,        NULL,                   FALSE, NULL,        NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d">REMMINA_PROTOCOL_SETTING_TYPE_SELECT</a>,     <span class="stringliteral">&quot;colordepth&quot;</span>,    <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Color depth&quot;</span>),              FALSE, <a class="code" href="../../da/d8c/xdmcp__plugin_8c.html#a7d6c92b318e43b96efddbcaa9400c1f1">colordepth_list</a>, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296">REMMINA_PROTOCOL_SETTING_TYPE_TEXT</a>,       <span class="stringliteral">&quot;exec&quot;</span>,      <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Startup program&quot;</span>),          FALSE, NULL,        NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a>,      <span class="stringliteral">&quot;showcursor&quot;</span>,    <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Use local cursor&quot;</span>),             FALSE, NULL,        NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a>,      <span class="stringliteral">&quot;once&quot;</span>,      <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Disconnect after one session&quot;</span>),     FALSE, NULL,        NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a>,      <span class="stringliteral">&quot;listen_on_tcp&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Listening connection on protocol TCP&quot;</span>), FALSE, NULL,        NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a>,        NULL,        NULL,                   FALSE, NULL,        NULL }</div><div class="line">}</div><div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92">REMMINA_PROTOCOL_SETTING_TYPE_SERVER</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00081">types.h:81</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00089">types.h:89</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296">REMMINA_PROTOCOL_SETTING_TYPE_TEXT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00086">types.h:86</a></div></div>
+<div class="ttc" id="xdmcp__plugin_8c_html_a7d6c92b318e43b96efddbcaa9400c1f1"><div class="ttname"><a href="../../da/d8c/xdmcp__plugin_8c.html#a7d6c92b318e43b96efddbcaa9400c1f1">colordepth_list</a></div><div class="ttdeci">static gpointer colordepth_list[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8c/xdmcp__plugin_8c_source.html#l00349">xdmcp_plugin.c:349</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d">REMMINA_PROTOCOL_SETTING_TYPE_SELECT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00087">types.h:87</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350aa045109309280606ff11a9de1862e2ba"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350aa045109309280606ff11a9de1862e2ba">REMMINA_PROTOCOL_SETTING_TYPE_RESOLUTION</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00083">types.h:83</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00079">types.h:79</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00368">368</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="ac9e946c3e11a699ffc35df843d04292a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e946c3e11a699ffc35df843d04292a">&#9670;&nbsp;</a></span>remmina_plugin_xdmcp_features</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> remmina_plugin_xdmcp_features[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a645d9a32b55325b3672e265a64d0a507">REMMINA_PROTOCOL_FEATURE_TYPE_TOOL</a>, REMMINA_PLUGIN_XDMCP_FEATURE_TOOL_SENDCTRLALTDEL, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Send Ctrl+Alt+Delete&quot;</span>), NULL, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4">REMMINA_PROTOCOL_FEATURE_TYPE_END</a>,  0,                        NULL,               NULL, NULL }</div><div class="line">}</div><div class="ttc" id="types_8h_html_a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4"><div class="ttname"><a href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4">REMMINA_PROTOCOL_FEATURE_TYPE_END</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00044">types.h:44</a></div></div>
+<div class="ttc" id="types_8h_html_a77ae46c4fd739dcd8e819fe9cdae27c5a645d9a32b55325b3672e265a64d0a507"><div class="ttname"><a href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a645d9a32b55325b3672e265a64d0a507">REMMINA_PROTOCOL_FEATURE_TYPE_TOOL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00046">types.h:46</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html#l00382">382</a> of file <a class="el" href="../../da/d8c/xdmcp__plugin_8c_source.html">xdmcp_plugin.c</a>.</p>
 
 </div>
 </div>

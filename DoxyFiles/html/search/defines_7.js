@@ -10,6 +10,5 @@ var searchData=
   ['have_5fsys_5fsocket_5fh',['HAVE_SYS_SOCKET_H',['../db/d16/config_8h.html#afb96c2bc08ebf33cca68c714f624a58d',1,'config.h']]],
   ['have_5fsys_5fun_5fh',['HAVE_SYS_UN_H',['../db/d16/config_8h.html#a95093913a3bf813693d2988f65edd6b1',1,'config.h']]],
   ['have_5ftermios_5fh',['HAVE_TERMIOS_H',['../db/d16/config_8h.html#a55e62c01f41f9c5850dfce5f89a6bb98',1,'config.h']]],
-  ['have_5funistd_5fh',['HAVE_UNISTD_H',['../db/d16/config_8h.html#a219b06937831d0da94d801ab13987639',1,'config.h']]],
-  ['hex',['HEX',['../d1/d3a/_c_make_c_compiler_id_8c.html#a46d5d95daa1bef867bd0179594310ed5',1,'CMakeCCompilerId.c']]]
+  ['have_5funistd_5fh',['HAVE_UNISTD_H',['../db/d16/config_8h.html#a219b06937831d0da94d801ab13987639',1,'config.h']]]
 ];

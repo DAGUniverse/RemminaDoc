@@ -1,0 +1,11 @@
+<map id="remmina_main_destroy" name="remmina_main_destroy">
+<area shape="rect" id="node2" href="$d9/d10/remmina__main_8c.html#a009f32092bd1d8dcd8e783d25416f3df" title="remmina_main_save_before\l_destroy" alt="" coords="211,82,396,123"/>
+<area shape="rect" id="node5" href="$d8/d4b/remmina__string__array_8c.html#a8ab78913d299df665a408a8a5ec51bbe" title="remmina_string_array_free" alt="" coords="712,148,888,175"/>
+<area shape="rect" id="node10" href="$d8/d4b/remmina__string__array_8c.html#a96f7bec7ce32de6cf5deadcd5aec51ec" title="remmina_string_array\l_to_string" alt="" coords="230,225,377,266"/>
+<area shape="rect" id="node3" href="$d9/d10/remmina__main_8c.html#ac448c53d7a2066763d2b747d269f60ee" title="remmina_main_save_size" alt="" coords="460,5,633,32"/>
+<area shape="rect" id="node4" href="$d9/d10/remmina__main_8c.html#ad8744dc59ba8072ffdf557b6c94e9f40" title="remmina_main_save_expanded\l_group" alt="" coords="444,57,649,98"/>
+<area shape="rect" id="node9" href="$d2/d9b/remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983" title="remmina_pref_save" alt="" coords="479,123,615,149"/>
+<area shape="rect" id="node6" href="$d8/d4b/remmina__string__array_8c.html#aff90e964c6541b1af02adf7ea39e6e02" title="remmina_string_array_new" alt="" coords="711,19,889,45"/>
+<area shape="rect" id="node7" href="$d9/d10/remmina__main_8c.html#a51880fc109db6457a5d0fc543c2deaf2" title="remmina_main_save_expanded\l_group_func" alt="" coords="697,70,903,111"/>
+<area shape="rect" id="node8" href="$d8/d4b/remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0" title="remmina_string_array_add" alt="" coords="951,77,1125,104"/>
+</map>

@@ -2,14 +2,6 @@ var remmina__protocol__widget_8h =
 [
     [ "_RemminaProtocolWidget", "de/d76/struct___remmina_protocol_widget.html", "de/d76/struct___remmina_protocol_widget" ],
     [ "_RemminaProtocolWidgetClass", "db/d52/struct___remmina_protocol_widget_class.html", "db/d52/struct___remmina_protocol_widget_class" ],
-    [ "REMMINA_IS_PROTOCOL_WIDGET", "d4/d6f/remmina__protocol__widget_8h.html#ad3d6697954c1467b06516c8ab75cc559", null ],
-    [ "REMMINA_IS_PROTOCOL_WIDGET_CLASS", "d4/d6f/remmina__protocol__widget_8h.html#a2cabc7eef45a2ffb2ebbc57c55399a96", null ],
-    [ "REMMINA_PROTOCOL_FEATURE_TOOL_SFTP", "d4/d6f/remmina__protocol__widget_8h.html#abf323b41dfc60367ffceae5197c9d2bb", null ],
-    [ "REMMINA_PROTOCOL_FEATURE_TOOL_SSH", "d4/d6f/remmina__protocol__widget_8h.html#a352b0a2f57c2c2350cfd6c19204e25ef", null ],
-    [ "REMMINA_PROTOCOL_WIDGET", "d4/d6f/remmina__protocol__widget_8h.html#af9b6c5b8e73f582d09629f1b45cbfb98", null ],
-    [ "REMMINA_PROTOCOL_WIDGET_CLASS", "d4/d6f/remmina__protocol__widget_8h.html#a7c4de30d8eb0e252bd680b77c029a2cc", null ],
-    [ "REMMINA_PROTOCOL_WIDGET_GET_CLASS", "d4/d6f/remmina__protocol__widget_8h.html#a946c33096b334ee8272c4a00c6498ec8", null ],
-    [ "REMMINA_TYPE_PROTOCOL_WIDGET", "d4/d6f/remmina__protocol__widget_8h.html#a64e465a16e56b86e1861bb6cd93b5e1b", null ],
     [ "RemminaHostkeyFunc", "d4/d6f/remmina__protocol__widget_8h.html#a741639f1800defdb42f235a8816a495b", null ],
     [ "RemminaProtocolWidgetPriv", "d4/d6f/remmina__protocol__widget_8h.html#af0c9f34cf823d03994aacc083d832c19", null ],
     [ "remmina_protocol_widget_call_feature_by_ref", "d4/d6f/remmina__protocol__widget_8h.html#a605b69a9aa4393024369cc5070488692", null ],
@@ -28,6 +20,8 @@ var remmina__protocol__widget_8h =
     [ "remmina_protocol_widget_get_file", "d4/d6f/remmina__protocol__widget_8h.html#a2506e80d482c34532d0e534856452069", null ],
     [ "remmina_protocol_widget_get_height", "d4/d6f/remmina__protocol__widget_8h.html#ae609b351fff17c235251b0ba7c480da5", null ],
     [ "remmina_protocol_widget_get_init_dialog", "d4/d6f/remmina__protocol__widget_8h.html#a3d54e2fd56ec80018723db1ddc444635", null ],
+    [ "remmina_protocol_widget_get_profile_remote_height", "d4/d6f/remmina__protocol__widget_8h.html#ad8df6a87e19b7751b26820ef4a668de9", null ],
+    [ "remmina_protocol_widget_get_profile_remote_width", "d4/d6f/remmina__protocol__widget_8h.html#ab4c6435ef92e34a94270069ce1861907", null ],
     [ "remmina_protocol_widget_get_type", "d4/d6f/remmina__protocol__widget_8h.html#aca61c93aaf5f3cbc2046c8267bb84a2e", null ],
     [ "remmina_protocol_widget_get_width", "d4/d6f/remmina__protocol__widget_8h.html#aaf355ea7103fc57a4cbc7b815cde2995", null ],
     [ "remmina_protocol_widget_grab_focus", "d4/d6f/remmina__protocol__widget_8h.html#a290eb68f0e86de1b7b82e2d98a1494d1", null ],
@@ -69,5 +63,6 @@ var remmina__protocol__widget_8h =
     [ "remmina_protocol_widget_ssh_exec", "d4/d6f/remmina__protocol__widget_8h.html#a12eddf3428a53201ee0a2ec422d2fa4a", null ],
     [ "remmina_protocol_widget_start_direct_tunnel", "d4/d6f/remmina__protocol__widget_8h.html#a9d55210413d6a313478f81cf76ecf1b7", null ],
     [ "remmina_protocol_widget_start_reverse_tunnel", "d4/d6f/remmina__protocol__widget_8h.html#aa6d9f2f558fcd9e7fe58eefcde1c3c5c", null ],
-    [ "remmina_protocol_widget_start_xport_tunnel", "d4/d6f/remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4", null ]
+    [ "remmina_protocol_widget_start_xport_tunnel", "d4/d6f/remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4", null ],
+    [ "remmina_protocol_widget_update_remote_resolution", "d4/d6f/remmina__protocol__widget_8h.html#a75c70486dec7682aeccaab235e65f6a1", null ]
 ];

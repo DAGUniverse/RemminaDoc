@@ -1,0 +1,10 @@
+<map id="remmina_ssh_auth_gui" name="remmina_ssh_auth_gui">
+<area shape="rect" id="node2" href="$d6/d0f/remmina__protocol__widget_8c.html#a8c7b715825ff576b24d2878976d20f20" title="remmina_protocol_widget\l_init_tunnel" alt="" coords="209,104,380,145"/>
+<area shape="rect" id="node6" href="$df/d41/remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9" title="remmina_plugin_sftp\l_main_thread" alt="" coords="223,201,366,243"/>
+<area shape="rect" id="node8" href="$d4/d61/remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee" title="Remmina Protocol plugin main function. " alt="" coords="224,267,365,308"/>
+<area shape="rect" id="node3" href="$d4/d6f/remmina__protocol__widget_8h.html#a9d55210413d6a313478f81cf76ecf1b7" title="Start an SSH tunnel if possible and return the host:port string. " alt="" coords="428,5,599,47"/>
+<area shape="rect" id="node4" href="$d4/d6f/remmina__protocol__widget_8h.html#aa6d9f2f558fcd9e7fe58eefcde1c3c5c" title="remmina_protocol_widget\l_start_reverse_tunnel" alt="" coords="428,71,599,112"/>
+<area shape="rect" id="node5" href="$d4/d6f/remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4" title="remmina_protocol_widget\l_start_xport_tunnel" alt="" coords="428,136,599,177"/>
+<area shape="rect" id="node7" href="$df/d41/remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4" title="remmina_plugin_sftp\l_open_connection" alt="" coords="442,201,585,243"/>
+<area shape="rect" id="node9" href="$d4/d61/remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f" title="Initialize the the main window properties and the pthread. " alt="" coords="443,267,584,308"/>
+</map>

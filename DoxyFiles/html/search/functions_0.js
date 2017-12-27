@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['g_5fdefine_5ftype_5fwith_5fcode',['G_DEFINE_TYPE_WITH_CODE',['../d4/d00/telepathy__handler_8c.html#a6697621c25bec4b85a7e4c8691a72ef8',1,'telepathy_handler.c']]]
+  ['_5fgpg_5ferror_5fto_5ferrno',['_gpg_error_to_errno',['../d5/d7a/remmina_8c.html#a1ecec6e37469e2e927a612747269587c',1,'remmina.c']]]
 ];

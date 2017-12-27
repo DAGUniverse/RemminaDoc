@@ -2,4 +2,8 @@
 <area shape="rect" id="node2" href="$d5/d83/remmina__file__manager_8c.html#aa65bc30beb59d607ba430d966e7e27f5" title="remmina_file_get_datadir" alt="" coords="207,5,373,32"/>
 <area shape="rect" id="node3" href="$d5/d3a/remmina__applet__menu__item_8c.html#a8518d5abbcb0cf2ff0923e41d55e1a96" title="remmina_applet_menu\l_item_new" alt="" coords="213,57,367,98"/>
 <area shape="rect" id="node4" href="$d2/d4c/remmina__applet__menu_8c.html#a261d344be12cd270d8b81a26e1ad9d23" title="remmina_applet_menu\l_add_item" alt="" coords="213,122,367,163"/>
+<area shape="rect" id="node5" href="$d2/d4c/remmina__applet__menu_8c.html#a9103d33954ab8afdfe3e3892db7caabb" title="remmina_applet_menu\l_add_group" alt="" coords="423,57,576,98"/>
+<area shape="rect" id="node6" href="$d2/d4c/remmina__applet__menu_8c.html#a00ccc046ebf9862d7030dac635a86dc6" title="remmina_applet_menu\l_increase_group_count" alt="" coords="421,122,577,163"/>
+<area shape="rect" id="node7" href="$d2/d4c/remmina__applet__menu_8c.html#abb924051b4e37930bed6aed12b653751" title="remmina_applet_menu\l_register_item" alt="" coords="423,187,576,229"/>
+<area shape="rect" id="node8" href="$d2/d4c/remmina__applet__menu_8c.html#ae92f8313a24f778e5ef39fdfb92a73f2" title="remmina_applet_menu\l_on_item_activate" alt="" coords="625,187,779,229"/>
 </map>

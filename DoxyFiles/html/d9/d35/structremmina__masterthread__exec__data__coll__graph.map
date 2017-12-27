@@ -1,11 +1,15 @@
 <map id="remmina_masterthread_exec_data" name="remmina_masterthread_exec_data">
-<area shape="rect" id="node2" href="$de/d76/struct___remmina_protocol_widget.html" title="_RemminaProtocolWidget" alt="" coords="513,109,688,136"/>
-<area shape="rect" id="node3" href="$de/da8/struct___remmina_protocol_widget_priv.html" title="_RemminaProtocolWidgetPriv" alt="" coords="626,221,823,247"/>
-<area shape="rect" id="node4" href="$dc/de3/struct___remmina_protocol_feature.html" title="_RemminaProtocolFeature" alt="" coords="659,5,836,32"/>
-<area shape="rect" id="node5" href="$d0/d02/struct___remmina_protocol_plugin.html" title="_RemminaProtocolPlugin" alt="" coords="824,109,993,136"/>
-<area shape="rect" id="node6" href="$d5/db7/struct___remmina_protocol_setting.html" title="_RemminaProtocolSetting" alt="" coords="860,5,1035,32"/>
-<area shape="rect" id="node7" href="$d0/d27/struct___remmina_f_t_p_client.html" title="_RemminaFTPClient" alt="" coords="17,109,161,136"/>
-<area shape="rect" id="node8" href="$df/db3/struct___remmina_f_t_p_client_priv.html" title="_RemminaFTPClientPriv" alt="" coords="5,5,172,32"/>
-<area shape="rect" id="node9" href="$de/d0b/struct___remmina_init_dialog.html" title="_RemminaInitDialog" alt="" coords="185,109,325,136"/>
-<area shape="rect" id="node10" href="$d1/d9e/struct___remmina_f_t_p_task.html" title="_RemminaFTPTask" alt="" coords="350,109,489,136"/>
+<area shape="rect" id="node2" href="$d5/d92/struct___remmina_s_f_t_p_client.html" title="_RemminaSFTPClient" alt="" coords="1024,247,1177,273"/>
+<area shape="rect" id="node3" href="$d6/d5a/struct___remmina_s_f_t_p.html" title="_RemminaSFTP" alt="" coords="543,265,661,292"/>
+<area shape="rect" id="node4" href="$dd/dc0/struct___remmina_s_s_h.html" title="_RemminaSSH" alt="" coords="42,257,155,284"/>
+<area shape="rect" id="node8" href="$de/de4/struct___remmina_s_s_h_tunnel.html" title="_RemminaSSHTunnel" alt="" coords="358,227,510,253"/>
+<area shape="rect" id="node5" href="$d0/d27/struct___remmina_f_t_p_client.html" title="_RemminaFTPClient" alt="" coords="712,289,856,316"/>
+<area shape="rect" id="node6" href="$de/d76/struct___remmina_protocol_widget.html" title="_RemminaProtocolWidget" alt="" coords="1013,153,1188,180"/>
+<area shape="rect" id="node7" href="$de/da8/struct___remmina_protocol_widget_priv.html" title="_RemminaProtocolWidgetPriv" alt="" coords="685,108,883,135"/>
+<area shape="rect" id="node9" href="$db/d4a/struct___remmina_s_s_h_tunnel_buffer.html" title="_RemminaSSHTunnelBuffer" alt="" coords="5,187,192,213"/>
+<area shape="rect" id="node10" href="$dc/de3/struct___remmina_protocol_feature.html" title="_RemminaProtocolFeature" alt="" coords="10,77,187,104"/>
+<area shape="rect" id="node11" href="$d0/d02/struct___remmina_protocol_plugin.html" title="_RemminaProtocolPlugin" alt="" coords="349,45,519,72"/>
+<area shape="rect" id="node12" href="$d5/db7/struct___remmina_protocol_setting.html" title="_RemminaProtocolSetting" alt="" coords="11,8,186,35"/>
+<area shape="rect" id="node13" href="$de/d0b/struct___remmina_init_dialog.html" title="_RemminaInitDialog" alt="" coords="1031,360,1171,387"/>
+<area shape="rect" id="node14" href="$d1/d9e/struct___remmina_f_t_p_task.html" title="_RemminaFTPTask" alt="" coords="1031,415,1170,441"/>
 </map>

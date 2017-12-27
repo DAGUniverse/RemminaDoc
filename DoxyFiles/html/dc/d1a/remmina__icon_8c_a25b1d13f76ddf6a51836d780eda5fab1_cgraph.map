@@ -1,3 +1,10 @@
 <map id="remmina_icon_destroy" name="remmina_icon_destroy">
-<area shape="rect" id="node2" href="$de/d58/remmina__avahi_8c.html#a2710b09d09507f1c91ba8a2bd01b0436" title="remmina_avahi_free" alt="" coords="207,5,345,32"/>
+<area shape="rect" id="node2" href="$de/d58/remmina__avahi_8c.html#a2710b09d09507f1c91ba8a2bd01b0436" title="remmina_avahi_free" alt="" coords="207,56,345,83"/>
+<area shape="rect" id="node3" href="$de/d58/remmina__avahi_8c.html#a74b9962d6ef442e9c0a84293e2eaed30" title="remmina_avahi_stop" alt="" coords="393,5,536,32"/>
+<area shape="rect" id="node4" href="$de/d58/remmina__avahi_8c.html#a43319a5eff255c9b41dc8848cea6185f" title="remmina_avahi_new" alt="" coords="394,56,535,83"/>
+<area shape="rect" id="node5" href="$de/d58/remmina__avahi_8c.html#a1ec851b22607dd1171ecdd5cca735b71" title="remmina_avahi_start" alt="" coords="393,107,536,133"/>
+<area shape="rect" id="node6" href="$de/d58/remmina__avahi_8c.html#a06890e127f3d58d93e6ba31051c816d7" title="remmina_avahi_client\l_callback" alt="" coords="589,34,737,75"/>
+<area shape="rect" id="node7" href="$de/d58/remmina__avahi_8c.html#a1275ffa50fdda727520512496ef6f80d" title="remmina_avahi_browse\l_callback" alt="" coords="584,99,743,141"/>
+<area shape="rect" id="node9" href="$de/d58/remmina__avahi_8c.html#ab7c9f88b990e204955c7e02f6fee17c9" title="remmina_avahi_iterate" alt="" coords="587,165,740,192"/>
+<area shape="rect" id="node8" href="$de/d58/remmina__avahi_8c.html#afc3091cc602d3fa0670405c6c17125de" title="remmina_avahi_resolve\l_callback" alt="" coords="791,99,949,141"/>
 </map>

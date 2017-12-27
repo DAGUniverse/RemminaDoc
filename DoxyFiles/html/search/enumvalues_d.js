@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['unlock_5fdynres_5fsignal',['UNLOCK_DYNRES_SIGNAL',['../d6/d0f/remmina__protocol__widget_8c.html#a458e651af6690959efa2afb96be7d609ab1722295998da783713aad6581e9bc67',1,'remmina_protocol_widget.c']]],
-  ['update_5falign_5fsignal',['UPDATE_ALIGN_SIGNAL',['../d6/d0f/remmina__protocol__widget_8c.html#a458e651af6690959efa2afb96be7d609a8adf289b316f14d79086828c9f0733c1',1,'remmina_protocol_widget.c']]]
+  ['viewport_5ffullscreen_5fmode',['VIEWPORT_FULLSCREEN_MODE',['../d3/d05/remmina__pref_8h.html#a0944a4353780132eeab7b06e3e42291da61339886524adf33eaf7b5df6dd57955',1,'remmina_pref.h']]]
 ];

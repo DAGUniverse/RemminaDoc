@@ -1,0 +1,6 @@
+<map id="remmina_nx_session_bye" name="remmina_nx_session_bye">
+<area shape="rect" id="node2" href="$db/dd7/nx__session_8c.html#a663b5b339b919527db0c7467123c7f62" title="remmina_nx_session\l_send_command" alt="" coords="227,5,372,47"/>
+<area shape="rect" id="node3" href="$db/dd7/nx__session_8c.html#a880c07dbd498746d06490063159baa4c" title="remmina_nx_session\l_get_response" alt="" coords="227,71,372,112"/>
+<area shape="rect" id="node4" href="$db/dd7/nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc" title="remmina_nx_session\l_set_error" alt="" coords="422,37,567,79"/>
+<area shape="rect" id="node5" href="$db/dd7/nx__session_8c.html#a68bff7bd24db82a337fc00e42942d1c6" title="remmina_nx_session\l_set_application_error" alt="" coords="420,103,569,144"/>
+</map>

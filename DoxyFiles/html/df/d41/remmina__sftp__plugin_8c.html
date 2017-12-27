@@ -83,31 +83,475 @@ $(document).ready(function(){initNavTree('df/d41/remmina__sftp__plugin_8c.html',
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">remmina_sftp_plugin.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d16/config_8h_source.html">config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d66/remmina__trace__calls_8h_source.html">remmina/remmina_trace_calls.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for remmina_sftp_plugin.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d8/d17/remmina__sftp__plugin_8c__incl.png" border="0" usemap="#remmina__sftp__plugin_8c" alt=""/></div>
-<map name="remmina__sftp__plugin_8c" id="remmina__sftp__plugin_8c">
-<area shape="rect" id="node2" href="../../db/d16/config_8h.html" title="config.h" alt="" coords="5,87,73,114"/>
-<area shape="rect" id="node3" href="../../de/d66/remmina__trace__calls_8h.html" title="remmina/remmina_trace\l_calls.h" alt="" coords="98,80,261,121"/>
-</map>
-</div>
-</div>
+
 <p><a href="../../df/d41/remmina__sftp__plugin_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddd/struct___remmina_plugin_sftp_data.html">_RemminaPluginSftpData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a74773791c4dac6cfda77f16a905699e2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d9/ddd/struct___remmina_plugin_sftp_data.html">_RemminaPluginSftpData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a74773791c4dac6cfda77f16a905699e2">RemminaPluginSftpData</a></td></tr>
+<tr class="separator:a74773791c4dac6cfda77f16a905699e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab524c406d78b2e32a339884fbdae56a9"><td class="memItemLeft" align="right" valign="top">static gpointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9">remmina_plugin_sftp_main_thread</a> (gpointer data)</td></tr>
+<tr class="separator:ab524c406d78b2e32a339884fbdae56a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed4b9ee1509eb888b9d767b89d9fdb6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#abed4b9ee1509eb888b9d767b89d9fdb6">remmina_plugin_sftp_client_on_realize</a> (GtkWidget *widget, <a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:abed4b9ee1509eb888b9d767b89d9fdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a2916593de087ed150cd9e00e4b543"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#aa3a2916593de087ed150cd9e00e4b543">remmina_plugin_sftp_init</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:aa3a2916593de087ed150cd9e00e4b543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0553d8f4834a1865e3640ec4180e63c4"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4">remmina_plugin_sftp_open_connection</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a0553d8f4834a1865e3640ec4180e63c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc468c14d98ace55509ad2b8fb502e3a"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#acc468c14d98ace55509ad2b8fb502e3a">remmina_plugin_sftp_close_connection</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:acc468c14d98ace55509ad2b8fb502e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd7099f5655a134c598ef95564254323"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#abd7099f5655a134c598ef95564254323">remmina_plugin_sftp_query_feature</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *feature)</td></tr>
+<tr class="separator:abd7099f5655a134c598ef95564254323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d16ecc8e6e653a678e7f93b033e5863"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a8d16ecc8e6e653a678e7f93b033e5863">remmina_plugin_sftp_call_feature</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *feature)</td></tr>
+<tr class="separator:a8d16ecc8e6e653a678e7f93b033e5863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14a447ab8a10b109967d92c8d2db0ff9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a14a447ab8a10b109967d92c8d2db0ff9">remmina_sftp_plugin_register</a> (void)</td></tr>
 <tr class="separator:a14a447ab8a10b109967d92c8d2db0ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9493664f6bdafe3f5b593c3e5e1eacc7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a9493664f6bdafe3f5b593c3e5e1eacc7">remmina_plugin_service</a> = NULL</td></tr>
+<tr class="separator:a9493664f6bdafe3f5b593c3e5e1eacc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab69dae8eb9c3744fcf53a0f482b18f19"><td class="memItemLeft" align="right" valign="top">static gpointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#ab69dae8eb9c3744fcf53a0f482b18f19">ssh_auth</a> []</td></tr>
+<tr class="separator:ab69dae8eb9c3744fcf53a0f482b18f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924786df34d61d90471f38dfd37aa855"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a924786df34d61d90471f38dfd37aa855">remmina_plugin_sftp_features</a> []</td></tr>
+<tr class="separator:a924786df34d61d90471f38dfd37aa855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a999de1dbe291169ccc33dffa123a1315"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a999de1dbe291169ccc33dffa123a1315">remmina_sftp_basic_settings</a> []</td></tr>
+<tr class="separator:a999de1dbe291169ccc33dffa123a1315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a464296b351cd89c358ec77f521c8f7ab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dc4/plugin_8h.html#a52531fe685f868ce2bf593ed7328e8fd">RemminaProtocolPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a464296b351cd89c358ec77f521c8f7ab">remmina_plugin_sftp</a></td></tr>
+<tr class="separator:a464296b351cd89c358ec77f521c8f7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a74773791c4dac6cfda77f16a905699e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74773791c4dac6cfda77f16a905699e2">&#9670;&nbsp;</a></span>RemminaPluginSftpData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="../../d9/ddd/struct___remmina_plugin_sftp_data.html">_RemminaPluginSftpData</a>  <a class="el" href="../../df/d41/remmina__sftp__plugin_8c.html#a74773791c4dac6cfda77f16a905699e2">RemminaPluginSftpData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8d16ecc8e6e653a678e7f93b033e5863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d16ecc8e6e653a678e7f93b033e5863">&#9670;&nbsp;</a></span>remmina_plugin_sftp_call_feature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_sftp_call_feature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *&#160;</td>
+          <td class="paramname"><em>feature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00293">293</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_a8d16ecc8e6e653a678e7f93b033e5863_cgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_a8d16ecc8e6e653a678e7f93b033e5863_cgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_a8d16ecc8e6e653a678e7f93b033e5863_cgraph" id="df/d41/remmina__sftp__plugin_8c_a8d16ecc8e6e653a678e7f93b033e5863_cgraph">
+<area shape="rect" id="node2" href="../../d5/d16/remmina__file_8c.html#a52a0986eaf54c9e606ce9cdf8bb57e60" title="remmina_file_dup_temp\l_protocol" alt="" coords="196,23,356,65"/>
+<area shape="rect" id="node8" href="../../d0/d7b/remmina__ftp__client_8c.html#adb002077547492e9d56c68281a1607d6" title="remmina_ftp_client\l_set_show_hidden" alt="" coords="210,89,342,130"/>
+<area shape="rect" id="node9" href="../../d0/d7b/remmina__ftp__client_8c.html#ae5614fa3b465b83d0a5fa2245a97f45f" title="remmina_ftp_client\l_set_overwrite_status" alt="" coords="201,154,351,195"/>
+<area shape="rect" id="node3" href="../../d5/d16/remmina__file_8c.html#a3fb992fced83e0f1c4e4e3c8d2206be5" title="remmina_file_dup" alt="" coords="404,5,528,32"/>
+<area shape="rect" id="node5" href="../../d5/d16/remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="581,56,741,83"/>
+<area shape="rect" id="node4" href="../../d5/d16/remmina__file_8c.html#adab087b7139756f029020a87a5438cfa" title="remmina_file_new_empty" alt="" coords="576,5,747,32"/>
+<area shape="rect" id="node6" href="../../d5/d16/remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="795,56,977,83"/>
+<area shape="rect" id="node7" href="../../d9/d10/remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7" title="remmina_main_show_warning\l_dialog" alt="" coords="1025,49,1223,90"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abed4b9ee1509eb888b9d767b89d9fdb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed4b9ee1509eb888b9d767b89d9fdb6">&#9670;&nbsp;</a></span>remmina_plugin_sftp_client_on_realize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_sftp_client_on_realize </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00203">203</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_cgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_cgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_cgraph" id="df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_cgraph">
+<area shape="rect" id="node2" href="../../d0/d7b/remmina__ftp__client_8c.html#a2aaef09531b1694c183a5ba530fcc2fa" title="remmina_ftp_client\l_load_state" alt="" coords="196,5,328,47"/>
+<area shape="rect" id="node3" href="../../d5/d16/remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="376,13,519,39"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_icgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_icgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_icgraph" id="df/d41/remmina__sftp__plugin_8c_abed4b9ee1509eb888b9d767b89d9fdb6_icgraph">
+<area shape="rect" id="node2" href="../../df/d41/remmina__sftp__plugin_8c.html#aa3a2916593de087ed150cd9e00e4b543" title="remmina_plugin_sftp_init" alt="" coords="196,13,363,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acc468c14d98ace55509ad2b8fb502e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc468c14d98ace55509ad2b8fb502e3a">&#9670;&nbsp;</a></span>remmina_plugin_sftp_close_connection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_sftp_close_connection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00263">263</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_acc468c14d98ace55509ad2b8fb502e3a_cgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_acc468c14d98ace55509ad2b8fb502e3a_cgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_acc468c14d98ace55509ad2b8fb502e3a_cgraph" id="df/d41/remmina__sftp__plugin_8c_acc468c14d98ace55509ad2b8fb502e3a_cgraph">
+<area shape="rect" id="node2" href="../../d0/d7b/remmina__ftp__client_8c.html#a28b9006fa53e21e48df9237d68a847f3" title="remmina_ftp_client\l_save_state" alt="" coords="196,5,328,47"/>
+<area shape="rect" id="node3" href="../../d5/d16/remmina__file_8c.html#af153b0d289ac93f6ecdaa15d5f3b9b8c" title="remmina_file_set_int" alt="" coords="376,42,519,69"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa3a2916593de087ed150cd9e00e4b543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a2916593de087ed150cd9e00e4b543">&#9670;&nbsp;</a></span>remmina_plugin_sftp_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_sftp_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00213">213</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_aa3a2916593de087ed150cd9e00e4b543_cgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_aa3a2916593de087ed150cd9e00e4b543_cgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_aa3a2916593de087ed150cd9e00e4b543_cgraph" id="df/d41/remmina__sftp__plugin_8c_aa3a2916593de087ed150cd9e00e4b543_cgraph">
+<area shape="rect" id="node2" href="../../d9/dc2/remmina__sftp__client_8c.html#a359af214bcada2c49aa18f2a6a51c8e0" title="remmina_sftp_client_new" alt="" coords="220,5,391,32"/>
+<area shape="rect" id="node3" href="../../d0/d7b/remmina__ftp__client_8c.html#adb002077547492e9d56c68281a1607d6" title="remmina_ftp_client\l_set_show_hidden" alt="" coords="239,57,371,98"/>
+<area shape="rect" id="node4" href="../../d0/d7b/remmina__ftp__client_8c.html#ae5614fa3b465b83d0a5fa2245a97f45f" title="remmina_ftp_client\l_set_overwrite_status" alt="" coords="230,122,381,163"/>
+<area shape="rect" id="node5" href="../../df/d41/remmina__sftp__plugin_8c.html#abed4b9ee1509eb888b9d767b89d9fdb6" title="remmina_plugin_sftp\l_client_on_realize" alt="" coords="234,187,377,229"/>
+<area shape="rect" id="node6" href="../../d0/d7b/remmina__ftp__client_8c.html#a2aaef09531b1694c183a5ba530fcc2fa" title="remmina_ftp_client\l_load_state" alt="" coords="439,187,571,229"/>
+<area shape="rect" id="node7" href="../../d5/d16/remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="619,195,761,221"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab524c406d78b2e32a339884fbdae56a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab524c406d78b2e32a339884fbdae56a9">&#9670;&nbsp;</a></span>remmina_plugin_sftp_main_thread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gpointer remmina_plugin_sftp_main_thread </td>
+          <td>(</td>
+          <td class="paramtype">gpointer&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00067">67</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_cgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_cgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_cgraph" id="df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_cgraph">
+<area shape="rect" id="node2" href="../../d7/deb/remmina__ssh_8c.html#a1500d65d1f0751812f237c1cb4d15188" title="remmina_sftp_new_from_ssh" alt="" coords="196,56,389,83"/>
+<area shape="rect" id="node4" href="../../d7/deb/remmina__ssh_8c.html#a624b8ac30ddcd00ebda0b51d504f5a33" title="remmina_ssh_init_session" alt="" coords="205,157,381,184"/>
+<area shape="rect" id="node11" href="../../d7/deb/remmina__ssh_8c.html#a85578987de99e1a7a28819960c445ee2" title="remmina_ssh_auth" alt="" coords="693,485,825,512"/>
+<area shape="rect" id="node19" href="../../d7/deb/remmina__ssh_8c.html#a1e09b32044c240a7dce0ad8afcbf0ff2" title="remmina_sftp_open" alt="" coords="462,645,598,672"/>
+<area shape="rect" id="node20" href="../../d7/deb/remmina__ssh_8c.html#a3d7138d9cbbe44aea15440436ce85d6e" title="remmina_sftp_new_from_file" alt="" coords="198,747,387,773"/>
+<area shape="rect" id="node42" href="../../d7/deb/remmina__ssh_8c.html#ac4967b502c8b92ae9b948e8150df9267" title="remmina_ssh_auth_gui" alt="" coords="452,823,608,849"/>
+<area shape="rect" id="node46" href="../../d6/d0f/remmina__protocol__widget_8c.html#a3d54e2fd56ec80018723db1ddc444635" title="remmina_protocol_widget\l_get_init_dialog" alt="" coords="207,798,378,839"/>
+<area shape="rect" id="node47" href="../../d0/d7b/remmina__ftp__client_8c.html#a1ef77e687209d258ec576c31614ea60f" title="remmina_ftp_client\l_set_dir" alt="" coords="227,863,359,905"/>
+<area shape="rect" id="node48" href="../../d7/deb/remmina__ssh_8c.html#aaaf171c31b73f06f1026239253d9f6b9" title="remmina_sftp_free" alt="" coords="227,929,358,956"/>
+<area shape="rect" id="node50" href="../../d9/dc2/remmina__sftp__client_8c.html#a9fb6d25e4676b2fa574f958a5ba271a1" title="remmina_sftp_client_open" alt="" coords="205,980,380,1007"/>
+<area shape="rect" id="node3" href="../../d7/deb/remmina__ssh_8c.html#aa5915469eff4864d8d7dad218bfcf15d" title="remmina_ssh_init_from_ssh" alt="" coords="437,5,623,32"/>
+<area shape="rect" id="node5" href="../../d3/d18/remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="693,132,825,159"/>
+<area shape="rect" id="node8" href="../../d3/d18/remmina__log_8c.html#a96f5bb72acbdcbf8793b4a5f4a6132b5" title="remmina_log_running" alt="" coords="457,56,603,83"/>
+<area shape="rect" id="node9" href="../../d7/deb/remmina__ssh_8c.html#a5a3191a46707e450ee51286976531225" title="remmina_ssh_log_callback" alt="" coords="441,107,619,133"/>
+<area shape="rect" id="node10" href="../../d7/deb/remmina__ssh_8c.html#abc556f0a4335083436f6e19c204fa553" title="remmina_ssh_set_error" alt="" coords="1143,397,1301,424"/>
+<area shape="rect" id="node6" href="../../d3/d18/remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="917,132,1073,159"/>
+<area shape="rect" id="node7" href="../../d3/d18/remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="1155,125,1289,166"/>
+<area shape="rect" id="node12" href="../../d7/deb/remmina__ssh_8c.html#a1f3297263703b4259c1c9607d710995d" title="remmina_ssh_set_application\l_error" alt="" coords="898,478,1093,519"/>
+<area shape="rect" id="node13" href="../../d7/deb/remmina__ssh_8c.html#a2ffcffe3320007cb0fc0b529f3e3b65a" title="remmina_ssh_auth_interactive" alt="" coords="896,544,1095,571"/>
+<area shape="rect" id="node14" href="../../d7/deb/remmina__ssh_8c.html#ab080906be227e35b5b29a9cfcc3e976c" title="remmina_ssh_auth_password" alt="" coords="898,595,1093,621"/>
+<area shape="rect" id="node15" href="../../d7/deb/remmina__ssh_8c.html#a1e78e9f453f0ad2b1f8c7f907d906010" title="remmina_ssh_auth_pubkey" alt="" coords="905,259,1086,285"/>
+<area shape="rect" id="node16" href="../../d7/deb/remmina__ssh_8c.html#a168073a50f4e5d4210bfa782d97bb231" title="remmina_ssh_auth_agent" alt="" coords="910,309,1081,336"/>
+<area shape="rect" id="node17" href="../../d7/deb/remmina__ssh_8c.html#afd2145e2c27d0d3401aee66a76f57290" title="remmina_ssh_auth_auto\l_pubkey" alt="" coords="913,361,1077,402"/>
+<area shape="rect" id="node18" href="../../d7/deb/remmina__ssh_8c.html#a8a04317b54a776118e8224fbfa3a685c" title="remmina_ssh_auth_gssapi" alt="" coords="907,427,1084,453"/>
+<area shape="rect" id="node21" href="../../d7/deb/remmina__ssh_8c.html#a029fc6b0f826502181196254e8ba511a" title="remmina_ssh_init_from_file" alt="" coords="439,1272,621,1299"/>
+<area shape="rect" id="node22" href="../../d5/d16/remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="679,1272,839,1299"/>
+<area shape="rect" id="node38" href="../../db/d22/remmina__public_8c.html#adc8b77823386e00e610527d6b0b61149" title="remmina_public_get\l_server_port" alt="" coords="690,1323,829,1365"/>
+<area shape="rect" id="node39" href="../../d5/d16/remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="688,1211,831,1237"/>
+<area shape="rect" id="node40" href="../../d7/deb/remmina__ssh_8c.html#ab6d8bdad543b3caead2b2b0339484798" title="remmina_ssh_find_identity" alt="" coords="671,1411,848,1437"/>
+<area shape="rect" id="node41" href="../../d7/deb/remmina__ssh_8c.html#a72a58e416c4eeb9d17eaf76360ebee42" title="remmina_ssh_identity_path" alt="" coords="905,1541,1086,1568"/>
+<area shape="rect" id="node23" href="../../d7/d0b/remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1571,1171,1725,1213"/>
+<area shape="rect" id="node24" href="../../d7/d0b/remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="918,1139,1073,1181"/>
+<area shape="rect" id="node30" href="../../d9/d10/remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7" title="remmina_main_show_warning\l_dialog" alt="" coords="2007,1458,2204,1499"/>
+<area shape="rect" id="node25" href="../../d7/d0b/remmina__masterthread__exec_8c.html#a94985f15fd0d27c037824ee90b0ecd3c" title="remmina_masterthread\l_exec_cleanup_handler" alt="" coords="1143,1106,1301,1147"/>
+<area shape="rect" id="node26" href="../../d7/d0b/remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="1145,1171,1299,1213"/>
+<area shape="rect" id="node27" href="../../d6/d0f/remmina__protocol__widget_8c.html#a7ac09ee83afa8a1a60cadf56b0ec83a6" title="remmina_protocol_widget\l_init_save_cred" alt="" coords="1349,975,1520,1017"/>
+<area shape="rect" id="node31" href="../../d6/d0f/remmina__protocol__widget_8c.html#ae2522242b3f39ee84ee8cf75170de0c0" title="remmina_protocol_widget\l_chat_receive" alt="" coords="1349,1171,1520,1213"/>
+<area shape="rect" id="node32" href="../../d2/d58/remmina__init__dialog_8c.html#a11fba22fe5f7f85985e01b499a52e534" title="remmina_init_dialog\l_serverkey_confirm" alt="" coords="1366,877,1503,918"/>
+<area shape="rect" id="node34" href="../../d2/d58/remmina__init__dialog_8c.html#a755fc90b41b65cd6106915ab501433fa" title="remmina_init_dialog\l_authpwd" alt="" coords="1366,1041,1503,1082"/>
+<area shape="rect" id="node35" href="../../d2/d58/remmina__init__dialog_8c.html#ad941f2348cd1752fc9d58c263690726c" title="remmina_init_dialog\l_authuserpwd" alt="" coords="1366,1106,1503,1147"/>
+<area shape="rect" id="node36" href="../../d2/d58/remmina__init__dialog_8c.html#abd47233840e1eefc1d511bc4e153b98b" title="remmina_init_dialog\l_certificate" alt="" coords="1366,1237,1503,1278"/>
+<area shape="rect" id="node37" href="../../d2/d58/remmina__init__dialog_8c.html#a07e0824fe19e8169d076878aca502fc8" title="remmina_init_dialog\l_certificate_changed" alt="" coords="1363,1302,1506,1343"/>
+<area shape="rect" id="node28" href="../../d5/d16/remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="1568,983,1728,1009"/>
+<area shape="rect" id="node29" href="../../d5/d16/remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="1776,1212,1959,1239"/>
+<area shape="rect" id="node33" href="../../d2/d58/remmina__init__dialog_8c.html#a7602c5b714e02a10506977dd983e7446" title="remmina_init_dialog\l_connecting" alt="" coords="1579,1041,1717,1082"/>
+<area shape="rect" id="node43" href="../../d2/d58/remmina__init__dialog_8c.html#a1c2d938b96a52fa9a3c11ebc8a091d8b" title="remmina_init_dialog\l_serverkey_unknown" alt="" coords="1149,786,1295,827"/>
+<area shape="rect" id="node44" href="../../d2/d58/remmina__init__dialog_8c.html#a493c615103fc257d1783125745018f1a" title="remmina_init_dialog\l_serverkey_changed" alt="" coords="1151,721,1293,762"/>
+<area shape="rect" id="node45" href="../../d2/d58/remmina__init__dialog_8c.html#a0091e150b446faa19e9af16f3d4de3cf" title="remmina_init_dialog\l_set_status" alt="" coords="691,1139,828,1181"/>
+<area shape="rect" id="node49" href="../../d7/deb/remmina__ssh_8c.html#acdb9f57d2f9b47913715a8d8a0ea0c02" title="remmina_ssh_free" alt="" coords="465,1323,595,1349"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_icgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_icgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_icgraph" id="df/d41/remmina__sftp__plugin_8c_ab524c406d78b2e32a339884fbdae56a9_icgraph">
+<area shape="rect" id="node2" href="../../df/d41/remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4" title="remmina_plugin_sftp\l_open_connection" alt="" coords="196,5,339,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0553d8f4834a1865e3640ec4180e63c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0553d8f4834a1865e3640ec4180e63c4">&#9670;&nbsp;</a></span>remmina_plugin_sftp_open_connection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_sftp_open_connection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00242">242</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_a0553d8f4834a1865e3640ec4180e63c4_cgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_a0553d8f4834a1865e3640ec4180e63c4_cgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_a0553d8f4834a1865e3640ec4180e63c4_cgraph" id="df/d41/remmina__sftp__plugin_8c_a0553d8f4834a1865e3640ec4180e63c4_cgraph">
+<area shape="rect" id="node2" href="../../df/d41/remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9" title="remmina_plugin_sftp\l_main_thread" alt="" coords="196,714,339,755"/>
+<area shape="rect" id="node3" href="../../d7/deb/remmina__ssh_8c.html#a1500d65d1f0751812f237c1cb4d15188" title="remmina_sftp_new_from_ssh" alt="" coords="387,56,580,83"/>
+<area shape="rect" id="node5" href="../../d7/deb/remmina__ssh_8c.html#a624b8ac30ddcd00ebda0b51d504f5a33" title="remmina_ssh_init_session" alt="" coords="395,157,571,184"/>
+<area shape="rect" id="node12" href="../../d7/deb/remmina__ssh_8c.html#a85578987de99e1a7a28819960c445ee2" title="remmina_ssh_auth" alt="" coords="884,485,1016,512"/>
+<area shape="rect" id="node20" href="../../d7/deb/remmina__ssh_8c.html#a1e09b32044c240a7dce0ad8afcbf0ff2" title="remmina_sftp_open" alt="" coords="653,645,789,672"/>
+<area shape="rect" id="node21" href="../../d7/deb/remmina__ssh_8c.html#a3d7138d9cbbe44aea15440436ce85d6e" title="remmina_sftp_new_from_file" alt="" coords="389,747,578,773"/>
+<area shape="rect" id="node42" href="../../d7/deb/remmina__ssh_8c.html#ac4967b502c8b92ae9b948e8150df9267" title="remmina_ssh_auth_gui" alt="" coords="643,823,799,849"/>
+<area shape="rect" id="node46" href="../../d6/d0f/remmina__protocol__widget_8c.html#a3d54e2fd56ec80018723db1ddc444635" title="remmina_protocol_widget\l_get_init_dialog" alt="" coords="398,798,569,839"/>
+<area shape="rect" id="node47" href="../../d0/d7b/remmina__ftp__client_8c.html#a1ef77e687209d258ec576c31614ea60f" title="remmina_ftp_client\l_set_dir" alt="" coords="417,863,549,905"/>
+<area shape="rect" id="node48" href="../../d7/deb/remmina__ssh_8c.html#aaaf171c31b73f06f1026239253d9f6b9" title="remmina_sftp_free" alt="" coords="418,929,549,956"/>
+<area shape="rect" id="node50" href="../../d9/dc2/remmina__sftp__client_8c.html#a9fb6d25e4676b2fa574f958a5ba271a1" title="remmina_sftp_client_open" alt="" coords="396,980,571,1007"/>
+<area shape="rect" id="node4" href="../../d7/deb/remmina__ssh_8c.html#aa5915469eff4864d8d7dad218bfcf15d" title="remmina_ssh_init_from_ssh" alt="" coords="628,5,813,32"/>
+<area shape="rect" id="node6" href="../../d3/d18/remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="884,132,1016,159"/>
+<area shape="rect" id="node9" href="../../d3/d18/remmina__log_8c.html#a96f5bb72acbdcbf8793b4a5f4a6132b5" title="remmina_log_running" alt="" coords="648,56,793,83"/>
+<area shape="rect" id="node10" href="../../d7/deb/remmina__ssh_8c.html#a5a3191a46707e450ee51286976531225" title="remmina_ssh_log_callback" alt="" coords="631,157,810,184"/>
+<area shape="rect" id="node11" href="../../d7/deb/remmina__ssh_8c.html#abc556f0a4335083436f6e19c204fa553" title="remmina_ssh_set_error" alt="" coords="1333,401,1492,428"/>
+<area shape="rect" id="node7" href="../../d3/d18/remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="1108,132,1264,159"/>
+<area shape="rect" id="node8" href="../../d3/d18/remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="1345,125,1480,166"/>
+<area shape="rect" id="node13" href="../../d7/deb/remmina__ssh_8c.html#a1f3297263703b4259c1c9607d710995d" title="remmina_ssh_set_application\l_error" alt="" coords="1089,478,1283,519"/>
+<area shape="rect" id="node14" href="../../d7/deb/remmina__ssh_8c.html#a2ffcffe3320007cb0fc0b529f3e3b65a" title="remmina_ssh_auth_interactive" alt="" coords="1087,544,1285,571"/>
+<area shape="rect" id="node15" href="../../d7/deb/remmina__ssh_8c.html#ab080906be227e35b5b29a9cfcc3e976c" title="remmina_ssh_auth_password" alt="" coords="1089,427,1283,453"/>
+<area shape="rect" id="node16" href="../../d7/deb/remmina__ssh_8c.html#a1e78e9f453f0ad2b1f8c7f907d906010" title="remmina_ssh_auth_pubkey" alt="" coords="1095,595,1277,621"/>
+<area shape="rect" id="node17" href="../../d7/deb/remmina__ssh_8c.html#a168073a50f4e5d4210bfa782d97bb231" title="remmina_ssh_auth_agent" alt="" coords="1101,259,1271,285"/>
+<area shape="rect" id="node18" href="../../d7/deb/remmina__ssh_8c.html#afd2145e2c27d0d3401aee66a76f57290" title="remmina_ssh_auth_auto\l_pubkey" alt="" coords="1104,310,1268,351"/>
+<area shape="rect" id="node19" href="../../d7/deb/remmina__ssh_8c.html#a8a04317b54a776118e8224fbfa3a685c" title="remmina_ssh_auth_gssapi" alt="" coords="1097,376,1275,403"/>
+<area shape="rect" id="node22" href="../../d7/deb/remmina__ssh_8c.html#a029fc6b0f826502181196254e8ba511a" title="remmina_ssh_init_from_file" alt="" coords="630,1229,811,1256"/>
+<area shape="rect" id="node23" href="../../d5/d16/remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="870,1229,1030,1256"/>
+<area shape="rect" id="node38" href="../../db/d22/remmina__public_8c.html#adc8b77823386e00e610527d6b0b61149" title="remmina_public_get\l_server_port" alt="" coords="881,1281,1019,1322"/>
+<area shape="rect" id="node39" href="../../d5/d16/remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="879,1179,1021,1205"/>
+<area shape="rect" id="node40" href="../../d7/deb/remmina__ssh_8c.html#ab6d8bdad543b3caead2b2b0339484798" title="remmina_ssh_find_identity" alt="" coords="861,1383,1039,1409"/>
+<area shape="rect" id="node41" href="../../d7/deb/remmina__ssh_8c.html#a72a58e416c4eeb9d17eaf76360ebee42" title="remmina_ssh_identity_path" alt="" coords="1095,1541,1277,1568"/>
+<area shape="rect" id="node24" href="../../d7/d0b/remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1761,1190,1916,1231"/>
+<area shape="rect" id="node25" href="../../d7/d0b/remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="1109,1135,1263,1177"/>
+<area shape="rect" id="node31" href="../../d9/d10/remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7" title="remmina_main_show_warning\l_dialog" alt="" coords="2197,1458,2395,1499"/>
+<area shape="rect" id="node26" href="../../d7/d0b/remmina__masterthread__exec_8c.html#a94985f15fd0d27c037824ee90b0ecd3c" title="remmina_masterthread\l_exec_cleanup_handler" alt="" coords="1333,1157,1492,1198"/>
+<area shape="rect" id="node27" href="../../d7/d0b/remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="1335,1222,1490,1263"/>
+<area shape="rect" id="node28" href="../../d6/d0f/remmina__protocol__widget_8c.html#a7ac09ee83afa8a1a60cadf56b0ec83a6" title="remmina_protocol_widget\l_init_save_cred" alt="" coords="1540,1091,1711,1133"/>
+<area shape="rect" id="node32" href="../../d6/d0f/remmina__protocol__widget_8c.html#ae2522242b3f39ee84ee8cf75170de0c0" title="remmina_protocol_widget\l_chat_receive" alt="" coords="1540,1222,1711,1263"/>
+<area shape="rect" id="node33" href="../../d2/d58/remmina__init__dialog_8c.html#a11fba22fe5f7f85985e01b499a52e534" title="remmina_init_dialog\l_serverkey_confirm" alt="" coords="1557,953,1694,994"/>
+<area shape="rect" id="node35" href="../../d2/d58/remmina__init__dialog_8c.html#a755fc90b41b65cd6106915ab501433fa" title="remmina_init_dialog\l_authpwd" alt="" coords="1557,1026,1694,1067"/>
+<area shape="rect" id="node36" href="../../d2/d58/remmina__init__dialog_8c.html#ad941f2348cd1752fc9d58c263690726c" title="remmina_init_dialog\l_authuserpwd" alt="" coords="1557,1157,1694,1198"/>
+<area shape="rect" id="node37" href="../../d2/d58/remmina__init__dialog_8c.html#abd47233840e1eefc1d511bc4e153b98b" title="remmina_init_dialog\l_certificate" alt="" coords="1557,1287,1694,1329"/>
+<area shape="rect" id="node29" href="../../d5/d16/remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="1759,1037,1919,1064"/>
+<area shape="rect" id="node30" href="../../d5/d16/remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="1967,1269,2149,1296"/>
+<area shape="rect" id="node34" href="../../d2/d58/remmina__init__dialog_8c.html#a7602c5b714e02a10506977dd983e7446" title="remmina_init_dialog\l_connecting" alt="" coords="1770,1089,1907,1130"/>
+<area shape="rect" id="node43" href="../../d2/d58/remmina__init__dialog_8c.html#a1c2d938b96a52fa9a3c11ebc8a091d8b" title="remmina_init_dialog\l_serverkey_unknown" alt="" coords="1340,837,1485,878"/>
+<area shape="rect" id="node44" href="../../d2/d58/remmina__init__dialog_8c.html#a493c615103fc257d1783125745018f1a" title="remmina_init_dialog\l_serverkey_changed" alt="" coords="1341,771,1484,813"/>
+<area shape="rect" id="node45" href="../../d2/d58/remmina__init__dialog_8c.html#a0091e150b446faa19e9af16f3d4de3cf" title="remmina_init_dialog\l_set_status" alt="" coords="881,1113,1019,1154"/>
+<area shape="rect" id="node49" href="../../d7/deb/remmina__ssh_8c.html#acdb9f57d2f9b47913715a8d8a0ea0c02" title="remmina_ssh_free" alt="" coords="656,1280,785,1307"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abd7099f5655a134c598ef95564254323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd7099f5655a134c598ef95564254323">&#9670;&nbsp;</a></span>remmina_plugin_sftp_query_feature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_sftp_query_feature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *&#160;</td>
+          <td class="paramname"><em>feature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00286">286</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+
+</div>
+</div>
 <a id="a14a447ab8a10b109967d92c8d2db0ff9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14a447ab8a10b109967d92c8d2db0ff9">&#9670;&nbsp;</a></span>remmina_sftp_plugin_register()</h2>
 
@@ -124,7 +568,167 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00350">350</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00388">388</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_cgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_cgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_cgraph" id="df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_cgraph">
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_icgraph.png" border="0" usemap="#df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_icgraph" alt=""/></div>
+<map name="df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_icgraph" id="df/d41/remmina__sftp__plugin_8c_a14a447ab8a10b109967d92c8d2db0ff9_icgraph">
+<area shape="rect" id="node2" href="../../d5/d7a/remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a" title="remmina_on_startup" alt="" coords="387,13,527,39"/>
+<area shape="rect" id="node4" href="../../d7/d4f/remmina__sftp__plugin_8h.html#ac06b00323f7ac1e7faea66d135bffba4" title="remmina_sftp_plugin\l_register" alt="" coords="196,47,339,88"/>
+<area shape="rect" id="node3" href="../../d5/d7a/remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="575,13,625,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a9493664f6bdafe3f5b593c3e5e1eacc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9493664f6bdafe3f5b593c3e5e1eacc7">&#9670;&nbsp;</a></span>remmina_plugin_service</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a>* remmina_plugin_service = NULL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00064">64</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a464296b351cd89c358ec77f521c8f7ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a464296b351cd89c358ec77f521c8f7ab">&#9670;&nbsp;</a></span>remmina_plugin_sftp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dc4/plugin_8h.html#a52531fe685f868ce2bf593ed7328e8fd">RemminaProtocolPlugin</a> remmina_plugin_sftp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    <a class="code" href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24">REMMINA_PLUGIN_TYPE_PROTOCOL</a>,                   </div><div class="line">    <span class="stringliteral">&quot;SFTP&quot;</span>,                                         </div><div class="line">    <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;SFTP - Secure File Transfer&quot;</span>),              </div><div class="line">    GETTEXT_PACKAGE,                                </div><div class="line">    VERSION,                                        </div><div class="line">    <span class="stringliteral">&quot;remmina-sftp&quot;</span>,                                 </div><div class="line">    <span class="stringliteral">&quot;remmina-sftp&quot;</span>,                                 </div><div class="line">    <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#a999de1dbe291169ccc33dffa123a1315">remmina_sftp_basic_settings</a>,                    </div><div class="line">    NULL,                                           </div><div class="line">    <a class="code" href="../../d9/d49/types_8h.html#a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a">REMMINA_PROTOCOL_SSH_SETTING_TUNNEL</a>,            </div><div class="line">    <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#a924786df34d61d90471f38dfd37aa855">remmina_plugin_sftp_features</a>,                   </div><div class="line">    <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#aa3a2916593de087ed150cd9e00e4b543">remmina_plugin_sftp_init</a>,                       </div><div class="line">    <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4">remmina_plugin_sftp_open_connection</a>,            </div><div class="line">    <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#acc468c14d98ace55509ad2b8fb502e3a">remmina_plugin_sftp_close_connection</a>,           </div><div class="line">    <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#abd7099f5655a134c598ef95564254323">remmina_plugin_sftp_query_feature</a>,              </div><div class="line">    <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#a8d16ecc8e6e653a678e7f93b033e5863">remmina_plugin_sftp_call_feature</a>,               </div><div class="line">    NULL                                            </div><div class="line">}</div><div class="ttc" id="plugin_8h_html_aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24"><div class="ttname"><a href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24">REMMINA_PLUGIN_TYPE_PROTOCOL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc4/plugin_8h_source.html#l00045">plugin.h:45</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_a0553d8f4834a1865e3640ec4180e63c4"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4">remmina_plugin_sftp_open_connection</a></div><div class="ttdeci">static gboolean remmina_plugin_sftp_open_connection(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00242">remmina_sftp_plugin.c:242</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_aa3a2916593de087ed150cd9e00e4b543"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#aa3a2916593de087ed150cd9e00e4b543">remmina_plugin_sftp_init</a></div><div class="ttdeci">static void remmina_plugin_sftp_init(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00213">remmina_sftp_plugin.c:213</a></div></div>
+<div class="ttc" id="types_8h_html_a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a"><div class="ttname"><a href="../../d9/d49/types_8h.html#a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a">REMMINA_PROTOCOL_SSH_SETTING_TUNNEL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00105">types.h:105</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_a999de1dbe291169ccc33dffa123a1315"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#a999de1dbe291169ccc33dffa123a1315">remmina_sftp_basic_settings</a></div><div class="ttdeci">static const RemminaProtocolSetting remmina_sftp_basic_settings[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00354">remmina_sftp_plugin.c:354</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_a924786df34d61d90471f38dfd37aa855"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#a924786df34d61d90471f38dfd37aa855">remmina_plugin_sftp_features</a></div><div class="ttdeci">static const RemminaProtocolFeature remmina_plugin_sftp_features[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00335">remmina_sftp_plugin.c:335</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_acc468c14d98ace55509ad2b8fb502e3a"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#acc468c14d98ace55509ad2b8fb502e3a">remmina_plugin_sftp_close_connection</a></div><div class="ttdeci">static gboolean remmina_plugin_sftp_close_connection(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00263">remmina_sftp_plugin.c:263</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_a8d16ecc8e6e653a678e7f93b033e5863"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#a8d16ecc8e6e653a678e7f93b033e5863">remmina_plugin_sftp_call_feature</a></div><div class="ttdeci">static void remmina_plugin_sftp_call_feature(RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00293">remmina_sftp_plugin.c:293</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_abd7099f5655a134c598ef95564254323"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#abd7099f5655a134c598ef95564254323">remmina_plugin_sftp_query_feature</a></div><div class="ttdeci">static gboolean remmina_plugin_sftp_query_feature(RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00286">remmina_sftp_plugin.c:286</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00366">366</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a924786df34d61d90471f38dfd37aa855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924786df34d61d90471f38dfd37aa855">&#9670;&nbsp;</a></span>remmina_plugin_sftp_features</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> remmina_plugin_sftp_features[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a26774624e955f451f7e4270c36622527">REMMINA_PROTOCOL_FEATURE_TYPE_PREF</a>, REMMINA_PLUGIN_SFTP_FEATURE_PREF_SHOW_HIDDEN,   GINT_TO_POINTER(REMMINA_PROTOCOL_FEATURE_PREF_CHECK),   <span class="stringliteral">&quot;showhidden&quot;</span>,</div><div class="line">      <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Show Hidden Files&quot;</span>)                       },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a26774624e955f451f7e4270c36622527">REMMINA_PROTOCOL_FEATURE_TYPE_PREF</a>, REMMINA_PLUGIN_SFTP_FEATURE_PREF_OVERWRITE_ALL, GINT_TO_POINTER(REMMINA_PROTOCOL_FEATURE_PREF_CHECK),</div><div class="line">      REMMINA_PLUGIN_SFTP_FEATURE_PREF_OVERWRITE_ALL_KEY,    <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Overwrite all&quot;</span>)                                                    },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4">REMMINA_PROTOCOL_FEATURE_TYPE_END</a>,  0,                          NULL,                           NULL,</div><div class="line">        NULL                                                               }</div><div class="line">}</div><div class="ttc" id="types_8h_html_a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4"><div class="ttname"><a href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4">REMMINA_PROTOCOL_FEATURE_TYPE_END</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00044">types.h:44</a></div></div>
+<div class="ttc" id="types_8h_html_a77ae46c4fd739dcd8e819fe9cdae27c5a26774624e955f451f7e4270c36622527"><div class="ttname"><a href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a26774624e955f451f7e4270c36622527">REMMINA_PROTOCOL_FEATURE_TYPE_PREF</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00045">types.h:45</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00335">335</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a999de1dbe291169ccc33dffa123a1315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a999de1dbe291169ccc33dffa123a1315">&#9670;&nbsp;</a></span>remmina_sftp_basic_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a> remmina_sftp_basic_settings[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92">REMMINA_PROTOCOL_SETTING_TYPE_SERVER</a>,   <span class="stringliteral">&quot;ssh_server&quot;</span>,     NULL,             FALSE, <span class="stringliteral">&quot;_sftp-ssh._tcp&quot;</span>,  NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296">REMMINA_PROTOCOL_SETTING_TYPE_TEXT</a>,     <span class="stringliteral">&quot;ssh_username&quot;</span>,   <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;User name&quot;</span>),          FALSE, NULL,     NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ae76d06b6e313971e5f420dd6e7f4c5aa">REMMINA_PROTOCOL_SETTING_TYPE_PASSWORD</a>, <span class="stringliteral">&quot;ssh_password&quot;</span>,   <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;User password&quot;</span>),      FALSE, NULL,     NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d">REMMINA_PROTOCOL_SETTING_TYPE_SELECT</a>,   <span class="stringliteral">&quot;ssh_auth&quot;</span>,       <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Authentication type&quot;</span>),    FALSE, <a class="code" href="../../df/d41/remmina__sftp__plugin_8c.html#ab69dae8eb9c3744fcf53a0f482b18f19">ssh_auth</a>, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a31ee66fffaa245ae411aba0c296ad9da">REMMINA_PROTOCOL_SETTING_TYPE_FILE</a>,     <span class="stringliteral">&quot;ssh_privatekey&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Identity file&quot;</span>),      FALSE, NULL,     NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ae76d06b6e313971e5f420dd6e7f4c5aa">REMMINA_PROTOCOL_SETTING_TYPE_PASSWORD</a>, <span class="stringliteral">&quot;ssh_passphrase&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Private key passphrase&quot;</span>), FALSE, NULL,     NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a>,      NULL,         NULL,             FALSE, NULL,     NULL }</div><div class="line">}</div><div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92">REMMINA_PROTOCOL_SETTING_TYPE_SERVER</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00081">types.h:81</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296">REMMINA_PROTOCOL_SETTING_TYPE_TEXT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00086">types.h:86</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350ae76d06b6e313971e5f420dd6e7f4c5aa"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ae76d06b6e313971e5f420dd6e7f4c5aa">REMMINA_PROTOCOL_SETTING_TYPE_PASSWORD</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00082">types.h:82</a></div></div>
+<div class="ttc" id="remmina__sftp__plugin_8c_html_ab69dae8eb9c3744fcf53a0f482b18f19"><div class="ttname"><a href="../../df/d41/remmina__sftp__plugin_8c.html#ab69dae8eb9c3744fcf53a0f482b18f19">ssh_auth</a></div><div class="ttdeci">static gpointer ssh_auth[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00323">remmina_sftp_plugin.c:323</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d">REMMINA_PROTOCOL_SETTING_TYPE_SELECT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00087">types.h:87</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a31ee66fffaa245ae411aba0c296ad9da"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a31ee66fffaa245ae411aba0c296ad9da">REMMINA_PROTOCOL_SETTING_TYPE_FILE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00090">types.h:90</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00079">types.h:79</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00354">354</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="ab69dae8eb9c3744fcf53a0f482b18f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab69dae8eb9c3744fcf53a0f482b18f19">&#9670;&nbsp;</a></span>ssh_auth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gpointer ssh_auth[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    <span class="stringliteral">&quot;0&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Password&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;1&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;SSH identity file&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;2&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;SSH agent&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;3&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Public key (automatic)&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;4&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Kerberos (GSSAPI)&quot;</span>),</div><div class="line">    NULL</div><div class="line">}</div><div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html#l00323">323</a> of file <a class="el" href="../../df/d41/remmina__sftp__plugin_8c_source.html">remmina_sftp_plugin.c</a>.</p>
 
 </div>
 </div>

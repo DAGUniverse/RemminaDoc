@@ -9,6 +9,8 @@ var searchData=
   ['manager_5fdialog',['manager_dialog',['../de/db3/struct___remmina_plugin_nx_data.html#a85b685983e65896aa7af74a1fa24076b',1,'_RemminaPluginNxData']]],
   ['manager_5fselected',['manager_selected',['../de/db3/struct___remmina_plugin_nx_data.html#a4c7c10613fa45f91a9082bb72341e2e4',1,'_RemminaPluginNxData']]],
   ['manager_5fstarted',['manager_started',['../de/db3/struct___remmina_plugin_nx_data.html#adb992195207fc2b42f7a49890f429f82',1,'_RemminaPluginNxData']]],
+  ['master',['master',['../d5/df5/structremmina__masterthread__exec__data.html#ad967414b3a4f021b073529a6e9c48d61',1,'remmina_masterthread_exec_data::master()'],['../dd/d1e/struct___remmina_s_s_h_shell.html#ab02f57e79ea0ba35f8a3788ef01a707f',1,'_RemminaSSHShell::master()']]],
+  ['max_5fchannels',['max_channels',['../de/de4/struct___remmina_s_s_h_tunnel.html#a6a184c6ca8fa267012d86986dac396c6',1,'_RemminaSSHTunnel']]],
   ['menu',['menu',['../d6/d67/struct___remmina_applet_menu.html#a182439d81775304ff252c177a30e246f',1,'_RemminaAppletMenu']]],
   ['menu_5fpopup',['menu_popup',['../d8/d60/struct___remmina_main.html#a2d6960ab62869638a77d2fe5bd72c7f6',1,'_RemminaMain']]],
   ['menu_5fpopup_5ffull',['menu_popup_full',['../d8/d60/struct___remmina_main.html#a1575015519fedca001bb26e129331b62',1,'_RemminaMain']]],
@@ -17,8 +19,7 @@ var searchData=
   ['menuitem_5fview_5fmode_5ftree',['menuitem_view_mode_tree',['../d8/d60/struct___remmina_main.html#a670425eaf7430854a172ee0f41c4e5e0',1,'_RemminaMain']]],
   ['message',['message',['../d8/d74/structremmina__plugin__rdp__ui__object.html#a7e6c46b985270ee34b4347023a47612e',1,'remmina_plugin_rdp_ui_object']]],
   ['mode',['mode',['../de/d0b/struct___remmina_init_dialog.html#a703fa717dd8fd64e31c5cfe92c909fcf',1,'_RemminaInitDialog']]],
-  ['monitor_5flayout',['monitor_layout',['../d0/d4c/structremmina__plugin__rdp__event.html#ad73003335100c585e09497269b767948',1,'remmina_plugin_rdp_event']]],
-  ['mouse_5fevent',['mouse_event',['../d0/d4c/structremmina__plugin__rdp__event.html#a86feac33b8074773d97204a71a42151e',1,'remmina_plugin_rdp_event']]],
-  ['mouse_5fpointer_5fentered',['mouse_pointer_entered',['../d5/d9c/struct___remmina_connection_window_priv.html#a0c52b46ec61d43073793a6a8c5078b18',1,'_RemminaConnectionWindowPriv']]],
+  ['monitor_5flayout',['monitor_layout',['../d0/d4c/structremmina__plugin__rdp__event.html#a699aeed24ff4a648e00aced7a1e3adf6',1,'remmina_plugin_rdp_event']]],
+  ['mouse_5fevent',['mouse_event',['../d0/d4c/structremmina__plugin__rdp__event.html#ada88729499d8df4337a81d1cd5bcd7bf',1,'remmina_plugin_rdp_event']]],
   ['mu',['mu',['../d2/d4c/structon_main_thread__cb__data.html#acd2e5f24279a00e0d426d67604dc8fbc',1,'onMainThread_cb_data']]]
 ];

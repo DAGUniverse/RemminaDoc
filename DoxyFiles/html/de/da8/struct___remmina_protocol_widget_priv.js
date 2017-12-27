@@ -11,6 +11,8 @@ var struct___remmina_protocol_widget_priv =
     [ "init_dialog", "de/da8/struct___remmina_protocol_widget_priv.html#a5143f09d9efceb23740890ed9e1cf10e", null ],
     [ "init_func", "de/da8/struct___remmina_protocol_widget_priv.html#a41a28954660d2d3816630e2ef9bb4211", null ],
     [ "plugin", "de/da8/struct___remmina_protocol_widget_priv.html#a2381772c96a26aafc98d347d210dbfe0", null ],
+    [ "profile_remote_height", "de/da8/struct___remmina_protocol_widget_priv.html#a93da102535413a0b3b1b740b582444ca", null ],
+    [ "profile_remote_width", "de/da8/struct___remmina_protocol_widget_priv.html#aaab2e0d0706684150d0ee572e2490a10", null ],
     [ "remmina_file", "de/da8/struct___remmina_protocol_widget_priv.html#a0f1ee4a3ddb7afe518588dce3046f5ec", null ],
     [ "scalemode", "de/da8/struct___remmina_protocol_widget_priv.html#aa37ce53d4329aaaa7c4059c60882a533", null ],
     [ "scaler_expand", "de/da8/struct___remmina_protocol_widget_priv.html#a94ef3b8e64d6ced7cd639b7917026f4c", null ],

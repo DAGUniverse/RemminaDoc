@@ -1,4 +1,12 @@
 <map id="remmina_main_on_action_application_preferences" name="remmina_main_on_action_application_preferences">
-<area shape="rect" id="node2" href="$d6/df3/remmina__pref__dialog_8c.html#a16091735af5c6ee31fb794a5fb860342" title="remmina_pref_dialog_new" alt="" coords="224,13,397,39"/>
-<area shape="rect" id="node3" href="$db/d22/remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="445,5,600,47"/>
+<area shape="rect" id="node2" href="$d6/df3/remmina__pref__dialog_8c.html#a16091735af5c6ee31fb794a5fb860342" title="remmina_pref_dialog_new" alt="" coords="224,100,397,127"/>
+<area shape="rect" id="node3" href="$db/d22/remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="451,63,606,105"/>
+<area shape="rect" id="node4" href="$d6/df3/remmina__pref__dialog_8c.html#a9a050b69e373c90ea7d400aa94f34344" title="remmina_pref_dialog_init" alt="" coords="445,129,612,156"/>
+<area shape="rect" id="node5" href="$dc/d1a/remmina__icon_8c.html#ae477ccd85ab1d878d243aed7fa5e48ae" title="remmina_icon_is_autostart" alt="" coords="660,5,839,32"/>
+<area shape="rect" id="node6" href="$d6/df3/remmina__pref__dialog_8c.html#a384dde55873f855555c0194d45cbfd59" title="remmina_pref_dialog\l_set_button_label" alt="" coords="678,57,821,98"/>
+<area shape="rect" id="node8" href="$de/d5d/remmina__plugin__manager_8c.html#a13f13a6a4280268656f258cb5aeff031" title="remmina_plugin_manager\l_for_each_plugin" alt="" coords="664,122,835,163"/>
+<area shape="rect" id="node9" href="$d6/df3/remmina__pref__dialog_8c.html#add9c48bccc2c61be2f2900a154648dd4" title="remmina_pref_dialog\l_add_pref_plugin" alt="" coords="678,187,821,229"/>
+<area shape="rect" id="node10" href="$d0/d36/remmina__widget__pool_8c.html#ae3c9c9853eb5bedbfeadbfac1d495b95" title="remmina_widget_pool\l_register" alt="" coords="675,253,823,294"/>
+<area shape="rect" id="node7" href="$d1/d7c/remmina__key__chooser_8c.html#a5aba1462f1026818581e91155b12618f" title="remmina_key_chooser\l_get_value" alt="" coords="887,57,1040,98"/>
+<area shape="rect" id="node11" href="$d0/d36/remmina__widget__pool_8c.html#aa5fd17580202843eab40cabb258d2664" title="remmina_widget_pool\l_on_widget_destroy" alt="" coords="889,253,1037,294"/>
 </map>

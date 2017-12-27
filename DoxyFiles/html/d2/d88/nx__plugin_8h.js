@@ -1,7 +1,6 @@
 var nx__plugin_8h =
 [
     [ "_RemminaPluginNxData", "de/db3/struct___remmina_plugin_nx_data.html", "de/db3/struct___remmina_plugin_nx_data" ],
-    [ "GET_PLUGIN_DATA", "d2/d88/nx__plugin_8h.html#a28bb4a6b8535bd032c00f0139eee41d0", null ],
     [ "RemminaPluginNxData", "d2/d88/nx__plugin_8h.html#a2a03ded9a85fd59c27de3053a7cae122", null ],
     [ "RemminaNXEventType", "d2/d88/nx__plugin_8h.html#aef3e25a6bbd288f0a417a1fa331e661c", [
       [ "REMMINA_NX_EVENT_CANCEL", "d2/d88/nx__plugin_8h.html#aef3e25a6bbd288f0a417a1fa331e661cae5a1b599d5b1d5f2aa74e3a3e7a9085a", null ],

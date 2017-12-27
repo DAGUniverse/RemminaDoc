@@ -3,8 +3,6 @@ var types_8h =
     [ "_RemminaProtocolFeature", "dc/de3/struct___remmina_protocol_feature.html", "dc/de3/struct___remmina_protocol_feature" ],
     [ "_RemminaPluginScreenshotData", "d9/d0b/struct___remmina_plugin_screenshot_data.html", "d9/d0b/struct___remmina_plugin_screenshot_data" ],
     [ "_RemminaProtocolSetting", "d5/db7/struct___remmina_protocol_setting.html", "d5/db7/struct___remmina_protocol_setting" ],
-    [ "REMMINA_PROTOCOL_FEATURE_PREF_CHECK", "d9/d49/types_8h.html#a5693f6ca91ea13ab863ecdbe9c08cfe7", null ],
-    [ "REMMINA_PROTOCOL_FEATURE_PREF_RADIO", "d9/d49/types_8h.html#a96a054e46d0e2eb2a1fc1f9f1ddd7a04", null ],
     [ "RemminaFile", "d9/d49/types_8h.html#a112d7cc6c755209cabb68cf2a62ad515", null ],
     [ "RemminaPluginScreenshotData", "d9/d49/types_8h.html#a8f1322421fba36f6efb1a01e0626b2b1", null ],
     [ "RemminaProtocolFeature", "d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74", null ],

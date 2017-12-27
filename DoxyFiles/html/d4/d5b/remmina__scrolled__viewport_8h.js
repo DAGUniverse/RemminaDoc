@@ -2,12 +2,6 @@ var remmina__scrolled__viewport_8h =
 [
     [ "_RemminaScrolledViewport", "da/d82/struct___remmina_scrolled_viewport.html", "da/d82/struct___remmina_scrolled_viewport" ],
     [ "_RemminaScrolledViewportClass", "d9/d4e/struct___remmina_scrolled_viewport_class.html", "d9/d4e/struct___remmina_scrolled_viewport_class" ],
-    [ "REMMINA_IS_SCROLLED_VIEWPORT", "d4/d5b/remmina__scrolled__viewport_8h.html#ae334a9b79055d69c54ef3d0e840d4628", null ],
-    [ "REMMINA_IS_SCROLLED_VIEWPORT_CLASS", "d4/d5b/remmina__scrolled__viewport_8h.html#a11a7e8c47719757c2bfa8287d16fdd51", null ],
-    [ "REMMINA_SCROLLED_VIEWPORT", "d4/d5b/remmina__scrolled__viewport_8h.html#a9babbaf0f57f4006dbe1df6b2f451dd8", null ],
-    [ "REMMINA_SCROLLED_VIEWPORT_CLASS", "d4/d5b/remmina__scrolled__viewport_8h.html#aced1e1f88ec84ed7c75f01da5d40b75d", null ],
-    [ "REMMINA_SCROLLED_VIEWPORT_GET_CLASS", "d4/d5b/remmina__scrolled__viewport_8h.html#ad685f24cedcc8b4c1b3b262b456d87ed", null ],
-    [ "REMMINA_TYPE_SCROLLED_VIEWPORT", "d4/d5b/remmina__scrolled__viewport_8h.html#a2c75a83c234c4aa1fe40272cb1fffdff", null ],
     [ "RemminaScrolledViewport", "d4/d5b/remmina__scrolled__viewport_8h.html#a6780b29de78ebf1320efd4726a48080f", null ],
     [ "RemminaScrolledViewportClass", "d4/d5b/remmina__scrolled__viewport_8h.html#a9b7419b88e9d80b9b28effc5ddbbf036", null ],
     [ "remmina_scrolled_viewport_get_type", "d4/d5b/remmina__scrolled__viewport_8h.html#a233033bbbbeb18a654ca3610ab319312", null ],

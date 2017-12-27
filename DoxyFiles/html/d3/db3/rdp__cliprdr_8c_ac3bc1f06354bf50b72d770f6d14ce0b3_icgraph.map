@@ -1,0 +1,34 @@
+<map id="remmina_rdp_cliprdr_set_clipboard_content" name="remmina_rdp_cliprdr_set_clipboard_content">
+<area shape="rect" id="node2" href="$d1/dbb/rdp__cliprdr_8h.html#ad4fad618198e7746ea1e4ebd01a9b173" title="remmina_rdp_event_process\l_clipboard" alt="" coords="209,391,399,432"/>
+<area shape="rect" id="node3" href="$dc/dd7/rdp__event_8c.html#a6929ce2effcc3cf2be6d5ec8b19d5466" title="remmina_rdp_event_process\l_ui_event" alt="" coords="447,391,636,432"/>
+<area shape="rect" id="node4" href="$dc/dd7/rdp__event_8c.html#abfa1d5d0b0494818fb5e1a549c0acd23" title="remmina_rdp_event_process\l_ui_queue" alt="" coords="684,361,873,403"/>
+<area shape="rect" id="node5" href="$dc/dd7/rdp__event_8c.html#a2b91746b782b7782432bd1d23c6a9945" title="remmina_rdp_event_queue_ui" alt="" coords="921,398,1116,425"/>
+<area shape="rect" id="node6" href="$d2/d05/rdp__event_8h.html#ae445fd0a84c7c9414a177a69c86cf325" title="remmina_rdp_event_queue\l_ui_async" alt="" coords="1631,703,1809,744"/>
+<area shape="rect" id="node15" href="$d2/d05/rdp__event_8h.html#ab5fe43c1b1b77c39f118d2581942eb81" title="remmina_rdp_event_queue\l_ui_sync_retint" alt="" coords="1391,391,1569,432"/>
+<area shape="rect" id="node31" href="$d2/d05/rdp__event_8h.html#adaaf3de8342309cc52668f318a473350" title="remmina_rdp_event_queue\l_ui_sync_retptr" alt="" coords="1164,249,1343,291"/>
+<area shape="rect" id="node7" href="$d5/db5/rdp__plugin_8c.html#a6dc42bd40842f63939e962828c19cfc7" title="rf_auto_reconnect" alt="" coords="1889,735,2015,762"/>
+<area shape="rect" id="node12" href="$d5/db5/rdp__plugin_8c.html#ab5b2b1181588e07e68c083c9539fa84f" title="rf_end_paint" alt="" coords="1905,634,1999,661"/>
+<area shape="rect" id="node13" href="$d5/db5/rdp__plugin_8c.html#ac8d1ec82167ad20b7634ed545d4badbc" title="remmina_rdp_post_connect" alt="" coords="2106,583,2289,610"/>
+<area shape="rect" id="node8" href="$d5/db5/rdp__plugin_8c.html#adb2d2f801618ad1e5ff14b4ebf2a9eb9" title="remmina_rdp_main_loop" alt="" coords="2116,735,2279,762"/>
+<area shape="rect" id="node9" href="$d5/db5/rdp__plugin_8c.html#a12e0199d082d510648cb27168486f4e0" title="remmina_rdp_main" alt="" coords="2383,735,2515,762"/>
+<area shape="rect" id="node10" href="$d5/db5/rdp__plugin_8c.html#a3b62e33da1cb6cfa69c44f565ad53c54" title="remmina_rdp_main_thread" alt="" coords="2584,735,2759,762"/>
+<area shape="rect" id="node11" href="$d5/db5/rdp__plugin_8c.html#a5f88cb338f10185c43bfc7d711dddee5" title="remmina_rdp_open_connection" alt="" coords="2807,735,3009,762"/>
+<area shape="rect" id="node14" href="$d5/db5/rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309" title="remmina_rdp_init" alt="" coords="2611,557,2732,583"/>
+<area shape="rect" id="node16" href="$d3/db3/rdp__cliprdr_8c.html#aad8017b7ae0935c5266e7777dae3c3d4" title="remmina_rdp_cliprdr\l_server_format_list" alt="" coords="1651,71,1789,112"/>
+<area shape="rect" id="node20" href="$d3/db3/rdp__cliprdr_8c.html#a3a346af4c3c92ec71797838ecc69bdae" title="remmina_rdp_cliprdr\l_server_format_data\l_request" alt="" coords="1649,187,1791,243"/>
+<area shape="rect" id="node21" href="$d3/db3/rdp__cliprdr_8c.html#a010f06478881fa1942237c48a4605a23" title="remmina_rdp_cliprdr\l_server_format_data\l_response" alt="" coords="1649,267,1791,323"/>
+<area shape="rect" id="node22" href="$dd/d24/rdp__graphics_8c.html#a9fb6fb540ec75254cb763ae974fb5129" title="rf_Pointer_New" alt="" coords="1664,347,1776,374"/>
+<area shape="rect" id="node24" href="$dd/d24/rdp__graphics_8c.html#afe709335471a30a29f9c97587d43088f" title="rf_Pointer_Free" alt="" coords="1665,398,1775,425"/>
+<area shape="rect" id="node25" href="$dd/d24/rdp__graphics_8c.html#aee54ac34465e6b70a5a7bbd799e9b747" title="rf_Pointer_Set" alt="" coords="1667,449,1773,475"/>
+<area shape="rect" id="node26" href="$dd/d24/rdp__graphics_8c.html#aeb108afe0c6da4dfa5a485137921437a" title="rf_Pointer_SetNull" alt="" coords="1656,499,1784,526"/>
+<area shape="rect" id="node27" href="$dd/d24/rdp__graphics_8c.html#ac2abd9da136bc6f446c836a3d53ab8b6" title="rf_Pointer_SetDefault" alt="" coords="1647,550,1793,577"/>
+<area shape="rect" id="node28" href="$dd/d24/rdp__graphics_8c.html#a4c2407f4e8db3ae44123066c373b705c" title="rf_Pointer_SetPosition" alt="" coords="1644,601,1796,627"/>
+<area shape="rect" id="node29" href="$d5/db5/rdp__plugin_8c.html#a992a905d014d83a8de736ffbd85fe901" title="rf_desktop_resize" alt="" coords="1889,583,2015,610"/>
+<area shape="rect" id="node30" href="$d5/db5/rdp__plugin_8c.html#a1beaae641f40fc4fbcafe84846a2eb76" title="remmina_rdp_close_connection" alt="" coords="1617,137,1823,163"/>
+<area shape="rect" id="node17" href="$d1/dbb/rdp__cliprdr_8h.html#a9425378cc9b2da11eb4b866c8069e4aa" title="remmina_rdp_cliprdr_init" alt="" coords="1871,202,2033,229"/>
+<area shape="rect" id="node18" href="$db/dd7/rdp__channels_8h.html#a759a6601ddb16301f0f6c39a6e88425a" title="remmina_rdp_OnChannelConnected\lEventHandler" alt="" coords="2081,356,2313,397"/>
+<area shape="rect" id="node19" href="$d5/db5/rdp__plugin_8c.html#a0bc4113554537fd1a9e4c8bb9201e789" title="remmina_rdp_pre_connect" alt="" coords="2361,527,2536,554"/>
+<area shape="rect" id="node23" href="$df/d13/rdp__graphics_8h.html#a95732c40c35499f3440715b6526279b1" title="rf_register_graphics" alt="" coords="1884,499,2020,526"/>
+<area shape="rect" id="node32" href="$d3/db3/rdp__cliprdr_8c.html#a8afec91e9f54fc3a0ea8f25d8349bd8b" title="remmina_rdp_cliprdr\l_send_client_format_list" alt="" coords="1399,165,1561,207"/>
+<area shape="rect" id="node33" href="$d3/db3/rdp__cliprdr_8c.html#a5c9890f4354ef9a8dedcf3a371a2a16f" title="remmina_rdp_cliprdr\l_monitor_ready" alt="" coords="1651,5,1789,47"/>
+</map>

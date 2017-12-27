@@ -1,3 +1,5 @@
 <map id="rf_Bitmap_New" name="rf_Bitmap_New">
 <area shape="rect" id="node2" href="$df/d13/rdp__graphics_8h.html#a95732c40c35499f3440715b6526279b1" title="rf_register_graphics" alt="" coords="165,5,301,32"/>
+<area shape="rect" id="node3" href="$d5/db5/rdp__plugin_8c.html#ac8d1ec82167ad20b7634ed545d4badbc" title="remmina_rdp_post_connect" alt="" coords="349,5,532,32"/>
+<area shape="rect" id="node4" href="$d5/db5/rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309" title="remmina_rdp_init" alt="" coords="580,5,701,32"/>
 </map>

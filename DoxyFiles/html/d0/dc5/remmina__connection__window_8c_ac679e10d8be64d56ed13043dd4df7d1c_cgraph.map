@@ -1,0 +1,11 @@
+<map id="remmina_connection_holder_toolbar_autofit" name="remmina_connection_holder_toolbar_autofit">
+<area shape="rect" id="node2" href="$d0/dc5/remmina__connection__window_8c.html#a92a6aa97bc751b0c096583a66351ada1" title="remmina_connection\l_holder_toolbar_autofit\l_restore" alt="" coords="207,97,360,153"/>
+<area shape="rect" id="node3" href="$d0/dc5/remmina__connection__window_8c.html#acf5d62eb5dda2e3a1a76c4bcbb926fb8" title="remmina_connection\l_holder_get_desktop_size" alt="" coords="408,67,581,108"/>
+<area shape="rect" id="node6" href="$d0/dc5/remmina__connection__window_8c.html#ae80a730a48eefb689b9957c4f669a020" title="remmina_connection\l_object_set_scrolled\l_policy" alt="" coords="423,133,566,189"/>
+<area shape="rect" id="node4" href="$d6/d0f/remmina__protocol__widget_8c.html#aaf355ea7103fc57a4cbc7b815cde2995" title="remmina_protocol_widget\l_get_width" alt="" coords="629,5,800,47"/>
+<area shape="rect" id="node5" href="$d6/d0f/remmina__protocol__widget_8c.html#ae609b351fff17c235251b0ba7c480da5" title="remmina_protocol_widget\l_get_height" alt="" coords="629,71,800,112"/>
+<area shape="rect" id="node7" href="$d0/dc5/remmina__connection__window_8c.html#abbc84b2c450f62c288ff827c5d2c5cd2" title="get_current_allowed\l_scale_mode" alt="" coords="645,140,784,181"/>
+<area shape="rect" id="node8" href="$d6/d0f/remmina__protocol__widget_8c.html#a5ec62969da54155e24edcb1d998f93f7" title="remmina_protocol_widget\l_get_current_scale_mode" alt="" coords="848,107,1019,148"/>
+<area shape="rect" id="node9" href="$d6/d0f/remmina__protocol__widget_8c.html#adbe15328275677cb38bd8c8a2d5e039d" title="remmina_protocol_widget\l_query_feature_by_type" alt="" coords="848,172,1019,213"/>
+<area shape="rect" id="node10" href="$d5/d16/remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="1067,179,1209,206"/>
+</map>

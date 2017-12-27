@@ -1,0 +1,7 @@
+<map id="remmina_rdp_tunnel_init" name="remmina_rdp_tunnel_init">
+<area shape="rect" id="node2" href="$d5/db5/rdp__plugin_8c.html#a6dc42bd40842f63939e962828c19cfc7" title="rf_auto_reconnect" alt="" coords="216,5,343,32"/>
+<area shape="rect" id="node4" href="$d5/db5/rdp__plugin_8c.html#a12e0199d082d510648cb27168486f4e0" title="remmina_rdp_main" alt="" coords="601,31,733,57"/>
+<area shape="rect" id="node3" href="$d5/db5/rdp__plugin_8c.html#adb2d2f801618ad1e5ff14b4ebf2a9eb9" title="remmina_rdp_main_loop" alt="" coords="391,5,553,32"/>
+<area shape="rect" id="node5" href="$d5/db5/rdp__plugin_8c.html#a3b62e33da1cb6cfa69c44f565ad53c54" title="remmina_rdp_main_thread" alt="" coords="781,31,956,57"/>
+<area shape="rect" id="node6" href="$d5/db5/rdp__plugin_8c.html#a5f88cb338f10185c43bfc7d711dddee5" title="remmina_rdp_open_connection" alt="" coords="1004,31,1207,57"/>
+</map>

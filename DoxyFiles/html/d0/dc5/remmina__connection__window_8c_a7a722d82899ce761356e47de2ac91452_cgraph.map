@@ -1,0 +1,23 @@
+<map id="remmina_connection_holder_toolbar_scaler_option" name="remmina_connection_holder_toolbar_scaler_option">
+<area shape="rect" id="node2" href="$d6/d0f/remmina__protocol__widget_8c.html#a25bcb2ae99449624fed6f770218e3d25" title="remmina_protocol_widget\l_get_expand" alt="" coords="653,219,824,261"/>
+<area shape="rect" id="node3" href="$d0/dc5/remmina__connection__window_8c.html#a2d6419b0ee62c2730b024152a06bb6bc" title="remmina_connection\l_holder_scaler_keep\l_aspect" alt="" coords="211,348,354,404"/>
+<area shape="rect" id="node15" href="$d0/dc5/remmina__connection__window_8c.html#a4495fca1215fef8e8484b7fee38ae996" title="remmina_connection\l_holder_scaler_expand" alt="" coords="205,282,360,323"/>
+<area shape="rect" id="node16" href="$d0/dc5/remmina__connection__window_8c.html#a40efa9a7d27d7742477d73e7636a3d4e" title="remmina_connection\l_holder_scaler_option\l_popdown" alt="" coords="209,149,357,205"/>
+<area shape="rect" id="node22" href="$db/d22/remmina__public_8c.html#a92025b5f6512955f9c29608b5451a12c" title="remmina_public_popup\l_position" alt="" coords="205,429,360,470"/>
+<area shape="rect" id="node4" href="$d6/d0f/remmina__protocol__widget_8c.html#a0b19dbe685e4465e7f06706270e120fa" title="remmina_protocol_widget\l_set_expand" alt="" coords="421,350,592,391"/>
+<area shape="rect" id="node5" href="$d5/d16/remmina__file_8c.html#af153b0d289ac93f6ecdaa15d5f3b9b8c" title="remmina_file_set_int" alt="" coords="435,416,578,443"/>
+<area shape="rect" id="node6" href="$d0/dc5/remmina__connection__window_8c.html#ab7dc553cbd2005feb77163cf79f48f6d" title="remmina_protocol_widget\l_update_alignment" alt="" coords="421,285,592,326"/>
+<area shape="rect" id="node7" href="$d0/dc5/remmina__connection__window_8c.html#abbc84b2c450f62c288ff827c5d2c5cd2" title="get_current_allowed\l_scale_mode" alt="" coords="669,285,808,326"/>
+<area shape="rect" id="node11" href="$d6/d0f/remmina__protocol__widget_8c.html#aaf355ea7103fc57a4cbc7b815cde2995" title="remmina_protocol_widget\l_get_width" alt="" coords="653,415,824,457"/>
+<area shape="rect" id="node12" href="$d6/d0f/remmina__protocol__widget_8c.html#ae609b351fff17c235251b0ba7c480da5" title="remmina_protocol_widget\l_get_height" alt="" coords="653,481,824,522"/>
+<area shape="rect" id="node13" href="$d0/dc5/remmina__connection__window_8c.html#ad6f6d8dd7e157f8fffabb6c22ec604e3" title="remmina_connection\l_holder_grab_focus" alt="" coords="667,350,810,391"/>
+<area shape="rect" id="node8" href="$d6/d0f/remmina__protocol__widget_8c.html#a5ec62969da54155e24edcb1d998f93f7" title="remmina_protocol_widget\l_get_current_scale_mode" alt="" coords="872,297,1043,338"/>
+<area shape="rect" id="node9" href="$d6/d0f/remmina__protocol__widget_8c.html#adbe15328275677cb38bd8c8a2d5e039d" title="remmina_protocol_widget\l_query_feature_by_type" alt="" coords="872,231,1043,273"/>
+<area shape="rect" id="node10" href="$d5/d16/remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="1091,203,1233,229"/>
+<area shape="rect" id="node14" href="$d6/d0f/remmina__protocol__widget_8c.html#a290eb68f0e86de1b7b82e2d98a1494d1" title="remmina_protocol_widget\l_grab_focus" alt="" coords="872,362,1043,403"/>
+<area shape="rect" id="node17" href="$d0/dc5/remmina__connection__window_8c.html#a147924e56eceebe1f61e47bf5af2218a" title="remmina_connection\l_holder_floating_toolbar_show" alt="" coords="408,157,605,198"/>
+<area shape="rect" id="node18" href="$d0/dc5/remmina__connection__window_8c.html#aac6895538e595984302a03c07bc51fbe" title="remmina_connection\l_holder_update_toolbar\l_opacity" alt="" coords="879,151,1035,207"/>
+<area shape="rect" id="node19" href="$d0/dc5/remmina__connection__window_8c.html#af12f8b64866588b7b2360cbc2681ec40" title="remmina_connection\l_holder_floating_toolbar\l_make_invisible" alt="" coords="659,5,818,61"/>
+<area shape="rect" id="node20" href="$d0/dc5/remmina__connection__window_8c.html#a2b7b33331e6fe8c8c70be62038f9f5ea" title="remmina_connection\l_holder_floating_toolbar\l_update" alt="" coords="659,85,818,141"/>
+<area shape="rect" id="node21" href="$d0/dc5/remmina__connection__window_8c.html#a0a92f6f998590a56e44964f0345f942b" title="remmina_connection\l_holder_floating_toolbar\l_motion" alt="" coords="878,71,1037,127"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="remmina_rdp_event_process_clipboard" name="remmina_rdp_event_process_clipboard">
+<area shape="rect" id="node2" href="$d3/db3/rdp__cliprdr_8c.html#a9d9b4fd8f4efbac086e3a2a274647ce5" title="remmina_rdp_cliprdr\l_mt_get_format_list" alt="" coords="251,24,390,65"/>
+<area shape="rect" id="node5" href="$d3/db3/rdp__cliprdr_8c.html#a1875ac25f73dd93e4b716746e7c6b8d5" title="remmina_rdp_cliprdr\l_get_clipboard_data" alt="" coords="251,108,390,149"/>
+<area shape="rect" id="node8" href="$d3/db3/rdp__cliprdr_8c.html#a007ce9136242f75dc148bd4e2ee5fde5" title="remmina_rdp_cliprdr\l_set_clipboard_data" alt="" coords="251,173,390,215"/>
+<area shape="rect" id="node11" href="$d3/db3/rdp__cliprdr_8c.html#ac3bc1f06354bf50b72d770f6d14ce0b3" title="remmina_rdp_cliprdr\l_set_clipboard_content" alt="" coords="243,239,399,280"/>
+<area shape="rect" id="node12" href="$d3/db3/rdp__cliprdr_8c.html#a9a632fe72a00f2aef95b884a0dc60912" title="remmina_rdp_cliprdr\l_detach_owner" alt="" coords="251,304,390,345"/>
+<area shape="rect" id="node3" href="$d3/db3/rdp__cliprdr_8c.html#accb7cad54767b8f658b8ea438690ef4f" title="remmina_rdp_cliprdr\l_get_client_format_list" alt="" coords="447,5,600,47"/>
+<area shape="rect" id="node4" href="$d3/db3/rdp__cliprdr_8c.html#a7eb7cd7eeab0e52c33721cc0564964ea" title="remmina_rdp_cliprdr\l_get_format_from_gdkatom" alt="" coords="663,5,844,47"/>
+<area shape="rect" id="node6" href="$d3/db3/rdp__cliprdr_8c.html#a4f9d059736e69df00273ec853d15c772" title="lf2crlf" alt="" coords="496,71,551,98"/>
+<area shape="rect" id="node7" href="$dc/dd7/rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580" title="remmina_rdp_event_event_push" alt="" coords="648,151,859,178"/>
+<area shape="rect" id="node9" href="$d3/db3/rdp__cliprdr_8c.html#a48904924b1064d1bb3bfb6116bac6bd3" title="remmina_rdp_cliprdr\l_request_data" alt="" coords="454,173,593,215"/>
+<area shape="rect" id="node10" href="$d3/db3/rdp__cliprdr_8c.html#a719b6820f66508f8acb943a1bf1a495d" title="remmina_rdp_cliprdr\l_empty_clipboard" alt="" coords="454,239,593,280"/>
+</map>

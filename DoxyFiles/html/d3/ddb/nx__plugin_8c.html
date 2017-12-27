@@ -84,39 +84,13 @@ $(document).ready(function(){initNavTree('d3/ddb/nx__plugin_8c.html','../../');}
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">nx_plugin.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;pthread.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d23/remmina__plugin_8h_source.html">common/remmina_plugin.h</a>&quot;</code><br />
-<code>#include &lt;time.h&gt;</code><br />
-<code>#include &lt;libssh/libssh.h&gt;</code><br />
-<code>#include &lt;X11/Xlib.h&gt;</code><br />
-<code>#include &lt;X11/XKBlib.h&gt;</code><br />
-<code>#include &lt;X11/extensions/XKBrules.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d88/nx__plugin_8h_source.html">nx_plugin.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d2a/nx__session__manager_8h_source.html">nx_session_manager.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for nx_plugin.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d5f/nx__plugin_8c__incl.png" border="0" usemap="#nx__plugin_8c" alt=""/></div>
-<map name="nx__plugin_8c" id="nx__plugin_8c">
-<area shape="rect" id="node4" href="../../d8/d23/remmina__plugin_8h.html" title="common/remmina_plugin.h" alt="" coords="446,80,625,107"/>
-<area shape="rect" id="node21" href="../../d2/d88/nx__plugin_8h.html" title="nx_plugin.h" alt="" coords="1299,80,1387,107"/>
-<area shape="rect" id="node23" href="../../d6/d2a/nx__session__manager_8h.html" title="nx_session_manager.h" alt="" coords="1412,80,1568,107"/>
-<area shape="rect" id="node5" href="../../db/d16/config_8h.html" title="config.h" alt="" coords="105,155,173,181"/>
-<area shape="rect" id="node9" href="../../d9/dc4/plugin_8h.html" title="remmina/plugin.h" alt="" coords="540,155,661,181"/>
-<area shape="rect" id="node11" href="../../de/d66/remmina__trace__calls_8h.html" title="remmina/remmina_trace\l_calls.h" alt="" coords="618,229,781,271"/>
-<area shape="rect" id="node10" href="../../d9/d49/types_8h.html" title="remmina/types.h" alt="" coords="475,237,593,263"/>
-<area shape="rect" id="node22" href="../../d1/de0/nx__session_8h.html" title="nx_session.h" alt="" coords="1294,155,1393,181"/>
-</map>
-</div>
-</div>
+
 <p><a href="../../d3/ddb/nx__plugin_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -124,59 +98,269 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/structon_main_thread__cb__data.html">onMainThread_cb_data</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a2e84c73592c2992fdc0b2593524f3b18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a2e84c73592c2992fdc0b2593524f3b18">LIBSSH_STATIC</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a2e84c73592c2992fdc0b2593524f3b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a446cae1bd0cbc110f42f551fb8e3941f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a446cae1bd0cbc110f42f551fb8e3941f">REMMINA_PLUGIN_NX_FEATURE_TOOL_SENDCTRLALTDEL</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a446cae1bd0cbc110f42f551fb8e3941f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9ba8e968998b64b3832e484a2ca7dfc1"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a9ba8e968998b64b3832e484a2ca7dfc1">onMainThread_cb</a> (struct <a class="el" href="../../d2/d4c/structon_main_thread__cb__data.html">onMainThread_cb_data</a> *d)</td></tr>
+<tr class="separator:a9ba8e968998b64b3832e484a2ca7dfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dea604d34a804e23a5cd8a6683d9e49"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a5dea604d34a804e23a5cd8a6683d9e49">onMainThread_cleanup_handler</a> (gpointer data)</td></tr>
+<tr class="separator:a5dea604d34a804e23a5cd8a6683d9e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390e3b371156197feb518b737a31cc53"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53">onMainThread_schedule_callback_and_wait</a> (struct <a class="el" href="../../d2/d4c/structon_main_thread__cb__data.html">onMainThread_cb_data</a> *d)</td></tr>
+<tr class="separator:a390e3b371156197feb518b737a31cc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b9185763acddffe0bbdef41380bf43"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43">onMainThread_gtk_socket_add_id</a> (GtkSocket *sk, Window w)</td></tr>
+<tr class="separator:a31b9185763acddffe0bbdef41380bf43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c034c5e70f4c327eaab63bbd9c9edef"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a4c034c5e70f4c327eaab63bbd9c9edef">remmina_plugin_nx_try_window_id</a> (Window window_id)</td></tr>
+<tr class="separator:a4c034c5e70f4c327eaab63bbd9c9edef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38661931521f9b3472c6d76b6c201105"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a38661931521f9b3472c6d76b6c201105">remmina_plugin_nx_remove_window_id</a> (Window window_id)</td></tr>
+<tr class="separator:a38661931521f9b3472c6d76b6c201105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f17900103bf5e4dfa17ad0c185faf06"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a9f17900103bf5e4dfa17ad0c185faf06">remmina_plugin_nx_on_plug_added</a> (GtkSocket *socket, <a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a9f17900103bf5e4dfa17ad0c185faf06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad082d04b9e0e374b58d98e8474821e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a9ad082d04b9e0e374b58d98e8474821e">remmina_plugin_nx_on_plug_removed</a> (GtkSocket *socket, <a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a9ad082d04b9e0e374b58d98e8474821e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3154460257b0cccadad068cff973ce30"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a3154460257b0cccadad068cff973ce30">remmina_plugin_nx_ssh_auth_callback</a> (gchar **passphrase, gpointer userdata)</td></tr>
 <tr class="separator:a3154460257b0cccadad068cff973ce30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c4ca70de2ad9bc56a0c2a3cf2e8123"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a65c4ca70de2ad9bc56a0c2a3cf2e8123">remmina_plugin_nx_on_proxy_exit</a> (GPid pid, gint status, gpointer data)</td></tr>
+<tr class="separator:a65c4ca70de2ad9bc56a0c2a3cf2e8123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4a4c9b55ff6b6b1ffe2acefbf49199d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#ad4a4c9b55ff6b6b1ffe2acefbf49199d">remmina_plugin_nx_dummy_handler</a> (Display *dsp, XErrorEvent *err)</td></tr>
+<tr class="separator:ad4a4c9b55ff6b6b1ffe2acefbf49199d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4b790bf7e413fa815f636c1b0fcbe23"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#ae4b790bf7e413fa815f636c1b0fcbe23">remmina_plugin_nx_start_create_notify</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:ae4b790bf7e413fa815f636c1b0fcbe23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6030365c211465628de098dca1ac17"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#aeb6030365c211465628de098dca1ac17">remmina_plugin_nx_monitor_create_notify</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, const gchar *cmd)</td></tr>
+<tr class="separator:aeb6030365c211465628de098dca1ac17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a259295f4bce4182ccc132e958ea7eb56"><td class="memItemLeft" align="right" valign="top">static gint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a259295f4bce4182ccc132e958ea7eb56">remmina_plugin_nx_wait_signal</a> (<a class="el" href="../../d2/d88/nx__plugin_8h.html#a2a03ded9a85fd59c27de3053a7cae122">RemminaPluginNxData</a> *gpdata)</td></tr>
+<tr class="separator:a259295f4bce4182ccc132e958ea7eb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa471a4e13385a583efb610d33fd9a1b5"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5">remmina_plugin_nx_start_session</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:aa471a4e13385a583efb610d33fd9a1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada1c6767dcc37e55c4b4ce3b5d8ebdf"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf">remmina_plugin_nx_main</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:aada1c6767dcc37e55c4b4ce3b5d8ebdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a747a6fa8ff786ff6539d664ad6e38046"><td class="memItemLeft" align="right" valign="top">static gpointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046">remmina_plugin_nx_main_thread</a> (gpointer data)</td></tr>
+<tr class="separator:a747a6fa8ff786ff6539d664ad6e38046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79807a1c2a499d75b83d267b8c08cd7e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a79807a1c2a499d75b83d267b8c08cd7e">remmina_plugin_nx_init</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a79807a1c2a499d75b83d267b8c08cd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d40a7cb7e890449902b5970ab50707"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707">remmina_plugin_nx_open_connection</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a24d40a7cb7e890449902b5970ab50707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f57765ecdaf9ce7ee896dc16cd268a"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a89f57765ecdaf9ce7ee896dc16cd268a">remmina_plugin_nx_close_connection</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:a89f57765ecdaf9ce7ee896dc16cd268a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7107dd5c7dad8e647489abb6650ed6e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#ab7107dd5c7dad8e647489abb6650ed6e">remmina_plugin_nx_send_ctrlaltdel</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp)</td></tr>
+<tr class="separator:ab7107dd5c7dad8e647489abb6650ed6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6e5136c200aefda845bb8979babbad"><td class="memItemLeft" align="right" valign="top">static gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a5f6e5136c200aefda845bb8979babbad">remmina_plugin_nx_query_feature</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *feature)</td></tr>
+<tr class="separator:a5f6e5136c200aefda845bb8979babbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c538a1cbd6efdd4989ae9e142a2de4e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a3c538a1cbd6efdd4989ae9e142a2de4e">remmina_plugin_nx_call_feature</a> (<a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *gp, const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *feature)</td></tr>
+<tr class="separator:a3c538a1cbd6efdd4989ae9e142a2de4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e5020de11446dbc23f3480e313f208"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">remmina_plugin_entry</a> (<a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a> *service)</td></tr>
 <tr class="separator:a56e5020de11446dbc23f3480e313f208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a014fb78d715a43890b4d6c720b97a278"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dc4/plugin_8h.html#a52531fe685f868ce2bf593ed7328e8fd">RemminaProtocolPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a014fb78d715a43890b4d6c720b97a278">remmina_plugin_nx</a></td></tr>
+<tr class="separator:a014fb78d715a43890b4d6c720b97a278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8bb68a7a80a23d5a13203b813ff18bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc4/plugin_8h.html#a078ccfc19f738c83e58bf7a81259eaff">RemminaPluginService</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#af8bb68a7a80a23d5a13203b813ff18bf">remmina_plugin_nx_service</a> = NULL</td></tr>
 <tr class="separator:af8bb68a7a80a23d5a13203b813ff18bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e2a04444e5b0f130329705d4a3b8ec0"><td class="memItemLeft" align="right" valign="top">static gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a5e2a04444e5b0f130329705d4a3b8ec0">remmina_kbtype</a> = &quot;pc102/us&quot;</td></tr>
+<tr class="separator:a5e2a04444e5b0f130329705d4a3b8ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d6717ebcde73fb3bedf42f9551adbd"><td class="memItemLeft" align="right" valign="top">static pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a73d6717ebcde73fb3bedf42f9551adbd">remmina_nx_init_mutex</a></td></tr>
+<tr class="separator:a73d6717ebcde73fb3bedf42f9551adbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808b6bebe5102ad2b80a15224e30ff4f"><td class="memItemLeft" align="right" valign="top">static GArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a808b6bebe5102ad2b80a15224e30ff4f">remmina_nx_window_id_array</a></td></tr>
+<tr class="separator:a808b6bebe5102ad2b80a15224e30ff4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64254af45bb17a5a40a3a0383daa3fe7"><td class="memItemLeft" align="right" valign="top">static gpointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a64254af45bb17a5a40a3a0383daa3fe7">quality_list</a> []</td></tr>
+<tr class="separator:a64254af45bb17a5a40a3a0383daa3fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a354592d1041bee12f9de4522d446be"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a5a354592d1041bee12f9de4522d446be">remmina_plugin_nx_basic_settings</a> []</td></tr>
+<tr class="separator:a5a354592d1041bee12f9de4522d446be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5037031066cbbf12246587ea27fb508"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#af5037031066cbbf12246587ea27fb508">remmina_plugin_nx_advanced_settings</a> []</td></tr>
+<tr class="separator:af5037031066cbbf12246587ea27fb508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6925a5bf78cac68ce04d1fe8293e9f"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/nx__plugin_8c.html#a4a6925a5bf78cac68ce04d1fe8293e9f">remmina_plugin_nx_features</a> []</td></tr>
+<tr class="separator:a4a6925a5bf78cac68ce04d1fe8293e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a2e84c73592c2992fdc0b2593524f3b18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e84c73592c2992fdc0b2593524f3b18">&#9670;&nbsp;</a></span>LIBSSH_STATIC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LIBSSH_STATIC&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00044">44</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
-
-</div>
-</div>
-<a id="a446cae1bd0cbc110f42f551fb8e3941f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a446cae1bd0cbc110f42f551fb8e3941f">&#9670;&nbsp;</a></span>REMMINA_PLUGIN_NX_FEATURE_TOOL_SENDCTRLALTDEL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REMMINA_PLUGIN_NX_FEATURE_TOOL_SENDCTRLALTDEL&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00052">52</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a9ba8e968998b64b3832e484a2ca7dfc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba8e968998b64b3832e484a2ca7dfc1">&#9670;&nbsp;</a></span>onMainThread_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean onMainThread_cb </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d2/d4c/structon_main_thread__cb__data.html">onMainThread_cb_data</a> *&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00081">81</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a9ba8e968998b64b3832e484a2ca7dfc1_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a9ba8e968998b64b3832e484a2ca7dfc1_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a9ba8e968998b64b3832e484a2ca7dfc1_icgraph" id="d3/ddb/nx__plugin_8c_a9ba8e968998b64b3832e484a2ca7dfc1_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="179,5,341,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="389,5,564,47"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="612,5,779,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="827,13,996,39"/>
+<area shape="rect" id="node6" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="1044,5,1213,47"/>
+<area shape="rect" id="node7" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1261,5,1431,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5dea604d34a804e23a5cd8a6683d9e49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dea604d34a804e23a5cd8a6683d9e49">&#9670;&nbsp;</a></span>onMainThread_cleanup_handler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void onMainThread_cleanup_handler </td>
+          <td>(</td>
+          <td class="paramtype">gpointer&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00099">99</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a5dea604d34a804e23a5cd8a6683d9e49_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a5dea604d34a804e23a5cd8a6683d9e49_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a5dea604d34a804e23a5cd8a6683d9e49_icgraph" id="d3/ddb/nx__plugin_8c_a5dea604d34a804e23a5cd8a6683d9e49_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="209,5,372,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="420,5,595,47"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="643,5,809,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="857,13,1027,39"/>
+<area shape="rect" id="node6" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="1075,5,1244,47"/>
+<area shape="rect" id="node7" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1292,5,1461,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a31b9185763acddffe0bbdef41380bf43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b9185763acddffe0bbdef41380bf43">&#9670;&nbsp;</a></span>onMainThread_gtk_socket_add_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void onMainThread_gtk_socket_add_id </td>
+          <td>(</td>
+          <td class="paramtype">GtkSocket *&#160;</td>
+          <td class="paramname"><em>sk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Window&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00123">123</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_cgraph" id="d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="228,35,391,76"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#a5dea604d34a804e23a5cd8a6683d9e49" title="onMainThread_cleanup\l_handler" alt="" coords="439,5,595,47"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a9ba8e968998b64b3832e484a2ca7dfc1" title="onMainThread_cb" alt="" coords="454,71,579,98"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_icgraph" id="d3/ddb/nx__plugin_8c_a31b9185763acddffe0bbdef41380bf43_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="228,5,395,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="443,13,612,39"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="660,5,829,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="877,5,1047,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a390e3b371156197feb518b737a31cc53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390e3b371156197feb518b737a31cc53">&#9670;&nbsp;</a></span>onMainThread_schedule_callback_and_wait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void onMainThread_schedule_callback_and_wait </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d2/d4c/structon_main_thread__cb__data.html">onMainThread_cb_data</a> *&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00107">107</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_cgraph" id="d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a5dea604d34a804e23a5cd8a6683d9e49" title="onMainThread_cleanup\l_handler" alt="" coords="216,5,372,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#a9ba8e968998b64b3832e484a2ca7dfc1" title="onMainThread_cb" alt="" coords="231,71,357,98"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_icgraph" id="d3/ddb/nx__plugin_8c_a390e3b371156197feb518b737a31cc53_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="216,5,391,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="439,5,605,47"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="653,13,823,39"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="871,5,1040,47"/>
+<area shape="rect" id="node6" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1088,5,1257,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a56e5020de11446dbc23f3480e313f208"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56e5020de11446dbc23f3480e313f208">&#9670;&nbsp;</a></span>remmina_plugin_entry()</h2>
 
@@ -193,7 +377,760 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00819">819</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00760">760</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a3c538a1cbd6efdd4989ae9e142a2de4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c538a1cbd6efdd4989ae9e142a2de4e">&#9670;&nbsp;</a></span>remmina_plugin_nx_call_feature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_nx_call_feature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *&#160;</td>
+          <td class="paramname"><em>feature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00667">667</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a3c538a1cbd6efdd4989ae9e142a2de4e_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a3c538a1cbd6efdd4989ae9e142a2de4e_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a3c538a1cbd6efdd4989ae9e142a2de4e_cgraph" id="d3/ddb/nx__plugin_8c_a3c538a1cbd6efdd4989ae9e142a2de4e_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#ab7107dd5c7dad8e647489abb6650ed6e" title="remmina_plugin_nx_send\l_ctrlaltdel" alt="" coords="215,5,384,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a89f57765ecdaf9ce7ee896dc16cd268a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f57765ecdaf9ce7ee896dc16cd268a">&#9670;&nbsp;</a></span>remmina_plugin_nx_close_connection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_close_connection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00613">613</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a89f57765ecdaf9ce7ee896dc16cd268a_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a89f57765ecdaf9ce7ee896dc16cd268a_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a89f57765ecdaf9ce7ee896dc16cd268a_cgraph" id="d3/ddb/nx__plugin_8c_a89f57765ecdaf9ce7ee896dc16cd268a_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a38661931521f9b3472c6d76b6c201105" title="remmina_plugin_nx_remove\l_window_id" alt="" coords="225,5,409,47"/>
+<area shape="rect" id="node3" href="../../db/dd7/nx__session_8c.html#aa7cec91dde56b12471bbe8acd451d9d3" title="remmina_nx_session_free" alt="" coords="230,71,405,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad4a4c9b55ff6b6b1ffe2acefbf49199d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a4c9b55ff6b6b1ffe2acefbf49199d">&#9670;&nbsp;</a></span>remmina_plugin_nx_dummy_handler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int remmina_plugin_nx_dummy_handler </td>
+          <td>(</td>
+          <td class="paramtype">Display *&#160;</td>
+          <td class="paramname"><em>dsp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">XErrorEvent *&#160;</td>
+          <td class="paramname"><em>err</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00219">219</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_ad4a4c9b55ff6b6b1ffe2acefbf49199d_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_ad4a4c9b55ff6b6b1ffe2acefbf49199d_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_ad4a4c9b55ff6b6b1ffe2acefbf49199d_icgraph" id="d3/ddb/nx__plugin_8c_ad4a4c9b55ff6b6b1ffe2acefbf49199d_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#ae4b790bf7e413fa815f636c1b0fcbe23" title="remmina_plugin_nx_start\l_create_notify" alt="" coords="237,5,404,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="452,5,619,47"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="667,13,836,39"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="884,5,1053,47"/>
+<area shape="rect" id="node6" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1101,5,1271,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a79807a1c2a499d75b83d267b8c08cd7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79807a1c2a499d75b83d267b8c08cd7e">&#9670;&nbsp;</a></span>remmina_plugin_nx_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_nx_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00552">552</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a79807a1c2a499d75b83d267b8c08cd7e_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a79807a1c2a499d75b83d267b8c08cd7e_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a79807a1c2a499d75b83d267b8c08cd7e_cgraph" id="d3/ddb/nx__plugin_8c_a79807a1c2a499d75b83d267b8c08cd7e_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a9f17900103bf5e4dfa17ad0c185faf06" title="remmina_plugin_nx_on\l_plug_added" alt="" coords="212,5,367,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#a9ad082d04b9e0e374b58d98e8474821e" title="remmina_plugin_nx_on\l_plug_removed" alt="" coords="212,71,367,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aada1c6767dcc37e55c4b4ce3b5d8ebdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aada1c6767dcc37e55c4b4ce3b5d8ebdf">&#9670;&nbsp;</a></span>remmina_plugin_nx_main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_main </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00520">520</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_cgraph" id="d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_cgraph">
+<area shape="rect" id="node2" href="../../db/dd7/nx__session_8c.html#a33e8f6637275c331c86f321bf1da448c" title="remmina_nx_session_new" alt="" coords="223,630,399,657"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="227,681,394,723"/>
+<area shape="rect" id="node31" href="../../db/dd7/nx__session_8c.html#ae4e7f359af598b707927c162c3c37e1e" title="remmina_nx_session\l_get_error" alt="" coords="932,1365,1077,1407"/>
+<area shape="rect" id="node4" href="../../db/dd7/nx__session_8c.html#a36da737bdb6708e5e5e85437cab112f9" title="remmina_nx_session\l_set_encryption" alt="" coords="466,201,611,243"/>
+<area shape="rect" id="node5" href="../../db/dd7/nx__session_8c.html#ac97d379b04df53ca7dc166676fcbffb5" title="remmina_nx_session\l_set_localport" alt="" coords="466,267,611,308"/>
+<area shape="rect" id="node6" href="../../db/dd7/nx__session_8c.html#a8de7b5ae6b68d7e193cd3f55704d32f7" title="remmina_nx_session\l_set_log_callback" alt="" coords="466,332,611,373"/>
+<area shape="rect" id="node7" href="../../db/dd7/nx__session_8c.html#a6d58e7958d408e2a0abd015688ba912b" title="remmina_nx_session_open" alt="" coords="681,473,861,499"/>
+<area shape="rect" id="node17" href="../../d3/ddb/nx__plugin_8c.html#a3154460257b0cccadad068cff973ce30" title="remmina_plugin_nx_ssh\l_auth_callback" alt="" coords="457,1045,620,1087"/>
+<area shape="rect" id="node18" href="../../db/dd7/nx__session_8c.html#aa912b495508a0f74fe8e121c5b532f6b" title="remmina_nx_session\l_login" alt="" coords="698,545,843,587"/>
+<area shape="rect" id="node19" href="../../db/dd7/nx__session_8c.html#ae4e00fb7501df9af20b7fdc61331c347" title="remmina_nx_session\l_add_parameter" alt="" coords="932,817,1077,859"/>
+<area shape="rect" id="node20" href="../../db/dd7/nx__session_8c.html#a128499f3768aae8bc5c233f6fb616a76" title="remmina_nx_session_list" alt="" coords="454,565,623,591"/>
+<area shape="rect" id="node22" href="../../db/dd7/nx__session_8c.html#aadff42154c92ef10a80b403cadec5c1b" title="remmina_nx_session\l_iter_first" alt="" coords="466,1111,611,1152"/>
+<area shape="rect" id="node23" href="../../d1/da6/nx__session__manager_8c.html#a5f094257bbcbad3dd9afd970b2de0f2e" title="remmina_nx_session\l_manager_start" alt="" coords="466,980,611,1021"/>
+<area shape="rect" id="node33" href="../../d3/ddb/nx__plugin_8c.html#a259295f4bce4182ccc132e958ea7eb56" title="remmina_plugin_nx_wait\l_signal" alt="" coords="456,1176,621,1217"/>
+<area shape="rect" id="node34" href="../../db/dd7/nx__session_8c.html#a5d6f81a44339efa85a0048f759207825" title="remmina_nx_session\l_iter_get" alt="" coords="466,1241,611,1283"/>
+<area shape="rect" id="node35" href="../../db/dd7/nx__session_8c.html#ad217fb5180a6ed57c47f174a0b20cf8c" title="remmina_nx_session\l_terminate" alt="" coords="466,616,611,657"/>
+<area shape="rect" id="node36" href="../../db/dd7/nx__session_8c.html#a2123ed756f82d65c5c6f4062606803c6" title="remmina_nx_session\l_start" alt="" coords="466,681,611,723"/>
+<area shape="rect" id="node38" href="../../db/dd7/nx__session_8c.html#aacd5938d1a58872644a3a68bc1cac66d" title="remmina_nx_session\l_attach" alt="" coords="466,812,611,853"/>
+<area shape="rect" id="node39" href="../../db/dd7/nx__session_8c.html#a0de55cb12904503503d7d9ab3338aa33" title="remmina_nx_session\l_restore" alt="" coords="466,747,611,788"/>
+<area shape="rect" id="node40" href="../../db/dd7/nx__session_8c.html#a7373c5ab0ca53f54c493f9e461ae679d" title="remmina_nx_session\l_tunnel_open" alt="" coords="698,711,843,752"/>
+<area shape="rect" id="node42" href="../../d3/ddb/nx__plugin_8c.html#ae4b790bf7e413fa815f636c1b0fcbe23" title="remmina_plugin_nx_start\l_create_notify" alt="" coords="455,1307,622,1348"/>
+<area shape="rect" id="node44" href="../../db/dd7/nx__session_8c.html#ad01b66a877f8c30dc4bdf1ba6f3beac0" title="remmina_nx_session\l_invoke_proxy" alt="" coords="466,397,611,439"/>
+<area shape="rect" id="node46" href="../../d3/ddb/nx__plugin_8c.html#a65c4ca70de2ad9bc56a0c2a3cf2e8123" title="remmina_plugin_nx_on\l_proxy_exit" alt="" coords="461,5,616,47"/>
+<area shape="rect" id="node47" href="../../d3/ddb/nx__plugin_8c.html#aeb6030365c211465628de098dca1ac17" title="remmina_plugin_nx_monitor\l_create_notify" alt="" coords="447,71,631,112"/>
+<area shape="rect" id="node49" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="451,136,626,177"/>
+<area shape="rect" id="node8" href="../../db/dd7/nx__session_8c.html#ad3ab1f08fffd57b68fa36360c7ef8135" title="remmina_get_keytype" alt="" coords="929,431,1080,458"/>
+<area shape="rect" id="node9" href="../../db/dd7/nx__session_8c.html#a68bff7bd24db82a337fc00e42942d1c6" title="remmina_nx_session\l_set_application_error" alt="" coords="1551,504,1700,545"/>
+<area shape="rect" id="node10" href="../../db/dd7/nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc" title="remmina_nx_session\l_set_error" alt="" coords="1553,336,1698,377"/>
+<area shape="rect" id="node11" href="../../db/dd7/nx__session_8c.html#abc225e383dc70c0f6a12baf7b9cc3841" title="remmina_nx_session\l_expect_status" alt="" coords="932,649,1077,691"/>
+<area shape="rect" id="node16" href="../../db/dd7/nx__session_8c.html#a663b5b339b919527db0c7467123c7f62" title="remmina_nx_session\l_send_command" alt="" coords="932,584,1077,625"/>
+<area shape="rect" id="node12" href="../../db/dd7/nx__session_8c.html#ad6ae8dc606c87632bb8b8b477509bcea" title="remmina_nx_session\l_expect_status2" alt="" coords="1155,533,1301,575"/>
+<area shape="rect" id="node13" href="../../db/dd7/nx__session_8c.html#a625f0605bf73f0465866b26cf7563eac" title="remmina_nx_session\l_parse_response" alt="" coords="1357,533,1503,575"/>
+<area shape="rect" id="node14" href="../../db/dd7/nx__session_8c.html#a880c07dbd498746d06490063159baa4c" title="remmina_nx_session\l_get_response" alt="" coords="1357,365,1503,407"/>
+<area shape="rect" id="node15" href="../../db/dd7/nx__session_8c.html#aa02aea77cb6428ea4eebddc0d80217e9" title="remmina_nx_session\l_has_error" alt="" coords="1357,609,1503,651"/>
+<area shape="rect" id="node21" href="../../db/dd7/nx__session_8c.html#a563a10864cfa73bffc2899141b6a35ea" title="remmina_nx_session\l_send_session_command" alt="" coords="684,645,857,687"/>
+<area shape="rect" id="node24" href="../../d1/da6/nx__session__manager_8c.html#ad065dfe6474f3d04c41c45568b79dc02" title="remmina_nx_session\l_manager_main" alt="" coords="698,1088,843,1129"/>
+<area shape="rect" id="node25" href="../../db/dd7/nx__session_8c.html#a5b9d8589f544d54350a6d96b49275e41" title="remmina_nx_session\l_set_tree_view" alt="" coords="932,935,1077,976"/>
+<area shape="rect" id="node26" href="../../d1/da6/nx__session__manager_8c.html#a67942d77023ce617e67c2592f33e9a3e" title="remmina_nx_session\l_manager_on_row_activated" alt="" coords="911,1000,1099,1041"/>
+<area shape="rect" id="node27" href="../../d1/da6/nx__session__manager_8c.html#a1da3561ad5f667b639738b9289b73d08" title="remmina_nx_session\l_manager_selection_func" alt="" coords="919,1117,1090,1159"/>
+<area shape="rect" id="node28" href="../../d1/da6/nx__session__manager_8c.html#a9d26a9054a74df5137935c6ea7eed911" title="remmina_nx_session\l_manager_set_sensitive" alt="" coords="1147,1117,1309,1159"/>
+<area shape="rect" id="node29" href="../../d1/da6/nx__session__manager_8c.html#a6e1362868bf6ce2402193ee1da978a51" title="remmina_nx_session\l_manager_on_response" alt="" coords="925,1183,1085,1224"/>
+<area shape="rect" id="node30" href="../../d1/da6/nx__session__manager_8c.html#abcb80c50ed17b4e6ce51a06fe690602c" title="remmina_nx_session\l_manager_send_signal" alt="" coords="1151,1212,1305,1253"/>
+<area shape="rect" id="node32" href="../../db/dd7/nx__session_8c.html#a0279cdfc0ad8129fcb3e1cc26297f866" title="remmina_nx_session\l_clear_error" alt="" coords="932,1300,1077,1341"/>
+<area shape="rect" id="node37" href="../../db/dd7/nx__session_8c.html#aa1398fd24f8083867db1f8f392638bf0" title="remmina_nx_session\l_add_common_parameters" alt="" coords="681,795,860,836"/>
+<area shape="rect" id="node41" href="../../db/dd7/nx__session_8c.html#a4bce96ad49020acbbbbe09c3eefa97a6" title="remmina_nx_session\l_tunnel_main_thread" alt="" coords="1155,700,1301,741"/>
+<area shape="rect" id="node43" href="../../d3/ddb/nx__plugin_8c.html#ad4a4c9b55ff6b6b1ffe2acefbf49199d" title="remmina_plugin_nx_dummy\l_handler" alt="" coords="679,1307,863,1348"/>
+<area shape="rect" id="node45" href="../../db/dd7/nx__session_8c.html#a9a98fead7295fa90624d8a494d3570cf" title="remmina_nx_session\l_get_proxy_option" alt="" coords="698,397,843,439"/>
+<area shape="rect" id="node48" href="../../d3/ddb/nx__plugin_8c.html#a4c034c5e70f4c327eaab63bbd9c9edef" title="remmina_plugin_nx_try\l_window_id" alt="" coords="693,71,849,112"/>
+<area shape="rect" id="node50" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="689,136,852,177"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_icgraph" id="d3/ddb/nx__plugin_8c_aada1c6767dcc37e55c4b4ce3b5d8ebdf_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="223,5,392,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="440,5,609,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a747a6fa8ff786ff6539d664ad6e38046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a747a6fa8ff786ff6539d664ad6e38046">&#9670;&nbsp;</a></span>remmina_plugin_nx_main_thread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gpointer remmina_plugin_nx_main_thread </td>
+          <td>(</td>
+          <td class="paramtype">gpointer&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00540">540</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_cgraph" id="d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="223,689,392,715"/>
+<area shape="rect" id="node3" href="../../db/dd7/nx__session_8c.html#a33e8f6637275c331c86f321bf1da448c" title="remmina_nx_session_new" alt="" coords="440,630,616,657"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="445,681,611,723"/>
+<area shape="rect" id="node31" href="../../db/dd7/nx__session_8c.html#ae4e7f359af598b707927c162c3c37e1e" title="remmina_nx_session\l_get_error" alt="" coords="1149,1347,1295,1388"/>
+<area shape="rect" id="node5" href="../../db/dd7/nx__session_8c.html#a36da737bdb6708e5e5e85437cab112f9" title="remmina_nx_session\l_set_encryption" alt="" coords="683,201,829,243"/>
+<area shape="rect" id="node6" href="../../db/dd7/nx__session_8c.html#ac97d379b04df53ca7dc166676fcbffb5" title="remmina_nx_session\l_set_localport" alt="" coords="683,267,829,308"/>
+<area shape="rect" id="node7" href="../../db/dd7/nx__session_8c.html#a8de7b5ae6b68d7e193cd3f55704d32f7" title="remmina_nx_session\l_set_log_callback" alt="" coords="683,332,829,373"/>
+<area shape="rect" id="node8" href="../../db/dd7/nx__session_8c.html#a6d58e7958d408e2a0abd015688ba912b" title="remmina_nx_session_open" alt="" coords="898,481,1078,507"/>
+<area shape="rect" id="node18" href="../../d3/ddb/nx__plugin_8c.html#a3154460257b0cccadad068cff973ce30" title="remmina_plugin_nx_ssh\l_auth_callback" alt="" coords="675,1045,837,1087"/>
+<area shape="rect" id="node19" href="../../db/dd7/nx__session_8c.html#aa912b495508a0f74fe8e121c5b532f6b" title="remmina_nx_session\l_login" alt="" coords="915,571,1061,612"/>
+<area shape="rect" id="node20" href="../../db/dd7/nx__session_8c.html#ae4e00fb7501df9af20b7fdc61331c347" title="remmina_nx_session\l_add_parameter" alt="" coords="1149,833,1295,875"/>
+<area shape="rect" id="node21" href="../../db/dd7/nx__session_8c.html#a128499f3768aae8bc5c233f6fb616a76" title="remmina_nx_session_list" alt="" coords="671,565,841,591"/>
+<area shape="rect" id="node23" href="../../db/dd7/nx__session_8c.html#aadff42154c92ef10a80b403cadec5c1b" title="remmina_nx_session\l_iter_first" alt="" coords="683,1111,829,1152"/>
+<area shape="rect" id="node24" href="../../d1/da6/nx__session__manager_8c.html#a5f094257bbcbad3dd9afd970b2de0f2e" title="remmina_nx_session\l_manager_start" alt="" coords="683,980,829,1021"/>
+<area shape="rect" id="node33" href="../../d3/ddb/nx__plugin_8c.html#a259295f4bce4182ccc132e958ea7eb56" title="remmina_plugin_nx_wait\l_signal" alt="" coords="673,1176,839,1217"/>
+<area shape="rect" id="node34" href="../../db/dd7/nx__session_8c.html#a5d6f81a44339efa85a0048f759207825" title="remmina_nx_session\l_iter_get" alt="" coords="683,1241,829,1283"/>
+<area shape="rect" id="node35" href="../../db/dd7/nx__session_8c.html#ad217fb5180a6ed57c47f174a0b20cf8c" title="remmina_nx_session\l_terminate" alt="" coords="683,616,829,657"/>
+<area shape="rect" id="node36" href="../../db/dd7/nx__session_8c.html#a2123ed756f82d65c5c6f4062606803c6" title="remmina_nx_session\l_start" alt="" coords="683,747,829,788"/>
+<area shape="rect" id="node38" href="../../db/dd7/nx__session_8c.html#aacd5938d1a58872644a3a68bc1cac66d" title="remmina_nx_session\l_attach" alt="" coords="683,812,829,853"/>
+<area shape="rect" id="node39" href="../../db/dd7/nx__session_8c.html#a0de55cb12904503503d7d9ab3338aa33" title="remmina_nx_session\l_restore" alt="" coords="683,681,829,723"/>
+<area shape="rect" id="node40" href="../../db/dd7/nx__session_8c.html#a7373c5ab0ca53f54c493f9e461ae679d" title="remmina_nx_session\l_tunnel_open" alt="" coords="915,728,1061,769"/>
+<area shape="rect" id="node42" href="../../d3/ddb/nx__plugin_8c.html#ae4b790bf7e413fa815f636c1b0fcbe23" title="remmina_plugin_nx_start\l_create_notify" alt="" coords="673,1307,839,1348"/>
+<area shape="rect" id="node44" href="../../db/dd7/nx__session_8c.html#ad01b66a877f8c30dc4bdf1ba6f3beac0" title="remmina_nx_session\l_invoke_proxy" alt="" coords="683,397,829,439"/>
+<area shape="rect" id="node46" href="../../d3/ddb/nx__plugin_8c.html#a65c4ca70de2ad9bc56a0c2a3cf2e8123" title="remmina_plugin_nx_on\l_proxy_exit" alt="" coords="679,5,833,47"/>
+<area shape="rect" id="node47" href="../../d3/ddb/nx__plugin_8c.html#aeb6030365c211465628de098dca1ac17" title="remmina_plugin_nx_monitor\l_create_notify" alt="" coords="664,71,848,112"/>
+<area shape="rect" id="node49" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="669,136,843,177"/>
+<area shape="rect" id="node9" href="../../db/dd7/nx__session_8c.html#ad3ab1f08fffd57b68fa36360c7ef8135" title="remmina_get_keytype" alt="" coords="1147,447,1297,474"/>
+<area shape="rect" id="node10" href="../../db/dd7/nx__session_8c.html#a68bff7bd24db82a337fc00e42942d1c6" title="remmina_nx_session\l_set_application_error" alt="" coords="1768,520,1917,561"/>
+<area shape="rect" id="node11" href="../../db/dd7/nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc" title="remmina_nx_session\l_set_error" alt="" coords="1770,352,1915,393"/>
+<area shape="rect" id="node12" href="../../db/dd7/nx__session_8c.html#abc225e383dc70c0f6a12baf7b9cc3841" title="remmina_nx_session\l_expect_status" alt="" coords="1149,665,1295,707"/>
+<area shape="rect" id="node17" href="../../db/dd7/nx__session_8c.html#a663b5b339b919527db0c7467123c7f62" title="remmina_nx_session\l_send_command" alt="" coords="1149,600,1295,641"/>
+<area shape="rect" id="node13" href="../../db/dd7/nx__session_8c.html#ad6ae8dc606c87632bb8b8b477509bcea" title="remmina_nx_session\l_expect_status2" alt="" coords="1373,549,1518,591"/>
+<area shape="rect" id="node14" href="../../db/dd7/nx__session_8c.html#a625f0605bf73f0465866b26cf7563eac" title="remmina_nx_session\l_parse_response" alt="" coords="1575,549,1720,591"/>
+<area shape="rect" id="node15" href="../../db/dd7/nx__session_8c.html#a880c07dbd498746d06490063159baa4c" title="remmina_nx_session\l_get_response" alt="" coords="1575,381,1720,423"/>
+<area shape="rect" id="node16" href="../../db/dd7/nx__session_8c.html#aa02aea77cb6428ea4eebddc0d80217e9" title="remmina_nx_session\l_has_error" alt="" coords="1575,640,1720,681"/>
+<area shape="rect" id="node22" href="../../db/dd7/nx__session_8c.html#a563a10864cfa73bffc2899141b6a35ea" title="remmina_nx_session\l_send_session_command" alt="" coords="901,663,1075,704"/>
+<area shape="rect" id="node25" href="../../d1/da6/nx__session__manager_8c.html#ad065dfe6474f3d04c41c45568b79dc02" title="remmina_nx_session\l_manager_main" alt="" coords="915,1067,1061,1108"/>
+<area shape="rect" id="node26" href="../../db/dd7/nx__session_8c.html#a5b9d8589f544d54350a6d96b49275e41" title="remmina_nx_session\l_set_tree_view" alt="" coords="1149,1197,1295,1239"/>
+<area shape="rect" id="node27" href="../../d1/da6/nx__session__manager_8c.html#a67942d77023ce617e67c2592f33e9a3e" title="remmina_nx_session\l_manager_on_row_activated" alt="" coords="1128,1263,1316,1304"/>
+<area shape="rect" id="node28" href="../../d1/da6/nx__session__manager_8c.html#a1da3561ad5f667b639738b9289b73d08" title="remmina_nx_session\l_manager_selection_func" alt="" coords="1137,1001,1307,1043"/>
+<area shape="rect" id="node29" href="../../d1/da6/nx__session__manager_8c.html#a9d26a9054a74df5137935c6ea7eed911" title="remmina_nx_session\l_manager_set_sensitive" alt="" coords="1364,1001,1527,1043"/>
+<area shape="rect" id="node30" href="../../d1/da6/nx__session__manager_8c.html#a6e1362868bf6ce2402193ee1da978a51" title="remmina_nx_session\l_manager_on_response" alt="" coords="1142,1067,1302,1108"/>
+<area shape="rect" id="node32" href="../../db/dd7/nx__session_8c.html#a0279cdfc0ad8129fcb3e1cc26297f866" title="remmina_nx_session\l_clear_error" alt="" coords="1149,1132,1295,1173"/>
+<area shape="rect" id="node37" href="../../db/dd7/nx__session_8c.html#aa1398fd24f8083867db1f8f392638bf0" title="remmina_nx_session\l_add_common_parameters" alt="" coords="899,801,1077,843"/>
+<area shape="rect" id="node41" href="../../db/dd7/nx__session_8c.html#a4bce96ad49020acbbbbe09c3eefa97a6" title="remmina_nx_session\l_tunnel_main_thread" alt="" coords="1373,783,1518,824"/>
+<area shape="rect" id="node43" href="../../d3/ddb/nx__plugin_8c.html#ad4a4c9b55ff6b6b1ffe2acefbf49199d" title="remmina_plugin_nx_dummy\l_handler" alt="" coords="896,1307,1080,1348"/>
+<area shape="rect" id="node45" href="../../db/dd7/nx__session_8c.html#a9a98fead7295fa90624d8a494d3570cf" title="remmina_nx_session\l_get_proxy_option" alt="" coords="915,397,1061,439"/>
+<area shape="rect" id="node48" href="../../d3/ddb/nx__plugin_8c.html#a4c034c5e70f4c327eaab63bbd9c9edef" title="remmina_plugin_nx_try\l_window_id" alt="" coords="910,71,1066,112"/>
+<area shape="rect" id="node50" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="907,136,1069,177"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_icgraph" id="d3/ddb/nx__plugin_8c_a747a6fa8ff786ff6539d664ad6e38046_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="223,5,392,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aeb6030365c211465628de098dca1ac17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6030365c211465628de098dca1ac17">&#9670;&nbsp;</a></span>remmina_plugin_nx_monitor_create_notify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_monitor_create_notify </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00241">241</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_cgraph" id="d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a4c034c5e70f4c327eaab63bbd9c9edef" title="remmina_plugin_nx_try\l_window_id" alt="" coords="237,5,393,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_icgraph" id="d3/ddb/nx__plugin_8c_aeb6030365c211465628de098dca1ac17_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="237,5,404,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="452,13,621,39"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="669,5,839,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="887,5,1056,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9f17900103bf5e4dfa17ad0c185faf06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f17900103bf5e4dfa17ad0c185faf06">&#9670;&nbsp;</a></span>remmina_plugin_nx_on_plug_added()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_nx_on_plug_added </td>
+          <td>(</td>
+          <td class="paramtype">GtkSocket *&#160;</td>
+          <td class="paramname"><em>socket</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00183">183</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a9f17900103bf5e4dfa17ad0c185faf06_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a9f17900103bf5e4dfa17ad0c185faf06_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a9f17900103bf5e4dfa17ad0c185faf06_icgraph" id="d3/ddb/nx__plugin_8c_a9f17900103bf5e4dfa17ad0c185faf06_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a79807a1c2a499d75b83d267b8c08cd7e" title="remmina_plugin_nx_init" alt="" coords="208,13,367,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9ad082d04b9e0e374b58d98e8474821e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad082d04b9e0e374b58d98e8474821e">&#9670;&nbsp;</a></span>remmina_plugin_nx_on_plug_removed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_nx_on_plug_removed </td>
+          <td>(</td>
+          <td class="paramtype">GtkSocket *&#160;</td>
+          <td class="paramname"><em>socket</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00189">189</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a9ad082d04b9e0e374b58d98e8474821e_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a9ad082d04b9e0e374b58d98e8474821e_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a9ad082d04b9e0e374b58d98e8474821e_icgraph" id="d3/ddb/nx__plugin_8c_a9ad082d04b9e0e374b58d98e8474821e_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a79807a1c2a499d75b83d267b8c08cd7e" title="remmina_plugin_nx_init" alt="" coords="208,13,367,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a65c4ca70de2ad9bc56a0c2a3cf2e8123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c4ca70de2ad9bc56a0c2a3cf2e8123">&#9670;&nbsp;</a></span>remmina_plugin_nx_on_proxy_exit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_nx_on_proxy_exit </td>
+          <td>(</td>
+          <td class="paramtype">GPid&#160;</td>
+          <td class="paramname"><em>pid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gint&#160;</td>
+          <td class="paramname"><em>status</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00211">211</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a65c4ca70de2ad9bc56a0c2a3cf2e8123_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a65c4ca70de2ad9bc56a0c2a3cf2e8123_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a65c4ca70de2ad9bc56a0c2a3cf2e8123_icgraph" id="d3/ddb/nx__plugin_8c_a65c4ca70de2ad9bc56a0c2a3cf2e8123_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="208,5,375,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="423,13,592,39"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="640,5,809,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="857,5,1027,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a24d40a7cb7e890449902b5970ab50707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d40a7cb7e890449902b5970ab50707">&#9670;&nbsp;</a></span>remmina_plugin_nx_open_connection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_open_connection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00578">578</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a24d40a7cb7e890449902b5970ab50707_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a24d40a7cb7e890449902b5970ab50707_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a24d40a7cb7e890449902b5970ab50707_cgraph" id="d3/ddb/nx__plugin_8c_a24d40a7cb7e890449902b5970ab50707_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="223,681,392,723"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="440,689,609,715"/>
+<area shape="rect" id="node4" href="../../db/dd7/nx__session_8c.html#a33e8f6637275c331c86f321bf1da448c" title="remmina_nx_session_new" alt="" coords="657,630,833,657"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="662,681,829,723"/>
+<area shape="rect" id="node32" href="../../db/dd7/nx__session_8c.html#ae4e7f359af598b707927c162c3c37e1e" title="remmina_nx_session\l_get_error" alt="" coords="1367,1296,1512,1337"/>
+<area shape="rect" id="node6" href="../../db/dd7/nx__session_8c.html#a36da737bdb6708e5e5e85437cab112f9" title="remmina_nx_session\l_set_encryption" alt="" coords="901,136,1046,177"/>
+<area shape="rect" id="node7" href="../../db/dd7/nx__session_8c.html#ac97d379b04df53ca7dc166676fcbffb5" title="remmina_nx_session\l_set_localport" alt="" coords="901,201,1046,243"/>
+<area shape="rect" id="node8" href="../../db/dd7/nx__session_8c.html#a8de7b5ae6b68d7e193cd3f55704d32f7" title="remmina_nx_session\l_set_log_callback" alt="" coords="901,267,1046,308"/>
+<area shape="rect" id="node9" href="../../db/dd7/nx__session_8c.html#a6d58e7958d408e2a0abd015688ba912b" title="remmina_nx_session_open" alt="" coords="1115,375,1295,402"/>
+<area shape="rect" id="node19" href="../../d3/ddb/nx__plugin_8c.html#a3154460257b0cccadad068cff973ce30" title="remmina_plugin_nx_ssh\l_auth_callback" alt="" coords="892,981,1055,1023"/>
+<area shape="rect" id="node20" href="../../db/dd7/nx__session_8c.html#aa912b495508a0f74fe8e121c5b532f6b" title="remmina_nx_session\l_login" alt="" coords="1133,447,1278,488"/>
+<area shape="rect" id="node21" href="../../db/dd7/nx__session_8c.html#ae4e00fb7501df9af20b7fdc61331c347" title="remmina_nx_session\l_add_parameter" alt="" coords="1367,737,1512,779"/>
+<area shape="rect" id="node22" href="../../db/dd7/nx__session_8c.html#a128499f3768aae8bc5c233f6fb616a76" title="remmina_nx_session_list" alt="" coords="889,434,1058,461"/>
+<area shape="rect" id="node24" href="../../db/dd7/nx__session_8c.html#aadff42154c92ef10a80b403cadec5c1b" title="remmina_nx_session\l_iter_first" alt="" coords="901,1047,1046,1088"/>
+<area shape="rect" id="node25" href="../../d1/da6/nx__session__manager_8c.html#a5f094257bbcbad3dd9afd970b2de0f2e" title="remmina_nx_session\l_manager_start" alt="" coords="901,916,1046,957"/>
+<area shape="rect" id="node33" href="../../d3/ddb/nx__plugin_8c.html#a259295f4bce4182ccc132e958ea7eb56" title="remmina_plugin_nx_wait\l_signal" alt="" coords="891,1112,1056,1153"/>
+<area shape="rect" id="node34" href="../../db/dd7/nx__session_8c.html#a5d6f81a44339efa85a0048f759207825" title="remmina_nx_session\l_iter_get" alt="" coords="901,1177,1046,1219"/>
+<area shape="rect" id="node35" href="../../db/dd7/nx__session_8c.html#ad217fb5180a6ed57c47f174a0b20cf8c" title="remmina_nx_session\l_terminate" alt="" coords="901,485,1046,527"/>
+<area shape="rect" id="node36" href="../../db/dd7/nx__session_8c.html#a2123ed756f82d65c5c6f4062606803c6" title="remmina_nx_session\l_start" alt="" coords="901,551,1046,592"/>
+<area shape="rect" id="node38" href="../../db/dd7/nx__session_8c.html#aacd5938d1a58872644a3a68bc1cac66d" title="remmina_nx_session\l_attach" alt="" coords="901,616,1046,657"/>
+<area shape="rect" id="node39" href="../../db/dd7/nx__session_8c.html#a0de55cb12904503503d7d9ab3338aa33" title="remmina_nx_session\l_restore" alt="" coords="901,681,1046,723"/>
+<area shape="rect" id="node40" href="../../db/dd7/nx__session_8c.html#a7373c5ab0ca53f54c493f9e461ae679d" title="remmina_nx_session\l_tunnel_open" alt="" coords="1133,612,1278,653"/>
+<area shape="rect" id="node42" href="../../d3/ddb/nx__plugin_8c.html#ae4b790bf7e413fa815f636c1b0fcbe23" title="remmina_plugin_nx_start\l_create_notify" alt="" coords="890,1243,1057,1284"/>
+<area shape="rect" id="node44" href="../../db/dd7/nx__session_8c.html#ad01b66a877f8c30dc4bdf1ba6f3beac0" title="remmina_nx_session\l_invoke_proxy" alt="" coords="901,799,1046,840"/>
+<area shape="rect" id="node46" href="../../d3/ddb/nx__plugin_8c.html#a65c4ca70de2ad9bc56a0c2a3cf2e8123" title="remmina_plugin_nx_on\l_proxy_exit" alt="" coords="896,1308,1051,1349"/>
+<area shape="rect" id="node47" href="../../d3/ddb/nx__plugin_8c.html#aeb6030365c211465628de098dca1ac17" title="remmina_plugin_nx_monitor\l_create_notify" alt="" coords="881,5,1065,47"/>
+<area shape="rect" id="node49" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="886,71,1061,112"/>
+<area shape="rect" id="node10" href="../../db/dd7/nx__session_8c.html#ad3ab1f08fffd57b68fa36360c7ef8135" title="remmina_get_keytype" alt="" coords="1364,338,1515,365"/>
+<area shape="rect" id="node11" href="../../db/dd7/nx__session_8c.html#a68bff7bd24db82a337fc00e42942d1c6" title="remmina_nx_session\l_set_application_error" alt="" coords="1985,571,2135,612"/>
+<area shape="rect" id="node12" href="../../db/dd7/nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc" title="remmina_nx_session\l_set_error" alt="" coords="1987,476,2133,517"/>
+<area shape="rect" id="node13" href="../../db/dd7/nx__session_8c.html#abc225e383dc70c0f6a12baf7b9cc3841" title="remmina_nx_session\l_expect_status" alt="" coords="1367,556,1512,597"/>
+<area shape="rect" id="node18" href="../../db/dd7/nx__session_8c.html#a663b5b339b919527db0c7467123c7f62" title="remmina_nx_session\l_send_command" alt="" coords="1367,491,1512,532"/>
+<area shape="rect" id="node14" href="../../db/dd7/nx__session_8c.html#ad6ae8dc606c87632bb8b8b477509bcea" title="remmina_nx_session\l_expect_status2" alt="" coords="1590,556,1735,597"/>
+<area shape="rect" id="node15" href="../../db/dd7/nx__session_8c.html#a625f0605bf73f0465866b26cf7563eac" title="remmina_nx_session\l_parse_response" alt="" coords="1792,556,1937,597"/>
+<area shape="rect" id="node16" href="../../db/dd7/nx__session_8c.html#a880c07dbd498746d06490063159baa4c" title="remmina_nx_session\l_get_response" alt="" coords="1792,491,1937,532"/>
+<area shape="rect" id="node17" href="../../db/dd7/nx__session_8c.html#aa02aea77cb6428ea4eebddc0d80217e9" title="remmina_nx_session\l_has_error" alt="" coords="1792,739,1937,780"/>
+<area shape="rect" id="node23" href="../../db/dd7/nx__session_8c.html#a563a10864cfa73bffc2899141b6a35ea" title="remmina_nx_session\l_send_session_command" alt="" coords="1119,547,1292,588"/>
+<area shape="rect" id="node26" href="../../d1/da6/nx__session__manager_8c.html#ad065dfe6474f3d04c41c45568b79dc02" title="remmina_nx_session\l_manager_main" alt="" coords="1133,1005,1278,1047"/>
+<area shape="rect" id="node27" href="../../db/dd7/nx__session_8c.html#a5b9d8589f544d54350a6d96b49275e41" title="remmina_nx_session\l_set_tree_view" alt="" coords="1367,1093,1512,1135"/>
+<area shape="rect" id="node28" href="../../d1/da6/nx__session__manager_8c.html#a67942d77023ce617e67c2592f33e9a3e" title="remmina_nx_session\l_manager_on_row_activated" alt="" coords="1345,1159,1533,1200"/>
+<area shape="rect" id="node29" href="../../d1/da6/nx__session__manager_8c.html#a1da3561ad5f667b639738b9289b73d08" title="remmina_nx_session\l_manager_selection_func" alt="" coords="1354,911,1525,952"/>
+<area shape="rect" id="node30" href="../../d1/da6/nx__session__manager_8c.html#a9d26a9054a74df5137935c6ea7eed911" title="remmina_nx_session\l_manager_set_sensitive" alt="" coords="1581,911,1744,952"/>
+<area shape="rect" id="node31" href="../../d1/da6/nx__session__manager_8c.html#a6e1362868bf6ce2402193ee1da978a51" title="remmina_nx_session\l_manager_on_response" alt="" coords="1359,976,1519,1017"/>
+<area shape="rect" id="node37" href="../../db/dd7/nx__session_8c.html#aa1398fd24f8083867db1f8f392638bf0" title="remmina_nx_session\l_add_common_parameters" alt="" coords="1116,677,1295,719"/>
+<area shape="rect" id="node41" href="../../db/dd7/nx__session_8c.html#a4bce96ad49020acbbbbe09c3eefa97a6" title="remmina_nx_session\l_tunnel_main_thread" alt="" coords="1590,673,1735,715"/>
+<area shape="rect" id="node43" href="../../d3/ddb/nx__plugin_8c.html#ad4a4c9b55ff6b6b1ffe2acefbf49199d" title="remmina_plugin_nx_dummy\l_handler" alt="" coords="1113,1243,1297,1284"/>
+<area shape="rect" id="node45" href="../../db/dd7/nx__session_8c.html#a9a98fead7295fa90624d8a494d3570cf" title="remmina_nx_session\l_get_proxy_option" alt="" coords="1133,743,1278,784"/>
+<area shape="rect" id="node48" href="../../d3/ddb/nx__plugin_8c.html#a4c034c5e70f4c327eaab63bbd9c9edef" title="remmina_plugin_nx_try\l_window_id" alt="" coords="1127,5,1283,47"/>
+<area shape="rect" id="node50" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="1124,71,1287,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5f6e5136c200aefda845bb8979babbad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f6e5136c200aefda845bb8979babbad">&#9670;&nbsp;</a></span>remmina_plugin_nx_query_feature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_query_feature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> *&#160;</td>
+          <td class="paramname"><em>feature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00661">661</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a38661931521f9b3472c6d76b6c201105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38661931521f9b3472c6d76b6c201105">&#9670;&nbsp;</a></span>remmina_plugin_nx_remove_window_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_nx_remove_window_id </td>
+          <td>(</td>
+          <td class="paramtype">Window&#160;</td>
+          <td class="paramname"><em>window_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00164">164</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a38661931521f9b3472c6d76b6c201105_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a38661931521f9b3472c6d76b6c201105_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a38661931521f9b3472c6d76b6c201105_icgraph" id="d3/ddb/nx__plugin_8c_a38661931521f9b3472c6d76b6c201105_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a89f57765ecdaf9ce7ee896dc16cd268a" title="remmina_plugin_nx_close\l_connection" alt="" coords="237,5,409,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab7107dd5c7dad8e647489abb6650ed6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7107dd5c7dad8e647489abb6650ed6e">&#9670;&nbsp;</a></span>remmina_plugin_nx_send_ctrlaltdel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void remmina_plugin_nx_send_ctrlaltdel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00651">651</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_ab7107dd5c7dad8e647489abb6650ed6e_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_ab7107dd5c7dad8e647489abb6650ed6e_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_ab7107dd5c7dad8e647489abb6650ed6e_icgraph" id="d3/ddb/nx__plugin_8c_ab7107dd5c7dad8e647489abb6650ed6e_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#a3c538a1cbd6efdd4989ae9e142a2de4e" title="remmina_plugin_nx_call\l_feature" alt="" coords="223,5,384,47"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -223,11 +1160,462 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00201">201</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00195">195</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a3154460257b0cccadad068cff973ce30_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a3154460257b0cccadad068cff973ce30_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a3154460257b0cccadad068cff973ce30_icgraph" id="d3/ddb/nx__plugin_8c_a3154460257b0cccadad068cff973ce30_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="216,5,383,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="431,13,600,39"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="648,5,817,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="865,5,1035,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae4b790bf7e413fa815f636c1b0fcbe23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4b790bf7e413fa815f636c1b0fcbe23">&#9670;&nbsp;</a></span>remmina_plugin_nx_start_create_notify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_start_create_notify </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00225">225</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_cgraph" id="d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_cgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#ad4a4c9b55ff6b6b1ffe2acefbf49199d" title="remmina_plugin_nx_dummy\l_handler" alt="" coords="220,5,404,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_icgraph" id="d3/ddb/nx__plugin_8c_ae4b790bf7e413fa815f636c1b0fcbe23_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="435,13,604,39"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="652,5,821,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="869,5,1039,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa471a4e13385a583efb610d33fd9a1b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa471a4e13385a583efb610d33fd9a1b5">&#9670;&nbsp;</a></span>remmina_plugin_nx_start_session()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_start_session </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a3fc3247f5a12b842032241d0cdde9cf4">RemminaProtocolWidget</a> *&#160;</td>
+          <td class="paramname"><em>gp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00308">308</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_cgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_cgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_cgraph" id="d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_cgraph">
+<area shape="rect" id="node2" href="../../db/dd7/nx__session_8c.html#a36da737bdb6708e5e5e85437cab112f9" title="remmina_nx_session\l_set_encryption" alt="" coords="239,5,385,47"/>
+<area shape="rect" id="node3" href="../../db/dd7/nx__session_8c.html#ac97d379b04df53ca7dc166676fcbffb5" title="remmina_nx_session\l_set_localport" alt="" coords="239,71,385,112"/>
+<area shape="rect" id="node4" href="../../db/dd7/nx__session_8c.html#a8de7b5ae6b68d7e193cd3f55704d32f7" title="remmina_nx_session\l_set_log_callback" alt="" coords="239,136,385,177"/>
+<area shape="rect" id="node5" href="../../db/dd7/nx__session_8c.html#a6d58e7958d408e2a0abd015688ba912b" title="remmina_nx_session_open" alt="" coords="454,249,634,275"/>
+<area shape="rect" id="node15" href="../../d3/ddb/nx__plugin_8c.html#a3154460257b0cccadad068cff973ce30" title="remmina_plugin_nx_ssh\l_auth_callback" alt="" coords="231,851,393,892"/>
+<area shape="rect" id="node16" href="../../db/dd7/nx__session_8c.html#aa912b495508a0f74fe8e121c5b532f6b" title="remmina_nx_session\l_login" alt="" coords="471,311,617,352"/>
+<area shape="rect" id="node17" href="../../db/dd7/nx__session_8c.html#ae4e00fb7501df9af20b7fdc61331c347" title="remmina_nx_session\l_add_parameter" alt="" coords="705,601,851,643"/>
+<area shape="rect" id="node18" href="../../db/dd7/nx__session_8c.html#a128499f3768aae8bc5c233f6fb616a76" title="remmina_nx_session_list" alt="" coords="227,303,397,330"/>
+<area shape="rect" id="node20" href="../../db/dd7/nx__session_8c.html#aadff42154c92ef10a80b403cadec5c1b" title="remmina_nx_session\l_iter_first" alt="" coords="239,916,385,957"/>
+<area shape="rect" id="node21" href="../../d1/da6/nx__session__manager_8c.html#a5f094257bbcbad3dd9afd970b2de0f2e" title="remmina_nx_session\l_manager_start" alt="" coords="239,785,385,827"/>
+<area shape="rect" id="node31" href="../../d3/ddb/nx__plugin_8c.html#a259295f4bce4182ccc132e958ea7eb56" title="remmina_plugin_nx_wait\l_signal" alt="" coords="229,981,395,1023"/>
+<area shape="rect" id="node32" href="../../db/dd7/nx__session_8c.html#a5d6f81a44339efa85a0048f759207825" title="remmina_nx_session\l_iter_get" alt="" coords="239,1047,385,1088"/>
+<area shape="rect" id="node33" href="../../db/dd7/nx__session_8c.html#ad217fb5180a6ed57c47f174a0b20cf8c" title="remmina_nx_session\l_terminate" alt="" coords="239,355,385,396"/>
+<area shape="rect" id="node34" href="../../db/dd7/nx__session_8c.html#a2123ed756f82d65c5c6f4062606803c6" title="remmina_nx_session\l_start" alt="" coords="239,420,385,461"/>
+<area shape="rect" id="node36" href="../../db/dd7/nx__session_8c.html#aacd5938d1a58872644a3a68bc1cac66d" title="remmina_nx_session\l_attach" alt="" coords="239,485,385,527"/>
+<area shape="rect" id="node37" href="../../db/dd7/nx__session_8c.html#a0de55cb12904503503d7d9ab3338aa33" title="remmina_nx_session\l_restore" alt="" coords="239,551,385,592"/>
+<area shape="rect" id="node38" href="../../db/dd7/nx__session_8c.html#a7373c5ab0ca53f54c493f9e461ae679d" title="remmina_nx_session\l_tunnel_open" alt="" coords="471,479,617,520"/>
+<area shape="rect" id="node40" href="../../d3/ddb/nx__plugin_8c.html#ae4b790bf7e413fa815f636c1b0fcbe23" title="remmina_plugin_nx_start\l_create_notify" alt="" coords="229,1112,395,1153"/>
+<area shape="rect" id="node42" href="../../db/dd7/nx__session_8c.html#ad01b66a877f8c30dc4bdf1ba6f3beac0" title="remmina_nx_session\l_invoke_proxy" alt="" coords="239,668,385,709"/>
+<area shape="rect" id="node44" href="../../d3/ddb/nx__plugin_8c.html#a65c4ca70de2ad9bc56a0c2a3cf2e8123" title="remmina_plugin_nx_on\l_proxy_exit" alt="" coords="235,1177,389,1219"/>
+<area shape="rect" id="node45" href="../../d3/ddb/nx__plugin_8c.html#aeb6030365c211465628de098dca1ac17" title="remmina_plugin_nx_monitor\l_create_notify" alt="" coords="220,1243,404,1284"/>
+<area shape="rect" id="node47" href="../../d3/ddb/nx__plugin_8c.html#a31b9185763acddffe0bbdef41380bf43" title="onMainThread_gtk_socket\l_add_id" alt="" coords="225,1308,399,1349"/>
+<area shape="rect" id="node6" href="../../db/dd7/nx__session_8c.html#ad3ab1f08fffd57b68fa36360c7ef8135" title="remmina_get_keytype" alt="" coords="703,157,853,183"/>
+<area shape="rect" id="node7" href="../../db/dd7/nx__session_8c.html#a68bff7bd24db82a337fc00e42942d1c6" title="remmina_nx_session\l_set_application_error" alt="" coords="1324,432,1473,473"/>
+<area shape="rect" id="node8" href="../../db/dd7/nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc" title="remmina_nx_session\l_set_error" alt="" coords="1326,337,1471,379"/>
+<area shape="rect" id="node9" href="../../db/dd7/nx__session_8c.html#abc225e383dc70c0f6a12baf7b9cc3841" title="remmina_nx_session\l_expect_status" alt="" coords="705,360,851,401"/>
+<area shape="rect" id="node14" href="../../db/dd7/nx__session_8c.html#a663b5b339b919527db0c7467123c7f62" title="remmina_nx_session\l_send_command" alt="" coords="705,425,851,467"/>
+<area shape="rect" id="node10" href="../../db/dd7/nx__session_8c.html#ad6ae8dc606c87632bb8b8b477509bcea" title="remmina_nx_session\l_expect_status2" alt="" coords="929,360,1074,401"/>
+<area shape="rect" id="node11" href="../../db/dd7/nx__session_8c.html#a625f0605bf73f0465866b26cf7563eac" title="remmina_nx_session\l_parse_response" alt="" coords="1131,417,1276,459"/>
+<area shape="rect" id="node12" href="../../db/dd7/nx__session_8c.html#a880c07dbd498746d06490063159baa4c" title="remmina_nx_session\l_get_response" alt="" coords="1131,352,1276,393"/>
+<area shape="rect" id="node13" href="../../db/dd7/nx__session_8c.html#aa02aea77cb6428ea4eebddc0d80217e9" title="remmina_nx_session\l_has_error" alt="" coords="1131,599,1276,640"/>
+<area shape="rect" id="node19" href="../../db/dd7/nx__session_8c.html#a563a10864cfa73bffc2899141b6a35ea" title="remmina_nx_session\l_send_session_command" alt="" coords="457,413,631,455"/>
+<area shape="rect" id="node22" href="../../d1/da6/nx__session__manager_8c.html#ad065dfe6474f3d04c41c45568b79dc02" title="remmina_nx_session\l_manager_main" alt="" coords="471,943,617,984"/>
+<area shape="rect" id="node23" href="../../db/dd7/nx__session_8c.html#a5b9d8589f544d54350a6d96b49275e41" title="remmina_nx_session\l_set_tree_view" alt="" coords="705,909,851,951"/>
+<area shape="rect" id="node24" href="../../d1/da6/nx__session__manager_8c.html#a67942d77023ce617e67c2592f33e9a3e" title="remmina_nx_session\l_manager_on_row_activated" alt="" coords="684,975,872,1016"/>
+<area shape="rect" id="node25" href="../../d1/da6/nx__session__manager_8c.html#a1da3561ad5f667b639738b9289b73d08" title="remmina_nx_session\l_manager_selection_func" alt="" coords="693,1092,863,1133"/>
+<area shape="rect" id="node26" href="../../d1/da6/nx__session__manager_8c.html#a9d26a9054a74df5137935c6ea7eed911" title="remmina_nx_session\l_manager_set_sensitive" alt="" coords="920,1092,1083,1133"/>
+<area shape="rect" id="node27" href="../../d1/da6/nx__session__manager_8c.html#a6e1362868bf6ce2402193ee1da978a51" title="remmina_nx_session\l_manager_on_response" alt="" coords="698,1157,858,1199"/>
+<area shape="rect" id="node28" href="../../d1/da6/nx__session__manager_8c.html#abcb80c50ed17b4e6ce51a06fe690602c" title="remmina_nx_session\l_manager_send_signal" alt="" coords="924,1187,1079,1228"/>
+<area shape="rect" id="node29" href="../../db/dd7/nx__session_8c.html#ae4e7f359af598b707927c162c3c37e1e" title="remmina_nx_session\l_get_error" alt="" coords="705,727,851,768"/>
+<area shape="rect" id="node30" href="../../db/dd7/nx__session_8c.html#a0279cdfc0ad8129fcb3e1cc26297f866" title="remmina_nx_session\l_clear_error" alt="" coords="705,792,851,833"/>
+<area shape="rect" id="node35" href="../../db/dd7/nx__session_8c.html#aa1398fd24f8083867db1f8f392638bf0" title="remmina_nx_session\l_add_common_parameters" alt="" coords="455,544,633,585"/>
+<area shape="rect" id="node39" href="../../db/dd7/nx__session_8c.html#a4bce96ad49020acbbbbe09c3eefa97a6" title="remmina_nx_session\l_tunnel_main_thread" alt="" coords="929,476,1074,517"/>
+<area shape="rect" id="node41" href="../../d3/ddb/nx__plugin_8c.html#ad4a4c9b55ff6b6b1ffe2acefbf49199d" title="remmina_plugin_nx_dummy\l_handler" alt="" coords="452,1112,636,1153"/>
+<area shape="rect" id="node43" href="../../db/dd7/nx__session_8c.html#a9a98fead7295fa90624d8a494d3570cf" title="remmina_nx_session\l_get_proxy_option" alt="" coords="471,609,617,651"/>
+<area shape="rect" id="node46" href="../../d3/ddb/nx__plugin_8c.html#a4c034c5e70f4c327eaab63bbd9c9edef" title="remmina_plugin_nx_try\l_window_id" alt="" coords="466,1243,622,1284"/>
+<area shape="rect" id="node48" href="../../d3/ddb/nx__plugin_8c.html#a390e3b371156197feb518b737a31cc53" title="onMainThread_schedule\l_callback_and_wait" alt="" coords="463,1308,625,1349"/>
+<area shape="rect" id="node49" href="../../d3/ddb/nx__plugin_8c.html#a5dea604d34a804e23a5cd8a6683d9e49" title="onMainThread_cleanup\l_handler" alt="" coords="700,1345,856,1387"/>
+<area shape="rect" id="node50" href="../../d3/ddb/nx__plugin_8c.html#a9ba8e968998b64b3832e484a2ca7dfc1" title="onMainThread_cb" alt="" coords="715,1294,841,1321"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_icgraph" id="d3/ddb/nx__plugin_8c_aa471a4e13385a583efb610d33fd9a1b5_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="220,13,389,39"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="437,5,607,47"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="655,5,824,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4c034c5e70f4c327eaab63bbd9c9edef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c034c5e70f4c327eaab63bbd9c9edef">&#9670;&nbsp;</a></span>remmina_plugin_nx_try_window_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gboolean remmina_plugin_nx_try_window_id </td>
+          <td>(</td>
+          <td class="paramtype">Window&#160;</td>
+          <td class="paramname"><em>window_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00143">143</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a4c034c5e70f4c327eaab63bbd9c9edef_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a4c034c5e70f4c327eaab63bbd9c9edef_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a4c034c5e70f4c327eaab63bbd9c9edef_icgraph" id="d3/ddb/nx__plugin_8c_a4c034c5e70f4c327eaab63bbd9c9edef_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aeb6030365c211465628de098dca1ac17" title="remmina_plugin_nx_monitor\l_create_notify" alt="" coords="209,5,393,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="441,5,608,47"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="656,13,825,39"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="873,5,1043,47"/>
+<area shape="rect" id="node6" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1091,5,1260,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a259295f4bce4182ccc132e958ea7eb56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a259295f4bce4182ccc132e958ea7eb56">&#9670;&nbsp;</a></span>remmina_plugin_nx_wait_signal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static gint remmina_plugin_nx_wait_signal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d88/nx__plugin_8h.html#a2a03ded9a85fd59c27de3053a7cae122">RemminaPluginNxData</a> *&#160;</td>
+          <td class="paramname"><em>gpdata</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00294">294</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/ddb/nx__plugin_8c_a259295f4bce4182ccc132e958ea7eb56_icgraph.png" border="0" usemap="#d3/ddb/nx__plugin_8c_a259295f4bce4182ccc132e958ea7eb56_icgraph" alt=""/></div>
+<map name="d3/ddb/nx__plugin_8c_a259295f4bce4182ccc132e958ea7eb56_icgraph" id="d3/ddb/nx__plugin_8c_a259295f4bce4182ccc132e958ea7eb56_icgraph">
+<area shape="rect" id="node2" href="../../d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="219,5,385,47"/>
+<area shape="rect" id="node3" href="../../d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="433,13,603,39"/>
+<area shape="rect" id="node4" href="../../d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="651,5,820,47"/>
+<area shape="rect" id="node5" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="868,5,1037,47"/>
+</map>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a64254af45bb17a5a40a3a0383daa3fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64254af45bb17a5a40a3a0383daa3fe7">&#9670;&nbsp;</a></span>quality_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gpointer quality_list[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    <span class="stringliteral">&quot;0&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Poor (fastest)&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;1&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Medium&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;2&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Good&quot;</span>),</div><div class="line">    <span class="stringliteral">&quot;9&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Best (slowest)&quot;</span>),</div><div class="line">    NULL</div><div class="line">}</div><div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00680">680</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a5e2a04444e5b0f130329705d4a3b8ec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e2a04444e5b0f130329705d4a3b8ec0">&#9670;&nbsp;</a></span>remmina_kbtype</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* remmina_kbtype = &quot;pc102/us&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00059">59</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a73d6717ebcde73fb3bedf42f9551adbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d6717ebcde73fb3bedf42f9551adbd">&#9670;&nbsp;</a></span>remmina_nx_init_mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_mutex_t remmina_nx_init_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00064">64</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a808b6bebe5102ad2b80a15224e30ff4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808b6bebe5102ad2b80a15224e30ff4f">&#9670;&nbsp;</a></span>remmina_nx_window_id_array</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GArray* remmina_nx_window_id_array</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00065">65</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a014fb78d715a43890b4d6c720b97a278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014fb78d715a43890b4d6c720b97a278">&#9670;&nbsp;</a></span>remmina_plugin_nx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/dc4/plugin_8h.html#a52531fe685f868ce2bf593ed7328e8fd">RemminaProtocolPlugin</a> remmina_plugin_nx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    <a class="code" href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24">REMMINA_PLUGIN_TYPE_PROTOCOL</a>,                   </div><div class="line">    <span class="stringliteral">&quot;NX&quot;</span>,                                           </div><div class="line">    <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;NX - NX Technology&quot;</span>),                       </div><div class="line">    GETTEXT_PACKAGE,                                </div><div class="line">    VERSION,                                        </div><div class="line">    <span class="stringliteral">&quot;remmina-nx&quot;</span>,                                   </div><div class="line">    <span class="stringliteral">&quot;remmina-nx&quot;</span>,                                   </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a5a354592d1041bee12f9de4522d446be">remmina_plugin_nx_basic_settings</a>,               </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#af5037031066cbbf12246587ea27fb508">remmina_plugin_nx_advanced_settings</a>,            </div><div class="line">    <a class="code" href="../../d9/d49/types_8h.html#a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a">REMMINA_PROTOCOL_SSH_SETTING_TUNNEL</a>,            </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a4a6925a5bf78cac68ce04d1fe8293e9f">remmina_plugin_nx_features</a>,                     </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a79807a1c2a499d75b83d267b8c08cd7e">remmina_plugin_nx_init</a>,                         </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707">remmina_plugin_nx_open_connection</a>,              </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a89f57765ecdaf9ce7ee896dc16cd268a">remmina_plugin_nx_close_connection</a>,             </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a5f6e5136c200aefda845bb8979babbad">remmina_plugin_nx_query_feature</a>,                </div><div class="line">    <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a3c538a1cbd6efdd4989ae9e142a2de4e">remmina_plugin_nx_call_feature</a>,                 </div><div class="line">    NULL,                                           </div><div class="line">    NULL                                            </div><div class="line">}</div><div class="ttc" id="plugin_8h_html_aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24"><div class="ttname"><a href="../../d9/dc4/plugin_8h.html#aaf53c620d115a4642130227cff4a624aa45e094c248384c12cdafd9d088e4aa24">REMMINA_PLUGIN_TYPE_PROTOCOL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc4/plugin_8h_source.html#l00045">plugin.h:45</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a5a354592d1041bee12f9de4522d446be"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a5a354592d1041bee12f9de4522d446be">remmina_plugin_nx_basic_settings</a></div><div class="ttdeci">static const RemminaProtocolSetting remmina_plugin_nx_basic_settings[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00698">nx_plugin.c:698</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a3c538a1cbd6efdd4989ae9e142a2de4e"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a3c538a1cbd6efdd4989ae9e142a2de4e">remmina_plugin_nx_call_feature</a></div><div class="ttdeci">static void remmina_plugin_nx_call_feature(RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00667">nx_plugin.c:667</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_af5037031066cbbf12246587ea27fb508"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#af5037031066cbbf12246587ea27fb508">remmina_plugin_nx_advanced_settings</a></div><div class="ttdeci">static const RemminaProtocolSetting remmina_plugin_nx_advanced_settings[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00719">nx_plugin.c:719</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a24d40a7cb7e890449902b5970ab50707"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707">remmina_plugin_nx_open_connection</a></div><div class="ttdeci">static gboolean remmina_plugin_nx_open_connection(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00578">nx_plugin.c:578</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a79807a1c2a499d75b83d267b8c08cd7e"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a79807a1c2a499d75b83d267b8c08cd7e">remmina_plugin_nx_init</a></div><div class="ttdeci">static void remmina_plugin_nx_init(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00552">nx_plugin.c:552</a></div></div>
+<div class="ttc" id="types_8h_html_a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a"><div class="ttname"><a href="../../d9/d49/types_8h.html#a64c62354cc2b7baa50e1d73dcd3df9c7ab0449f571d03e46b99b301792a5d8e1a">REMMINA_PROTOCOL_SSH_SETTING_TUNNEL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00105">types.h:105</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a4a6925a5bf78cac68ce04d1fe8293e9f"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a4a6925a5bf78cac68ce04d1fe8293e9f">remmina_plugin_nx_features</a></div><div class="ttdeci">static const RemminaProtocolFeature remmina_plugin_nx_features[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00730">nx_plugin.c:730</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a89f57765ecdaf9ce7ee896dc16cd268a"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a89f57765ecdaf9ce7ee896dc16cd268a">remmina_plugin_nx_close_connection</a></div><div class="ttdeci">static gboolean remmina_plugin_nx_close_connection(RemminaProtocolWidget *gp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00613">nx_plugin.c:613</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a5f6e5136c200aefda845bb8979babbad"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a5f6e5136c200aefda845bb8979babbad">remmina_plugin_nx_query_feature</a></div><div class="ttdeci">static gboolean remmina_plugin_nx_query_feature(RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00661">nx_plugin.c:661</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00055">55</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="af5037031066cbbf12246587ea27fb508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5037031066cbbf12246587ea27fb508">&#9670;&nbsp;</a></span>remmina_plugin_nx_advanced_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a> remmina_plugin_nx_advanced_settings[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a>, <span class="stringliteral">&quot;disableclipboard&quot;</span>,   <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Disable clipboard sync&quot;</span>),   FALSE, NULL, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a>, <span class="stringliteral">&quot;disableencryption&quot;</span>,  <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Disable encryption&quot;</span>),   FALSE, NULL, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a>, <span class="stringliteral">&quot;showcursor&quot;</span>,         <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Use local cursor&quot;</span>),     FALSE, NULL, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a>, <span class="stringliteral">&quot;disablepasswordstoring&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Disable password storing&quot;</span>), FALSE, NULL, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a>,   NULL,             NULL,               FALSE, NULL, NULL }</div><div class="line">}</div><div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a52a80f3f9b84e9e0d0bf3335cfd7527f">REMMINA_PROTOCOL_SETTING_TYPE_CHECK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00089">types.h:89</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00079">types.h:79</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00719">719</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a5a354592d1041bee12f9de4522d446be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a354592d1041bee12f9de4522d446be">&#9670;&nbsp;</a></span>remmina_plugin_nx_basic_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d49/types_8h.html#a41c04d02e6a15ad17be8065453cc4933">RemminaProtocolSetting</a> remmina_plugin_nx_basic_settings[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92">REMMINA_PROTOCOL_SETTING_TYPE_SERVER</a>,     <span class="stringliteral">&quot;server&quot;</span>,        NULL,          FALSE, NULL,            NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a31ee66fffaa245ae411aba0c296ad9da">REMMINA_PROTOCOL_SETTING_TYPE_FILE</a>,       <span class="stringliteral">&quot;nx_privatekey&quot;</span>, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Identity file&quot;</span>),   FALSE, NULL,            NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296">REMMINA_PROTOCOL_SETTING_TYPE_TEXT</a>,       <span class="stringliteral">&quot;username&quot;</span>,      <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;User name&quot;</span>),       FALSE, NULL,            NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ae76d06b6e313971e5f420dd6e7f4c5aa">REMMINA_PROTOCOL_SETTING_TYPE_PASSWORD</a>,   <span class="stringliteral">&quot;password&quot;</span>,      <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;User password&quot;</span>),   FALSE, NULL,            NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350aa045109309280606ff11a9de1862e2ba">REMMINA_PROTOCOL_SETTING_TYPE_RESOLUTION</a>, <span class="stringliteral">&quot;resolution&quot;</span>,    NULL,          FALSE, GINT_TO_POINTER(1),      NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d">REMMINA_PROTOCOL_SETTING_TYPE_SELECT</a>,     <span class="stringliteral">&quot;quality&quot;</span>,       <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Quality&quot;</span>),     FALSE, <a class="code" href="../../d3/ddb/nx__plugin_8c.html#a64254af45bb17a5a40a3a0383daa3fe7">quality_list</a>,        NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ae2237632b23d3c90a842bc5bc8302ec5">REMMINA_PROTOCOL_SETTING_TYPE_COMBO</a>,      <span class="stringliteral">&quot;exec&quot;</span>,      <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Startup program&quot;</span>), FALSE, <span class="stringliteral">&quot;GNOME,KDE,Xfce,Shadow&quot;</span>, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a>,        NULL,        NULL,          FALSE, NULL,            NULL }</div><div class="line">}</div><div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a579ed0f0f6624dd55a25665693c92a92">REMMINA_PROTOCOL_SETTING_TYPE_SERVER</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00081">types.h:81</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a8be3f210c609fde31f68e607c41de296">REMMINA_PROTOCOL_SETTING_TYPE_TEXT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00086">types.h:86</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350ae76d06b6e313971e5f420dd6e7f4c5aa"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ae76d06b6e313971e5f420dd6e7f4c5aa">REMMINA_PROTOCOL_SETTING_TYPE_PASSWORD</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00082">types.h:82</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350ae2237632b23d3c90a842bc5bc8302ec5"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ae2237632b23d3c90a842bc5bc8302ec5">REMMINA_PROTOCOL_SETTING_TYPE_COMBO</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00088">types.h:88</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a04da01eead7904a55d1c813950609b2d">REMMINA_PROTOCOL_SETTING_TYPE_SELECT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00087">types.h:87</a></div></div>
+<div class="ttc" id="nx__plugin_8c_html_a64254af45bb17a5a40a3a0383daa3fe7"><div class="ttname"><a href="../../d3/ddb/nx__plugin_8c.html#a64254af45bb17a5a40a3a0383daa3fe7">quality_list</a></div><div class="ttdeci">static gpointer quality_list[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddb/nx__plugin_8c_source.html#l00680">nx_plugin.c:680</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350aa045109309280606ff11a9de1862e2ba"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350aa045109309280606ff11a9de1862e2ba">REMMINA_PROTOCOL_SETTING_TYPE_RESOLUTION</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00083">types.h:83</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350a31ee66fffaa245ae411aba0c296ad9da"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350a31ee66fffaa245ae411aba0c296ad9da">REMMINA_PROTOCOL_SETTING_TYPE_FILE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00090">types.h:90</a></div></div>
+<div class="ttc" id="types_8h_html_aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3"><div class="ttname"><a href="../../d9/d49/types_8h.html#aee1a3e130e6991978acd907b52204350ad898beb6ae625dee1ae27de75f1ab4e3">REMMINA_PROTOCOL_SETTING_TYPE_END</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00079">types.h:79</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00698">698</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
+<a id="a4a6925a5bf78cac68ce04d1fe8293e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6925a5bf78cac68ce04d1fe8293e9f">&#9670;&nbsp;</a></span>remmina_plugin_nx_features</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d49/types_8h.html#ade886ceb4d246765dc78cdc7fbabeb74">RemminaProtocolFeature</a> remmina_plugin_nx_features[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a645d9a32b55325b3672e265a64d0a507">REMMINA_PROTOCOL_FEATURE_TYPE_TOOL</a>, REMMINA_PLUGIN_NX_FEATURE_TOOL_SENDCTRLALTDEL, <a class="code" href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>(<span class="stringliteral">&quot;Send Ctrl+Alt+Delete&quot;</span>), NULL, NULL },</div><div class="line">    { <a class="code" href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4">REMMINA_PROTOCOL_FEATURE_TYPE_END</a>,  0,                         NULL,           NULL, NULL }</div><div class="line">}</div><div class="ttc" id="types_8h_html_a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4"><div class="ttname"><a href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a311d2a8dae8d3d7b9045b4b704f94fe4">REMMINA_PROTOCOL_FEATURE_TYPE_END</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00044">types.h:44</a></div></div>
+<div class="ttc" id="types_8h_html_a77ae46c4fd739dcd8e819fe9cdae27c5a645d9a32b55325b3672e265a64d0a507"><div class="ttname"><a href="../../d9/d49/types_8h.html#a77ae46c4fd739dcd8e819fe9cdae27c5a645d9a32b55325b3672e265a64d0a507">REMMINA_PROTOCOL_FEATURE_TYPE_TOOL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00046">types.h:46</a></div></div>
+<div class="ttc" id="vnc__plugin_8c_html_ab96ef9227ecef94018f2729f72e7651e"><div class="ttname"><a href="../../da/d39/vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a></div><div class="ttdeci">N_(&quot;Unable to connect to VNC server&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/vnc__plugin_8c_source.html#l00940">vnc_plugin.c:940</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html#l00730">730</a> of file <a class="el" href="../../d3/ddb/nx__plugin_8c_source.html">nx_plugin.c</a>.</p>
+
+</div>
+</div>
 <a id="af8bb68a7a80a23d5a13203b813ff18bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8bb68a7a80a23d5a13203b813ff18bf">&#9670;&nbsp;</a></span>remmina_plugin_nx_service</h2>
 

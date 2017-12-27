@@ -1,3 +1,9 @@
 <map id="remmina_protocol_widget_chat_open" name="remmina_protocol_widget_chat_open">
-<area shape="rect" id="node2" href="$d7/dc7/remmina__chat__window_8c.html#a5e4fa655fddf361fed13bbd759bea24f" title="remmina_chat_window_new" alt="" coords="224,13,411,39"/>
+<area shape="rect" id="node2" href="$d7/dc7/remmina__chat__window_8c.html#a5e4fa655fddf361fed13bbd759bea24f" title="remmina_chat_window_new" alt="" coords="224,71,411,98"/>
+<area shape="rect" id="node8" href="$d6/d0f/remmina__protocol__widget_8c.html#a04f0a11e50cdbd98ab80984fd5aca16d" title="remmina_protocol_widget\l_chat_on_destroy" alt="" coords="232,123,403,164"/>
+<area shape="rect" id="node3" href="$d7/dc7/remmina__chat__window_8c.html#a55ac61e450ce6d37e57fcb5ac3ed507a" title="remmina_chat_window\l_send_text_on_key" alt="" coords="459,5,613,47"/>
+<area shape="rect" id="node4" href="$d7/dc7/remmina__chat__window_8c.html#a62d706863c048c8ddb580786c6abcf50" title="remmina_chat_window_send" alt="" coords="661,65,852,91"/>
+<area shape="rect" id="node7" href="$d7/dc7/remmina__chat__window_8c.html#a4372d0db2832db8ed190390580f1dd1e" title="remmina_chat_window\l_clear_send_text" alt="" coords="900,115,1055,156"/>
+<area shape="rect" id="node5" href="$d7/dc7/remmina__chat__window_8c.html#adfffc86df4856aabe2593de07742985f" title="remmina_chat_window\l_append_text" alt="" coords="900,49,1055,91"/>
+<area shape="rect" id="node6" href="$d7/dc7/remmina__chat__window_8c.html#a2a4bc3ded8ebf89c8f60d9b565fe2d70" title="remmina_chat_window\l_scroll_proc" alt="" coords="1103,49,1257,91"/>
 </map>

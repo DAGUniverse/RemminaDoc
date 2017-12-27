@@ -1,0 +1,9 @@
+<map id="remmina_rdp_call_feature" name="remmina_rdp_call_feature">
+<area shape="rect" id="node2" href="$dc/dd7/rdp__event_8c.html#a4da10c12b28edc28403766994d6ef29c" title="remmina_rdp_event_unfocus" alt="" coords="224,17,413,43"/>
+<area shape="rect" id="node5" href="$dc/dd7/rdp__event_8c.html#a64ce0c66bb4cb6ddaee263ce8563f497" title="remmina_rdp_event_update\l_scale" alt="" coords="227,71,410,112"/>
+<area shape="rect" id="node8" href="$d5/db5/rdp__plugin_8c.html#a04920ffa78f21d63806d544fcca9c56e" title="remmina_rdp_send_ctrlaltdel" alt="" coords="225,137,413,163"/>
+<area shape="rect" id="node3" href="$dc/dd7/rdp__event_8c.html#a113ce593d4a96413b9330c471ee51554" title="remmina_rdp_event_release\l_all_keys" alt="" coords="461,5,647,47"/>
+<area shape="rect" id="node4" href="$dc/dd7/rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580" title="remmina_rdp_event_event_push" alt="" coords="695,13,905,39"/>
+<area shape="rect" id="node6" href="$dc/dd7/rdp__event_8c.html#a789ec99777755da7cae468216a74095a" title="remmina_rdp_event_create\l_cairo_surface" alt="" coords="465,71,643,112"/>
+<area shape="rect" id="node7" href="$dc/dd7/rdp__event_8c.html#a6076424eb759c91ca9c8da59432c66d6" title="remmina_rdp_event_update\l_scale_factor" alt="" coords="463,136,645,177"/>
+</map>

@@ -21,6 +21,7 @@ var remmina__public_8c =
     [ "remmina_public_popup_position", "db/d22/remmina__public_8c.html#a92025b5f6512955f9c29608b5451a12c", null ],
     [ "remmina_public_resolution_validation_func", "db/d22/remmina__public_8c.html#a098786d3aa6991aeba43a61e29d534d0", null ],
     [ "remmina_public_send_notification", "db/d22/remmina__public_8c.html#a893f0cfe2d694ab700975f4f427ee2f6", null ],
+    [ "remmina_public_split_resolution_string", "db/d22/remmina__public_8c.html#aaf3fdb980c24cd06965b85ebcdd79173", null ],
     [ "remmina_public_str_replace", "db/d22/remmina__public_8c.html#aea7547abe3a67e6126addc9ed91af640", null ],
     [ "remmina_public_str_replace_in_place", "db/d22/remmina__public_8c.html#a8d7d9b3c8050545469b1af9a35b043a2", null ]
 ];

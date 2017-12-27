@@ -1,0 +1,14 @@
+<map id="remmina_nx_session_tunnel_open" name="remmina_nx_session_tunnel_open">
+<area shape="rect" id="node2" href="$db/dd7/nx__session_8c.html#a663b5b339b919527db0c7467123c7f62" title="remmina_nx_session\l_send_command" alt="" coords="199,71,344,112"/>
+<area shape="rect" id="node3" href="$db/dd7/nx__session_8c.html#abc225e383dc70c0f6a12baf7b9cc3841" title="remmina_nx_session\l_expect_status" alt="" coords="199,136,344,177"/>
+<area shape="rect" id="node9" href="$db/dd7/nx__session_8c.html#a68bff7bd24db82a337fc00e42942d1c6" title="remmina_nx_session\l_set_application_error" alt="" coords="779,201,928,243"/>
+<area shape="rect" id="node13" href="$db/dd7/nx__session_8c.html#a4bce96ad49020acbbbbe09c3eefa97a6" title="remmina_nx_session\l_tunnel_main_thread" alt="" coords="392,253,537,295"/>
+<area shape="rect" id="node4" href="$db/dd7/nx__session_8c.html#ad6ae8dc606c87632bb8b8b477509bcea" title="remmina_nx_session\l_expect_status2" alt="" coords="392,104,537,145"/>
+<area shape="rect" id="node5" href="$db/dd7/nx__session_8c.html#a625f0605bf73f0465866b26cf7563eac" title="remmina_nx_session\l_parse_response" alt="" coords="585,71,731,112"/>
+<area shape="rect" id="node10" href="$db/dd7/nx__session_8c.html#a880c07dbd498746d06490063159baa4c" title="remmina_nx_session\l_get_response" alt="" coords="585,136,731,177"/>
+<area shape="rect" id="node12" href="$db/dd7/nx__session_8c.html#aa02aea77cb6428ea4eebddc0d80217e9" title="remmina_nx_session\l_has_error" alt="" coords="585,5,731,47"/>
+<area shape="rect" id="node6" href="$db/dd7/nx__session_8c.html#aa200231bf9d2f3e00a8f92bacddbe09f" title="remmina_nx_session\l_get_line" alt="" coords="781,71,926,112"/>
+<area shape="rect" id="node7" href="$db/dd7/nx__session_8c.html#a1a72f258cb806b8f1150c4719a68af28" title="remmina_nx_session\l_parse_line" alt="" coords="781,5,926,47"/>
+<area shape="rect" id="node8" href="$db/dd7/nx__session_8c.html#a1d1f38d0bee83fe75e528a7f157c12c0" title="remmina_nx_session\l_parse_session_list_line" alt="" coords="976,5,1140,47"/>
+<area shape="rect" id="node11" href="$db/dd7/nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc" title="remmina_nx_session\l_set_error" alt="" coords="781,136,926,177"/>
+</map>

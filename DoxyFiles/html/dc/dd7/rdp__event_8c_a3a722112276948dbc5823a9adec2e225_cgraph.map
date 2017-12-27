@@ -1,0 +1,7 @@
+<map id="remmina_rdp_event_on_configure" name="remmina_rdp_event_on_configure">
+<area shape="rect" id="node2" href="$dc/dd7/rdp__event_8c.html#a6076424eb759c91ca9c8da59432c66d6" title="remmina_rdp_event_update\l_scale_factor" alt="" coords="211,5,393,47"/>
+<area shape="rect" id="node3" href="$dc/dd7/rdp__event_8c.html#ac7c8d626470553c1659312697811dbfe" title="remmina_rdp_event_send\l_delayed_monitor_layout" alt="" coords="217,71,387,112"/>
+<area shape="rect" id="node4" href="$dc/dd7/rdp__event_8c.html#a35376ff50915de1c14285e6326bc943e" title="remmina_rdp_event_delayed\l_monitor_layout" alt="" coords="441,71,629,112"/>
+<area shape="rect" id="node5" href="$d3/dc2/rdp__settings_8c.html#a5f05047cf10611ffb7a23a248650cb4c" title="remmina_rdp_settings\l_get_orientation_scale_prefs" alt="" coords="689,41,877,83"/>
+<area shape="rect" id="node6" href="$dc/dd7/rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580" title="remmina_rdp_event_event_push" alt="" coords="677,107,888,134"/>
+</map>

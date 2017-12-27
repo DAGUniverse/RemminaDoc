@@ -1,0 +1,9 @@
+<map id="remmina_nx_session_add_common_parameters" name="remmina_nx_session_add_common_parameters">
+<area shape="rect" id="node2" href="$d1/de0/nx__session_8h.html#a2123ed756f82d65c5c6f4062606803c6" title="remmina_nx_session\l_start" alt="" coords="232,5,377,47"/>
+<area shape="rect" id="node7" href="$d1/de0/nx__session_8h.html#aacd5938d1a58872644a3a68bc1cac66d" title="remmina_nx_session\l_attach" alt="" coords="232,71,377,112"/>
+<area shape="rect" id="node8" href="$d1/de0/nx__session_8h.html#a0de55cb12904503503d7d9ab3338aa33" title="remmina_nx_session\l_restore" alt="" coords="232,136,377,177"/>
+<area shape="rect" id="node3" href="$d3/ddb/nx__plugin_8c.html#aa471a4e13385a583efb610d33fd9a1b5" title="remmina_plugin_nx_start\l_session" alt="" coords="425,71,592,112"/>
+<area shape="rect" id="node4" href="$d3/ddb/nx__plugin_8c.html#aada1c6767dcc37e55c4b4ce3b5d8ebdf" title="remmina_plugin_nx_main" alt="" coords="640,78,809,105"/>
+<area shape="rect" id="node5" href="$d3/ddb/nx__plugin_8c.html#a747a6fa8ff786ff6539d664ad6e38046" title="remmina_plugin_nx_main\l_thread" alt="" coords="857,71,1027,112"/>
+<area shape="rect" id="node6" href="$d3/ddb/nx__plugin_8c.html#a24d40a7cb7e890449902b5970ab50707" title="remmina_plugin_nx_open\l_connection" alt="" coords="1075,71,1244,112"/>
+</map>

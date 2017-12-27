@@ -1,0 +1,11 @@
+<map id="remmina_ssh_tunnel_remove_channel" name="remmina_ssh_tunnel_remove_channel">
+<area shape="rect" id="node2" href="$d7/deb/remmina__ssh_8c.html#a2c47bcbe038c0d5a393a781c96a5a549" title="remmina_ssh_tunnel\l_main_thread_proc" alt="" coords="196,85,339,127"/>
+<area shape="rect" id="node3" href="$d7/deb/remmina__ssh_8c.html#a879c1981a3b643529d64107a653016a6" title="remmina_ssh_tunnel\l_main_thread" alt="" coords="387,85,529,127"/>
+<area shape="rect" id="node4" href="$d5/d09/remmina__ssh_8h.html#a52b3f47eac79f2781ba81d61505f4f53" title="remmina_ssh_tunnel_open" alt="" coords="577,13,755,39"/>
+<area shape="rect" id="node6" href="$d5/d09/remmina__ssh_8h.html#ac6d58beb4df141c6353e897c39748146" title="remmina_ssh_tunnel_x11" alt="" coords="581,63,751,90"/>
+<area shape="rect" id="node7" href="$d5/d09/remmina__ssh_8h.html#aba49db2ced40e21e8adfad69dcfda2c4" title="remmina_ssh_tunnel\l_xport" alt="" coords="595,115,737,156"/>
+<area shape="rect" id="node9" href="$d5/d09/remmina__ssh_8h.html#ae47c8270267b02b9c0ff5b36074101c2" title="remmina_ssh_tunnel\l_reverse" alt="" coords="595,180,737,221"/>
+<area shape="rect" id="node5" href="$d4/d6f/remmina__protocol__widget_8h.html#a9d55210413d6a313478f81cf76ecf1b7" title="Start an SSH tunnel if possible and return the host:port string. " alt="" coords="803,5,973,47"/>
+<area shape="rect" id="node8" href="$d4/d6f/remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4" title="remmina_protocol_widget\l_start_xport_tunnel" alt="" coords="803,115,973,156"/>
+<area shape="rect" id="node10" href="$d4/d6f/remmina__protocol__widget_8h.html#aa6d9f2f558fcd9e7fe58eefcde1c3c5c" title="remmina_protocol_widget\l_start_reverse_tunnel" alt="" coords="803,180,973,221"/>
+</map>

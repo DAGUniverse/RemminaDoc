@@ -1,0 +1,8 @@
+<map id="remmina_plugin_ssh_call_feature" name="remmina_plugin_ssh_call_feature">
+<area shape="rect" id="node2" href="$d5/d16/remmina__file_8c.html#a52a0986eaf54c9e606ce9cdf8bb57e60" title="remmina_file_dup_temp\l_protocol" alt="" coords="195,23,355,65"/>
+<area shape="rect" id="node3" href="$d5/d16/remmina__file_8c.html#a3fb992fced83e0f1c4e4e3c8d2206be5" title="remmina_file_dup" alt="" coords="403,5,527,32"/>
+<area shape="rect" id="node5" href="$d5/d16/remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="580,56,740,83"/>
+<area shape="rect" id="node4" href="$d5/d16/remmina__file_8c.html#adab087b7139756f029020a87a5438cfa" title="remmina_file_new_empty" alt="" coords="575,5,745,32"/>
+<area shape="rect" id="node6" href="$d5/d16/remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="793,56,976,83"/>
+<area shape="rect" id="node7" href="$d9/d10/remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7" title="remmina_main_show_warning\l_dialog" alt="" coords="1024,49,1221,90"/>
+</map>

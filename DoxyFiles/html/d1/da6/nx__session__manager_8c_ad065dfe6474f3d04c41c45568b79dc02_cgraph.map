@@ -1,0 +1,12 @@
+<map id="remmina_nx_session_manager_main" name="remmina_nx_session_manager_main">
+<area shape="rect" id="node2" href="$db/dd7/nx__session_8c.html#a5b9d8589f544d54350a6d96b49275e41" title="remmina_nx_session\l_set_tree_view" alt="" coords="220,5,365,47"/>
+<area shape="rect" id="node3" href="$d1/da6/nx__session__manager_8c.html#a67942d77023ce617e67c2592f33e9a3e" title="remmina_nx_session\l_manager_on_row_activated" alt="" coords="199,71,387,112"/>
+<area shape="rect" id="node4" href="$d1/da6/nx__session__manager_8c.html#a1da3561ad5f667b639738b9289b73d08" title="remmina_nx_session\l_manager_selection_func" alt="" coords="207,136,378,177"/>
+<area shape="rect" id="node5" href="$d1/da6/nx__session__manager_8c.html#a9d26a9054a74df5137935c6ea7eed911" title="remmina_nx_session\l_manager_set_sensitive" alt="" coords="435,185,597,227"/>
+<area shape="rect" id="node6" href="$d1/da6/nx__session__manager_8c.html#a6e1362868bf6ce2402193ee1da978a51" title="remmina_nx_session\l_manager_on_response" alt="" coords="213,253,373,295"/>
+<area shape="rect" id="node8" href="$d1/da6/nx__session__manager_8c.html#abcb80c50ed17b4e6ce51a06fe690602c" title="remmina_nx_session\l_manager_send_signal" alt="" coords="439,316,593,357"/>
+<area shape="rect" id="node9" href="$db/dd7/nx__session_8c.html#aa02aea77cb6428ea4eebddc0d80217e9" title="remmina_nx_session\l_has_error" alt="" coords="220,371,365,412"/>
+<area shape="rect" id="node10" href="$db/dd7/nx__session_8c.html#ae4e7f359af598b707927c162c3c37e1e" title="remmina_nx_session\l_get_error" alt="" coords="220,436,365,477"/>
+<area shape="rect" id="node11" href="$db/dd7/nx__session_8c.html#a0279cdfc0ad8129fcb3e1cc26297f866" title="remmina_nx_session\l_clear_error" alt="" coords="220,501,365,543"/>
+<area shape="rect" id="node7" href="$db/dd7/nx__session_8c.html#a49f2ddc5baaf992f7a39f3d8f6ab061d" title="remmina_nx_session\l_iter_set" alt="" coords="443,251,589,292"/>
+</map>
