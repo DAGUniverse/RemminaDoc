@@ -22,7 +22,9 @@ var searchData=
   ['gruvbox',['GRUVBOX',['../remmina__ssh__plugin_8c.html#a236a29beb2ea51daaeb01fe86d41807ca3c1607106f03c3be44c0f70a6040604c',1,'remmina_ssh_plugin.c']]],
   ['gruvbox_5fpalette',['gruvbox_palette',['../remmina__ssh__plugin_8c.html#afa1c17a29abc1a6b89929a73b89e7173',1,'remmina_ssh_plugin.c']]],
   ['gsversion',['gsversion',['../struct___remmina_icon.html#aee3da1b92eed8cec42813a737e482b2c',1,'_RemminaIcon']]],
+  ['gtk_2dversions_2don_2dvarious_2ddistributions_2emd',['GTK-versions-on-various-distributions.md',['../_g_t_k-versions-on-various-distributions_8md.html',1,'']]],
   ['gtk_5flabel_5fset_5ftext',['gtk_label_set_text',['../structremmina__masterthread__exec__data.html#a85a0c3a54c87297e585fac9d52cd83c1',1,'remmina_masterthread_exec_data']]],
   ['gtk_5fsession',['gtk_session',['../struct___remmina_plugin_spice_data.html#a1420dc8738b8485e95441823b4157f69',1,'_RemminaPluginSpiceData']]],
-  ['gtksocket_5favailable',['gtksocket_available',['../struct___remmina_plugin_service.html#a06ba66f0a8b001d38be36a4580eb74c8',1,'_RemminaPluginService']]]
+  ['gtksocket_5favailable',['gtksocket_available',['../struct___remmina_plugin_service.html#a06ba66f0a8b001d38be36a4580eb74c8',1,'_RemminaPluginService']]],
+  ['gtk_2dversions_2don_2dvarious_2ddistributions',['GTK-versions-on-various-distributions',['../md__home_tmow_remmina_devel__remmina_8wiki__g_t_k-versions-on-various-distributions.html',1,'']]]
 ];

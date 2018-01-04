@@ -25,6 +25,7 @@ var searchData=
   ['desktoporientation',['desktopOrientation',['../structremmina__plugin__rdp__event.html#acc5ea94958152ae483d269a28f34b0b0',1,'remmina_plugin_rdp_event']]],
   ['desktopscalefactor',['desktopScaleFactor',['../structremmina__plugin__rdp__event.html#ad8c508c65e9f84c92f2f817eb7be2985',1,'remmina_plugin_rdp_event']]],
   ['dest',['dest',['../struct___remmina_s_s_h_tunnel.html#a4d61f0c0926686f8451dcf49d2d857da',1,'_RemminaSSHTunnel']]],
+  ['development_2dnotes_2emd',['Development-Notes.md',['../_development-_notes_8md.html',1,'']]],
   ['device_5fscale_5ffactor_5fcombo',['device_scale_factor_combo',['../struct___remmina_plugin_rdpset_grid.html#ad64fd1c5a1230a98afaff86ece884ff3',1,'_RemminaPluginRdpsetGrid']]],
   ['device_5fscale_5ffactor_5fstore',['device_scale_factor_store',['../struct___remmina_plugin_rdpset_grid.html#a2e5ba950872f1a5db42a7b077cb02860',1,'_RemminaPluginRdpsetGrid']]],
   ['devicescalefactor',['deviceScaleFactor',['../structremmina__plugin__rdp__event.html#a30115ccc01062368d9b1189a0f378f57',1,'remmina_plugin_rdp_event']]],
@@ -53,5 +54,6 @@ var searchData=
   ['dot_5fcursor_5fy_5fhot',['dot_cursor_y_hot',['../vnc__plugin_8c.html#a01923764292c3ab42dbcb43a9bb438a5',1,'vnc_plugin.c']]],
   ['drawing_5farea',['drawing_area',['../structrf__context.html#acee2095e72fb2428c498f62e21800026',1,'rf_context::drawing_area()'],['../struct___remmina_plugin_vnc_data.html#acf12d2c89046160dddcae35af84e5e57',1,'_RemminaPluginVncData::drawing_area()']]],
   ['drdynvc_5fdata',['drdynvc_data',['../structrf__context.html#a2a708b989f3e12af802ab4266af39363',1,'rf_context']]],
-  ['dynres_5funlocked',['dynres_unlocked',['../struct___remmina_connection_object.html#a71136a01b1cc4d14e0047b32ec4d8a4a',1,'_RemminaConnectionObject']]]
+  ['dynres_5funlocked',['dynres_unlocked',['../struct___remmina_connection_object.html#a71136a01b1cc4d14e0047b32ec4d8a4a',1,'_RemminaConnectionObject']]],
+  ['development_2dnotes',['Development-Notes',['../md__home_tmow_remmina_devel__remmina_8wiki__development-_notes.html',1,'']]]
 ];

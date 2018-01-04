@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['systray_20menu',['Systray menu',['../md__home_tmow_remmina_devel__remmina_8wiki__systray-menu.html',1,'']]],
   ['save_5fpassword',['save_password',['../struct___remmina_init_dialog.html#a2a35558c458dad6c0405552b02571445',1,'_RemminaInitDialog']]],
   ['save_5fview_5fmode',['save_view_mode',['../struct___remmina_pref.html#aad6660781f636788d5f05b3bac85d676',1,'_RemminaPref']]],
   ['sb',['sb',['../struct___remmina_avahi_priv.html#aabad1866d4f15fe3eb42b0438becffe8',1,'_RemminaAvahiPriv']]],
@@ -112,11 +113,13 @@ var searchData=
   ['stricthostkeycheck',['stricthostkeycheck',['../struct___remmina_s_s_h.html#a62e6a209747daa65061273243e830ae9',1,'_RemminaSSH']]],
   ['string_5flist',['string_list',['../remmina__string__list_8c.html#a6f8601a848bb964c1c9caf69d00128b8',1,'remmina_string_list.c']]],
   ['subject',['subject',['../structremmina__masterthread__exec__data.html#a1a08ebfaee4807c5acdf51a6fed075a1',1,'remmina_masterthread_exec_data']]],
+  ['submodules_2emd',['Submodules.md',['../_submodules_8md.html',1,'']]],
   ['surface',['surface',['../structrf__bitmap.html#a52c9e53fa5dd0b9ab9be3622196ca80b',1,'rf_bitmap::surface()'],['../structrf__context.html#a3aead7f4d2c4580fcbd25e15679e19c6',1,'rf_context::surface()']]],
   ['sw',['sw',['../struct___remmina_plugin_exec_data.html#a59117466c585cabdc32c363083867bbb',1,'_RemminaPluginExecData']]],
   ['sw_5fgdi',['sw_gdi',['../structrf__context.html#a91f20005b39ad9e1073cf25bf6d7c2f2',1,'rf_context']]],
   ['sync',['sync',['../structremmina__plugin__rdp__ui__object.html#a66cdf13076e9a6b0c8d4e73a2e565c60',1,'remmina_plugin_rdp_ui_object']]],
   ['sync_5fwait_5fcond',['sync_wait_cond',['../structremmina__plugin__rdp__ui__object.html#aca09eff5589ea5440e4ecff99879a509',1,'remmina_plugin_rdp_ui_object']]],
   ['sync_5fwait_5fmutex',['sync_wait_mutex',['../structremmina__plugin__rdp__ui__object.html#a5375267e5c5285fbaf47ed22566e68c6',1,'remmina_plugin_rdp_ui_object']]],
-  ['system',['system',['../structrf__clipboard.html#ad7541d40ba2e4463c36ffab12cfe3adf',1,'rf_clipboard']]]
+  ['system',['system',['../structrf__clipboard.html#ad7541d40ba2e4463c36ffab12cfe3adf',1,'rf_clipboard']]],
+  ['systray_2dmenu_2emd',['Systray-menu.md',['../_systray-menu_8md.html',1,'']]]
 ];

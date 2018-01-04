@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['testing_20under_20ubuntu_20with_20the_20remmina_2dnext_2ddaily_20ppa',['Testing under Ubuntu with the remmina-next-daily PPA',['../md__home_tmow_remmina_devel__remmina_8wiki__testing-under-_ubuntu-with-the-remmina-next-daily-_p_p_a.html',1,'']]],
   ['tab_5fmode',['tab_mode',['../struct___remmina_pref.html#aecbe4c6a13ec6eda818c9f74c6f63468',1,'_RemminaPref']]],
   ['table',['table',['../structmpchanger__params.html#a87576a4dfe04c11686cf574669331bb2',1,'mpchanger_params']]],
   ['tango',['TANGO',['../remmina__ssh__plugin_8c.html#a236a29beb2ea51daaeb01fe86d41807ca930a49faa0823497e3df32bd17bcf508',1,'remmina_ssh_plugin.c']]],
@@ -14,6 +15,7 @@ var searchData=
   ['telepathy_5fhandler_2eh',['telepathy_handler.h',['../telepathy__handler_8h.html',1,'']]],
   ['telepathy_5fplugin_2ec',['telepathy_plugin.c',['../telepathy__plugin_8c.html',1,'']]],
   ['terminal',['terminal',['../structremmina__masterthread__exec__data.html#a24956c80352de0631eed5e61138c55d1',1,'remmina_masterthread_exec_data']]],
+  ['testing_2dunder_2dubuntu_2dwith_2dthe_2dremmina_2dnext_2ddaily_2dppa_2emd',['Testing-under-Ubuntu-with-the-remmina-next-daily-PPA.md',['../_testing-under-_ubuntu-with-the-remmina-next-daily-_p_p_a_8md.html',1,'']]],
   ['text',['text',['../structremmina__masterthread__exec__data.html#a9a7d8ee3e4b091baee9167892b18e0de',1,'remmina_masterthread_exec_data::text()'],['../struct___remmina_plugin_vnc_event.html#a79891d24c0e6257efceeefb3c10d8c65',1,'_RemminaPluginVncEvent::text()'],['../struct___remmina_plugin_vnc_event.html#a17fd02bcca976213ff16edde4b754ec6',1,'_RemminaPluginVncEvent::text()'],['../struct___remmina_plugin_vnc_cuttext_param.html#a435d7b845e1d90c3bfbe5e5a7be19b30',1,'_RemminaPluginVncCuttextParam::text()']]],
   ['textlen',['textlen',['../struct___remmina_plugin_vnc_cuttext_param.html#a3623cf203470ce741397e972fb12ab76',1,'_RemminaPluginVncCuttextParam']]],
   ['theme_5fcheck',['theme_check',['../struct___remmina_plugin_rdpset_grid.html#ae5744e97f282983eabf61572022702bf',1,'_RemminaPluginRdpsetGrid']]],
