@@ -29,6 +29,7 @@ var struct___remmina_pref_dialog =
     [ "checkbutton_options_remember_last_view_mode", "struct___remmina_pref_dialog.html#a57ceadb673737372701f1c65e66a9676", null ],
     [ "checkbutton_options_save_settings", "struct___remmina_pref_dialog.html#a26ad416987608d6c6f0a98ba9d611119", null ],
     [ "checkbutton_options_ssh_parseconfig", "struct___remmina_pref_dialog.html#aad290cb37b80d5295452ad1fd4322acc", null ],
+    [ "checkbutton_permit_send_stats", "struct___remmina_pref_dialog.html#a2834ba671a175dce3b14b1ecef3fa2f3", null ],
     [ "checkbutton_terminal_bold", "struct___remmina_pref_dialog.html#ad9429f2f61c05e8851692a0262236608", null ],
     [ "checkbutton_terminal_font_system", "struct___remmina_pref_dialog.html#aa895f44e7d72ec1c67c0a43f8806728f", null ],
     [ "checkbutton_terminal_system_colors", "struct___remmina_pref_dialog.html#a611f88f203c9901c46b88ab342986a79", null ],

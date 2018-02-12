@@ -40,7 +40,7 @@
 <area shape="rect" id="node33" href="$remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0" title="remmina_string_array_add" alt="" coords="1135,543,1309,570"/>
 <area shape="rect" id="node34" href="$remmina__file_8c.html#abd2f06bf0a5ddcf7156e5ef7d0c8d4d7" title="remmina_file_free" alt="" coords="1159,695,1285,722"/>
 <area shape="rect" id="node35" href="$remmina__string__array_8c.html#a3eab4bae72ff130ad10ec8fc7364ce70" title="remmina_string_array_sort" alt="" coords="1134,594,1310,621"/>
-<area shape="rect" id="node43" href="$remmina__file_8c.html#a3d19095f74e9b7c92d74f11bd5a39a8c" title="remmina_file_touch" alt="" coords="458,1043,593,1070"/>
+<area shape="rect" id="node43" href="$remmina__file_8c.html#a3d19095f74e9b7c92d74f11bd5a39a8c" title="Update the atime and mtime of a given filename. " alt="" coords="458,1043,593,1070"/>
 <area shape="rect" id="node46" href="$remmina__connection__window_8c.html#ab0ed27ef360efc7d92906cbabf9da5db" title="remmina_connection\l_window_open_from_filename" alt="" coords="427,800,624,841"/>
 <area shape="rect" id="node44" href="$remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="689,1043,821,1070"/>
 <area shape="rect" id="node45" href="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="902,1043,1058,1070"/>

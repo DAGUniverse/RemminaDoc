@@ -1,0 +1,8 @@
+<map id="remmina_stats_get_wm_name" name="remmina_stats_get_wm_name">
+<area shape="rect" id="node2" href="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="Query DBUS to get gnome shell version. " alt="" coords="253,5,404,47"/>
+<area shape="rect" id="node3" href="$remmina__log_8c.html#aca8f826a273194e22f4467421af9b3aa" title="remmina_log_print" alt="" coords="265,71,393,98"/>
+<area shape="rect" id="node6" href="$remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="263,122,395,149"/>
+<area shape="rect" id="node7" href="$remmina__sysinfo_8c.html#ae4441d62bb4075d1618b5750fea064b4" title="Query environment variables to get the Window manager name. " alt="" coords="255,173,402,215"/>
+<area shape="rect" id="node4" href="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="452,97,608,123"/>
+<area shape="rect" id="node5" href="$remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="656,89,791,131"/>
+</map>

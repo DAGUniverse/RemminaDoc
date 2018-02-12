@@ -1,5 +1,5 @@
 <map id="remmina_ftp_client_get_waiting_task" name="remmina_ftp_client_get_waiting_task">
-<area shape="rect" id="node2" href="$remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="185,1897,340,1939"/>
+<area shape="rect" id="node2" href="$remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="185,1899,340,1940"/>
 <area shape="rect" id="node34" href="$remmina__sftp__client_8c.html#ac063368992734eda25c7632e5af7ef05" title="remmina_sftp_client\l_thread_get_task" alt="" coords="863,1667,1002,1708"/>
 <area shape="rect" id="node3" href="$remmina__masterthread__exec_8h.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="388,1928,543,1969"/>
 <area shape="rect" id="node4" href="$remmina__file_8h.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="603,847,763,874"/>

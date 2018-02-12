@@ -34,11 +34,11 @@
 <area shape="rect" id="node27" href="$remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983" title="remmina_pref_save" alt="" coords="1196,718,1332,745"/>
 <area shape="rect" id="node34" href="$remmina__widget__pool_8c.html#a9cbb5b8d01a6d44ba7b46434467c02f8" title="remmina_widget_pool\l_count" alt="" coords="667,937,815,979"/>
 <area shape="rect" id="node35" href="$remmina__main_8c.html#a7740488de65c0e642895cc9dfba07b6e" title="remmina_main_get_window" alt="" coords="649,1003,832,1030"/>
-<area shape="rect" id="node36" href="$remmina__icon_8c.html#a42f087b679b43b8a1d36cd9e9781a8b6" title="remmina_icon_is_available" alt="" coords="651,705,830,731"/>
+<area shape="rect" id="node36" href="$remmina__icon_8c.html#a42f087b679b43b8a1d36cd9e9781a8b6" title="Determine whenever the Remmina icon is available. " alt="" coords="651,705,830,731"/>
 <area shape="rect" id="node39" href="$remmina__exec_8c.html#a206abe0e916081b29c5faa52330e2271" title="remmina_exec_exitremmina" alt="" coords="648,821,833,847"/>
 <area shape="rect" id="node42" href="$remmina__widget__pool_8c.html#a53fad3994b2550300cfd4fd8bb2a2b5b" title="remmina_widget_pool\l_foreach" alt="" coords="925,763,1073,804"/>
 <area shape="rect" id="node47" href="$remmina__exec_8c.html#a3a857f545238914d4e021d44c4b15b4f" title="disable_remmina_connection\l_window_delete_confirm_cb" alt="" coords="645,872,836,913"/>
-<area shape="rect" id="node37" href="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="remmina_sysinfo_get\l_gnome_shell_version" alt="" coords="923,632,1074,673"/>
+<area shape="rect" id="node37" href="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="Query DBUS to get gnome shell version. " alt="" coords="923,632,1074,673"/>
 <area shape="rect" id="node38" href="$remmina__sysinfo_8c.html#ae6ecf91edb905f3b2b39e33e05325590" title="remmina_sysinfo_is\l_appindicator_available" alt="" coords="920,697,1077,739"/>
 <area shape="rect" id="node40" href="$remmina__main_8c.html#a009f32092bd1d8dcd8e783d25416f3df" title="remmina_main_save_before\l_destroy" alt="" coords="906,828,1091,869"/>
 <area shape="rect" id="node43" href="$remmina__exec_8c.html#a0ffd51ed283da4640c920e75e89e694a" title="cb_closewidget" alt="" coords="943,894,1055,921"/>

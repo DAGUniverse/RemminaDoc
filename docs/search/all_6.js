@@ -18,7 +18,7 @@ var searchData=
   ['file_5funsave_5fpassword',['file_unsave_password',['../struct___remmina_plugin_service.html#a8281727d61c39f8f4e03c9f907844f83',1,'_RemminaPluginService']]],
   ['filechooserbutton_5foptions_5fscreenshots_5fpath',['filechooserbutton_options_screenshots_path',['../struct___remmina_pref_dialog.html#ae766dd561f1bf23723306f7a70015f27',1,'_RemminaPrefDialog']]],
   ['filechooserbutton_5fterminal_5fcolor_5fscheme',['filechooserbutton_terminal_color_scheme',['../struct___remmina_pref_dialog.html#ae2d5037a69da2429af80af8cbab1f248',1,'_RemminaPrefDialog']]],
-  ['filename',['filename',['../struct___remmina_applet_menu_item.html#aac9b89701606ff0f130f36ec0df55674',1,'_RemminaAppletMenuItem::filename()'],['../struct___remmina_file.html#a5edb4595f0c83cae611b557bfba02a07',1,'_RemminaFile::filename()']]],
+  ['filename',['filename',['../struct___remmina_applet_menu_item.html#aac9b89701606ff0f130f36ec0df55674',1,'_RemminaAppletMenuItem::filename()'],['../struct___remmina_file.html#a5edb4595f0c83cae611b557bfba02a07',1,'_RemminaFile::filename()'],['../structdistro__info.html#a1999084b11586bdb56bc2453fce7f633',1,'distro_info::filename()']]],
   ['filename_5fcolumn',['FILENAME_COLUMN',['../remmina__main_8c.html#a385c44f6fb256e5716a2302a5b940388a8c5d264253ed2fc8f96ffcee508db93d',1,'remmina_main.c']]],
   ['find_5fprotocol_5fsetting',['find_protocol_setting',['../remmina__file_8c.html#acc88ee6f5ba73bf9c3b05ab9368c952f',1,'remmina_file.c']]],
   ['fingerprint',['fingerprint',['../structremmina__masterthread__exec__data.html#aa7103579302f0505325c8db8a3b9c905',1,'remmina_masterthread_exec_data']]],

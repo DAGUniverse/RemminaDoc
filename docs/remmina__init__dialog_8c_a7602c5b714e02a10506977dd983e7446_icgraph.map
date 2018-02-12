@@ -1,5 +1,5 @@
 <map id="remmina_init_dialog_connecting" name="remmina_init_dialog_connecting">
-<area shape="rect" id="node2" href="$remmina__init__dialog_8h.html#ad5817659d78830d10cfbab93af51ddab" title="remmina_init_dialog_new" alt="" coords="191,1221,359,1247"/>
+<area shape="rect" id="node2" href="$remmina__init__dialog_8h.html#ad5817659d78830d10cfbab93af51ddab" title="remmina_init_dialog_new" alt="" coords="191,1246,359,1273"/>
 <area shape="rect" id="node8" href="$remmina__init__dialog_8h.html#a755fc90b41b65cd6106915ab501433fa" title="remmina_init_dialog\l_authpwd" alt="" coords="206,596,343,637"/>
 <area shape="rect" id="node39" href="$remmina__init__dialog_8h.html#ad941f2348cd1752fc9d58c263690726c" title="remmina_init_dialog\l_authuserpwd" alt="" coords="851,1053,989,1095"/>
 <area shape="rect" id="node42" href="$remmina__init__dialog_8h.html#a022dc4f1c87b00dac294837358394ddf" title="remmina_init_dialog\l_authx509" alt="" coords="851,215,989,256"/>
@@ -11,7 +11,7 @@
 <area shape="rect" id="node7" href="$remmina__protocol__widget_8h.html#a605b69a9aa4393024369cc5070488692" title="remmina_protocol_widget\l_call_feature_by_ref" alt="" coords="2023,1199,2193,1240"/>
 <area shape="rect" id="node9" href="$remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="407,625,561,667"/>
 <area shape="rect" id="node25" href="$remmina__protocol__widget_8h.html#a0808a13e13902c3c46badae1ce132daf" title="remmina_protocol_widget\l_init_authpwd" alt="" coords="1085,1349,1255,1391"/>
-<area shape="rect" id="node28" href="$remmina__ssh_8h.html#ac4967b502c8b92ae9b948e8150df9267" title="remmina_ssh_auth_gui" alt="" coords="1345,217,1501,243"/>
+<area shape="rect" id="node28" href="$remmina__ssh_8h.html#ac4967b502c8b92ae9b948e8150df9267" title="remmina_ssh_auth_gui" alt="" coords="1345,218,1501,245"/>
 <area shape="rect" id="node10" href="$remmina__masterthread__exec_8h.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="617,567,772,608"/>
 <area shape="rect" id="node11" href="$remmina__file_8h.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="840,1002,1000,1029"/>
 <area shape="rect" id="node35" href="$remmina__ftp__client_8h.html#a33e4993b60c36eae89a6a0a943d28141" title="remmina_ftp_client\l_get_waiting_task" alt="" coords="854,805,986,847"/>
@@ -42,10 +42,10 @@
 <area shape="rect" id="node27" href="$remmina__protocol__widget_8h.html#a36dc11d3d762e37a0fc4a5d00d68b899" title="remmina_protocol_widget\l_init_authx509" alt="" coords="1085,280,1255,321"/>
 <area shape="rect" id="node29" href="$remmina__protocol__widget_8c.html#a8c7b715825ff576b24d2878976d20f20" title="remmina_protocol_widget\l_init_tunnel" alt="" coords="1567,96,1737,137"/>
 <area shape="rect" id="node31" href="$remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9" title="remmina_plugin_sftp\l_main_thread" alt="" coords="1581,216,1723,257"/>
-<area shape="rect" id="node33" href="$remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee" title="Remmina Protocol plugin main function. " alt="" coords="1581,309,1723,351"/>
+<area shape="rect" id="node33" href="$remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee" title="Remmina Protocol plugin main function. " alt="" coords="1581,317,1723,359"/>
 <area shape="rect" id="node30" href="$remmina__protocol__widget_8h.html#aa6d9f2f558fcd9e7fe58eefcde1c3c5c" title="remmina_protocol_widget\l_start_reverse_tunnel" alt="" coords="1795,5,1965,47"/>
 <area shape="rect" id="node32" href="$remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4" title="remmina_plugin_sftp\l_open_connection" alt="" coords="1809,220,1951,261"/>
-<area shape="rect" id="node34" href="$remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f" title="Initialize the the main window properties and the pthread. " alt="" coords="1809,309,1951,351"/>
+<area shape="rect" id="node34" href="$remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f" title="Initialize the the main window properties and the pthread. " alt="" coords="1809,317,1951,359"/>
 <area shape="rect" id="node44" href="$remmina__init__dialog_8h.html#a1c2d938b96a52fa9a3c11ebc8a091d8b" title="remmina_init_dialog\l_serverkey_unknown" alt="" coords="1097,215,1243,256"/>
 <area shape="rect" id="node45" href="$remmina__init__dialog_8h.html#a493c615103fc257d1783125745018f1a" title="remmina_init_dialog\l_serverkey_changed" alt="" coords="1099,149,1241,191"/>
 </map>

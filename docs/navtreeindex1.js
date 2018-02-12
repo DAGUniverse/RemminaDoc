@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"nx__session_8c.html#ab16725d4a1ce169180b759b66492fc1d":[23,0,9,42],
+"nx__session_8c.html#abc225e383dc70c0f6a12baf7b9cc3841":[23,0,9,8],
 "nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc":[23,0,9,33],
 "nx__session_8c.html#ac97d379b04df53ca7dc166676fcbffb5":[23,0,9,34],
 "nx__session_8c.html#ad01b66a877f8c30dc4bdf1ba6f3beac0":[23,0,9,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "rdp__plugin_8c.html#a910327fd7b1f969868a746aeb5578d30":[23,0,26,4],
 "rdp__plugin_8c.html#a9493664f6bdafe3f5b593c3e5e1eacc7":[23,0,26,27],
 "rdp__plugin_8c.html#a992a905d014d83a8de736ffbd85fe901":[23,0,26,21],
-"rdp__plugin_8c.html#aaa5eb17481ba534c9f334d2a61a68ab2":[23,0,26,7],
-"rdp__plugin_8c.html#ab5b2b1181588e07e68c083c9539fa84f":[23,0,26,22],
-"rdp__plugin_8c.html#ac328de94be2b7175b2cc303f8eeba390":[23,0,26,23]
+"rdp__plugin_8c.html#aaa5eb17481ba534c9f334d2a61a68ab2":[23,0,26,7]
 };

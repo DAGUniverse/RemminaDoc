@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"remmina__pref__dialog_8h.html#a5318669e14d555b8bd2adc81a54d97b7":[23,0,85,2],
+"remmina__pref__dialog_8h.html#aa8862957212096ddda372be1310c8bd4":[23,0,85,7],
+"remmina__pref__dialog_8h.html#aeba55bfe8ab83707f2e68034061a3dd2":[23,0,85,3],
+"remmina__pref__dialog_8h_source.html":[23,0,85],
+"remmina__protocol__widget_8c.html":[23,0,86],
+"remmina__protocol__widget_8c.html#a04f0a11e50cdbd98ab80984fd5aca16d":[23,0,86,8],
 "remmina__protocol__widget_8c.html#a072f2b57d184a77b56d171360dfcfb51":[23,0,86,13],
 "remmina__protocol__widget_8c.html#a0808a13e13902c3c46badae1ce132daf":[23,0,86,32],
 "remmina__protocol__widget_8c.html#a0aa0f7d6c411f9061892848ffb558877":[23,0,86,19],
@@ -243,11 +249,5 @@ var NAVTREEINDEX6 =
 "remmina__sftp__client_8c_source.html":[23,0,92],
 "remmina__sftp__client_8h.html":[23,0,93],
 "remmina__sftp__client_8h.html#a138904893cb9c7f6535b8dfc7ba17e33":[23,0,93,4],
-"remmina__sftp__client_8h.html#a359af214bcada2c49aa18f2a6a51c8e0":[23,0,93,6],
-"remmina__sftp__client_8h.html#a9fb6d25e4676b2fa574f958a5ba271a1":[23,0,93,7],
-"remmina__sftp__client_8h.html#ac88f745b57a5e415ce3f8bf7c7a32492":[23,0,93,3],
-"remmina__sftp__client_8h.html#acc0b1ad0ee4ba202095b0ec1e961555d":[23,0,93,5],
-"remmina__sftp__client_8h.html#ae8f4eac867cf601e2eaf1e86f60726e6":[23,0,93,2],
-"remmina__sftp__client_8h_source.html":[23,0,93],
-"remmina__sftp__plugin_8c.html":[23,0,94]
+"remmina__sftp__client_8h.html#a359af214bcada2c49aa18f2a6a51c8e0":[23,0,93,6]
 };

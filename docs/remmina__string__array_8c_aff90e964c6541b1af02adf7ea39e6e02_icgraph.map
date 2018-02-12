@@ -1,5 +1,5 @@
 <map id="remmina_string_array_new" name="remmina_string_array_new">
-<area shape="rect" id="node2" href="$remmina__file__manager_8h.html#a536edeef371d907ab3936f4d65c3003d" title="remmina_file_manager\l_get_groups" alt="" coords="258,179,411,220"/>
+<area shape="rect" id="node2" href="$remmina__file__manager_8h.html#a536edeef371d907ab3936f4d65c3003d" title="remmina_file_manager\l_get_groups" alt="" coords="258,163,411,204"/>
 <area shape="rect" id="node23" href="$remmina__main_8c.html#ad8744dc59ba8072ffdf557b6c94e9f40" title="remmina_main_save_expanded\l_group" alt="" coords="232,599,437,640"/>
 <area shape="rect" id="node47" href="$remmina__string__array_8h.html#a7f1c8e427a25c2d5cede3952b1d0ad90" title="remmina_string_array\l_new_from_string" alt="" coords="505,269,651,311"/>
 <area shape="rect" id="node3" href="$remmina__file__editor_8h.html#a08327d6951c345808628dbb5784aba06" title="remmina_file_editor\l_new_from_file" alt="" coords="511,113,645,155"/>
@@ -17,7 +17,7 @@
 <area shape="rect" id="node15" href="$remmina__icon_8c.html#a444be76e3c3a065279c5f9abc7fae833" title="remmina_icon_popdown_menu" alt="" coords="1396,391,1597,418"/>
 <area shape="rect" id="node8" href="$remmina__icon_8c.html#a8aaf73ed94cf20dcce1c7be26262cb56" title="remmina_icon_populate\l_additional_menu_item" alt="" coords="1645,485,1804,527"/>
 <area shape="rect" id="node9" href="$remmina__icon_8h.html#af80ed314f91d653237249d839c7fc3b2" title="remmina_icon_populate_menu" alt="" coords="1852,665,2051,691"/>
-<area shape="rect" id="node10" href="$remmina__main_8c.html#aa0cd57e00874ae6ca8b0ee83213267da" title="remmina_main_on_action\l_connection_delete" alt="" coords="2099,844,2269,885"/>
+<area shape="rect" id="node10" href="$remmina__main_8c.html#aa0cd57e00874ae6ca8b0ee83213267da" title="remmina_main_on_action\l_connection_delete" alt="" coords="2099,764,2269,805"/>
 <area shape="rect" id="node17" href="$remmina__main_8c.html#a2ca39ab0b22fd98257504ded7eeec618" title="remmina_main_on_action\l_connections_new" alt="" coords="1177,341,1348,383"/>
 <area shape="rect" id="node19" href="$remmina__main_8c.html#a58b83c6d07785319ed55f937b1c734f5" title="remmina_main_on_action\l_connection_copy" alt="" coords="958,224,1129,265"/>
 <area shape="rect" id="node21" href="$remmina__main_8c.html#a098e73f3f8fe35a57d49222339ae1502" title="remmina_main_on_action\l_connection_edit" alt="" coords="958,5,1129,47"/>

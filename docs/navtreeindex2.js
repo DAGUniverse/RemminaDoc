@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"rdp__plugin_8c.html#ab5b2b1181588e07e68c083c9539fa84f":[23,0,26,22],
+"rdp__plugin_8c.html#ac328de94be2b7175b2cc303f8eeba390":[23,0,26,23],
 "rdp__plugin_8c.html#ac66bd1c0ceb224f7a65f5b712148a43e":[23,0,26,31],
 "rdp__plugin_8c.html#ac8d1ec82167ad20b7634ed545d4badbc":[23,0,26,12],
 "rdp__plugin_8c.html#ad47177412ada547f7cd6cbb9dfcf0f3f":[23,0,26,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "remmina__connection__window_8c.html#a78ec7d6e66d6e6569c1a9a0230c74bc8":[23,0,41,55],
 "remmina__connection__window_8c.html#a7959ed5b51966bb0fb9e7b84bbb9878d":[23,0,41,61],
 "remmina__connection__window_8c.html#a7a722d82899ce761356e47de2ac91452":[23,0,41,60],
-"remmina__connection__window_8c.html#a7db84f4e2649b46a81df340f10743f7f":[23,0,41,45],
-"remmina__connection__window_8c.html#a7e71031254421ccb10e0c29699cc9523":[23,0,41,117],
-"remmina__connection__window_8c.html#a7f0d68059b8fe91317c6b62d9315ca44":[23,0,41,57]
+"remmina__connection__window_8c.html#a7db84f4e2649b46a81df340f10743f7f":[23,0,41,45]
 };

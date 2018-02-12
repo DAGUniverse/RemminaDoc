@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['view_5fpopup_5fmenu_5fondosomething',['view_popup_menu_onDoSomething',['../remmina__external__tools_8c.html#aeb0a4182f2137fe0089737b2522add71',1,'remmina_external_tools.c']]]
+  ['soup_5fcallback',['soup_callback',['../remmina__stats__sender_8c.html#a25ee87d9e565079665ced10b7736fb20',1,'remmina_stats_sender.c']]]
 ];

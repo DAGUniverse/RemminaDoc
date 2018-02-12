@@ -1,8 +1,8 @@
 <map id="remmina_chat_window_append_text" name="remmina_chat_window_append_text">
-<area shape="rect" id="node2" href="$remmina__chat__window_8c.html#a62d706863c048c8ddb580786c6abcf50" title="remmina_chat_window_send" alt="" coords="208,640,399,667"/>
-<area shape="rect" id="node6" href="$remmina__chat__window_8h.html#a45724aed5474dd741563ffbf89237022" title="remmina_chat_window\l_receive" alt="" coords="226,694,381,735"/>
-<area shape="rect" id="node3" href="$remmina__chat__window_8c.html#a55ac61e450ce6d37e57fcb5ac3ed507a" title="remmina_chat_window\l_send_text_on_key" alt="" coords="455,633,609,674"/>
-<area shape="rect" id="node4" href="$remmina__chat__window_8h.html#a5e4fa655fddf361fed13bbd759bea24f" title="remmina_chat_window_new" alt="" coords="665,581,852,608"/>
+<area shape="rect" id="node2" href="$remmina__chat__window_8c.html#a62d706863c048c8ddb580786c6abcf50" title="remmina_chat_window_send" alt="" coords="208,652,399,679"/>
+<area shape="rect" id="node6" href="$remmina__chat__window_8h.html#a45724aed5474dd741563ffbf89237022" title="remmina_chat_window\l_receive" alt="" coords="226,773,381,814"/>
+<area shape="rect" id="node3" href="$remmina__chat__window_8c.html#a55ac61e450ce6d37e57fcb5ac3ed507a" title="remmina_chat_window\l_send_text_on_key" alt="" coords="455,645,609,686"/>
+<area shape="rect" id="node4" href="$remmina__chat__window_8h.html#a5e4fa655fddf361fed13bbd759bea24f" title="remmina_chat_window_new" alt="" coords="665,593,852,620"/>
 <area shape="rect" id="node5" href="$remmina__protocol__widget_8h.html#a66263e6e7da79357ceb80d32b191d9f2" title="remmina_protocol_widget\l_chat_open" alt="" coords="900,454,1071,495"/>
 <area shape="rect" id="node7" href="$remmina__protocol__widget_8h.html#ae2522242b3f39ee84ee8cf75170de0c0" title="remmina_protocol_widget\l_chat_receive" alt="" coords="447,842,617,883"/>
 <area shape="rect" id="node8" href="$remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="681,842,836,883"/>

@@ -40,7 +40,7 @@
 <area shape="rect" id="node28" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1168,873,1323,914"/>
 <area shape="rect" id="node29" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="1168,807,1323,849"/>
 <area shape="rect" id="node36" href="$remmina__main_8c.html#a847424fdb97ffe35d060409d4d738497" title="remmina_main_load_file\l_tree_find" alt="" coords="705,867,868,909"/>
-<area shape="rect" id="node37" href="$remmina__file_8c.html#a96abbfdc183d1e82fdffd6445d611ffe" title="remmina_file_get_datetime" alt="" coords="697,715,876,741"/>
+<area shape="rect" id="node37" href="$remmina__file_8c.html#a96abbfdc183d1e82fdffd6445d611ffe" title="Return the string date of the last time a file has been modified. " alt="" coords="697,715,876,741"/>
 <area shape="rect" id="node38" href="$remmina__file_8c.html#a2feb8e9e32f3ff4e2fac836e67a77331" title="remmina_file_get_icon_name" alt="" coords="691,816,882,843"/>
 <area shape="rect" id="node40" href="$remmina__file_8c.html#ad1e4f3a0f64cd98e301044b6c38a1f1d" title="remmina_file_get_filename" alt="" coords="698,765,875,792"/>
 <area shape="rect" id="node39" href="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="953,841,1096,868"/>

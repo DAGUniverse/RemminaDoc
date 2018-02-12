@@ -4,14 +4,14 @@
 <area shape="rect" id="node25" href="$remmina__init__dialog_8c.html#a0091e150b446faa19e9af16f3d4de3cf" title="remmina_init_dialog\l_set_status" alt="" coords="911,529,1049,570"/>
 <area shape="rect" id="node32" href="$remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af" title="remmina_protocol_widget\l_set_error" alt="" coords="443,899,613,941"/>
 <area shape="rect" id="node48" href="$remmina__ssh_8c.html#ae47c8270267b02b9c0ff5b36074101c2" title="remmina_ssh_tunnel\l_reverse" alt="" coords="457,1430,599,1471"/>
-<area shape="rect" id="node4" href="$remmina__ssh_8c.html#abf04fd329ab77bbd4f6aa1cb1eaa349d" title="remmina_ssh_tunnel\l_new_from_file" alt="" coords="457,579,599,621"/>
+<area shape="rect" id="node4" href="$remmina__ssh_8c.html#abf04fd329ab77bbd4f6aa1cb1eaa349d" title="remmina_ssh_tunnel\l_new_from_file" alt="" coords="457,558,599,599"/>
 <area shape="rect" id="node26" href="$remmina__ssh_8c.html#a624b8ac30ddcd00ebda0b51d504f5a33" title="remmina_ssh_init_session" alt="" coords="664,1201,840,1228"/>
 <area shape="rect" id="node33" href="$remmina__ssh_8c.html#a223f8dd7a678bcec2ece40a2d8f7ea06" title="remmina_ssh_tunnel_free" alt="" coords="443,848,613,875"/>
 <area shape="rect" id="node37" href="$remmina__ssh_8c.html#ac4967b502c8b92ae9b948e8150df9267" title="remmina_ssh_auth_gui" alt="" coords="674,747,830,773"/>
 <area shape="rect" id="node5" href="$remmina__ssh_8c.html#a029fc6b0f826502181196254e8ba511a" title="remmina_ssh_init_from_file" alt="" coords="661,448,843,475"/>
 <area shape="rect" id="node6" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="900,595,1060,621"/>
 <area shape="rect" id="node22" href="$remmina__public_8c.html#adc8b77823386e00e610527d6b0b61149" title="remmina_public_get\l_server_port" alt="" coords="911,411,1049,453"/>
-<area shape="rect" id="node23" href="$remmina__ssh_8c.html#ab6d8bdad543b3caead2b2b0339484798" title="remmina_ssh_find_identity" alt="" coords="891,208,1069,235"/>
+<area shape="rect" id="node23" href="$remmina__ssh_8c.html#ab6d8bdad543b3caead2b2b0339484798" title="remmina_ssh_find_identity" alt="" coords="891,284,1069,311"/>
 <area shape="rect" id="node24" href="$remmina__ssh_8c.html#a72a58e416c4eeb9d17eaf76360ebee42" title="remmina_ssh_identity_path" alt="" coords="1126,5,1307,32"/>
 <area shape="rect" id="node7" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1792,334,1947,375"/>
 <area shape="rect" id="node8" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="1139,427,1294,469"/>

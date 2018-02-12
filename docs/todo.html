@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000014"></a>Global <a class="el" href="vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>  ("Unable to connect to VNC server")</dt>
+<dt><a class="anchor" id="_todo000018"></a>Global <a class="el" href="vnc__plugin_8c.html#ab96ef9227ecef94018f2729f72e7651e">N_</a>  ("Unable to connect to VNC server")</dt>
 <dd>We only store the last message at this moment. </dd>
 <dt><a class="anchor" id="_todo000001"></a>Global <a class="el" href="remmina__avahi_8h.html#a1ec851b22607dd1171ecdd5cca735b71">remmina_avahi_start</a>  (RemminaAvahi *ga)</dt>
 <dd>Customize the default domain here  </dd>
@@ -97,26 +97,36 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd>Improve file name (DONE:8743571d) + give the user the option  </dd>
 <dt><a class="anchor" id="_todo000004"></a>Global <a class="el" href="remmina__connection__window_8c.html#abef663d930076deb3105f86dabe2a9c3">remmina_connection_window_hostkey_func</a>  (RemminaProtocolWidget *gp, guint keyval, gboolean release, RemminaConnectionHolder *cnnhld)</dt>
 <dd>Add callback for hostname transparent overlay #832  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Global <a class="el" href="remmina__file__editor_8c.html#a57224f3f69f04f398de563b71be6b18e">remmina_file_editor_on_save_connect</a>  (GtkWidget *button, RemminaFileEditor *gfe)</dt>
+<dt><a class="anchor" id="_todo000007"></a>Global <a class="el" href="remmina__file__editor_8c.html#a57224f3f69f04f398de563b71be6b18e">remmina_file_editor_on_save_connect</a>  (GtkWidget *button, RemminaFileEditor *gfe)</dt>
 <dd>Call remmina_file_editor_on_save  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Global <a class="el" href="remmina__file__manager_8c.html#a4d6280ce5d9e70ceb43dd24639d843d3">remmina_file_manager_do_copy</a>  (const char *src_path, const char *dst_path)</dt>
+<dt><a class="anchor" id="_todo000005"></a>Global <a class="el" href="remmina__file_8h.html#a96abbfdc183d1e82fdffd6445d611ffe">remmina_file_get_datetime</a>  (RemminaFile *remminafile)</dt>
+<dd>This should be moved to <a class="el" href="remmina__utils_8c.html">remmina_utils.c</a>  </dd>
+<dt><a class="anchor" id="_todo000008"></a>Global <a class="el" href="remmina__file__manager_8c.html#a4d6280ce5d9e70ceb43dd24639d843d3">remmina_file_manager_do_copy</a>  (const char *src_path, const char *dst_path)</dt>
 <dd>remmina_pref_file_do_copy and remmina_file_manager_do_copy to remmina_files_copy  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Global <a class="el" href="remmina__main_8c.html#afefc1b651e1c546e949dbe6df72b0300">remmina_main_init</a>  (void)</dt>
+<dt><a class="anchor" id="_todo000006"></a>Global <a class="el" href="remmina__file_8h.html#a3560cd6da715aad2428f8eab2a96b4e3">remmina_file_touch</a>  (RemminaFile *remminafilefile)</dt>
+<dd>This should be moved to <a class="el" href="remmina__utils_8c.html">remmina_utils.c</a>  </dd>
+<dt><a class="anchor" id="_todo000006"></a>Global <a class="el" href="remmina__file_8h.html#a3560cd6da715aad2428f8eab2a96b4e3">remmina_file_touch</a>  (RemminaFile *remminafilefile)</dt>
+<dd>This should be moved to <a class="el" href="remmina__utils_8c.html">remmina_utils.c</a>  </dd>
+<dt><a class="anchor" id="_todo000009"></a>Global <a class="el" href="remmina__main_8c.html#afefc1b651e1c546e949dbe6df72b0300">remmina_main_init</a>  (void)</dt>
 <dd>Set entry_quick_connect_server as default search entry. Weirdly. This does not work yet.  </dd>
-<dt><a class="anchor" id="_todo000012"></a>Global <a class="el" href="remmina__ssh__plugin_8c.html#ac5670df701b44384b5acd61aeac016dc">remmina_plugin_ssh_call_feature</a>  (RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</dt>
+<dt><a class="anchor" id="_todo000014"></a>Global <a class="el" href="remmina__ssh__plugin_8c.html#ac5670df701b44384b5acd61aeac016dc">remmina_plugin_ssh_call_feature</a>  (RemminaProtocolWidget *gp, const RemminaProtocolFeature *feature)</dt>
 <dd>start the direct tunnel here  </dd>
-<dt><a class="anchor" id="_todo000011"></a>Global <a class="el" href="remmina__ssh__plugin_8h.html#a56bf24ba934d2635d829d5317f7c2214">remmina_plugin_ssh_vte_select_all</a>  (GtkMenuItem *menuitem, gpointer user_data)</dt>
+<dt><a class="anchor" id="_todo000013"></a>Global <a class="el" href="remmina__ssh__plugin_8h.html#a56bf24ba934d2635d829d5317f7c2214">remmina_plugin_ssh_vte_select_all</a>  (GtkMenuItem *menuitem, gpointer user_data)</dt>
 <dd>we should add the vte_terminal_unselect_all as well  </dd>
-<dt><a class="anchor" id="_todo000011"></a>Global <a class="el" href="remmina__ssh__plugin_8h.html#a56bf24ba934d2635d829d5317f7c2214">remmina_plugin_ssh_vte_select_all</a>  (GtkMenuItem *menuitem, gpointer user_data)</dt>
+<dt><a class="anchor" id="_todo000013"></a>Global <a class="el" href="remmina__ssh__plugin_8h.html#a56bf24ba934d2635d829d5317f7c2214">remmina_plugin_ssh_vte_select_all</a>  (GtkMenuItem *menuitem, gpointer user_data)</dt>
 <dd>we should add the vte_terminal_unselect_all as well  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Global <a class="el" href="remmina__pref_8c.html#a7829d615a6c5b8a6f6c759043fb2ac81">remmina_pref_file_do_copy</a>  (const char *src_path, const char *dst_path)</dt>
+<dt><a class="anchor" id="_todo000010"></a>Global <a class="el" href="remmina__pref_8c.html#a7829d615a6c5b8a6f6c759043fb2ac81">remmina_pref_file_do_copy</a>  (const char *src_path, const char *dst_path)</dt>
 <dd>remmina_pref_file_do_copy and remmina_file_manager_do_copy to remmina_files_copy  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Global <a class="el" href="remmina__protocol__widget_8h.html#a75c70486dec7682aeccaab235e65f6a1">remmina_protocol_widget_update_remote_resolution</a>  (RemminaProtocolWidget *gp, gint w, gint h)</dt>
+<dt><a class="anchor" id="_todo000016"></a>Global <a class="el" href="remmina__stats_8c.html#a1dff2b06d5acefc9bd2f25508ab45328">remmina_profiles_get_data</a>  (RemminaFile *remminafile, gpointer user_data)</dt>
+<dd>Move this in a separate file.  </dd>
+<dt><a class="anchor" id="_todo000011"></a>Global <a class="el" href="remmina__protocol__widget_8h.html#a75c70486dec7682aeccaab235e65f6a1">remmina_protocol_widget_update_remote_resolution</a>  (RemminaProtocolWidget *gp, gint w, gint h)</dt>
 <dd>rename to "seat"  </dd>
-<dt><a class="anchor" id="_todo000013"></a>Global <a class="el" href="rdp__plugin_8c.html#a910327fd7b1f969868a746aeb5578d30">remmina_rdp_get_screenshot</a>  (RemminaProtocolWidget *gp, RemminaPluginScreenshotData *rpsd)</dt>
+<dt><a class="anchor" id="_todo000017"></a>Global <a class="el" href="rdp__plugin_8c.html#a910327fd7b1f969868a746aeb5578d30">remmina_rdp_get_screenshot</a>  (RemminaProtocolWidget *gp, RemminaPluginScreenshotData *rpsd)</dt>
 <dd>we should lock freerdp subthread to update rfi-&gt;primary_buffer, rfi-&gt;gdi and w/h, from here to memcpy, but... how ?  </dd>
-<dt><a class="anchor" id="_todo000010"></a>Global <a class="el" href="remmina__ssh_8h.html#a85578987de99e1a7a28819960c445ee2">remmina_ssh_auth</a>  (RemminaSSH *ssh, const gchar *password)</dt>
-<dd>Here we should call gint method; method = ssh_userauth_list(ssh-&gt;session, NULL); And than test both the method and the option selected by the user </dd>
+<dt><a class="anchor" id="_todo000012"></a>Global <a class="el" href="remmina__ssh_8h.html#a85578987de99e1a7a28819960c445ee2">remmina_ssh_auth</a>  (RemminaSSH *ssh, const gchar *password)</dt>
+<dd>Here we should call gint method; method = ssh_userauth_list(ssh-&gt;session, NULL); And than test both the method and the option selected by the user  </dd>
+<dt><a class="anchor" id="_todo000015"></a>Global <a class="el" href="remmina__stats_8c.html#a43133d5e00f481d315ef0d58cb52e70a">remmina_stats_get_os_info</a>  ()</dt>
+<dd>Add other means to identify a release name/description to cover as much OS as possible, like /etc/issue </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->

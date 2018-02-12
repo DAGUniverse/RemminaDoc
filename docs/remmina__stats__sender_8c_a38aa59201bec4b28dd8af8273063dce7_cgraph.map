@@ -1,0 +1,8 @@
+<map id="remmina_stats_collector_done" name="remmina_stats_collector_done">
+<area shape="rect" id="node2" href="$remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="431,13,563,39"/>
+<area shape="rect" id="node5" href="$remmina__stats__sender_8c.html#a2423312953c64a318fbe8d44fd2d4fb7" title="rsa_encrypt_string" alt="" coords="252,38,381,65"/>
+<area shape="rect" id="node6" href="$remmina__stats__sender_8c.html#a25ee87d9e565079665ced10b7736fb20" title="soup_callback" alt="" coords="264,89,369,115"/>
+<area shape="rect" id="node3" href="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="613,13,769,39"/>
+<area shape="rect" id="node4" href="$remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="817,5,952,47"/>
+<area shape="rect" id="node7" href="$remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983" title="remmina_pref_save" alt="" coords="429,89,565,115"/>
+</map>

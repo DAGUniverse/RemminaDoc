@@ -49,19 +49,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"nx__session_8c.html#abe9c344eaf302b01759e5bd305cb5abc",
-"rdp__plugin_8c.html#ac66bd1c0ceb224f7a65f5b712148a43e",
-"remmina__connection__window_8c.html#a80906d852763452c11199efbbb1d4cf3",
-"remmina__file__manager_8c.html#aa65bc30beb59d607ba430d966e7e27f5",
-"remmina__main_8c.html#a385c44f6fb256e5716a2302a5b940388a1f8f29e04fd120da5a66491ef0a4ff6c",
-"remmina__protocol__widget_8c.html#a072f2b57d184a77b56d171360dfcfb51",
-"remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4",
-"remmina__widget__pool_8h.html#a6ced6afec83f47d8ac36b01bff2eb61e",
-"struct___remmina_n_x_session.html",
-"struct___remmina_pref.html#a45d70bbebf5163081d67df3dbb73cc1b",
-"struct___remmina_s_s_h_tunnel.html#a069b886ad870cb318693fe1022179b3d",
-"structremmina__plugin__rdp__ui__object.html#ab83d6365bee86707a38dc69cdb2e34db",
-"xdmcp__plugin_8c.html"
+"nx__session_8c.html#ab16725d4a1ce169180b759b66492fc1d",
+"rdp__plugin_8c.html#ab5b2b1181588e07e68c083c9539fa84f",
+"remmina__connection__window_8c.html#a7e71031254421ccb10e0c29699cc9523",
+"remmina__file__manager_8c.html#a55a717aafc046713380bd2c55f29165a",
+"remmina__main_8c.html#a33ef5745d8b934ef52379c277d3a1ab2",
+"remmina__pref__dialog_8h.html#a5318669e14d555b8bd2adc81a54d97b7",
+"remmina__sftp__client_8h.html#a9fb6d25e4676b2fa574f958a5ba271a1",
+"remmina__string__list_8h.html#a74058eac0af28c05a55d041103457aec",
+"struct___remmina_init_dialog.html#a703fa717dd8fd64e31c5cfe92c909fcf",
+"struct___remmina_plugin_vnc_data.html",
+"struct___remmina_protocol_setting.html#af533231bb1281d09d98a14d3d218fba0",
+"structremmina__masterthread__exec__data.html#aaf4628945abd2eff7e9ba248c93097d3",
+"types_8h.html#aeea5ee1e675368413b6f6ab09883e7deac7786e2cea7d9bf95026069ed774ea20"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

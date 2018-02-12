@@ -1,4 +1,8 @@
 <map id="remmina_log_start" name="remmina_log_start">
 <area shape="rect" id="node2" href="$remmina__log_8c.html#a070042aa580b708536dc793336722660" title="remmina_log_window_new" alt="" coords="183,5,361,32"/>
 <area shape="rect" id="node3" href="$remmina__log_8c.html#a355067bd2e33d8942ad9d8af60c19f0c" title="remmina_log_end" alt="" coords="210,56,334,83"/>
+<area shape="rect" id="node4" href="$remmina__log_8c.html#aca8f826a273194e22f4467421af9b3aa" title="remmina_log_print" alt="" coords="208,107,336,133"/>
+<area shape="rect" id="node7" href="$remmina__stats__sender_8c.html#a5aa2104ccded08aa02dd2886f87af516" title="remmina_stat_sender\l_can_send" alt="" coords="199,158,345,199"/>
+<area shape="rect" id="node5" href="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="409,107,565,133"/>
+<area shape="rect" id="node6" href="$remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="613,99,748,141"/>
 </map>

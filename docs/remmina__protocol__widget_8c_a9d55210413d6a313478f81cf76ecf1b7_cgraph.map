@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="907,844,1067,871"/>
 <area shape="rect" id="node22" href="$remmina__public_8c.html#adc8b77823386e00e610527d6b0b61149" title="remmina_public_get\l_server_port" alt="" coords="917,1352,1056,1393"/>
 <area shape="rect" id="node23" href="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="915,1199,1058,1226"/>
-<area shape="rect" id="node24" href="$remmina__ssh_8c.html#a223f8dd7a678bcec2ece40a2d8f7ea06" title="remmina_ssh_tunnel_free" alt="" coords="446,1552,617,1579"/>
+<area shape="rect" id="node24" href="$remmina__ssh_8c.html#a223f8dd7a678bcec2ece40a2d8f7ea06" title="remmina_ssh_tunnel_free" alt="" coords="446,1575,617,1602"/>
 <area shape="rect" id="node28" href="$remmina__protocol__widget_8c.html#a8c7b715825ff576b24d2878976d20f20" title="remmina_protocol_widget\l_init_tunnel" alt="" coords="224,1242,395,1284"/>
 <area shape="rect" id="node33" href="$remmina__init__dialog_8c.html#a0091e150b446faa19e9af16f3d4de3cf" title="remmina_init_dialog\l_set_status" alt="" coords="918,240,1055,281"/>
 <area shape="rect" id="node40" href="$remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af" title="remmina_protocol_widget\l_set_error" alt="" coords="446,1301,617,1342"/>

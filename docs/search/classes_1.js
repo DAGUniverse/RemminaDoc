@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mpchanger_5fparams',['mpchanger_params',['../structmpchanger__params.html',1,'']]]
+  ['distro_5finfo',['distro_info',['../structdistro__info.html',1,'']]]
 ];

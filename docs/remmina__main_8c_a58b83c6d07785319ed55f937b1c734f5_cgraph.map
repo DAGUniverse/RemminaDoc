@@ -29,13 +29,13 @@
 <area shape="rect" id="node36" href="$remmina__file__editor_8c.html#a333de350f1b07add2d0fd06320c80d16" title="remmina_file_editor\l_protocol_combo_on_changed" alt="" coords="663,201,862,243"/>
 <area shape="rect" id="node22" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1178,597,1333,639"/>
 <area shape="rect" id="node23" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="1178,532,1333,573"/>
-<area shape="rect" id="node25" href="$remmina__string__array_8c.html#aff90e964c6541b1af02adf7ea39e6e02" title="remmina_string_array_new" alt="" coords="927,1131,1105,1158"/>
+<area shape="rect" id="node25" href="$remmina__string__array_8c.html#aff90e964c6541b1af02adf7ea39e6e02" title="remmina_string_array_new" alt="" coords="927,1135,1105,1162"/>
 <area shape="rect" id="node26" href="$remmina__string__array_8c.html#ab93a69850cfb4117c223a3f145ced986" title="remmina_string_array_find" alt="" coords="929,721,1103,747"/>
-<area shape="rect" id="node27" href="$remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0" title="remmina_string_array_add" alt="" coords="1168,1169,1343,1195"/>
+<area shape="rect" id="node27" href="$remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0" title="remmina_string_array_add" alt="" coords="1168,1170,1343,1197"/>
 <area shape="rect" id="node28" href="$remmina__file_8c.html#abd2f06bf0a5ddcf7156e5ef7d0c8d4d7" title="remmina_file_free" alt="" coords="953,1025,1079,1051"/>
 <area shape="rect" id="node29" href="$remmina__string__array_8c.html#a3eab4bae72ff130ad10ec8fc7364ce70" title="remmina_string_array_sort" alt="" coords="928,771,1104,798"/>
 <area shape="rect" id="node30" href="$remmina__string__array_8c.html#a96f7bec7ce32de6cf5deadcd5aec51ec" title="remmina_string_array\l_to_string" alt="" coords="943,655,1089,696"/>
-<area shape="rect" id="node31" href="$remmina__string__array_8c.html#a8ab78913d299df665a408a8a5ec51bbe" title="remmina_string_array_free" alt="" coords="928,1077,1104,1103"/>
+<area shape="rect" id="node31" href="$remmina__string__array_8c.html#a8ab78913d299df665a408a8a5ec51bbe" title="remmina_string_array_free" alt="" coords="928,1078,1104,1105"/>
 <area shape="rect" id="node37" href="$remmina__public_8c.html#af1679d83834c8409f23e00c555d677fb" title="remmina_public_combo\l_get_active_text" alt="" coords="937,151,1095,192"/>
 <area shape="rect" id="node38" href="$remmina__file__editor_8c.html#a6415f73260076747c4f933af7f9f4b38" title="remmina_file_editor\l_create_all_settings" alt="" coords="947,85,1085,127"/>
 <area shape="rect" id="node40" href="$remmina__main_8c.html#a3617295e74fa84edbd41dedc601402a7" title="remmina_main_load_files" alt="" coords="443,1003,612,1030"/>
@@ -47,5 +47,5 @@
 <area shape="rect" id="node47" href="$remmina__main_8c.html#ab0d22f0e3571eb80886acb0c68005800" title="remmina_main_filter\l_visible_func" alt="" coords="693,996,832,1037"/>
 <area shape="rect" id="node48" href="$remmina__main_8c.html#a71fbe206a9c2abb8f348ee598d7751b7" title="remmina_main_file_model\l_on_sort" alt="" coords="676,1061,849,1103"/>
 <area shape="rect" id="node49" href="$remmina__main_8c.html#a4a4733c243f20c3ffc27105003f5e30e" title="remmina_main_expand\l_group" alt="" coords="685,1127,841,1168"/>
-<area shape="rect" id="node42" href="$remmina__main_8c.html#a51880fc109db6457a5d0fc543c2deaf2" title="remmina_main_save_expanded\l_group_func" alt="" coords="913,1189,1119,1231"/>
+<area shape="rect" id="node42" href="$remmina__main_8c.html#a51880fc109db6457a5d0fc543c2deaf2" title="remmina_main_save_expanded\l_group_func" alt="" coords="913,1191,1119,1232"/>
 </map>

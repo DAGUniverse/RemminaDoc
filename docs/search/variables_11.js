@@ -70,6 +70,7 @@ var searchData=
   ['remmina_5frdp_5fplugin_5fdefault_5fdrive_5fname',['remmina_rdp_plugin_default_drive_name',['../rdp__plugin_8c.html#af3c72bfa3579b1e6cf0fb11566a72f66',1,'rdp_plugin.c']]],
   ['remmina_5frdpf',['remmina_rdpf',['../rdp__plugin_8c.html#a4d69cf4d703b55b87d1de06493e2a619',1,'rdp_plugin.c']]],
   ['remmina_5frdps',['remmina_rdps',['../rdp__plugin_8c.html#af43b1397163aab939f9e88ed201d52ba',1,'rdp_plugin.c']]],
+  ['remmina_5frsa_5fpubkey_5fv1',['remmina_RSA_PubKey_v1',['../remmina__stats__sender_8c.html#a53224d477c8323b0f20458c263f46a79',1,'remmina_stats_sender.c']]],
   ['remmina_5fsecret_5fplugin',['remmina_secret_plugin',['../remmina__plugin__manager_8c.html#a5e79d6abd0b12c1ed2bb33988e41857e',1,'remmina_plugin_manager.c']]],
   ['remmina_5fsftp_5fbasic_5fsettings',['remmina_sftp_basic_settings',['../remmina__sftp__plugin_8c.html#a999de1dbe291169ccc33dffa123a1315',1,'remmina_sftp_plugin.c']]],
   ['remmina_5fssh_5fadvanced_5fsettings',['remmina_ssh_advanced_settings',['../remmina__ssh__plugin_8c.html#a51b5159cc5a6833759bc87688221b807',1,'remmina_ssh_plugin.c']]],

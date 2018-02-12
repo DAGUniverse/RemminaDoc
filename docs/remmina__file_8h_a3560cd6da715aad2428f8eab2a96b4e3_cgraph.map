@@ -1,6 +1,6 @@
 <map id="remmina_file_touch" name="remmina_file_touch">
 <area shape="rect" id="node2" href="$remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="371,13,503,39"/>
-<area shape="rect" id="node5" href="$remmina__file_8c.html#a3d19095f74e9b7c92d74f11bd5a39a8c" title="remmina_file_touch" alt="" coords="188,50,323,77"/>
+<area shape="rect" id="node5" href="$remmina__file_8c.html#a3d19095f74e9b7c92d74f11bd5a39a8c" title="Update the atime and mtime of a given filename. " alt="" coords="188,50,323,77"/>
 <area shape="rect" id="node3" href="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="551,13,707,39"/>
 <area shape="rect" id="node4" href="$remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="755,5,889,47"/>
 </map>

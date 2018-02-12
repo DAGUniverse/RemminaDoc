@@ -1,0 +1,5 @@
+<map id="remmina_utils_get_os_info" name="remmina_utils_get_os_info">
+<area shape="rect" id="node2" href="$remmina__utils_8c.html#abfc722d07d9936711794411bfbed0522" title="Return the OS name as in &quot;uname &#45;s&quot;. " alt="" coords="231,5,440,32"/>
+<area shape="rect" id="node3" href="$remmina__utils_8c.html#a57603aa88df56e77e1a6de0f215f21aa" title="Return the OS version as in &quot;uname &#45;r&quot;. " alt="" coords="250,57,421,98"/>
+<area shape="rect" id="node4" href="$remmina__utils_8c.html#a116e7cd4565386fe531d3a6d1a3d3730" title="Return the machine hardware name as in &quot;uname &#45;m&quot;. " alt="" coords="234,123,437,149"/>
+</map>

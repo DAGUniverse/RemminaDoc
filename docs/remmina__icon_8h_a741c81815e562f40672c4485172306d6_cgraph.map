@@ -1,6 +1,6 @@
 <map id="remmina_icon_init" name="remmina_icon_init">
 <area shape="rect" id="node2" href="$remmina__sysinfo_8c.html#ae6ecf91edb905f3b2b39e33e05325590" title="remmina_sysinfo_is\l_appindicator_available" alt="" coords="204,291,361,332"/>
-<area shape="rect" id="node3" href="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="remmina_sysinfo_get\l_gnome_shell_version" alt="" coords="207,356,358,397"/>
+<area shape="rect" id="node3" href="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="Query DBUS to get gnome shell version. " alt="" coords="207,356,358,397"/>
 <area shape="rect" id="node4" href="$remmina__icon_8c.html#af80ed314f91d653237249d839c7fc3b2" title="remmina_icon_populate_menu" alt="" coords="183,497,382,523"/>
 <area shape="rect" id="node39" href="$remmina__avahi_8c.html#a1ec851b22607dd1171ecdd5cca735b71" title="remmina_avahi_start" alt="" coords="965,749,1107,775"/>
 <area shape="rect" id="node44" href="$remmina__avahi_8c.html#a74b9962d6ef442e9c0a84293e2eaed30" title="remmina_avahi_stop" alt="" coords="965,799,1107,826"/>

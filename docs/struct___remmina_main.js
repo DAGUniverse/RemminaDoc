@@ -22,6 +22,7 @@ var struct___remmina_main =
     [ "action_view_statusbar", "struct___remmina_main.html#a9caf6c5c658fa4d62072645890ed7d50", null ],
     [ "actiongroup_connection", "struct___remmina_main.html#abe0b44a0efe7e6792b32f007cd6c0222", null ],
     [ "box_quick_connect", "struct___remmina_main.html#a7b03d239c21141a202d0698492cfae95", null ],
+    [ "box_ustat", "struct___remmina_main.html#ac00e1b7314f319799a2f3b750431498f", null ],
     [ "builder", "struct___remmina_main.html#ab7c6aebff1b06ef97c36bfa9d360b0c1", null ],
     [ "button_quick_connect", "struct___remmina_main.html#aebb188bd83f8dcfb80cad10e43181774", null ],
     [ "column_files_list_group", "struct___remmina_main.html#a56ac6ffe61c0d3663ebc6b26e65a8cbc", null ],

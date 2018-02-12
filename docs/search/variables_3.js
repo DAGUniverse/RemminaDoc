@@ -32,6 +32,7 @@ var searchData=
   ['checkbutton_5foptions_5fremember_5flast_5fview_5fmode',['checkbutton_options_remember_last_view_mode',['../struct___remmina_pref_dialog.html#a57ceadb673737372701f1c65e66a9676',1,'_RemminaPrefDialog']]],
   ['checkbutton_5foptions_5fsave_5fsettings',['checkbutton_options_save_settings',['../struct___remmina_pref_dialog.html#a26ad416987608d6c6f0a98ba9d611119',1,'_RemminaPrefDialog']]],
   ['checkbutton_5foptions_5fssh_5fparseconfig',['checkbutton_options_ssh_parseconfig',['../struct___remmina_pref_dialog.html#aad290cb37b80d5295452ad1fd4322acc',1,'_RemminaPrefDialog']]],
+  ['checkbutton_5fpermit_5fsend_5fstats',['checkbutton_permit_send_stats',['../struct___remmina_pref_dialog.html#a2834ba671a175dce3b14b1ecef3fa2f3',1,'_RemminaPrefDialog']]],
   ['checkbutton_5fterminal_5fbold',['checkbutton_terminal_bold',['../struct___remmina_pref_dialog.html#ad9429f2f61c05e8851692a0262236608',1,'_RemminaPrefDialog']]],
   ['checkbutton_5fterminal_5ffont_5fsystem',['checkbutton_terminal_font_system',['../struct___remmina_pref_dialog.html#aa895f44e7d72ec1c67c0a43f8806728f',1,'_RemminaPrefDialog']]],
   ['checkbutton_5fterminal_5fsystem_5fcolors',['checkbutton_terminal_system_colors',['../struct___remmina_pref_dialog.html#a611f88f203c9901c46b88ab342986a79',1,'_RemminaPrefDialog']]],

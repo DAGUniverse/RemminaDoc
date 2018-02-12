@@ -1,0 +1,51 @@
+<map id="remmina_stats_get_all" name="remmina_stats_get_all">
+<area shape="rect" id="node2" href="$remmina__stats_8c.html#ac6adbf6560625e2bf54037fcd039319d" title="remmina_stats_get_uid" alt="" coords="228,71,385,98"/>
+<area shape="rect" id="node5" href="$remmina__stats_8c.html#ab248458a3face2634bab909ffeb8291e" title="remmina_stats_get_version" alt="" coords="215,350,398,377"/>
+<area shape="rect" id="node6" href="$remmina__stats_8c.html#a43133d5e00f481d315ef0d58cb52e70a" title="remmina_stats_get_os_info" alt="" coords="215,401,398,427"/>
+<area shape="rect" id="node17" href="$remmina__stats_8c.html#aed3a8dd3e01a05d96d6cf3625bb28731" title="remmina_stats_get_gtk\l_version" alt="" coords="227,507,386,548"/>
+<area shape="rect" id="node18" href="$remmina__stats_8c.html#a73fbf1064af209f1f7272d737168971c" title="remmina_stats_get_gtk\l_backend" alt="" coords="227,572,386,613"/>
+<area shape="rect" id="node19" href="$remmina__stats_8c.html#ae596da7901fb3b45b7290a1d70b3ea3a" title="remmina_stats_get_wm_name" alt="" coords="207,663,407,690"/>
+<area shape="rect" id="node26" href="$remmina__stats_8c.html#aee2ea5acceb2fbc3aa4ff21d136c5734" title="remmina_stats_get_indicator" alt="" coords="212,823,401,850"/>
+<area shape="rect" id="node29" href="$remmina__stats_8c.html#a65500d6b5d93cc7e3fc3d72329ff3847" title="Add a json member profile_count with a child for each protocol used by the user. " alt="" coords="215,947,398,974"/>
+<area shape="rect" id="node3" href="$remmina__stats_8c.html#a14c9cf442dc07a27989b27d16a5c73e6" title="remmina_stats_gen_random\l_uuid_prefix" alt="" coords="466,5,653,47"/>
+<area shape="rect" id="node4" href="$remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983" title="remmina_pref_save" alt="" coords="491,71,627,98"/>
+<area shape="rect" id="node7" href="$remmina__utils_8c.html#abfc722d07d9936711794411bfbed0522" title="Return the OS name as in &quot;uname &#45;s&quot;. " alt="" coords="455,254,664,281"/>
+<area shape="rect" id="node8" href="$remmina__utils_8c.html#a57603aa88df56e77e1a6de0f215f21aa" title="Return the OS version as in &quot;uname &#45;r&quot;. " alt="" coords="474,305,645,347"/>
+<area shape="rect" id="node9" href="$remmina__utils_8c.html#a116e7cd4565386fe531d3a6d1a3d3730" title="Return the machine hardware name as in &quot;uname &#45;m&quot;. " alt="" coords="458,371,661,398"/>
+<area shape="rect" id="node10" href="$remmina__utils_8c.html#aa768b6fe171695d212da4c6eaf74cf22" title="Print the Distributor as specified by the lsb_release command. " alt="" coords="475,554,644,581"/>
+<area shape="rect" id="node12" href="$remmina__utils_8c.html#ac00cb21c5cb5efcf7afc6eeae2147a75" title="Print the Distribution description as specified by the lsb_release command. " alt="" coords="483,188,635,229"/>
+<area shape="rect" id="node13" href="$remmina__utils_8c.html#a5ee50df5d7585d229a154a712c9161ca" title="Print the Distribution release name as specified by the lsb_release command. " alt="" coords="483,423,635,464"/>
+<area shape="rect" id="node14" href="$remmina__utils_8c.html#a2b4dbb0da7c8ba4bd86877097b85d10c" title="Print the Distribution codename as specified by the lsb_release command. " alt="" coords="483,488,635,529"/>
+<area shape="rect" id="node15" href="$remmina__utils_8c.html#a3a4890c24ee976284941d102e99baf5d" title="Print the distribution description if found. " alt="" coords="483,123,636,164"/>
+<area shape="rect" id="node11" href="$remmina__utils_8c.html#afe83bd0997a1054045e17d3f66c8bb0d" title="Strip &#160;, &#160;and &quot; from a given string. " alt="" coords="724,423,867,464"/>
+<area shape="rect" id="node16" href="$remmina__utils_8c.html#af63b56d4c8a33d3a568bf807dcfbfb0d" title="OS related functions. " alt="" coords="728,123,863,164"/>
+<area shape="rect" id="node20" href="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f" title="Query DBUS to get gnome shell version. " alt="" coords="720,765,871,807"/>
+<area shape="rect" id="node21" href="$remmina__log_8c.html#aca8f826a273194e22f4467421af9b3aa" title="remmina_log_print" alt="" coords="495,722,623,749"/>
+<area shape="rect" id="node24" href="$remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8" title="remmina_log_printf" alt="" coords="493,605,625,631"/>
+<area shape="rect" id="node25" href="$remmina__sysinfo_8c.html#ae4441d62bb4075d1618b5750fea064b4" title="Query environment variables to get the Window manager name. " alt="" coords="486,656,633,697"/>
+<area shape="rect" id="node22" href="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1" title="remmina_log_print_real" alt="" coords="717,625,873,651"/>
+<area shape="rect" id="node23" href="$remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b" title="remmina_log_scroll\l_to_end" alt="" coords="945,617,1079,659"/>
+<area shape="rect" id="node27" href="$remmina__sysinfo_8c.html#ae6ecf91edb905f3b2b39e33e05325590" title="remmina_sysinfo_is\l_appindicator_available" alt="" coords="717,831,874,872"/>
+<area shape="rect" id="node28" href="$remmina__icon_8c.html#a42f087b679b43b8a1d36cd9e9781a8b6" title="Determine whenever the Remmina icon is available. " alt="" coords="470,823,649,850"/>
+<area shape="rect" id="node30" href="$remmina__file__manager_8c.html#a55a717aafc046713380bd2c55f29165a" title="remmina_file_manager\l_iterate" alt="" coords="483,940,636,981"/>
+<area shape="rect" id="node47" href="$remmina__stats_8c.html#a1dff2b06d5acefc9bd2f25508ab45328" title="Given a remmina file, fills a structure containing profiles keys/value tuples. " alt="" coords="470,1115,649,1142"/>
+<area shape="rect" id="node31" href="$remmina__file__manager_8c.html#aa65bc30beb59d607ba430d966e7e27f5" title="remmina_file_get_datadir" alt="" coords="712,897,879,923"/>
+<area shape="rect" id="node32" href="$remmina__file_8c.html#ac1cc2d7f827f7d64c7fd3edf10e9383e" title="remmina_file_load" alt="" coords="732,947,859,974"/>
+<area shape="rect" id="node46" href="$remmina__file_8c.html#abd2f06bf0a5ddcf7156e5ef7d0c8d4d7" title="remmina_file_free" alt="" coords="733,998,858,1025"/>
+<area shape="rect" id="node33" href="$remmina__file_8c.html#adab087b7139756f029020a87a5438cfa" title="remmina_file_new_empty" alt="" coords="927,947,1097,974"/>
+<area shape="rect" id="node34" href="$remmina__plugin__manager_8c.html#a3872c8656a8a3d5147bcc603471c1932" title="remmina_plugin_manager\l_get_plugin" alt="" coords="927,999,1097,1040"/>
+<area shape="rect" id="node35" href="$remmina__plugin__manager_8c.html#ad380a98f6624aa8c830015c8b428b7b4" title="remmina_plugin_manager\l_get_secret_plugin" alt="" coords="927,1064,1097,1105"/>
+<area shape="rect" id="node36" href="$remmina__file_8c.html#a72580559fa04082418a993fec4c77281" title="is_encrypted_setting\l_by_name" alt="" coords="941,1129,1083,1171"/>
+<area shape="rect" id="node39" href="$remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954" title="remmina_file_set_string" alt="" coords="932,830,1092,857"/>
+<area shape="rect" id="node40" href="$remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6" title="remmina_file_set_string_ref" alt="" coords="1145,830,1328,857"/>
+<area shape="rect" id="node42" href="$remmina__crypt_8c.html#a3fe2fa245d401146adf02a3a8f996ab9" title="remmina_crypt_decrypt" alt="" coords="933,729,1091,755"/>
+<area shape="rect" id="node45" href="$remmina__public_8c.html#aaf3fdb980c24cd06965b85ebcdd79173" title="remmina_public_split\l_resolution_string" alt="" coords="940,881,1084,923"/>
+<area shape="rect" id="node37" href="$remmina__file_8c.html#acc88ee6f5ba73bf9c3b05ab9368c952f" title="find_protocol_setting" alt="" coords="1165,1141,1308,1167"/>
+<area shape="rect" id="node38" href="$remmina__file_8c.html#a29920ae737817d3f6c673bacbbf11ca1" title="is_encrypted_setting" alt="" coords="1165,1090,1308,1117"/>
+<area shape="rect" id="node41" href="$remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7" title="remmina_main_show_warning\l_dialog" alt="" coords="1376,1005,1573,1047"/>
+<area shape="rect" id="node43" href="$remmina__crypt_8c.html#ae097c169aefdd5d83a57fc1bde511171" title="remmina_crypt_init" alt="" coords="1409,729,1541,755"/>
+<area shape="rect" id="node44" href="$remmina__crypt_8c.html#aa02cf0fed3eb68d6a89815c3ba3bf7b1" title="remmina_crypt_encrypt" alt="" coords="1157,754,1316,781"/>
+<area shape="rect" id="node48" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="715,1225,875,1251"/>
+<area shape="rect" id="node49" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="935,1247,1089,1288"/>
+<area shape="rect" id="node50" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="935,1312,1089,1353"/>
+</map>

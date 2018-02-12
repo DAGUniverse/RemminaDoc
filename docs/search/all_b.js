@@ -10,6 +10,7 @@ var searchData=
   ['label_5fterminal_5fnormal_5fcolors',['label_terminal_normal_colors',['../struct___remmina_pref_dialog.html#a62227d6671d78e7387e727c92d79c92e',1,'_RemminaPrefDialog']]],
   ['label_5ftitle',['label_title',['../struct___remmina_string_list.html#a2da90e0958036c4cfbb52ba05cf69933',1,'_RemminaStringList']]],
   ['last_5fsignal',['LAST_SIGNAL',['../remmina__applet__menu_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba0c34d85df8279641afad9e3c9b3a54ce',1,'LAST_SIGNAL():&#160;remmina_applet_menu.c'],['../remmina__connection__window_8c.html#adf764cbdea00d65edcd07bb9953ad2b7a0c34d85df8279641afad9e3c9b3a54ce',1,'LAST_SIGNAL():&#160;remmina_connection_window.c'],['../remmina__ftp__client_8c.html#abc6126af1d45847bc59afa0aa3216b04a0c34d85df8279641afad9e3c9b3a54ce',1,'LAST_SIGNAL():&#160;remmina_ftp_client.c']]],
+  ['last_5fsuccess',['last_success',['../struct___remmina_pref.html#aeb4afc1d03afffed838149645eccc9dd',1,'_RemminaPref']]],
   ['launch_5fitem',['launch_item',['../struct___remmina_applet_menu_class.html#a5450ba26e2ac6f5d6ef9767151aa0689',1,'_RemminaAppletMenuClass']]],
   ['launch_5fitem_5fsignal',['LAUNCH_ITEM_SIGNAL',['../remmina__applet__menu_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba55eb85b36d14e6c7a04d613cc49d12a7',1,'remmina_applet_menu.c']]],
   ['launcher_2esh',['launcher.sh',['../launcher_8sh.html',1,'']]],
@@ -28,5 +29,7 @@ var searchData=
   ['log_5fprint',['log_print',['../struct___remmina_plugin_service.html#a2241a02fb4f3bec00aad9e106bd2d374',1,'_RemminaPluginService']]],
   ['log_5fprintf',['log_printf',['../struct___remmina_plugin_service.html#a2ec603ddb273c9729c7694f1c88665d8',1,'_RemminaPluginService']]],
   ['log_5fview',['log_view',['../struct___remmina_log_window.html#abfbb6314130ad100aba258087d9d4087',1,'_RemminaLogWindow::log_view()'],['../struct___remmina_plugin_exec_data.html#ac7ad166ff0ad398b004d39b72a5aa2e1',1,'_RemminaPluginExecData::log_view()']]],
-  ['log_5fwindow',['log_window',['../remmina__log_8c.html#a6c06467e9ec98a4ccc6645291cd5d19a',1,'remmina_log.c']]]
+  ['log_5fwindow',['log_window',['../remmina__log_8c.html#a6c06467e9ec98a4ccc6645291cd5d19a',1,'remmina_log.c']]],
+  ['lsb_5fdistro_5finfo',['lsb_distro_info',['../structlsb__distro__info.html',1,'']]],
+  ['lsbdistroinfo',['LSBDistroInfo',['../remmina__utils_8c.html#a376b0273338fd875054d93b329e85fba',1,'remmina_utils.c']]]
 ];

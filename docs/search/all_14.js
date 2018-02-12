@@ -2,6 +2,7 @@ var searchData=
 [
   ['using_20colour_20schemes_20in_20remmina_20ssh_20protocol_20plugin',['Using colour schemes in Remmina SSH protocol plugin',['../md__home_tmow_remmina_devel__remmina_8wiki__remmina-_s_s_h-_terminal-colour-schemes.html',1,'']]],
   ['update_2dgettext_2dmessages',['Update-gettext-messages',['../md__home_tmow_remmina_devel__remmina_8wiki__update-gettext-messages.html',1,'']]],
+  ['u',['u',['../remmina__stats_8c.html#a8b6ee6e66fba40ddaf4e735ba9d4208c',1,'u():&#160;remmina_stats.c'],['../remmina__utils_8c.html#a8b6ee6e66fba40ddaf4e735ba9d4208c',1,'u():&#160;remmina_utils.c']]],
   ['ubuntu_2dbuild_2esh',['ubuntu-build.sh',['../ubuntu-build_8sh.html',1,'']]],
   ['ui_5fhandler',['ui_handler',['../structrf__context.html#ae62cc5547984bf11865f93c7d63afdf0',1,'rf_context']]],
   ['ui_5fqueue',['ui_queue',['../structrf__context.html#ae6190d1c82045bcd08e22ff6e98148a3',1,'rf_context']]],

@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$remmina__plugin__manager_8c.html#a3872c8656a8a3d5147bcc603471c1932" title="remmina_plugin_manager\l_get_plugin" alt="" coords="1307,115,1478,156"/>
 <area shape="rect" id="node3" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="244,915,404,942"/>
 <area shape="rect" id="node50" href="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66" title="remmina_file_get_int" alt="" coords="253,966,395,993"/>
-<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1096,948,1251,989"/>
+<area shape="rect" id="node4" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1096,947,1251,988"/>
 <area shape="rect" id="node5" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="452,908,607,949"/>
 <area shape="rect" id="node11" href="$remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7" title="remmina_main_show_warning\l_dialog" alt="" coords="1532,497,1729,539"/>
 <area shape="rect" id="node6" href="$remmina__masterthread__exec_8c.html#a94985f15fd0d27c037824ee90b0ecd3c" title="remmina_masterthread\l_exec_cleanup_handler" alt="" coords="655,799,813,840"/>
@@ -45,7 +45,7 @@
 <area shape="rect" id="node33" href="$remmina__chat__window_8c.html#a45724aed5474dd741563ffbf89237022" title="remmina_chat_window\l_receive" alt="" coords="1096,1323,1251,1364"/>
 <area shape="rect" id="node34" href="$remmina__chat__window_8c.html#adfffc86df4856aabe2593de07742985f" title="remmina_chat_window\l_append_text" alt="" coords="1315,1323,1470,1364"/>
 <area shape="rect" id="node35" href="$remmina__chat__window_8c.html#a2a4bc3ded8ebf89c8f60d9b565fe2d70" title="remmina_chat_window\l_scroll_proc" alt="" coords="1553,1323,1708,1364"/>
-<area shape="rect" id="node37" href="$remmina__init__dialog_8c.html#a7602c5b714e02a10506977dd983e7446" title="remmina_init_dialog\l_connecting" alt="" coords="1105,1159,1242,1200"/>
+<area shape="rect" id="node37" href="$remmina__init__dialog_8c.html#a7602c5b714e02a10506977dd983e7446" title="remmina_init_dialog\l_connecting" alt="" coords="1105,1160,1242,1201"/>
 <area shape="rect" id="node43" href="$remmina__init__dialog_8c.html#ad583daf796f4a3c43dbcce49ebcf240f" title="remmina_init_dialog\l_create_file_button" alt="" coords="1105,784,1242,825"/>
 <area shape="rect" id="node48" href="$remmina__ftp__client_8c.html#a20d0575c04eb24553aeba7d0316e7a2e" title="remmina_ftp_client\l_get_overwrite_status" alt="" coords="1098,588,1249,629"/>
 </map>

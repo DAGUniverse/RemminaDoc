@@ -1,13 +1,13 @@
 <map id="remmina_protocol_widget_tunnel_disconnect_callback" name="remmina_protocol_widget_tunnel_disconnect_callback">
-<area shape="rect" id="node2" href="$remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af" title="remmina_protocol_widget\l_set_error" alt="" coords="243,761,413,803"/>
-<area shape="rect" id="node3" href="$remmina__protocol__widget_8c.html#a326a430fe4d298e3564d9fd5b7945a82" title="remmina_protocol_widget\l_close_connection" alt="" coords="243,827,413,868"/>
-<area shape="rect" id="node4" href="$remmina__protocol__widget_8c.html#ac3e5a7f14aef4adb2e57d35e9c180b3b" title="remmina_protocol_widget\l_emit_signal" alt="" coords="461,625,632,667"/>
-<area shape="rect" id="node40" href="$remmina__ssh_8c.html#a223f8dd7a678bcec2ece40a2d8f7ea06" title="remmina_ssh_tunnel_free" alt="" coords="461,1007,632,1034"/>
-<area shape="rect" id="node44" href="$remmina__ext__exec_8c.html#a7c81795162a70d06294fdf935ea210d7" title="remmina_ext_exec_new" alt="" coords="465,834,628,861"/>
-<area shape="rect" id="node5" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1336,431,1491,472"/>
-<area shape="rect" id="node6" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="680,397,835,439"/>
-<area shape="rect" id="node7" href="$remmina__masterthread__exec_8c.html#a94985f15fd0d27c037824ee90b0ecd3c" title="remmina_masterthread\l_exec_cleanup_handler" alt="" coords="889,157,1047,199"/>
-<area shape="rect" id="node8" href="$remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="891,427,1045,468"/>
+<area shape="rect" id="node2" href="$remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af" title="remmina_protocol_widget\l_set_error" alt="" coords="243,763,413,804"/>
+<area shape="rect" id="node3" href="$remmina__protocol__widget_8c.html#a326a430fe4d298e3564d9fd5b7945a82" title="remmina_protocol_widget\l_close_connection" alt="" coords="243,828,413,869"/>
+<area shape="rect" id="node4" href="$remmina__protocol__widget_8c.html#ac3e5a7f14aef4adb2e57d35e9c180b3b" title="remmina_protocol_widget\l_emit_signal" alt="" coords="461,612,632,653"/>
+<area shape="rect" id="node40" href="$remmina__ssh_8c.html#a223f8dd7a678bcec2ece40a2d8f7ea06" title="remmina_ssh_tunnel_free" alt="" coords="461,1010,632,1037"/>
+<area shape="rect" id="node44" href="$remmina__ext__exec_8c.html#a7c81795162a70d06294fdf935ea210d7" title="remmina_ext_exec_new" alt="" coords="465,835,628,862"/>
+<area shape="rect" id="node5" href="$remmina__masterthread__exec_8c.html#a3a52e863a3a3da6da6bb5d36c13b7ff4" title="remmina_masterthread\l_exec_is_main_thread" alt="" coords="1336,429,1491,471"/>
+<area shape="rect" id="node6" href="$remmina__masterthread__exec_8c.html#a14628c2470cac50e87916a70ea05c97d" title="remmina_masterthread\l_exec_and_wait" alt="" coords="680,399,835,440"/>
+<area shape="rect" id="node7" href="$remmina__masterthread__exec_8c.html#a94985f15fd0d27c037824ee90b0ecd3c" title="remmina_masterthread\l_exec_cleanup_handler" alt="" coords="889,159,1047,200"/>
+<area shape="rect" id="node8" href="$remmina__masterthread__exec_8c.html#ae5c4d736f1856249c255430e010a179f" title="remmina_masterthread\l_exec_callback" alt="" coords="891,428,1045,469"/>
 <area shape="rect" id="node9" href="$remmina__protocol__widget_8c.html#a7ac09ee83afa8a1a60cadf56b0ec83a6" title="remmina_protocol_widget\l_init_save_cred" alt="" coords="1108,843,1279,884"/>
 <area shape="rect" id="node23" href="$remmina__protocol__widget_8c.html#ae2522242b3f39ee84ee8cf75170de0c0" title="remmina_protocol_widget\l_chat_receive" alt="" coords="1108,5,1279,47"/>
 <area shape="rect" id="node26" href="$remmina__file_8c.html#a8eb1b213d9d08c6ad13683ce05f4355e" title="remmina_file_get_string" alt="" coords="1113,741,1273,767"/>
@@ -39,13 +39,13 @@
 <area shape="rect" id="node28" href="$remmina__init__dialog_8c.html#a7602c5b714e02a10506977dd983e7446" title="remmina_init_dialog\l_connecting" alt="" coords="1345,169,1482,211"/>
 <area shape="rect" id="node34" href="$remmina__init__dialog_8c.html#ad583daf796f4a3c43dbcce49ebcf240f" title="remmina_init_dialog\l_create_file_button" alt="" coords="1345,71,1482,112"/>
 <area shape="rect" id="node38" href="$remmina__ftp__client_8c.html#a20d0575c04eb24553aeba7d0316e7a2e" title="remmina_ftp_client\l_get_overwrite_status" alt="" coords="1338,332,1489,373"/>
-<area shape="rect" id="node41" href="$remmina__ssh_8c.html#a0a0aff99448b4eec63bf11d7a4bb9ab7" title="remmina_ssh_tunnel\l_close_all_channels" alt="" coords="686,1000,829,1041"/>
-<area shape="rect" id="node43" href="$remmina__ssh_8c.html#acdb9f57d2f9b47913715a8d8a0ea0c02" title="remmina_ssh_free" alt="" coords="693,1066,822,1093"/>
-<area shape="rect" id="node42" href="$remmina__ssh_8c.html#a2dc66f410992afe4c2b9ad5bda770d6c" title="remmina_ssh_tunnel\l_buffer_free" alt="" coords="897,1020,1039,1061"/>
-<area shape="rect" id="node45" href="$remmina__utils_8c.html#ac804e6111e538ee2fa425b8b6fd1fb66" title="Replaces all occurrences of needle in haystack with replace. " alt="" coords="686,915,829,956"/>
-<area shape="rect" id="node49" href="$remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="680,797,835,839"/>
-<area shape="rect" id="node50" href="$remmina__ext__exec_8c.html#aa063217311c67408819a2c1b86ff92dd" title="wait_for_child" alt="" coords="706,863,809,890"/>
-<area shape="rect" id="node46" href="$remmina__utils_8c.html#a75eb5f79df692dfe4db221d03a5fa355" title="remmina_utils_string_find" alt="" coords="883,903,1053,930"/>
-<area shape="rect" id="node48" href="$remmina__utils_8c.html#aa6859a61aa28f46591750c9afdef66f4" title="remmina_utils_string\l_replace" alt="" coords="897,955,1039,996"/>
+<area shape="rect" id="node41" href="$remmina__ssh_8c.html#a0a0aff99448b4eec63bf11d7a4bb9ab7" title="remmina_ssh_tunnel\l_close_all_channels" alt="" coords="686,1003,829,1044"/>
+<area shape="rect" id="node43" href="$remmina__ssh_8c.html#acdb9f57d2f9b47913715a8d8a0ea0c02" title="remmina_ssh_free" alt="" coords="693,1069,822,1095"/>
+<area shape="rect" id="node42" href="$remmina__ssh_8c.html#a2dc66f410992afe4c2b9ad5bda770d6c" title="remmina_ssh_tunnel\l_buffer_free" alt="" coords="897,1021,1039,1063"/>
+<area shape="rect" id="node45" href="$remmina__utils_8c.html#ac804e6111e538ee2fa425b8b6fd1fb66" title="Replaces all occurrences of needle in haystack with replace. " alt="" coords="686,916,829,957"/>
+<area shape="rect" id="node49" href="$remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41" title="remmina_public_gtk\l_builder_new_from_file" alt="" coords="680,799,835,840"/>
+<area shape="rect" id="node50" href="$remmina__ext__exec_8c.html#aa063217311c67408819a2c1b86ff92dd" title="wait_for_child" alt="" coords="706,865,809,891"/>
+<area shape="rect" id="node46" href="$remmina__utils_8c.html#a75eb5f79df692dfe4db221d03a5fa355" title="remmina_utils_string_find" alt="" coords="883,905,1053,931"/>
+<area shape="rect" id="node48" href="$remmina__utils_8c.html#aa6859a61aa28f46591750c9afdef66f4" title="remmina_utils_string\l_replace" alt="" coords="897,956,1039,997"/>
 <area shape="rect" id="node47" href="$remmina__utils_8c.html#ae4318060ee81f8fbd907904892dd71d3" title="remmina_utils_strpos" alt="" coords="1120,909,1267,935"/>
 </map>

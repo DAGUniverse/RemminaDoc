@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$remmina__sftp__client_8c.html#a7b25ac5d22898d2e8a16d8d62bb62ae4" title="remmina_sftp_client\l_thread_download_file" alt="" coords="383,5,533,47"/>
 <area shape="rect" id="node7" href="$remmina__sftp__client_8c.html#adcbfd655b050ff016dedfe177c9e0dee" title="remmina_sftp_client\l_thread_recursive_dir" alt="" coords="385,188,531,229"/>
 <area shape="rect" id="node9" href="$remmina__sftp__client_8c.html#a989f55fb6d44337caba7bbf98e93f3ce" title="remmina_sftp_client\l_thread_upload_file" alt="" coords="389,253,527,295"/>
-<area shape="rect" id="node10" href="$remmina__sftp__client_8c.html#a313b03e3a3718a3ccd5dc35d7123e112" title="remmina_sftp_client\l_thread_set_finish" alt="" coords="196,305,335,347"/>
+<area shape="rect" id="node10" href="$remmina__sftp__client_8c.html#a313b03e3a3718a3ccd5dc35d7123e112" title="remmina_sftp_client\l_thread_set_finish" alt="" coords="196,308,335,349"/>
 <area shape="rect" id="node4" href="$remmina__sftp__client_8c.html#aea3e3b72fb51d466fee78af11234d7b7" title="remmina_sftp_client\l_thread_main" alt="" coords="581,156,720,197"/>
 <area shape="rect" id="node8" href="$remmina__sftp__client_8c.html#a4fc3715741ac2e3dcea0efd5a74a3cf3" title="remmina_sftp_client\l_thread_mkdir" alt="" coords="389,123,527,164"/>
 <area shape="rect" id="node5" href="$remmina__sftp__client_8c.html#a788420fb944ee5059cbc53f8648e9636" title="remmina_sftp_client\l_on_newtask" alt="" coords="768,156,907,197"/>

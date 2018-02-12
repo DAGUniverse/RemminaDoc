@@ -5,6 +5,7 @@ var remmina__log_8c =
     [ "RemminaLogWindow", "remmina__log_8c.html#ad5a920aad512279bb932bcb26a2c3c19", null ],
     [ "RemminaLogWindowClass", "remmina__log_8c.html#a5682db89dd84e1c413326e17a4f79dbe", null ],
     [ "remmina_log_end", "remmina__log_8c.html#a355067bd2e33d8942ad9d8af60c19f0c", null ],
+    [ "remmina_log_on_keypress", "remmina__log_8c.html#a43a42f51f64b54924564e166c56b39e1", null ],
     [ "remmina_log_print", "remmina__log_8c.html#aca8f826a273194e22f4467421af9b3aa", null ],
     [ "remmina_log_print_real", "remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1", null ],
     [ "remmina_log_printf", "remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8", null ],

@@ -12,6 +12,7 @@ var searchData=
   ['scalemode',['scalemode',['../struct___remmina_protocol_widget_priv.html#aa37ce53d4329aaaa7c4059c60882a533',1,'_RemminaProtocolWidgetPriv']]],
   ['scaler_5fexpand',['scaler_expand',['../struct___remmina_protocol_widget_priv.html#a94ef3b8e64d6ced7cd639b7917026f4c',1,'_RemminaProtocolWidgetPriv']]],
   ['scanline_5fpad',['scanline_pad',['../structrf__context.html#a538399f42e4454d5a44effbc59ea9091',1,'rf_context']]],
+  ['scanstring',['scanstring',['../structlsb__distro__info.html#a7aba92d963bcaed1a5dda7b7be4fa6d7',1,'lsb_distro_info']]],
   ['screenshot_5fpath',['screenshot_path',['../struct___remmina_pref.html#a3df98a686c4e2703455c1a786d3f1f5c',1,'_RemminaPref']]],
   ['scrolled_5fcontainer',['scrolled_container',['../struct___remmina_connection_object.html#aef266e6ae11db020512b3dec8f689d30',1,'_RemminaConnectionObject']]],
   ['searchentrychange_5ftimeout_5fsource_5fid',['searchentrychange_timeout_source_id',['../structmpchanger__params.html#ac8fdacd94418731904020ff679475918',1,'mpchanger_params']]],
