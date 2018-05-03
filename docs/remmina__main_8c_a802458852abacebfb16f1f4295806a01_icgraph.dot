@@ -1,0 +1,9 @@
+digraph "remmina_main_quickconnect"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5555 [label="remmina_main_quickconnect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5555 -> Node5556 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5556 [label="remmina_main_quickconnect\l_on_click",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#a210e9e04c7c97cc86412044de31f659d"];
+}

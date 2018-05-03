@@ -1,5 +1,16 @@
 var NAVTREEINDEX6 =
 {
+"remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d":[23,0,84,13],
+"remmina__pref__dialog_8c.html#ad4b3f23a900c8f07814fd0fb26f29e5f":[23,0,84,11],
+"remmina__pref__dialog_8c.html#adc2763311ece7ab6b505d4ec56391f69":[23,0,84,6],
+"remmina__pref__dialog_8c.html#add9c48bccc2c61be2f2900a154648dd4":[23,0,84,0],
+"remmina__pref__dialog_8c.html#af87f153e3fc696f76da732d8e431be5a":[23,0,84,3],
+"remmina__pref__dialog_8c_source.html":[23,0,84],
+"remmina__pref__dialog_8h.html":[23,0,85],
+"remmina__pref__dialog_8h.html#a458e651af6690959efa2afb96be7d609a5622b46aa48f22a0c4511f3697e56f4a":[23,0,85,4],
+"remmina__pref__dialog_8h.html#a458e651af6690959efa2afb96be7d609ab2070bbdfe1e9ee12f43a52556f3130c":[23,0,85,6],
+"remmina__pref__dialog_8h.html#a458e651af6690959efa2afb96be7d609ab813650ab0842f29fc9dcf865a2285cb":[23,0,85,5],
+"remmina__pref__dialog_8h.html#a482168ebe847fb3d052f940e8b82a69a":[23,0,85,8],
 "remmina__pref__dialog_8h.html#a5318669e14d555b8bd2adc81a54d97b7":[23,0,85,2],
 "remmina__pref__dialog_8h.html#aa8862957212096ddda372be1310c8bd4":[23,0,85,7],
 "remmina__pref__dialog_8h.html#aeba55bfe8ab83707f2e68034061a3dd2":[23,0,85,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX6 =
 "remmina__sftp__client_8c.html#a788420fb944ee5059cbc53f8648e9636":[23,0,92,8],
 "remmina__sftp__client_8c.html#a7b25ac5d22898d2e8a16d8d62bb62ae4":[23,0,92,14],
 "remmina__sftp__client_8c.html#a96c70def014ba9a0a7177d7efc1da830":[23,0,92,22],
-"remmina__sftp__client_8c.html#a989f55fb6d44337caba7bbf98e93f3ce":[23,0,92,23],
-"remmina__sftp__client_8c.html#a9fb6d25e4676b2fa574f958a5ba271a1":[23,0,92,10],
-"remmina__sftp__client_8c.html#aa43b65303f43a0658201bf8f27e232f8":[23,0,92,0],
-"remmina__sftp__client_8c.html#ac063368992734eda25c7632e5af7ef05":[23,0,92,15],
-"remmina__sftp__client_8c.html#ad2d75d3cee69addbb691a85ac864db0f":[23,0,92,6],
-"remmina__sftp__client_8c.html#adcbfd655b050ff016dedfe177c9e0dee":[23,0,92,18],
-"remmina__sftp__client_8c.html#ae87948f1c87c6eb6b16664665cac9a2c":[23,0,92,11],
-"remmina__sftp__client_8c.html#aea3e3b72fb51d466fee78af11234d7b7":[23,0,92,16],
-"remmina__sftp__client_8c_source.html":[23,0,92],
-"remmina__sftp__client_8h.html":[23,0,93],
-"remmina__sftp__client_8h.html#a138904893cb9c7f6535b8dfc7ba17e33":[23,0,93,4],
-"remmina__sftp__client_8h.html#a359af214bcada2c49aa18f2a6a51c8e0":[23,0,93,6]
+"remmina__sftp__client_8c.html#a989f55fb6d44337caba7bbf98e93f3ce":[23,0,92,23]
 };

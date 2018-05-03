@@ -128,9 +128,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2b4dbb0da7c8ba4bd86877097b85d10c"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="remmina__utils_8h.html#a2b4dbb0da7c8ba4bd86877097b85d10c">remmina_utils_get_lsb_codename</a> ()</td></tr>
 <tr class="memdesc:a2b4dbb0da7c8ba4bd86877097b85d10c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the Distribution codename as specified by the lsb_release command.  <a href="#a2b4dbb0da7c8ba4bd86877097b85d10c">More...</a><br /></td></tr>
 <tr class="separator:a2b4dbb0da7c8ba4bd86877097b85d10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a4890c24ee976284941d102e99baf5d"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="remmina__utils_8h.html#a3a4890c24ee976284941d102e99baf5d">remmina_utils_get_etc_release</a> ()</td></tr>
-<tr class="memdesc:a3a4890c24ee976284941d102e99baf5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the distribution description if found.  <a href="#a3a4890c24ee976284941d102e99baf5d">More...</a><br /></td></tr>
-<tr class="separator:a3a4890c24ee976284941d102e99baf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54cee350c4ecc6e77af835c4ba90df4c"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="remmina__utils_8h.html#a54cee350c4ecc6e77af835c4ba90df4c">remmina_utils_get_etc_release</a> ()</td></tr>
+<tr class="memdesc:a54cee350c4ecc6e77af835c4ba90df4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the distribution description if found.  <a href="#a54cee350c4ecc6e77af835c4ba90df4c">More...</a><br /></td></tr>
+<tr class="separator:a54cee350c4ecc6e77af835c4ba90df4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1acfeca84e3efd47ab1ef8365f94f99"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="remmina__utils_8h.html#af1acfeca84e3efd47ab1ef8365f94f99">remmina_utils_get_os_info</a> ()</td></tr>
 <tr class="memdesc:af1acfeca84e3efd47ab1ef8365f94f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sample function to show how use the other fOS releated functions.  <a href="#af1acfeca84e3efd47ab1ef8365f94f99">More...</a><br /></td></tr>
 <tr class="separator:af1acfeca84e3efd47ab1ef8365f94f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,14 +140,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="remmina__utils_8h_source.html">remmina_utils.h</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a3a4890c24ee976284941d102e99baf5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a4890c24ee976284941d102e99baf5d">&#9670;&nbsp;</a></span>remmina_utils_get_etc_release()</h2>
+<a id="a54cee350c4ecc6e77af835c4ba90df4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54cee350c4ecc6e77af835c4ba90df4c">&#9670;&nbsp;</a></span>remmina_utils_get_etc_release()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">gchar* remmina_utils_get_etc_release </td>
+          <td class="memname">GHashTable* remmina_utils_get_etc_release </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -158,32 +158,19 @@ Functions</h2></td></tr>
 <p>Print the distribution description if found. </p>
 <p>Test each known distribution specific information file and print it's content. </p><dl class="section return"><dt>Returns</dt><dd>a string or NULL. Caller must free it with g_free(). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00389">389</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00383">383</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_cgraph.png" border="0" usemap="#remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_cgraph" alt=""/></div>
-<map name="remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_cgraph" id="remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_cgraph">
-<area shape="rect" id="node2" href="remmina__utils_8c.html#af63b56d4c8a33d3a568bf807dcfbfb0d" title="OS related functions. " alt="" coords="211,5,345,47"/>
-<area shape="rect" id="node3" href="remmina__utils_8c.html#afe83bd0997a1054045e17d3f66c8bb0d" title="Strip &#160;, &#160;and &quot; from a given string. " alt="" coords="207,71,349,112"/>
+<div class="center"><img src="remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_cgraph.png" border="0" usemap="#remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_cgraph" alt=""/></div>
+<map name="remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_cgraph" id="remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_cgraph">
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_icgraph.png" border="0" usemap="#remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_icgraph" alt=""/></div>
-<map name="remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_icgraph" id="remmina__utils_8h_a3a4890c24ee976284941d102e99baf5d_icgraph">
-<area shape="rect" id="node2" href="remmina__stats_8c.html#a43133d5e00f481d315ef0d58cb52e70a" title="remmina_stats_get_os_info" alt="" coords="207,35,389,61"/>
-<area shape="rect" id="node3" href="remmina__stats_8h.html#a7a1c9ab1abc1fdf78239d11b802843ae" title="Get all statistics in json format to send periodically to the PHP server. " alt="" coords="437,35,591,61"/>
-<area shape="rect" id="node4" href="remmina__stats__sender_8c.html#a9fb1f78014c902387de47961e8245518" title="remmina_stats_collector" alt="" coords="639,35,803,61"/>
-<area shape="rect" id="node5" href="remmina__stats__sender_8h.html#a7ff2484b933c8cbd9a6d545da1c0eb2f" title="remmina_stats_sender_send" alt="" coords="851,35,1040,61"/>
-<area shape="rect" id="node6" href="remmina__log_8c.html#a43a42f51f64b54924564e166c56b39e1" title="remmina_log_on_keypress" alt="" coords="1088,5,1265,32"/>
-<area shape="rect" id="node8" href="remmina__stats__sender_8c.html#a9893f8bc18fa81d40fabcf60e7353bb2" title="remmina_stats_sender\l_periodic_check" alt="" coords="1099,57,1254,98"/>
-<area shape="rect" id="node7" href="remmina__log_8c.html#a1e5960f194353bd36d82bd9476c309bd" title="remmina_log_window_init" alt="" coords="1313,5,1484,32"/>
-<area shape="rect" id="node9" href="remmina__stats__sender_8h.html#ab800d60b2014cf18c0791de01cf33802" title="remmina_stats_sender\l_schedule" alt="" coords="1321,57,1476,98"/>
-<area shape="rect" id="node10" href="remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a" title="remmina_on_startup" alt="" coords="1543,35,1683,61"/>
-<area shape="rect" id="node12" href="remmina__main_8c.html#a5994672eab85d9500cc37f4cabb39136" title="remmina_main_on_click\l_ustat_yes" alt="" coords="1532,86,1695,127"/>
-<area shape="rect" id="node11" href="remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1743,35,1793,61"/>
+<div class="center"><img src="remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_icgraph.png" border="0" usemap="#remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_icgraph" alt=""/></div>
+<map name="remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_icgraph" id="remmina__utils_8h_a54cee350c4ecc6e77af835c4ba90df4c_icgraph">
 </map>
 </div>
 
@@ -207,7 +194,7 @@ Here is the caller graph for this function:</div>
 <p>Return the machine hardware name as in "uname -m". </p>
 <dl class="section return"><dt>Returns</dt><dd>The machine hardware name or NULL. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00303">303</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00309">309</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -248,7 +235,7 @@ Here is the caller graph for this function:</div>
 <p>Return the OS name as in "uname -s". </p>
 <dl class="section return"><dt>Returns</dt><dd>The OS name or NULL. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00281">281</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00287">287</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -289,7 +276,7 @@ Here is the caller graph for this function:</div>
 <p>Return the OS version as in "uname -r". </p>
 <dl class="section return"><dt>Returns</dt><dd>The OS release or NULL. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00288">288</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00294">294</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -330,15 +317,7 @@ Here is the caller graph for this function:</div>
 <p>Print the Distribution codename as specified by the lsb_release command. </p>
 <dl class="section return"><dt>Returns</dt><dd>the codename string or NULL. Caller must free it with g_free(). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00371">371</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="remmina__utils_8h_a2b4dbb0da7c8ba4bd86877097b85d10c_cgraph.png" border="0" usemap="#remmina__utils_8h_a2b4dbb0da7c8ba4bd86877097b85d10c_cgraph" alt=""/></div>
-<map name="remmina__utils_8h_a2b4dbb0da7c8ba4bd86877097b85d10c_cgraph" id="remmina__utils_8h_a2b4dbb0da7c8ba4bd86877097b85d10c_cgraph">
-<area shape="rect" id="node2" href="remmina__utils_8c.html#afe83bd0997a1054045e17d3f66c8bb0d" title="Strip &#160;, &#160;and &quot; from a given string. " alt="" coords="205,5,348,47"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00368">368</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -378,15 +357,7 @@ Here is the caller graph for this function:</div>
 <p>Print the Distribution description as specified by the lsb_release command. </p>
 <dl class="section return"><dt>Returns</dt><dd>the Distribution description string or NULL. Caller must free it with g_free(). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00331">331</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="remmina__utils_8h_ac00cb21c5cb5efcf7afc6eeae2147a75_cgraph.png" border="0" usemap="#remmina__utils_8h_ac00cb21c5cb5efcf7afc6eeae2147a75_cgraph" alt=""/></div>
-<map name="remmina__utils_8h_ac00cb21c5cb5efcf7afc6eeae2147a75_cgraph" id="remmina__utils_8h_ac00cb21c5cb5efcf7afc6eeae2147a75_cgraph">
-<area shape="rect" id="node2" href="remmina__utils_8c.html#afe83bd0997a1054045e17d3f66c8bb0d" title="Strip &#160;, &#160;and &quot; from a given string. " alt="" coords="205,5,348,47"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00334">334</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -426,15 +397,7 @@ Here is the caller graph for this function:</div>
 <p>Print the Distributor as specified by the lsb_release command. </p>
 <dl class="section return"><dt>Returns</dt><dd>the distributor ID string or NULL. Caller must free it with g_free(). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00314">314</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="remmina__utils_8h_aa768b6fe171695d212da4c6eaf74cf22_cgraph.png" border="0" usemap="#remmina__utils_8h_aa768b6fe171695d212da4c6eaf74cf22_cgraph" alt=""/></div>
-<map name="remmina__utils_8h_aa768b6fe171695d212da4c6eaf74cf22_cgraph" id="remmina__utils_8h_aa768b6fe171695d212da4c6eaf74cf22_cgraph">
-<area shape="rect" id="node2" href="remmina__utils_8c.html#afe83bd0997a1054045e17d3f66c8bb0d" title="Strip &#160;, &#160;and &quot; from a given string. " alt="" coords="223,5,365,47"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00320">320</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -476,14 +439,6 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00354">354</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="remmina__utils_8h_a5ee50df5d7585d229a154a712c9161ca_cgraph.png" border="0" usemap="#remmina__utils_8h_a5ee50df5d7585d229a154a712c9161ca_cgraph" alt=""/></div>
-<map name="remmina__utils_8h_a5ee50df5d7585d229a154a712c9161ca_cgraph" id="remmina__utils_8h_a5ee50df5d7585d229a154a712c9161ca_cgraph">
-<area shape="rect" id="node2" href="remmina__utils_8c.html#afe83bd0997a1054045e17d3f66c8bb0d" title="Strip &#160;, &#160;and &quot; from a given string. " alt="" coords="205,5,348,47"/>
-</map>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="remmina__utils_8h_a5ee50df5d7585d229a154a712c9161ca_icgraph.png" border="0" usemap="#remmina__utils_8h_a5ee50df5d7585d229a154a712c9161ca_icgraph" alt=""/></div>
@@ -522,7 +477,7 @@ Here is the caller graph for this function:</div>
 <p>A sample function to show how use the other fOS releated functions. </p>
 <dl class="section return"><dt>Returns</dt><dd>a semicolon separated OS data like in "uname -srm". </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00412">412</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00410">410</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -574,7 +529,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00138">138</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00140">140</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -680,7 +635,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00170">170</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00172">172</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -783,7 +738,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of replacements made. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00190">190</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00192">192</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -881,30 +836,7 @@ Here is the caller graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>a newly allocated copy of string cleaned by , <br />
  and " </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00217">217</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="remmina__utils_8h_afe83bd0997a1054045e17d3f66c8bb0d_icgraph.png" border="0" usemap="#remmina__utils_8h_afe83bd0997a1054045e17d3f66c8bb0d_icgraph" alt=""/></div>
-<map name="remmina__utils_8h_afe83bd0997a1054045e17d3f66c8bb0d_icgraph" id="remmina__utils_8h_afe83bd0997a1054045e17d3f66c8bb0d_icgraph">
-<area shape="rect" id="node2" href="remmina__utils_8h.html#aa768b6fe171695d212da4c6eaf74cf22" title="Print the Distributor as specified by the lsb_release command. " alt="" coords="196,5,365,32"/>
-<area shape="rect" id="node14" href="remmina__utils_8h.html#ac00cb21c5cb5efcf7afc6eeae2147a75" title="Print the Distribution description as specified by the lsb_release command. " alt="" coords="205,57,357,98"/>
-<area shape="rect" id="node15" href="remmina__utils_8h.html#a5ee50df5d7585d229a154a712c9161ca" title="Print the Distribution release name as specified by the lsb_release command. " alt="" coords="205,122,357,163"/>
-<area shape="rect" id="node16" href="remmina__utils_8h.html#a2b4dbb0da7c8ba4bd86877097b85d10c" title="Print the Distribution codename as specified by the lsb_release command. " alt="" coords="205,187,357,229"/>
-<area shape="rect" id="node17" href="remmina__utils_8h.html#a3a4890c24ee976284941d102e99baf5d" title="Print the distribution description if found. " alt="" coords="204,253,357,294"/>
-<area shape="rect" id="node3" href="remmina__stats_8c.html#a43133d5e00f481d315ef0d58cb52e70a" title="remmina_stats_get_os_info" alt="" coords="413,129,596,156"/>
-<area shape="rect" id="node4" href="remmina__stats_8h.html#a7a1c9ab1abc1fdf78239d11b802843ae" title="Get all statistics in json format to send periodically to the PHP server. " alt="" coords="644,129,797,156"/>
-<area shape="rect" id="node5" href="remmina__stats__sender_8c.html#a9fb1f78014c902387de47961e8245518" title="remmina_stats_collector" alt="" coords="845,129,1009,156"/>
-<area shape="rect" id="node6" href="remmina__stats__sender_8h.html#a7ff2484b933c8cbd9a6d545da1c0eb2f" title="remmina_stats_sender_send" alt="" coords="1057,129,1247,156"/>
-<area shape="rect" id="node7" href="remmina__log_8c.html#a43a42f51f64b54924564e166c56b39e1" title="remmina_log_on_keypress" alt="" coords="1295,100,1472,127"/>
-<area shape="rect" id="node9" href="remmina__stats__sender_8c.html#a9893f8bc18fa81d40fabcf60e7353bb2" title="remmina_stats_sender\l_periodic_check" alt="" coords="1306,151,1461,193"/>
-<area shape="rect" id="node8" href="remmina__log_8c.html#a1e5960f194353bd36d82bd9476c309bd" title="remmina_log_window_init" alt="" coords="1520,100,1691,127"/>
-<area shape="rect" id="node10" href="remmina__stats__sender_8h.html#ab800d60b2014cf18c0791de01cf33802" title="remmina_stats_sender\l_schedule" alt="" coords="1528,151,1683,193"/>
-<area shape="rect" id="node11" href="remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a" title="remmina_on_startup" alt="" coords="1750,129,1890,156"/>
-<area shape="rect" id="node13" href="remmina__main_8c.html#a5994672eab85d9500cc37f4cabb39136" title="remmina_main_on_click\l_ustat_yes" alt="" coords="1739,181,1901,222"/>
-<area shape="rect" id="node12" href="remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1949,129,2000,156"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="remmina__utils_8c_source.html#l00219">219</a> of file <a class="el" href="remmina__utils_8c_source.html">remmina_utils.c</a>.</p>
 
 </div>
 </div>
@@ -913,7 +845,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a7b173271d93cbf421f16394d9116fe0.html">remmina</a></li><li class="navelem"><a class="el" href="dir_77551dfb79d2dc134bf6b6b50e985072.html">src</a></li><li class="navelem"><a class="el" href="remmina__utils_8h.html">remmina_utils.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="remmina__utils_8h.html">remmina_utils.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

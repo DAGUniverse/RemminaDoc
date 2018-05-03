@@ -18,6 +18,7 @@ var searchData=
   ['is_5fencrypted_5fsetting_5fby_5fname',['is_encrypted_setting_by_name',['../remmina__file_8c.html#a72580559fa04082418a993fec4c77281',1,'remmina_file.c']]],
   ['is_5fmain_5fthread',['is_main_thread',['../struct___remmina_plugin_service.html#aeac84408c3502bd5bb07d57def7a8112',1,'_RemminaPluginService']]],
   ['is_5freconnecting',['is_reconnecting',['../structrf__context.html#af40c80ff8296b9bcc3ac437bf0be55f8',1,'rf_context']]],
+  ['is_5fservice_5favailable',['is_service_available',['../struct___remmina_secret_plugin.html#a207b9d92783bfb4b7d3f2d76175f4a49',1,'_RemminaSecretPlugin']]],
   ['issuer',['issuer',['../structremmina__masterthread__exec__data.html#aaf4628945abd2eff7e9ba248c93097d3',1,'remmina_masterthread_exec_data']]],
   ['item_5ftype',['item_type',['../struct___remmina_applet_menu_item.html#a770b749c60737542802925cd6f3524fa',1,'_RemminaAppletMenuItem']]],
   ['iter',['iter',['../structmpchanger__params.html#a3cb4141ca61b0b9a5584239386dbbe46',1,'mpchanger_params::iter()'],['../struct___remmina_plugin_nx_data.html#acd24d873a255b1a1e8158114d3ce2fe4',1,'_RemminaPluginNxData::iter()']]],

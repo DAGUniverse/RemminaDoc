@@ -1,0 +1,44 @@
+digraph "remmina_main_on_action_tools_export"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4665 [label="remmina_main_on_action\l_tools_export",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4665 -> Node4666 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4666 [label="remmina_file_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#ac1cc2d7f827f7d64c7fd3edf10e9383e"];
+  Node4666 -> Node4667 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4667 [label="remmina_file_new_empty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#adab087b7139756f029020a87a5438cfa"];
+  Node4666 -> Node4668 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4668 [label="remmina_plugin_manager\l_get_plugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__plugin__manager_8c.html#a3872c8656a8a3d5147bcc603471c1932"];
+  Node4666 -> Node4669 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4669 [label="remmina_plugin_manager\l_get_secret_plugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__plugin__manager_8c.html#ad380a98f6624aa8c830015c8b428b7b4"];
+  Node4666 -> Node4670 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4670 [label="is_encrypted_setting\l_by_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#a72580559fa04082418a993fec4c77281"];
+  Node4670 -> Node4671 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4671 [label="find_protocol_setting",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#acc88ee6f5ba73bf9c3b05ab9368c952f"];
+  Node4671 -> Node4672 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4672 [label="remmina_plugin_manager\l_get_canonical_setting_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__plugin__manager_8c.html#af60b8edfa50563ae4c7593efc3deed55"];
+  Node4670 -> Node4673 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4673 [label="is_encrypted_setting",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#a29920ae737817d3f6c673bacbbf11ca1"];
+  Node4666 -> Node4674 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4674 [label="remmina_file_set_string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#a85ca1ca2d0bf9ef29e490c6f4527a954"];
+  Node4674 -> Node4675 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4675 [label="remmina_file_set_string_ref",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#a74951c1067a1a5e1341f5e1c1206dec6"];
+  Node4675 -> Node4676 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4676 [label="remmina_main_show_warning\l_dialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7"];
+  Node4666 -> Node4675 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4666 -> Node4677 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4677 [label="remmina_crypt_decrypt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__crypt_8c.html#a3fe2fa245d401146adf02a3a8f996ab9"];
+  Node4677 -> Node4678 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4678 [label="remmina_crypt_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__crypt_8c.html#ae097c169aefdd5d83a57fc1bde511171"];
+  Node4677 -> Node4679 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4679 [label="remmina_crypt_encrypt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__crypt_8c.html#aa02cf0fed3eb68d6a89815c3ba3bf7b1"];
+  Node4679 -> Node4678 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4677 -> Node4677 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4666 -> Node4680 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4680 [label="remmina_public_split\l_resolution_string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__public_8c.html#aaf3fdb980c24cd06965b85ebcdd79173"];
+  Node4665 -> Node4681 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4681 [label="remmina_plugin_manager\l_get_export_file_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__plugin__manager_8c.html#afce14b101da527ada9b44a4503e91e07"];
+  Node4665 -> Node4682 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4682 [label="remmina_file_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#abd2f06bf0a5ddcf7156e5ef7d0c8d4d7"];
+}

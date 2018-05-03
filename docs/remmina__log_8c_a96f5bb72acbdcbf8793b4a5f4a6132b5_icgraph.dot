@@ -1,0 +1,33 @@
+digraph "remmina_log_running"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node391 [label="remmina_log_running",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node391 -> Node392 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node392 [label="remmina_ssh_init_session",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8h.html#a624b8ac30ddcd00ebda0b51d504f5a33"];
+  Node392 -> Node393 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node393 [label="remmina_protocol_widget\l_init_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a8c7b715825ff576b24d2878976d20f20"];
+  Node393 -> Node394 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node394 [label="remmina_protocol_widget\l_start_direct_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#a9d55210413d6a313478f81cf76ecf1b7",tooltip="Start an SSH tunnel if possible and return the host:port string. "];
+  Node393 -> Node395 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node395 [label="remmina_protocol_widget\l_start_reverse_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#aa6d9f2f558fcd9e7fe58eefcde1c3c5c"];
+  Node393 -> Node396 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node396 [label="remmina_protocol_widget\l_start_xport_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4"];
+  Node392 -> Node397 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node397 [label="remmina_sftp_client\l_thread_main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#aea3e3b72fb51d466fee78af11234d7b7"];
+  Node397 -> Node398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node398 [label="remmina_sftp_client\l_on_newtask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a788420fb944ee5059cbc53f8648e9636"];
+  Node398 -> Node399 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node399 [label="remmina_sftp_client_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a52b86e14d8abd0a5b6ddeb464a22a5f0"];
+  Node392 -> Node400 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node400 [label="remmina_sftp_client\l_new_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a65bc7fd4a50bc7d1aa9de2d3ae6b2282"];
+  Node392 -> Node401 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node401 [label="remmina_plugin_sftp\l_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9"];
+  Node401 -> Node402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node402 [label="remmina_plugin_sftp\l_open_connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4"];
+  Node392 -> Node403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node403 [label="remmina_plugin_ssh\l_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee",tooltip="Remmina Protocol plugin main function. "];
+  Node403 -> Node404 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node404 [label="remmina_plugin_ssh\l_open_connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f",tooltip="Initialize the the main window properties and the pthread. "];
+}

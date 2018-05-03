@@ -1,0 +1,13 @@
+digraph "rf_Pointer_Free"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node81 [label="rf_Pointer_Free",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node81 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="rf_register_graphics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__graphics_8h.html#a95732c40c35499f3440715b6526279b1"];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="remmina_rdp_post_connect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#ac8d1ec82167ad20b7634ed545d4badbc"];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="remmina_rdp_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309"];
+}

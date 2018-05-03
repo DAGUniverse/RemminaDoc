@@ -75,6 +75,7 @@ var remmina__connection__window_8c =
     [ "remmina_connection_object_append_page", "remmina__connection__window_8c.html#ac06b41c974d5cfc6277f50b617a550bb", null ],
     [ "remmina_connection_object_create_scrolled_container", "remmina__connection__window_8c.html#a789a6a8ad49883d67479a264ef7befbe", null ],
     [ "remmina_connection_object_create_tab", "remmina__connection__window_8c.html#a888c4dd031e9366a3284cb34351865aa", null ],
+    [ "remmina_connection_object_delayed_window_present", "remmina__connection__window_8c.html#afd1bfcfb4c203544904a85aba87d4c88", null ],
     [ "remmina_connection_object_enter_protocol_widget", "remmina__connection__window_8c.html#a158cccca5a2fe5a770a99d8772ba62b2", null ],
     [ "remmina_connection_object_on_close_button_clicked", "remmina__connection__window_8c.html#a4108c65715a02c0a7b570a2393027c2b", null ],
     [ "remmina_connection_object_on_connect", "remmina__connection__window_8c.html#a0ad685a873ecef95ec13caba17e0c22e", null ],

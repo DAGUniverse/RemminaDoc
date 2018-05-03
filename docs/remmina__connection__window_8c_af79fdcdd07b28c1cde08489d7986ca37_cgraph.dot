@@ -1,0 +1,42 @@
+digraph "remmina_connection_window_on_configure"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14640 [label="remmina_connection\l_window_on_configure",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14640 -> Node14641 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14641 [label="remmina_connection\l_window_after_configure\l_scrolled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#ac342d0fa24e77d124fa84dece8b13feb"];
+  Node14641 -> Node14642 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14642 [label="remmina_file_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#af153b0d289ac93f6ecdaa15d5f3b9b8c"];
+  Node14640 -> Node14643 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14643 [label="remmina_connection\l_holder_floating_toolbar\l_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a2b7b33331e6fe8c8c70be62038f9f5ea"];
+  Node14643 -> Node14644 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14644 [label="remmina_connection\l_holder_floating_toolbar\l_motion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a0a92f6f998590a56e44964f0345f942b"];
+  Node14640 -> Node14645 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14645 [label="remmina_connection\l_holder_check_resize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#adf48e258e535235d29c9638333488920"];
+  Node14645 -> Node14646 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14646 [label="remmina_connection\l_holder_get_desktop_size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#acf5d62eb5dda2e3a1a76c4bcbb926fb8"];
+  Node14646 -> Node14647 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14647 [label="remmina_protocol_widget\l_get_width",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#aaf355ea7103fc57a4cbc7b815cde2995"];
+  Node14646 -> Node14648 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14648 [label="remmina_protocol_widget\l_get_height",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#ae609b351fff17c235251b0ba7c480da5"];
+  Node14645 -> Node14649 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14649 [label="remmina_protocol_widget\l_get_expand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a25bcb2ae99449624fed6f770218e3d25"];
+  Node14645 -> Node14650 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14650 [label="remmina_file_get_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66"];
+  Node14645 -> Node14642 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14645 -> Node14651 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14651 [label="remmina_connection\l_holder_toolbar_autofit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#ac679e10d8be64d56ed13043dd4df7d1c"];
+  Node14651 -> Node14652 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14652 [label="remmina_connection\l_holder_toolbar_autofit\l_restore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a92a6aa97bc751b0c096583a66351ada1"];
+  Node14652 -> Node14646 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14652 -> Node14653 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14653 [label="remmina_connection\l_object_set_scrolled\l_policy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#ae80a730a48eefb689b9957c4f669a020"];
+  Node14653 -> Node14654 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14654 [label="get_current_allowed\l_scale_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#abbc84b2c450f62c288ff827c5d2c5cd2"];
+  Node14654 -> Node14655 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14655 [label="remmina_protocol_widget\l_get_current_scale_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a5ec62969da54155e24edcb1d998f93f7"];
+  Node14654 -> Node14656 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14656 [label="remmina_protocol_widget\l_query_feature_by_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#adbe15328275677cb38bd8c8a2d5e039d"];
+  Node14656 -> Node14650 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

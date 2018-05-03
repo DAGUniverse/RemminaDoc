@@ -103,6 +103,7 @@ var searchData=
   ['compact',['compact',['../struct___remmina_protocol_setting.html#ab434990a6fe70b7e8a4a8b11129527a6',1,'_RemminaProtocolSetting']]],
   ['complete',['complete',['../structremmina__masterthread__exec__data.html#a2609267a5c4dcf8b9cbe411ee51656d9',1,'remmina_masterthread_exec_data::complete()'],['../structremmina__plugin__rdp__ui__object.html#a64657b5e71205d98805ca66b01bfae3c',1,'remmina_plugin_rdp_ui_object::complete()']]],
   ['composition_5fcheck',['composition_check',['../struct___remmina_plugin_rdpset_grid.html#aaddc109b8404a5bbca0c8b0810ae922e',1,'_RemminaPluginRdpsetGrid']]],
+  ['compression',['compression',['../struct___remmina_s_s_h.html#ab017331f59fceff63bb33ff00d088870',1,'_RemminaSSH']]],
   ['connect',['connect',['../struct___remmina_protocol_widget_class.html#a5cf457e2e48c9c2b831b0c8a4f88c760',1,'_RemminaProtocolWidgetClass']]],
   ['connect_5ffunc',['connect_func',['../struct___remmina_s_s_h_tunnel.html#aa904bb1d9f643f6fde2b0eea4a8b1660',1,'_RemminaSSHTunnel']]],
   ['connected',['connected',['../struct___remmina_connection_object.html#aed1d667ed3085ee229c0dfdcf715084d',1,'_RemminaConnectionObject::connected()'],['../structrf__context.html#a3c2ffa55ba97bc70324d61b8cc838e73',1,'rf_context::connected()'],['../struct___remmina_plugin_vnc_data.html#ab105fe07330946ed3687ad2d06fabe95',1,'_RemminaPluginVncData::connected()']]],

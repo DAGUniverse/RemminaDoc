@@ -86,7 +86,112 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g.html','');});
 <div class="title">Change Log </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.26">v1.2.0-rcgit.26</a> (2017-12-28)</h2>
+<div class="textblock"><h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.29">v1.2.0-rcgit.29</a> (2018-04-08)</h2>
+<p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.28...v1.2.0-rcgit.29">Full Changelog</a></p>
+<p><b>Merged pull requests:</b></p>
+<ul>
+<li>Update Czech translation <a href="https://github.com/FreeRDP/Remmina/pull/1555">#1555</a> (<a href="https://github.com/AsciiWolf">AsciiWolf</a>)</li>
+<li>Switch back to x11 GTK backend under Wayland <a href="https://github.com/FreeRDP/Remmina/pull/1554">#1554</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>TCP_USER_TIMEOUT is in milliseconds <a href="https://github.com/FreeRDP/Remmina/pull/1553">#1553</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Disable VNCI plugin <a href="https://github.com/FreeRDP/Remmina/pull/1550">#1550</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Fix typo <a href="https://github.com/FreeRDP/Remmina/pull/1549">#1549</a> (<a href="https://github.com/mfvescovi">mfvescovi</a>)</li>
+<li>Missing secret plugin handling <a href="https://github.com/FreeRDP/Remmina/pull/1548">#1548</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Fixes for rcgit-28 <a href="https://github.com/FreeRDP/Remmina/pull/1547">#1547</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+</ul>
+<h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.28">v1.2.0-rcgit.28</a> (2018-04-03)</h2>
+<p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.27...v1.2.0-rcgit.28">Full Changelog</a></p>
+<p><b>Implemented enhancements:</b></p>
+<ul>
+<li>window has no focus when open ssh sessions <a href="https://github.com/FreeRDP/Remmina/issues/1530">#1530</a></li>
+<li>Enhancement - Variables for pre- and post-commands <a href="https://github.com/FreeRDP/Remmina/issues/1485">#1485</a></li>
+<li>Register and support opening rdp files - Mime improvements <a href="https://github.com/FreeRDP/Remmina/pull/1497">#1497</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Profile and group name niddles in the pre/post commands <a href="https://github.com/FreeRDP/Remmina/pull/1492">#1492</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Add xdmcp protocol to Keywords <a href="https://github.com/FreeRDP/Remmina/pull/1491">#1491</a> (<a href="https://github.com/mfvescovi">mfvescovi</a>)</li>
+<li>flatpak: update manifest file <a href="https://github.com/FreeRDP/Remmina/pull/1480">#1480</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+</ul>
+<p><b>Fixed bugs:</b></p>
+<ul>
+<li>Remmina fails to connect to SSH server without compression since 1.2.0-rcgit-27 (git rcgit-27) <a href="https://github.com/FreeRDP/Remmina/issues/1505">#1505</a></li>
+<li>Pasting something that was copied in another VM that has since been closed causes crash <a href="https://github.com/FreeRDP/Remmina/issues/1484">#1484</a></li>
+<li>SSH password authentication failed Wrong state during pending SSH call <a href="https://github.com/FreeRDP/Remmina/issues/1428">#1428</a></li>
+<li>Fix clipboard cleanup, fixes issue #1484 <a href="https://github.com/FreeRDP/Remmina/pull/1486">#1486</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+</ul>
+<p><b>Closed issues:</b></p>
+<ul>
+<li>Is it possible to install to SailfishOS ? <a href="https://github.com/FreeRDP/Remmina/issues/1540">#1540</a></li>
+<li>Icon missing in Gnome Activities on Fedora 27 <a href="https://github.com/FreeRDP/Remmina/issues/1534">#1534</a></li>
+<li>Wrong state during pending SSH call - only one particular server affected <a href="https://github.com/FreeRDP/Remmina/issues/1525">#1525</a></li>
+<li>Remmina Application - unable to find when searching or pin to launcher <a href="https://github.com/FreeRDP/Remmina/issues/1521">#1521</a></li>
+<li>AppStream metadata <a href="https://github.com/FreeRDP/Remmina/issues/1520">#1520</a></li>
+<li>Problem connecting to Windows machine since this last patch Tuesday <a href="https://github.com/FreeRDP/Remmina/issues/1515">#1515</a></li>
+<li>No RDP connections to Windows 10 1803 <a href="https://github.com/FreeRDP/Remmina/issues/1512">#1512</a></li>
+<li>RDP to Windows on custom port <a href="https://github.com/FreeRDP/Remmina/issues/1509">#1509</a></li>
+<li>Unable to connect to RDP <a href="https://github.com/FreeRDP/Remmina/issues/1501">#1501</a></li>
+<li>Dependency Error installing v1.2 on Debian Stretch <a href="https://github.com/FreeRDP/Remmina/issues/1481">#1481</a></li>
+<li>Can't build version 1.2.0-rcgit27 on openSUSE Tumbleweed <a href="https://github.com/FreeRDP/Remmina/issues/1476">#1476</a></li>
+<li>Crash on RDP connection <a href="https://github.com/FreeRDP/Remmina/issues/1475">#1475</a></li>
+<li>this error message occur. i can not install remmina at tails. <a href="https://github.com/FreeRDP/Remmina/issues/1473">#1473</a></li>
+<li>RDP on Custom Port <a href="https://github.com/FreeRDP/Remmina/issues/1465">#1465</a></li>
+<li>Remmina does not save password <a href="https://github.com/FreeRDP/Remmina/issues/1440">#1440</a></li>
+<li>Telepathy plugin can not be built on openSUSE using 1.2.0-rcgit.26 <a href="https://github.com/FreeRDP/Remmina/issues/1432">#1432</a></li>
+<li>Please don't change releases after you publish them <a href="https://github.com/FreeRDP/Remmina/issues/1231">#1231</a></li>
+<li>clipboard not synchonizing between RDP sessions and host <a href="https://github.com/FreeRDP/Remmina/issues/556">#556</a></li>
+</ul>
+<p><b>Merged pull requests:</b></p>
+<ul>
+<li>Minor improvements on secure plugin and SNAP welcome message <a href="https://github.com/FreeRDP/Remmina/pull/1545">#1545</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Remove SNAP build from Travis <a href="https://github.com/FreeRDP/Remmina/pull/1544">#1544</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>telepathy: add dbus-glib-1 to link flags <a href="https://github.com/FreeRDP/Remmina/pull/1543">#1543</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>stats: detect flatpak sandbox at runtime <a href="https://github.com/FreeRDP/Remmina/pull/1541">#1541</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>Refactoring <a href="https://github.com/FreeRDP/Remmina/pull/1537">#1537</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Redesign - Removed icons where not needed <a href="https://github.com/FreeRDP/Remmina/pull/1535">#1535</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Delay and use gtk_window_present_with_time() <a href="https://github.com/FreeRDP/Remmina/pull/1533">#1533</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Make compilation and stats collection FLATPAK aware <a href="https://github.com/FreeRDP/Remmina/pull/1527">#1527</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Update flatpak manifest according to feedback from Flathub <a href="https://github.com/FreeRDP/Remmina/pull/1526">#1526</a> (<a href="https://github.com/larchunix">larchunix</a>)</li>
+<li>Update fr.po <a href="https://github.com/FreeRDP/Remmina/pull/1524">#1524</a> (<a href="https://github.com/DevDef">DevDef</a>)</li>
+<li>Fixes for fedora bugs - desktop file and AppStream metadata <a href="https://github.com/FreeRDP/Remmina/pull/1523">#1523</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Desktop data fixes <a href="https://github.com/FreeRDP/Remmina/pull/1522">#1522</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Fixes for snapcraft.yaml <a href="https://github.com/FreeRDP/Remmina/pull/1519">#1519</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Updated Hungarian translation <a href="https://github.com/FreeRDP/Remmina/pull/1517">#1517</a> (<a href="https://github.com/meskobalazs">meskobalazs</a>)</li>
+<li>Removed compression option as not compatible with all SSH servers <a href="https://github.com/FreeRDP/Remmina/pull/1506">#1506</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Fixes segmentation fault reported by #1499 <a href="https://github.com/FreeRDP/Remmina/pull/1503">#1503</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+</ul>
+<h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.27">v1.2.0-rcgit.27</a> (2018-02-14)</h2>
+<p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.26...v1.2.0-rcgit.27">Full Changelog</a></p>
+<p><b>Implemented enhancements:</b></p>
+<ul>
+<li>Remmina usage statistics collection. <a href="https://github.com/FreeRDP/Remmina/pull/1472">#1472</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Remmina stats: Profiles and protocols counter <a href="https://github.com/FreeRDP/Remmina/pull/1463">#1463</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Updated freerdp on flatpak definition file <a href="https://github.com/FreeRDP/Remmina/pull/1451">#1451</a> (<a href="https://github.com/daper">daper</a>)</li>
+</ul>
+<p><b>Fixed bugs:</b></p>
+<ul>
+<li>RDP + DYNRES: Screen is black immediately after connection and becames visible only later when DISP_DVC_CHANNEL_NAME is connected <a href="https://github.com/FreeRDP/Remmina/issues/1442">#1442</a></li>
+</ul>
+<p><b>Closed issues:</b></p>
+<ul>
+<li>Please help, ERRCONNECT_LOGON_TYPE_NOT_GRANTED <a href="https://github.com/FreeRDP/Remmina/issues/1457">#1457</a></li>
+<li>Remmina: black flash and connection closed (cannot connect to Windows 10 17074.1002 with Remmina 1.2.0-rcgit-26 (git rcgit-26)) <a href="https://github.com/FreeRDP/Remmina/issues/1456">#1456</a></li>
+<li>Artifacts and Glitches with PeopleSoft App Designer <a href="https://github.com/FreeRDP/Remmina/issues/1452">#1452</a></li>
+<li>Support for AVC 444 mode <a href="https://github.com/FreeRDP/Remmina/issues/1449">#1449</a></li>
+<li>"save password" option not work <a href="https://github.com/FreeRDP/Remmina/issues/1444">#1444</a></li>
+<li>Shared clipboard not work both Gnome and Unity <a href="https://github.com/FreeRDP/Remmina/issues/1443">#1443</a></li>
+<li>segfault <a href="https://github.com/FreeRDP/Remmina/issues/1425">#1425</a></li>
+<li>Remmina SNAP can't still access keyring to save passwords <a href="https://github.com/FreeRDP/Remmina/issues/1404">#1404</a></li>
+<li>Remmina 1.2 displays lots artifacts when scrolling/zooming in MS Access print preview, but latest xfreerdp and old Remmina 1.1.2 works correctly <a href="https://github.com/FreeRDP/Remmina/issues/1387">#1387</a></li>
+</ul>
+<p><b>Merged pull requests:</b></p>
+<ul>
+<li>Add OS info for Solus <a href="https://github.com/FreeRDP/Remmina/pull/1474">#1474</a> (<a href="https://github.com/der-eismann">der-eismann</a>)</li>
+<li>Stats - Bugfixing <a href="https://github.com/FreeRDP/Remmina/pull/1471">#1471</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Stats - Last time each protocol has been used. <a href="https://github.com/FreeRDP/Remmina/pull/1470">#1470</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Add initial [MS-RDPEGFX] software support <a href="https://github.com/FreeRDP/Remmina/pull/1468">#1468</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>Added lsb functions <a href="https://github.com/FreeRDP/Remmina/pull/1464">#1464</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Permit SCALE_MODE_DYNRES before DISP_DVC_CHANNEL_NAME is enabled. <a href="https://github.com/FreeRDP/Remmina/pull/1446">#1446</a> (<a href="https://github.com/giox069">giox069</a>)</li>
+<li>OS stats and code cleaning <a href="https://github.com/FreeRDP/Remmina/pull/1445">#1445</a> (<a href="https://github.com/antenore">antenore</a>)</li>
+<li>Ensure the return value is initialized <a href="https://github.com/FreeRDP/Remmina/pull/1433">#1433</a> (<a href="https://github.com/weberhofer">weberhofer</a>)</li>
+</ul>
+<h2><a href="https://github.com/FreeRDP/Remmina/tree/v1.2.0-rcgit.26">v1.2.0-rcgit.26</a> (2017-12-28)</h2>
 <p><a href="https://github.com/FreeRDP/Remmina/compare/v1.2.0-rcgit.25...v1.2.0-rcgit.26">Full Changelog</a></p>
 <p><b>Fixed bugs:</b></p>
 <ul>
@@ -881,7 +986,6 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g.html','');});
 <li>remmina: _g_log_abort(): remmina killed by SIGTRAP <a href="https://github.com/FreeRDP/Remmina/issues/671">#671</a></li>
 <li>Concurrent remote desktop sessions on Win XP Pro <a href="https://github.com/FreeRDP/Remmina/issues/670">#670</a></li>
 <li>Optimize screen space usage <a href="https://github.com/FreeRDP/Remmina/issues/661">#661</a></li>
-<li>clipboard not synchonizing between RDP sessions and host <a href="https://github.com/FreeRDP/Remmina/issues/556">#556</a></li>
 <li>FTBS 1.0.0 : ld - undefined reference to symbol 'g_module_symbol' &ndash; links.txt missing necessary libraries <a href="https://github.com/FreeRDP/Remmina/issues/182">#182</a></li>
 </ul>
 <p><b>Merged pull requests:</b></p>
@@ -1134,7 +1238,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g.html','');});
 <li>Remmina Crashes During RDP Session when Context Menu Item Clicked <a href="https://github.com/FreeRDP/Remmina/issues/418">#418</a></li>
 <li>Host key change not indicated in Remmina GUI <a href="https://github.com/FreeRDP/Remmina/issues/407">#407</a></li>
 <li>Copy/paste inop Windows to Mint 17 <a href="https://github.com/FreeRDP/Remmina/issues/404">#404</a></li>
-<li><a class="el" href="remmina__ssh__plugin_8h.html">remmina/src/remmina_ssh_plugin.h</a> should also check for HAVE_LIBVTE <a href="https://github.com/FreeRDP/Remmina/issues/394">#394</a></li>
+<li>remmina/src/remmina_ssh_plugin.h should also check for HAVE_LIBVTE <a href="https://github.com/FreeRDP/Remmina/issues/394">#394</a></li>
 <li>I have to click on "Resize the window to fit remote resolution" to see my RDP session. <a href="https://github.com/FreeRDP/Remmina/issues/387">#387</a></li>
 <li>Please create an AppData file for Remmina <a href="https://github.com/FreeRDP/Remmina/issues/272">#272</a></li>
 <li>"Protocol plugin RDP is not installed."/The Application Not Recognizing the RDP Plugin <a href="https://github.com/FreeRDP/Remmina/issues/249">#249</a></li>

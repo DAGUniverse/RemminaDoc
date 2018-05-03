@@ -1,0 +1,19 @@
+digraph "remmina_connection_holder_toolbar_minimize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7520 [label="remmina_connection\l_holder_toolbar_minimize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7520 -> Node7521 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7521 [label="remmina_connection\l_holder_floating_toolbar_show",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a147924e56eceebe1f61e47bf5af2218a"];
+  Node7521 -> Node7522 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7522 [label="remmina_connection\l_holder_update_toolbar\l_opacity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#aac6895538e595984302a03c07bc51fbe"];
+  Node7522 -> Node7523 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7523 [label="remmina_file_get_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66"];
+  Node7521 -> Node7524 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7524 [label="remmina_connection\l_holder_floating_toolbar\l_make_invisible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#af12f8b64866588b7b2360cbc2681ec40"];
+  Node7521 -> Node7525 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7525 [label="remmina_connection\l_holder_floating_toolbar\l_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a2b7b33331e6fe8c8c70be62038f9f5ea"];
+  Node7525 -> Node7526 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7526 [label="remmina_connection\l_holder_floating_toolbar\l_motion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a0a92f6f998590a56e44964f0345f942b"];
+}

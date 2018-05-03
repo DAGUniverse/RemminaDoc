@@ -1,0 +1,16 @@
+digraph "remmina_connection_holder_toolbar_grab"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7455 [label="remmina_connection\l_holder_toolbar_grab",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7455 -> Node7456 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7456 [label="remmina_file_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#af153b0d289ac93f6ecdaa15d5f3b9b8c"];
+  Node7455 -> Node7457 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7457 [label="remmina_connection\l_holder_keyboard_grab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a6bcba3905245597b6393bbdc8a210e3d"];
+  Node7457 -> Node7458 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7458 [label="remmina_file_get_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#a4884356c195dcfb4ceacf641a1e74e66"];
+  Node7457 -> Node7459 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7459 [label="remmina_connection\l_holder_keyboard_ungrab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#af137217cf6ef1ea58f40781f54fd8fe9"];
+  Node7455 -> Node7459 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

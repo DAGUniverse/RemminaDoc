@@ -1,7 +1,7 @@
 var searchData=
 [
   ['kex_5falgorithms',['kex_algorithms',['../struct___remmina_s_s_h.html#ae4f1ed5a4852134afb89a00530601ae6',1,'_RemminaSSH']]],
-  ['key',['key',['../struct___remmina_plugin_vnc_event.html#a464a014fb0aef74b464587f351cdf49f',1,'_RemminaPluginVncEvent']]],
+  ['key',['key',['../struct___remmina_plugin_vnc_event.html#ae2ea336a1095367533cd70f3e01425c7',1,'_RemminaPluginVncEvent']]],
   ['key_5fcode',['key_code',['../structremmina__plugin__rdp__event.html#a6c91276b122d70b8e723e046f6dbd151',1,'remmina_plugin_rdp_event']]],
   ['key_5fevent',['key_event',['../structremmina__plugin__rdp__event.html#a18cb50afaa8b9df1759f87899892fdb6',1,'remmina_plugin_rdp_event']]],
   ['keyboard_5flayout',['keyboard_layout',['../rdp__settings_8c.html#a75d6e28b9664511ab5b048727befbf63',1,'rdp_settings.c']]],

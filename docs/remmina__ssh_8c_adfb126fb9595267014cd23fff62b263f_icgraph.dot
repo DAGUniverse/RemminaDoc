@@ -1,0 +1,25 @@
+digraph "remmina_ssh_tunnel_accept_local_connection"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node763 [label="remmina_ssh_tunnel\l_accept_local_connection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node763 -> Node764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node764 [label="remmina_ssh_tunnel\l_main_thread_proc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#a2c47bcbe038c0d5a393a781c96a5a549"];
+  Node764 -> Node765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node765 [label="remmina_ssh_tunnel\l_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#a879c1981a3b643529d64107a653016a6"];
+  Node765 -> Node766 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node766 [label="remmina_ssh_tunnel_open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8h.html#a52b3f47eac79f2781ba81d61505f4f53"];
+  Node766 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node767 [label="remmina_protocol_widget\l_start_direct_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#a9d55210413d6a313478f81cf76ecf1b7",tooltip="Start an SSH tunnel if possible and return the host:port string. "];
+  Node765 -> Node768 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node768 [label="remmina_ssh_tunnel_x11",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8h.html#ac6d58beb4df141c6353e897c39748146"];
+  Node765 -> Node769 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node769 [label="remmina_ssh_tunnel\l_xport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8h.html#aba49db2ced40e21e8adfad69dcfda2c4"];
+  Node769 -> Node770 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node770 [label="remmina_protocol_widget\l_start_xport_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4"];
+  Node765 -> Node771 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node771 [label="remmina_ssh_tunnel\l_reverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8h.html#ae47c8270267b02b9c0ff5b36074101c2"];
+  Node771 -> Node772 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node772 [label="remmina_protocol_widget\l_start_reverse_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#aa6d9f2f558fcd9e7fe58eefcde1c3c5c"];
+}

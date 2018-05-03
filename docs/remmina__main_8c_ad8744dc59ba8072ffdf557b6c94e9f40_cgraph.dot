@@ -1,0 +1,15 @@
+digraph "remmina_main_save_expanded_group"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5903 [label="remmina_main_save_expanded\l_group",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5903 -> Node5904 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5904 [label="remmina_string_array_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__string__array_8c.html#a8ab78913d299df665a408a8a5ec51bbe"];
+  Node5903 -> Node5905 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5905 [label="remmina_string_array_new",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__string__array_8c.html#aff90e964c6541b1af02adf7ea39e6e02"];
+  Node5903 -> Node5906 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5906 [label="remmina_main_save_expanded\l_group_func",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#a51880fc109db6457a5d0fc543c2deaf2"];
+  Node5906 -> Node5907 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5907 [label="remmina_string_array_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0"];
+}

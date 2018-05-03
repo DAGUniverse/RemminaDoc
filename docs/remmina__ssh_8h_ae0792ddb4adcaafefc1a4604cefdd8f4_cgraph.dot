@@ -1,0 +1,9 @@
+digraph "remmina_ssh_shell_new_from_ssh"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node603 [label="remmina_ssh_shell_new\l_from_ssh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node603 -> Node604 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node604 [label="remmina_ssh_init_from_ssh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#aa5915469eff4864d8d7dad218bfcf15d"];
+}

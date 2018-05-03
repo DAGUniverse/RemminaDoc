@@ -37,6 +37,7 @@ var searchData=
   ['button_5foptions_5fresolutions',['button_options_resolutions',['../struct___remmina_pref_dialog.html#a6fb085d3efced0a38d3d7d38e1eb5903',1,'_RemminaPrefDialog']]],
   ['button_5fquick_5fconnect',['button_quick_connect',['../struct___remmina_main.html#aebb188bd83f8dcfb80cad10e43181774',1,'_RemminaMain']]],
   ['button_5fremove',['button_remove',['../struct___remmina_string_list.html#af41585699fdfd456f848177457cd3500',1,'_RemminaStringList']]],
+  ['button_5fterm_5fcs',['button_term_cs',['../struct___remmina_pref_dialog.html#a3fe278a66ed7fba91a944df3c60dd7b6',1,'_RemminaPrefDialog']]],
   ['button_5fup',['button_up',['../struct___remmina_string_list.html#a3e12b99b6faad1a1f17fab96cf41ae65',1,'_RemminaStringList']]],
   ['bytesperpixel',['bytesPerPixel',['../struct___remmina_plugin_screenshot_data.html#aa0f78eb9b36ba248c2e368684903ae44',1,'_RemminaPluginScreenshotData']]]
 ];

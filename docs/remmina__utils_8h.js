@@ -1,6 +1,6 @@
 var remmina__utils_8h =
 [
-    [ "remmina_utils_get_etc_release", "remmina__utils_8h.html#a3a4890c24ee976284941d102e99baf5d", null ],
+    [ "remmina_utils_get_etc_release", "remmina__utils_8h.html#a54cee350c4ecc6e77af835c4ba90df4c", null ],
     [ "remmina_utils_get_kernel_arch", "remmina__utils_8h.html#a116e7cd4565386fe531d3a6d1a3d3730", null ],
     [ "remmina_utils_get_kernel_name", "remmina__utils_8h.html#abfc722d07d9936711794411bfbed0522", null ],
     [ "remmina_utils_get_kernel_release", "remmina__utils_8h.html#a57603aa88df56e77e1a6de0f215f21aa", null ],

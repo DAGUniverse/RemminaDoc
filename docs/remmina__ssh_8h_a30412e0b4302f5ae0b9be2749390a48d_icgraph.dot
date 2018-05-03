@@ -1,0 +1,11 @@
+digraph "remmina_ssh_shell_new_from_file"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node600 [label="remmina_ssh_shell_new\l_from_file",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node600 -> Node601 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node601 [label="remmina_plugin_ssh\l_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee",tooltip="Remmina Protocol plugin main function. "];
+  Node601 -> Node602 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node602 [label="remmina_plugin_ssh\l_open_connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f",tooltip="Initialize the the main window properties and the pthread. "];
+}

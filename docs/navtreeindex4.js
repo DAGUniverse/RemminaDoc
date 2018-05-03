@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"remmina__file__manager_8c.html#a4d6280ce5d9e70ceb43dd24639d843d3":[23,0,55,2],
+"remmina__file__manager_8c.html#a536edeef371d907ab3936f4d65c3003d":[23,0,55,5],
 "remmina__file__manager_8c.html#a55a717aafc046713380bd2c55f29165a":[23,0,55,7],
 "remmina__file__manager_8c.html#a6593a3f297f420f012405fa582819857":[23,0,55,4],
 "remmina__file__manager_8c.html#aa65bc30beb59d607ba430d966e7e27f5":[23,0,55,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "remmina__main_8c.html#a299af930ccc31354dc299941c22271aa":[23,0,69,43],
 "remmina__main_8c.html#a2a6ba822ef89ef8ad9f19340c2c8b7f5":[23,0,69,27],
 "remmina__main_8c.html#a2c1c8035b35bd42ce2628950cbaabaf9":[23,0,69,47],
-"remmina__main_8c.html#a2ca39ab0b22fd98257504ded7eeec618":[23,0,69,41],
-"remmina__main_8c.html#a2d8aed506a9e65e444507b6eae74bbb0":[23,0,69,29],
-"remmina__main_8c.html#a31102f8ca7440a22c1514bca17933193":[23,0,69,16]
+"remmina__main_8c.html#a2ca39ab0b22fd98257504ded7eeec618":[23,0,69,41]
 };

@@ -1,0 +1,19 @@
+digraph "remmina_protocol_widget_init"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2099 [label="remmina_protocol_widget_init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2099 -> Node2100 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2100 [label="remmina_protocol_widget\l_destroy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a7e54d9bb42d2d337527d3af657ef1e1f"];
+  Node2100 -> Node2101 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2101 [label="remmina_protocol_widget\l_hide_init_dialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a62caf5696f67badbc6e4c20f68a3a15e"];
+  Node2099 -> Node2102 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2102 [label="remmina_protocol_widget\l_connect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a072f2b57d184a77b56d171360dfcfb51"];
+  Node2102 -> Node2103 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2103 [label="remmina_ssh_tunnel\l_cancel_accept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#ae9f52b1a3a545acae8c93007e20ec909"];
+  Node2102 -> Node2101 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2099 -> Node2104 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2104 [label="remmina_protocol_widget\l_disconnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a5a5d4d4e76b14b6a6d4131edd9759f0c"];
+  Node2104 -> Node2101 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

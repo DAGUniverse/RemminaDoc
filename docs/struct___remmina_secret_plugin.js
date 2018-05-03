@@ -4,6 +4,7 @@ var struct___remmina_secret_plugin =
     [ "description", "struct___remmina_secret_plugin.html#a175d83898486e37aadd16279f559f659", null ],
     [ "domain", "struct___remmina_secret_plugin.html#a81ff30e7efe61fd0057184640baf545e", null ],
     [ "get_password", "struct___remmina_secret_plugin.html#aaa4bb101e0da125111dedf732a34b629", null ],
+    [ "is_service_available", "struct___remmina_secret_plugin.html#a207b9d92783bfb4b7d3f2d76175f4a49", null ],
     [ "name", "struct___remmina_secret_plugin.html#a197b28d8b71ccb0c91ce8bf27690968a", null ],
     [ "store_password", "struct___remmina_secret_plugin.html#a51dee378932c261da898e21c72ce899c", null ],
     [ "trusted", "struct___remmina_secret_plugin.html#aa977c937e8c1688c7af1b768c7b7c0f4", null ],

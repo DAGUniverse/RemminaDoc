@@ -1,0 +1,13 @@
+digraph "remmina_main_import_file_list"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1618 [label="remmina_main_import\l_file_list",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1618 -> Node1619 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1619 [label="remmina_main_action\l_tools_import_on_response",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#a85aa313453e0ecaa17bcce233973998d"];
+  Node1619 -> Node1620 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1620 [label="remmina_main_on_action\l_tools_import",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#a9e706f753d46c8efdb0b7f2b0539081e"];
+  Node1618 -> Node1621 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1621 [label="remmina_main_on_drag\l_data_received",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#adf073486149762f547504020484bff70"];
+}

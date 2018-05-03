@@ -4,7 +4,7 @@ var rdp__cliprdr_8c =
     [ "lf2crlf", "rdp__cliprdr_8c.html#a4f9d059736e69df00273ec853d15c772", null ],
     [ "remmina_rdp_clipboard_free", "rdp__cliprdr_8c.html#a4da95b96bf2c86b8f4cc63dcafdd1365", null ],
     [ "remmina_rdp_clipboard_init", "rdp__cliprdr_8c.html#ac3300142e3c2f416896948681ecd45f3", null ],
-    [ "remmina_rdp_cliprdr_detach_owner", "rdp__cliprdr_8c.html#a9a632fe72a00f2aef95b884a0dc60912", null ],
+    [ "remmina_rdp_cliprdr_detach_owner", "rdp__cliprdr_8c.html#a7d911246d8a6efed5a64b7ecd7b059bf", null ],
     [ "remmina_rdp_cliprdr_empty_clipboard", "rdp__cliprdr_8c.html#a719b6820f66508f8acb943a1bf1a495d", null ],
     [ "remmina_rdp_cliprdr_get_client_format_list", "rdp__cliprdr_8c.html#accb7cad54767b8f658b8ea438690ef4f", null ],
     [ "remmina_rdp_cliprdr_get_clipboard_data", "rdp__cliprdr_8c.html#a1875ac25f73dd93e4b716746e7c6b8d5", null ],

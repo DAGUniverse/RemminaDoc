@@ -1,0 +1,20 @@
+digraph "remmina_stats_get_wm_name"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node373 [label="remmina_stats_get_wm_name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node373 -> Node374 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node374 [label="remmina_sysinfo_get\l_gnome_shell_version",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f",tooltip="Query DBUS to get gnome shell version. "];
+  Node373 -> Node375 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node375 [label="remmina_log_print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#aca8f826a273194e22f4467421af9b3aa"];
+  Node375 -> Node376 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node376 [label="remmina_log_print_real",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1"];
+  Node376 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node377 [label="remmina_log_scroll\l_to_end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b"];
+  Node373 -> Node378 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node378 [label="remmina_log_printf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#ac7848510c1fe1990c992e28cd31af9d8"];
+  Node378 -> Node376 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node373 -> Node379 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node379 [label="remmina_sysinfo_get\l_wm_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sysinfo_8c.html#ae4441d62bb4075d1618b5750fea064b4",tooltip="Query environment variables to get the Window manager name. "];
+}

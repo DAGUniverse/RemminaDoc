@@ -1,0 +1,9 @@
+digraph "remmina_icon_create_autostart_file"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node351 [label="remmina_icon_create\l_autostart_file",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node351 -> Node352 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node352 [label="remmina_icon_save_autostart_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__icon_8c.html#a15b625603bb0eb191fca9e77d2821735"];
+}

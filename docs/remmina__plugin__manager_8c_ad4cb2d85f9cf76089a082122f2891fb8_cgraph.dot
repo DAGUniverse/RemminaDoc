@@ -1,0 +1,9 @@
+digraph "remmina_plugin_manager_register_plugin"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node800 [label="remmina_plugin_manager\l_register_plugin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node800 -> Node801 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node801 [label="remmina_plugin_manager\l_compare_func",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__plugin__manager_8c.html#ae78fa0b2eab8c987d810c6997b136d2e"];
+}

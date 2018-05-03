@@ -1,0 +1,15 @@
+digraph "remmina_rdp_event_process_event"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node341 [label="remmina_rdp_event_process\l_event",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node341 -> Node342 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node342 [label="remmina_rdp_ui_event\l_update_scale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ae0e0d42524cb165cd6d26553c104dbde"];
+  Node342 -> Node343 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node343 [label="remmina_rdp_event_update\l_scale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a64ce0c66bb4cb6ddaee263ce8563f497"];
+  Node343 -> Node344 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node344 [label="remmina_rdp_event_create\l_cairo_surface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a789ec99777755da7cae468216a74095a"];
+  Node343 -> Node345 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node345 [label="remmina_rdp_event_update\l_scale_factor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a6076424eb759c91ca9c8da59432c66d6"];
+}

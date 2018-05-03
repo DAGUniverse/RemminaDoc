@@ -1,0 +1,9 @@
+digraph "remmina_main_show_snap_welcome"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6629 [label="remmina_main_show_snap\l_welcome",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6629 -> Node6630 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6630 [label="remmina_main_on_show",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#aa4d9b76d32fa500f4b9f39a19e4eaaf2"];
+}

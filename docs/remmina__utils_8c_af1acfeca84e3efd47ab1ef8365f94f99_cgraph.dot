@@ -1,0 +1,13 @@
+digraph "remmina_utils_get_os_info"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node108 [label="remmina_utils_get_os_info",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node108 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node109 [label="remmina_utils_get_kernel_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#abfc722d07d9936711794411bfbed0522",tooltip="Return the OS name as in \"uname -s\". "];
+  Node108 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node110 [label="remmina_utils_get_kernel\l_release",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a57603aa88df56e77e1a6de0f215f21aa",tooltip="Return the OS version as in \"uname -r\". "];
+  Node108 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node111 [label="remmina_utils_get_kernel_arch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a116e7cd4565386fe531d3a6d1a3d3730",tooltip="Return the machine hardware name as in \"uname -m\". "];
+}

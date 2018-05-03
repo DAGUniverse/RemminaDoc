@@ -1,0 +1,9 @@
+digraph "remmina_rdp_cliprdr_get_client_format_list"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="remmina_rdp_cliprdr\l_get_client_format_list",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="remmina_rdp_cliprdr\l_get_format_from_gdkatom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a7eb7cd7eeab0e52c33721cc0564964ea"];
+}

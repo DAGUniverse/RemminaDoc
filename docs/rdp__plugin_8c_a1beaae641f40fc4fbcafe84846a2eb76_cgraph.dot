@@ -1,0 +1,15 @@
+digraph "remmina_rdp_close_connection"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="remmina_rdp_close_connection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="remmina_rdp_cliprdr\l_detach_owner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a7d911246d8a6efed5a64b7ecd7b059bf"];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="remmina_rdp_clipboard_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a4da95b96bf2c86b8f4cc63dcafdd1365"];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="remmina_rdp_event_uninit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a65eef99dc99f77be815a5da804ed94fc"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="remmina_rdp_event_free\l_event",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a40b4fd190055c10d5d2248a6eca5f50f"];
+}

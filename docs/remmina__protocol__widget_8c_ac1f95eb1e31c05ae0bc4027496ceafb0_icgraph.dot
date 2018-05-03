@@ -1,0 +1,9 @@
+digraph "remmina_protocol_widget_on_key_release"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3150 [label="remmina_protocol_widget\l_on_key_release",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3150 -> Node3151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3151 [label="remmina_protocol_widget\l_register_hostkey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#a13e14fa81f7ca52942415a7caf5b932c"];
+}

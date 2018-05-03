@@ -1,0 +1,13 @@
+digraph "remmina_protocol_widget_send_keystrokes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3724 [label="remmina_protocol_widget\l_send_keystrokes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3724 -> Node3725 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3725 [label="remmina_protocol_widget\l_plugin_receives_keystrokes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a480f842fac65440c367bf3c3d87d2601",tooltip="Check if the plugin accepts keystrokes. "];
+  Node3724 -> Node3726 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3726 [label="remmina_public_str\l_replace_in_place",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__public_8c.html#a8d7d9b3c8050545469b1af9a35b043a2"];
+  Node3726 -> Node3727 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3727 [label="remmina_public_str\l_replace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__public_8c.html#aea7547abe3a67e6126addc9ed91af640"];
+}

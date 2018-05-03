@@ -1,0 +1,21 @@
+digraph "remmina_main_on_action_help_debug"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4648 [label="remmina_main_on_action\l_help_debug",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4648 -> Node4649 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4649 [label="remmina_log_start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a72cf53183f3ef89c4208fdccb629003d"];
+  Node4649 -> Node4650 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4650 [label="remmina_log_window_new",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a070042aa580b708536dc793336722660"];
+  Node4649 -> Node4651 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4651 [label="remmina_log_end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a355067bd2e33d8942ad9d8af60c19f0c"];
+  Node4649 -> Node4652 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4652 [label="remmina_log_print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#aca8f826a273194e22f4467421af9b3aa"];
+  Node4652 -> Node4653 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4653 [label="remmina_log_print_real",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a7cbb8cc1b0525ae49248a84fb4b2b1a1"];
+  Node4653 -> Node4654 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4654 [label="remmina_log_scroll\l_to_end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a6a5cc60197293b97a0c6fa2a471b221b"];
+  Node4649 -> Node4655 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4655 [label="remmina_stat_sender\l_can_send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats__sender_8c.html#a5aa2104ccded08aa02dd2886f87af516"];
+}

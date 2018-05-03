@@ -89,5 +89,6 @@ var annotated_dup =
     [ "rf_clipboard", "structrf__clipboard.html", "structrf__clipboard" ],
     [ "rf_context", "structrf__context.html", "structrf__context" ],
     [ "rf_glyph", "structrf__glyph.html", "structrf__glyph" ],
-    [ "rf_pointer", "structrf__pointer.html", "structrf__pointer" ]
+    [ "rf_pointer", "structrf__pointer.html", "structrf__pointer" ],
+    [ "sc_tdata", "structsc__tdata.html", "structsc__tdata" ]
 ];

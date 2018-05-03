@@ -1,0 +1,15 @@
+digraph "remmina_rdp_cliprdr_server_format_list_response"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node515 [label="remmina_rdp_cliprdr\l_server_format_list\l_response",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node515 -> Node516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node516 [label="remmina_rdp_cliprdr_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8h.html#a9425378cc9b2da11eb4b866c8069e4aa"];
+  Node516 -> Node517 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node517 [label="remmina_rdp_OnChannelConnected\lEventHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__channels_8h.html#a759a6601ddb16301f0f6c39a6e88425a"];
+  Node517 -> Node518 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node518 [label="remmina_rdp_pre_connect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a0bc4113554537fd1a9e4c8bb9201e789"];
+  Node518 -> Node519 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node519 [label="remmina_rdp_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309"];
+}

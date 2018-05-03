@@ -1,0 +1,15 @@
+digraph "remmina_pref_init"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node126 [label="remmina_pref_init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node126 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 [label="remmina_pref_file_do_copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__pref_8c.html#a7829d615a6c5b8a6f6c759043fb2ac81"];
+  Node126 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node128 [label="remmina_pref_gen_secret",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__pref_8c.html#afc609e167e078f1991320f79e9f9157c"];
+  Node126 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node129 [label="remmina_pref_init_keymap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__pref_8c.html#aed7f3859d4306419932df15131987355"];
+  Node129 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node130 [label="remmina_pref_get_keyval\l_from_str",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__pref_8c.html#a0296a8f5b359547a0aa4cbffb914edd3"];
+}

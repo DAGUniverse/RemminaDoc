@@ -1,0 +1,9 @@
+digraph "remmina_connection_window_toolbar_place_signal"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16336 [label="remmina_connection\l_window_toolbar_place\l_signal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16336 -> Node16337 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16337 [label="remmina_connection\l_window_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a1b58d7fa4bb5b76f17451bd665854d9d"];
+}

@@ -22,6 +22,6 @@ var searchData=
   ['func_5finit_5fsave_5fcred',['FUNC_INIT_SAVE_CRED',['../structremmina__masterthread__exec__data.html#ae5951fca8e8142713d9af8243338366fa1331403ed8055144287216d142f28b8d',1,'remmina_masterthread_exec_data']]],
   ['func_5fprotocolwidget_5femit_5fsignal',['FUNC_PROTOCOLWIDGET_EMIT_SIGNAL',['../structremmina__masterthread__exec__data.html#ae5951fca8e8142713d9af8243338366fa1b51f5190ad4e06f321f04a2db473567',1,'remmina_masterthread_exec_data']]],
   ['func_5fsftp_5fclient_5fconfirm_5fresume',['FUNC_SFTP_CLIENT_CONFIRM_RESUME',['../structremmina__masterthread__exec__data.html#ae5951fca8e8142713d9af8243338366fa03356bb429da6e0c543c2adfb847ee09',1,'remmina_masterthread_exec_data']]],
-  ['func_5fupdate_5fscale',['FUNC_UPDATE_SCALE',['../structon_main_thread__cb__data.html#a2711b61c27e148e915294894bbda0fceaf505d0b00d46515c4ab37b643567af41',1,'onMainThread_cb_data']]],
+  ['func_5fupdate_5fscale',['FUNC_UPDATE_SCALE',['../structon_main_thread__cb__data.html#aa3d69aee9f584789fbada2418265a34daf505d0b00d46515c4ab37b643567af41',1,'onMainThread_cb_data']]],
   ['func_5fvte_5fterminal_5fset_5fencoding_5fand_5fpty',['FUNC_VTE_TERMINAL_SET_ENCODING_AND_PTY',['../structremmina__masterthread__exec__data.html#ae5951fca8e8142713d9af8243338366fa193782f6e0bc603b42a48f7d69695605',1,'remmina_masterthread_exec_data']]]
 ];

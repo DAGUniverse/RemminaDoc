@@ -1,0 +1,11 @@
+digraph "remmina_rdp_event_on_motion"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node332 [label="remmina_rdp_event_on\l_motion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node332 -> Node333 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node333 [label="remmina_rdp_event_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc"];
+  Node333 -> Node334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node334 [label="remmina_rdp_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309"];
+}

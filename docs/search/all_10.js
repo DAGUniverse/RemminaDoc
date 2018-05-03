@@ -1,10 +1,10 @@
 var searchData=
 [
+  ['quick_20and_20dirty_20guide_20for_20compiling_20remmina_20on_20arch',['Quick and dirty guide for compiling remmina on Arch',['../md__home_tmow_remmina_devel__remmina_8wiki__compile-on-_arch-_linux.html',1,'']]],
   ['quick_20and_20dirty_20guide_20for_20compiling_20remmina_20on_20debian_209',['Quick and dirty guide for compiling remmina on Debian 9',['../md__home_tmow_remmina_devel__remmina_8wiki__compile-on-_debian-9-_stretch.html',1,'']]],
   ['quick_20and_20dirty_20guide_20for_20compiling_20remmina_20on_20ubuntu_2014_2e04',['Quick and dirty guide for compiling remmina on ubuntu 14.04',['../md__home_tmow_remmina_devel__remmina_8wiki__compile-on-_ubuntu-14_804.html',1,'']]],
   ['quick_20and_20dirty_20guide_20for_20compiling_20remmina_20on_20ubuntu_2016_2e04',['Quick and dirty guide for compiling remmina on ubuntu 16.04',['../md__home_tmow_remmina_devel__remmina_8wiki__compile-on-_ubuntu-16_804.html',1,'']]],
-  ['quick_20and_20dirty_20guide_20for_20compiling_20remmina_20on_20ubuntu_2017_2e04',['Quick and dirty guide for compiling remmina on ubuntu 17.04',['../md__home_tmow_remmina_devel__remmina_8wiki__compile-on-_ubuntu-17_804.html',1,'']]],
-  ['quick_20and_20dirty_20guide_20for_20compiling_20remmina_20on_20arch',['Quick and dirty guide for compiling remmina on Arch',['../md__home_tmow_remmina_devel__remmina_8wiki__compile-_remmina-on-_arch-_linux.html',1,'']]],
+  ['quick_20and_20dirty_20guide_20for_20compiling_20remmina_20on_20ubuntu_2018_2e04',['Quick and dirty guide for compiling remmina on ubuntu 18.04',['../md__home_tmow_remmina_devel__remmina_8wiki__compile-on-_ubuntu-18_804.html',1,'']]],
   ['quality_5fcombo',['quality_combo',['../struct___remmina_plugin_rdpset_grid.html#a9a06aa388c5b2a6d50d921b169b3723b',1,'_RemminaPluginRdpsetGrid']]],
   ['quality_5flist',['quality_list',['../nx__plugin_8c.html#a64254af45bb17a5a40a3a0383daa3fe7',1,'quality_list():&#160;nx_plugin.c'],['../rdp__plugin_8c.html#a64254af45bb17a5a40a3a0383daa3fe7',1,'quality_list():&#160;rdp_plugin.c'],['../vnc__plugin_8c.html#a64254af45bb17a5a40a3a0383daa3fe7',1,'quality_list():&#160;vnc_plugin.c']]],
   ['quality_5fstore',['quality_store',['../struct___remmina_plugin_rdpset_grid.html#a136e2daf6819eb2b3d83d20dab6f6621',1,'_RemminaPluginRdpsetGrid']]],

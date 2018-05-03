@@ -1,0 +1,15 @@
+digraph "remmina_connection_window_init"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14084 [label="remmina_connection\l_window_init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14084 -> Node14085 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14085 [label="remmina_widget_pool\l_register",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__widget__pool_8c.html#ae3c9c9853eb5bedbfeadbfac1d495b95"];
+  Node14085 -> Node14086 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14086 [label="remmina_widget_pool\l_on_widget_destroy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__widget__pool_8c.html#aa5fd17580202843eab40cabb258d2664"];
+  Node14084 -> Node14087 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14087 [label="remmina_connection\l_window_toolbar_place\l_signal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a80906d852763452c11199efbbb1d4cf3"];
+  Node14087 -> Node14088 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14088 [label="remmina_connection\l_holder_place_toolbar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#a3627c2a73e45f25e4672fcce27af9a18"];
+}

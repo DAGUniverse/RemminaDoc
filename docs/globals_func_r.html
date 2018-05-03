@@ -427,6 +427,9 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 <li>remmina_connection_object_create_tab()
 : <a class="el" href="remmina__connection__window_8c.html#a888c4dd031e9366a3284cb34351865aa">remmina_connection_window.c</a>
 </li>
+<li>remmina_connection_object_delayed_window_present()
+: <a class="el" href="remmina__connection__window_8c.html#afd1bfcfb4c203544904a85aba87d4c88">remmina_connection_window.c</a>
+</li>
 <li>remmina_connection_object_enter_protocol_widget()
 : <a class="el" href="remmina__connection__window_8c.html#a158cccca5a2fe5a770a99d8772ba62b2">remmina_connection_window.c</a>
 </li>
@@ -1365,6 +1368,9 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 <li>remmina_main_selection_func()
 : <a class="el" href="remmina__main_8c.html#a3c5043279b5d98d4d08635d33402ea66">remmina_main.c</a>
 </li>
+<li>remmina_main_show_snap_welcome()
+: <a class="el" href="remmina__main_8c.html#ab08aae433b625c3a84330630fe2bd2d5">remmina_main.c</a>
+</li>
 <li>remmina_main_show_warning_dialog()
 : <a class="el" href="remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7">remmina_main.c</a>
 , <a class="el" href="remmina__main_8h.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7">remmina_main.h</a>
@@ -1396,8 +1402,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__masterthread__exec_8h.html#a7b90b9539fd1bffa1fdace50f9caf29c">remmina_masterthread_exec.h</a>
 </li>
 <li>remmina_masterthread_exec_save_main_thread_id()
-: <a class="el" href="remmina__masterthread__exec_8c.html#a4a595ce198f8adda31fe11348b0f734e">remmina_masterthread_exec.c</a>
-, <a class="el" href="remmina__masterthread__exec_8h.html#a3d6fe9efdc6b84c16d99809003cfc850">remmina_masterthread_exec.h</a>
+: <a class="el" href="remmina__masterthread__exec_8h.html#a3d6fe9efdc6b84c16d99809003cfc850">remmina_masterthread_exec.h</a>
+, <a class="el" href="remmina__masterthread__exec_8c.html#a4a595ce198f8adda31fe11348b0f734e">remmina_masterthread_exec.c</a>
 </li>
 <li>remmina_mpchange_checkbox_toggle()
 : <a class="el" href="remmina__mpchange_8c.html#aa872ba9de3be7ccd116881cee84c8b85">remmina_mpchange.c</a>
@@ -1604,12 +1610,12 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="exec__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">exec_plugin.c</a>
 , <a class="el" href="nx__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">nx_plugin.c</a>
 , <a class="el" href="rdp__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">rdp_plugin.c</a>
+, <a class="el" href="glibsecret__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">glibsecret_plugin.c</a>
 , <a class="el" href="spice__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">spice_plugin.c</a>
 , <a class="el" href="telepathy__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">telepathy_plugin.c</a>
 , <a class="el" href="plugin_8c.html#a56e5020de11446dbc23f3480e313f208">plugin.c</a>
 , <a class="el" href="vnc__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">vnc_plugin.c</a>
 , <a class="el" href="xdmcp__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">xdmcp_plugin.c</a>
-, <a class="el" href="glibsecret__plugin_8c.html#a56e5020de11446dbc23f3480e313f208">glibsecret_plugin.c</a>
 </li>
 <li>remmina_plugin_exec_close()
 : <a class="el" href="exec__plugin_8c.html#a775ebb715d8db084d673e05ae526c088">exec_plugin.c</a>
@@ -1625,6 +1631,9 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 </li>
 <li>remmina_plugin_glibsecret_get_password()
 : <a class="el" href="glibsecret__plugin_8c.html#ab0ff9ff94233f3241b8ce555a534a520">glibsecret_plugin.c</a>
+</li>
+<li>remmina_plugin_glibsecret_is_service_available()
+: <a class="el" href="glibsecret__plugin_8c.html#a7bcbee29ba82169fba3272b233603ea9">glibsecret_plugin.c</a>
 </li>
 <li>remmina_plugin_glibsecret_store_password()
 : <a class="el" href="glibsecret__plugin_8c.html#a6b913cc3dd8c30d0acb725e57c6b3853">glibsecret_plugin.c</a>
@@ -2098,15 +2107,15 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__pref__dialog_8c.html#a18bfbeb5d049a9f37f7624199b2b864a">remmina_pref_dialog.c</a>
 </li>
 <li>remmina_pref_dialog_get_dialog()
-: <a class="el" href="remmina__pref__dialog_8c.html#af87f153e3fc696f76da732d8e431be5a">remmina_pref_dialog.c</a>
-, <a class="el" href="remmina__pref__dialog_8h.html#aa8862957212096ddda372be1310c8bd4">remmina_pref_dialog.h</a>
+: <a class="el" href="remmina__pref__dialog_8h.html#aa8862957212096ddda372be1310c8bd4">remmina_pref_dialog.h</a>
+, <a class="el" href="remmina__pref__dialog_8c.html#af87f153e3fc696f76da732d8e431be5a">remmina_pref_dialog.c</a>
 </li>
 <li>remmina_pref_dialog_init()
 : <a class="el" href="remmina__pref__dialog_8c.html#a9a050b69e373c90ea7d400aa94f34344">remmina_pref_dialog.c</a>
 </li>
 <li>remmina_pref_dialog_new()
-: <a class="el" href="remmina__pref__dialog_8h.html#a482168ebe847fb3d052f940e8b82a69a">remmina_pref_dialog.h</a>
-, <a class="el" href="remmina__pref__dialog_8c.html#a16091735af5c6ee31fb794a5fb860342">remmina_pref_dialog.c</a>
+: <a class="el" href="remmina__pref__dialog_8c.html#a16091735af5c6ee31fb794a5fb860342">remmina_pref_dialog.c</a>
+, <a class="el" href="remmina__pref__dialog_8h.html#a482168ebe847fb3d052f940e8b82a69a">remmina_pref_dialog.h</a>
 </li>
 <li>remmina_pref_dialog_on_close_clicked()
 : <a class="el" href="remmina__pref__dialog_8c.html#adc2763311ece7ab6b505d4ec56391f69">remmina_pref_dialog.c</a>
@@ -2130,39 +2139,55 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__pref_8c.html#a0296a8f5b359547a0aa4cbffb914edd3">remmina_pref.c</a>
 </li>
 <li>remmina_pref_get_recent()
-: <a class="el" href="remmina__pref_8c.html#a0208d5dc8197423da67e5967aafb7a05">remmina_pref.c</a>
-, <a class="el" href="remmina__pref_8h.html#a0208d5dc8197423da67e5967aafb7a05">remmina_pref.h</a>
+: <a class="el" href="remmina__pref_8h.html#a0208d5dc8197423da67e5967aafb7a05">remmina_pref.h</a>
+, <a class="el" href="remmina__pref_8c.html#a0208d5dc8197423da67e5967aafb7a05">remmina_pref.c</a>
 </li>
 <li>remmina_pref_get_scale_quality()
 : <a class="el" href="remmina__pref_8c.html#a37cd589f00c94cb28eabb1bce4646d0b">remmina_pref.c</a>
 , <a class="el" href="remmina__pref_8h.html#a37cd589f00c94cb28eabb1bce4646d0b">remmina_pref.h</a>
 </li>
 <li>remmina_pref_get_ssh_loglevel()
-: <a class="el" href="remmina__pref_8c.html#a12e52ee4ab89912280605e36ee069267">remmina_pref.c</a>
-, <a class="el" href="remmina__pref_8h.html#a12e52ee4ab89912280605e36ee069267">remmina_pref.h</a>
+: <a class="el" href="remmina__pref_8h.html#a12e52ee4ab89912280605e36ee069267">remmina_pref.h</a>
+, <a class="el" href="remmina__pref_8c.html#a12e52ee4ab89912280605e36ee069267">remmina_pref.c</a>
 </li>
 <li>remmina_pref_get_ssh_parseconfig()
 : <a class="el" href="remmina__pref_8c.html#a98b783e4c5c1dae695fe554f52f94a23">remmina_pref.c</a>
 , <a class="el" href="remmina__pref_8h.html#a98b783e4c5c1dae695fe554f52f94a23">remmina_pref.h</a>
 </li>
+<li>remmina_pref_get_ssh_tcp_keepcnt()
+: <a class="el" href="remmina__pref_8c.html#a781431450dfcf639c8dd96701be3795b">remmina_pref.c</a>
+, <a class="el" href="remmina__pref_8h.html#a781431450dfcf639c8dd96701be3795b">remmina_pref.h</a>
+</li>
+<li>remmina_pref_get_ssh_tcp_keepidle()
+: <a class="el" href="remmina__pref_8c.html#a5ed143a13f2a3393e44fd5b2c4fee4be">remmina_pref.c</a>
+, <a class="el" href="remmina__pref_8h.html#a5ed143a13f2a3393e44fd5b2c4fee4be">remmina_pref.h</a>
+</li>
+<li>remmina_pref_get_ssh_tcp_keepintvl()
+: <a class="el" href="remmina__pref_8h.html#ad7040b17df053835bfb21eb24ae10414">remmina_pref.h</a>
+, <a class="el" href="remmina__pref_8c.html#ad7040b17df053835bfb21eb24ae10414">remmina_pref.c</a>
+</li>
+<li>remmina_pref_get_ssh_tcp_usrtimeout()
+: <a class="el" href="remmina__pref_8c.html#a1a695b64e75d6f49de220dc777e57714">remmina_pref.c</a>
+, <a class="el" href="remmina__pref_8h.html#a1a695b64e75d6f49de220dc777e57714">remmina_pref.h</a>
+</li>
 <li>remmina_pref_get_sshtunnel_port()
-: <a class="el" href="remmina__pref_8c.html#a6982152fd0492586819ce1760a853e99">remmina_pref.c</a>
-, <a class="el" href="remmina__pref_8h.html#a6982152fd0492586819ce1760a853e99">remmina_pref.h</a>
+: <a class="el" href="remmina__pref_8h.html#a6982152fd0492586819ce1760a853e99">remmina_pref.h</a>
+, <a class="el" href="remmina__pref_8c.html#a6982152fd0492586819ce1760a853e99">remmina_pref.c</a>
 </li>
 <li>remmina_pref_get_value()
 : <a class="el" href="remmina__pref_8c.html#a6bcbf4cc3a58ed4ee9f087b4270d8fd6">remmina_pref.c</a>
 , <a class="el" href="remmina__pref_8h.html#a6bcbf4cc3a58ed4ee9f087b4270d8fd6">remmina_pref.h</a>
 </li>
 <li>remmina_pref_init()
-: <a class="el" href="remmina__pref_8c.html#a400f7319fd3996a13399ef72bcf0a2fd">remmina_pref.c</a>
-, <a class="el" href="remmina__pref_8h.html#a400f7319fd3996a13399ef72bcf0a2fd">remmina_pref.h</a>
+: <a class="el" href="remmina__pref_8h.html#a400f7319fd3996a13399ef72bcf0a2fd">remmina_pref.h</a>
+, <a class="el" href="remmina__pref_8c.html#a400f7319fd3996a13399ef72bcf0a2fd">remmina_pref.c</a>
 </li>
 <li>remmina_pref_init_keymap()
 : <a class="el" href="remmina__pref_8c.html#aed7f3859d4306419932df15131987355">remmina_pref.c</a>
 </li>
 <li>remmina_pref_keymap_get_keyval()
-: <a class="el" href="remmina__pref_8h.html#aaac087c000b0863a296f2739f6344af8">remmina_pref.h</a>
-, <a class="el" href="remmina__pref_8c.html#aaac087c000b0863a296f2739f6344af8">remmina_pref.c</a>
+: <a class="el" href="remmina__pref_8c.html#aaac087c000b0863a296f2739f6344af8">remmina_pref.c</a>
+, <a class="el" href="remmina__pref_8h.html#aaac087c000b0863a296f2739f6344af8">remmina_pref.h</a>
 </li>
 <li>remmina_pref_keymap_groups()
 : <a class="el" href="remmina__pref_8c.html#a745bbef1d48a7462f8db997821742395">remmina_pref.c</a>
@@ -2181,8 +2206,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d">remmina_pref_dialog.c</a>
 </li>
 <li>remmina_pref_save()
-: <a class="el" href="remmina__pref_8h.html#a1c614a5e7dc3cd415be6e0a926e26983">remmina_pref.h</a>
-, <a class="el" href="remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983">remmina_pref.c</a>
+: <a class="el" href="remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983">remmina_pref.c</a>
+, <a class="el" href="remmina__pref_8h.html#a1c614a5e7dc3cd415be6e0a926e26983">remmina_pref.h</a>
 </li>
 <li>remmina_pref_set_value()
 : <a class="el" href="remmina__pref_8c.html#a4fbb2aff07d1fef416352d8b80d79e02">remmina_pref.c</a>
@@ -2192,8 +2217,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__stats_8c.html#a1dff2b06d5acefc9bd2f25508ab45328">remmina_stats.c</a>
 </li>
 <li>remmina_protocol_widget_call_feature_by_ref()
-: <a class="el" href="remmina__protocol__widget_8c.html#a605b69a9aa4393024369cc5070488692">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#a605b69a9aa4393024369cc5070488692">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#a605b69a9aa4393024369cc5070488692">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#a605b69a9aa4393024369cc5070488692">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_call_feature_by_type()
 : <a class="el" href="remmina__protocol__widget_8c.html#a6a630e96e5b914d60d678ae8eaad4cd9">remmina_protocol_widget.c</a>
@@ -2215,8 +2240,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#a66263e6e7da79357ceb80d32b191d9f2">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_chat_receive()
-: <a class="el" href="remmina__protocol__widget_8h.html#ae2522242b3f39ee84ee8cf75170de0c0">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#ae2522242b3f39ee84ee8cf75170de0c0">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#ae2522242b3f39ee84ee8cf75170de0c0">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#ae2522242b3f39ee84ee8cf75170de0c0">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_class_init()
 : <a class="el" href="remmina__protocol__widget_8c.html#a8c125f58aa4fac0e4c88f293e4d4dd74">remmina_protocol_widget.c</a>
@@ -2235,24 +2260,24 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__protocol__widget_8c.html#a5a5d4d4e76b14b6a6d4131edd9759f0c">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_emit_signal()
-: <a class="el" href="remmina__protocol__widget_8h.html#ac137cdabc0de7581333338789506f8b5">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#ac3e5a7f14aef4adb2e57d35e9c180b3b">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#ac3e5a7f14aef4adb2e57d35e9c180b3b">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#ac137cdabc0de7581333338789506f8b5">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_current_scale_mode()
 : <a class="el" href="remmina__protocol__widget_8c.html#a5ec62969da54155e24edcb1d998f93f7">remmina_protocol_widget.c</a>
 , <a class="el" href="remmina__protocol__widget_8h.html#a5ec62969da54155e24edcb1d998f93f7">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_domain()
-: <a class="el" href="remmina__protocol__widget_8h.html#aef28374d0056407bad6204997d2c3bf9">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#aef28374d0056407bad6204997d2c3bf9">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#aef28374d0056407bad6204997d2c3bf9">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#aef28374d0056407bad6204997d2c3bf9">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_error_message()
 : <a class="el" href="remmina__protocol__widget_8c.html#a0aa0f7d6c411f9061892848ffb558877">remmina_protocol_widget.c</a>
 , <a class="el" href="remmina__protocol__widget_8h.html#a0aa0f7d6c411f9061892848ffb558877">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_expand()
-: <a class="el" href="remmina__protocol__widget_8h.html#a25bcb2ae99449624fed6f770218e3d25">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#a25bcb2ae99449624fed6f770218e3d25">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#a25bcb2ae99449624fed6f770218e3d25">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#a25bcb2ae99449624fed6f770218e3d25">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_features()
 : <a class="el" href="remmina__protocol__widget_8c.html#af9b6a2c2665010ab09a6d9943f9850bd">remmina_protocol_widget.c</a>
@@ -2267,16 +2292,16 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#ae609b351fff17c235251b0ba7c480da5">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_init_dialog()
-: <a class="el" href="remmina__protocol__widget_8h.html#a3d54e2fd56ec80018723db1ddc444635">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#a3d54e2fd56ec80018723db1ddc444635">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#a3d54e2fd56ec80018723db1ddc444635">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#a3d54e2fd56ec80018723db1ddc444635">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_profile_remote_height()
 : <a class="el" href="remmina__protocol__widget_8c.html#ad8df6a87e19b7751b26820ef4a668de9">remmina_protocol_widget.c</a>
 , <a class="el" href="remmina__protocol__widget_8h.html#ad8df6a87e19b7751b26820ef4a668de9">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_profile_remote_width()
-: <a class="el" href="remmina__protocol__widget_8h.html#ab4c6435ef92e34a94270069ce1861907">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#ab4c6435ef92e34a94270069ce1861907">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#ab4c6435ef92e34a94270069ce1861907">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#ab4c6435ef92e34a94270069ce1861907">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_get_type()
 : <a class="el" href="remmina__protocol__widget_8h.html#aca61c93aaf5f3cbc2046c8267bb84a2e">remmina_protocol_widget.h</a>
@@ -2286,8 +2311,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#aaf355ea7103fc57a4cbc7b815cde2995">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_grab_focus()
-: <a class="el" href="remmina__protocol__widget_8c.html#a290eb68f0e86de1b7b82e2d98a1494d1">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#a290eb68f0e86de1b7b82e2d98a1494d1">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#a290eb68f0e86de1b7b82e2d98a1494d1">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#a290eb68f0e86de1b7b82e2d98a1494d1">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_has_error()
 : <a class="el" href="remmina__protocol__widget_8c.html#aab2f304822ccfd4979854ef1afd81771">remmina_protocol_widget.c</a>
@@ -2319,8 +2344,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#ac6622cc263383d7b89d65f94adffbbde">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_get_cacert()
-: <a class="el" href="remmina__protocol__widget_8h.html#aa2768a6ddcbddccc9d06953bc3fb16ba">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#aa2768a6ddcbddccc9d06953bc3fb16ba">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#aa2768a6ddcbddccc9d06953bc3fb16ba">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#aa2768a6ddcbddccc9d06953bc3fb16ba">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_get_cacrl()
 : <a class="el" href="remmina__protocol__widget_8c.html#a4c36b2e9326ae0fe38a049dc12f5a5b4">remmina_protocol_widget.c</a>
@@ -2335,24 +2360,24 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#abe6f7991c6eaa0850c039d1ead116b9d">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_get_domain()
-: <a class="el" href="remmina__protocol__widget_8h.html#a5b7a19c7147c322dcecc2ed391988aae">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#a5b7a19c7147c322dcecc2ed391988aae">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#a5b7a19c7147c322dcecc2ed391988aae">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#a5b7a19c7147c322dcecc2ed391988aae">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_get_password()
 : <a class="el" href="remmina__protocol__widget_8c.html#a6338f58889334cf03776fa25bc41905e">remmina_protocol_widget.c</a>
 , <a class="el" href="remmina__protocol__widget_8h.html#a6338f58889334cf03776fa25bc41905e">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_get_savepassword()
-: <a class="el" href="remmina__protocol__widget_8h.html#a7321804b36ab83c3200dc1b333db84b3">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#a7321804b36ab83c3200dc1b333db84b3">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#a7321804b36ab83c3200dc1b333db84b3">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#a7321804b36ab83c3200dc1b333db84b3">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_get_username()
 : <a class="el" href="remmina__protocol__widget_8c.html#a8ecd62973abb975ab0f5e90838f70422">remmina_protocol_widget.c</a>
 , <a class="el" href="remmina__protocol__widget_8h.html#a8ecd62973abb975ab0f5e90838f70422">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_hide()
-: <a class="el" href="remmina__protocol__widget_8h.html#ac505ac722711518477d9fed53b3cc3e0">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#ac505ac722711518477d9fed53b3cc3e0">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#ac505ac722711518477d9fed53b3cc3e0">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#ac505ac722711518477d9fed53b3cc3e0">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_save_cred()
 : <a class="el" href="remmina__protocol__widget_8c.html#a7ac09ee83afa8a1a60cadf56b0ec83a6">remmina_protocol_widget.c</a>
@@ -2367,8 +2392,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#a2a6911006b722c433c5a61b28bdef519">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_show_retry()
-: <a class="el" href="remmina__protocol__widget_8h.html#a43e02ca9abf4e2320a1ee7ac7622d5a0">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#a43e02ca9abf4e2320a1ee7ac7622d5a0">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#a43e02ca9abf4e2320a1ee7ac7622d5a0">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#a43e02ca9abf4e2320a1ee7ac7622d5a0">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_init_tunnel()
 : <a class="el" href="remmina__protocol__widget_8c.html#a8c7b715825ff576b24d2878976d20f20">remmina_protocol_widget.c</a>
@@ -2388,8 +2413,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__protocol__widget_8c.html#ac1f95eb1e31c05ae0bc4027496ceafb0">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_open_connection()
-: <a class="el" href="remmina__protocol__widget_8h.html#aeffcbd7db351d4cacd7c8ba801ea2c37">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#aeffcbd7db351d4cacd7c8ba801ea2c37">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#aeffcbd7db351d4cacd7c8ba801ea2c37">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#aeffcbd7db351d4cacd7c8ba801ea2c37">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_open_connection_real()
 : <a class="el" href="remmina__protocol__widget_8c.html#a76ad91e7f8648699f71c466e203aa6dd">remmina_protocol_widget.c</a>
@@ -2399,8 +2424,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#a480f842fac65440c367bf3c3d87d2601">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_plugin_screenshot()
-: <a class="el" href="remmina__protocol__widget_8c.html#a57ac13fc4a2653c40e0601183628c0ca">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#a57ac13fc4a2653c40e0601183628c0ca">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#a57ac13fc4a2653c40e0601183628c0ca">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#a57ac13fc4a2653c40e0601183628c0ca">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_query_feature_by_ref()
 : <a class="el" href="remmina__protocol__widget_8c.html#a4017a800d7803a40d606ffce2578509a">remmina_protocol_widget.c</a>
@@ -2415,24 +2440,24 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#a13e14fa81f7ca52942415a7caf5b932c">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_send_keys_signals()
-: <a class="el" href="remmina__protocol__widget_8c.html#a9bcd0d356c7215dc0f791c9744360705">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#a919002f13f2326d283d0ed20456c7a84">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#a919002f13f2326d283d0ed20456c7a84">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#a9bcd0d356c7215dc0f791c9744360705">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_send_keystrokes()
 : <a class="el" href="remmina__protocol__widget_8c.html#affb2413c00f0681fe08f90523f7e1471">remmina_protocol_widget.c</a>
 , <a class="el" href="remmina__protocol__widget_8h.html#affb2413c00f0681fe08f90523f7e1471">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_set_current_scale_mode()
-: <a class="el" href="remmina__protocol__widget_8c.html#ad6e2d00646e8268aa0e8bbe31b77db48">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#ad6e2d00646e8268aa0e8bbe31b77db48">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#ad6e2d00646e8268aa0e8bbe31b77db48">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#ad6e2d00646e8268aa0e8bbe31b77db48">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_set_display()
 : <a class="el" href="remmina__protocol__widget_8c.html#a15368afcbeb770f8cf25941bd49e7b54">remmina_protocol_widget.c</a>
 , <a class="el" href="remmina__protocol__widget_8h.html#a15368afcbeb770f8cf25941bd49e7b54">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_set_error()
-: <a class="el" href="remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#a95088334da86faf9520383629fff48af">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#a95088334da86faf9520383629fff48af">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#a95088334da86faf9520383629fff48af">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_set_expand()
 : <a class="el" href="remmina__protocol__widget_8c.html#a0b19dbe685e4465e7f06706270e120fa">remmina_protocol_widget.c</a>
@@ -2443,12 +2468,12 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__protocol__widget_8h.html#aadd106cec729a80405c6097e4c662044">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_set_hostkey_func()
-: <a class="el" href="remmina__protocol__widget_8h.html#a9e77e4da16282ef5413f57b124038bff">remmina_protocol_widget.h</a>
-, <a class="el" href="remmina__protocol__widget_8c.html#a9e77e4da16282ef5413f57b124038bff">remmina_protocol_widget.c</a>
+: <a class="el" href="remmina__protocol__widget_8c.html#a9e77e4da16282ef5413f57b124038bff">remmina_protocol_widget.c</a>
+, <a class="el" href="remmina__protocol__widget_8h.html#a9e77e4da16282ef5413f57b124038bff">remmina_protocol_widget.h</a>
 </li>
 <li>remmina_protocol_widget_set_width()
-: <a class="el" href="remmina__protocol__widget_8c.html#a41b62f211a8a8e960bc80aa1ba6b0380">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#a41b62f211a8a8e960bc80aa1ba6b0380">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#a41b62f211a8a8e960bc80aa1ba6b0380">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#a41b62f211a8a8e960bc80aa1ba6b0380">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_protocol_widget_show_init_dialog()
 : <a class="el" href="remmina__protocol__widget_8c.html#a4bc73ebac622cdf46860f4ad351244d7">remmina_protocol_widget.c</a>
@@ -2482,12 +2507,12 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__connection__window_8c.html#ab7dc553cbd2005feb77163cf79f48f6d">remmina_connection_window.c</a>
 </li>
 <li>remmina_protocol_widget_update_remote_resolution()
-: <a class="el" href="remmina__protocol__widget_8c.html#a75c70486dec7682aeccaab235e65f6a1">remmina_protocol_widget.c</a>
-, <a class="el" href="remmina__protocol__widget_8h.html#a75c70486dec7682aeccaab235e65f6a1">remmina_protocol_widget.h</a>
+: <a class="el" href="remmina__protocol__widget_8h.html#a75c70486dec7682aeccaab235e65f6a1">remmina_protocol_widget.h</a>
+, <a class="el" href="remmina__protocol__widget_8c.html#a75c70486dec7682aeccaab235e65f6a1">remmina_protocol_widget.c</a>
 </li>
 <li>remmina_public_combine_path()
-: <a class="el" href="remmina__public_8c.html#a86940733e5b9cf77b276084e437dcac0">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a86940733e5b9cf77b276084e437dcac0">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a86940733e5b9cf77b276084e437dcac0">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a86940733e5b9cf77b276084e437dcac0">remmina_public.c</a>
 </li>
 <li>remmina_public_combo_get_active_text()
 : <a class="el" href="remmina__public_8h.html#af1679d83834c8409f23e00c555d677fb">remmina_public.h</a>
@@ -2502,16 +2527,16 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__public_8c.html#a9ec86f1e9caea5ebc867a90230d6b51a">remmina_public.c</a>
 </li>
 <li>remmina_public_create_combo_map()
-: <a class="el" href="remmina__public_8h.html#a616258d3226ec1f1ecee6ce18aba535b">remmina_public.h</a>
-, <a class="el" href="remmina__public_8c.html#a616258d3226ec1f1ecee6ce18aba535b">remmina_public.c</a>
+: <a class="el" href="remmina__public_8c.html#a616258d3226ec1f1ecee6ce18aba535b">remmina_public.c</a>
+, <a class="el" href="remmina__public_8h.html#a616258d3226ec1f1ecee6ce18aba535b">remmina_public.h</a>
 </li>
 <li>remmina_public_create_combo_mapint()
 : <a class="el" href="remmina__public_8h.html#ad1feef5a6d19225b8fcbfd0f9555306b">remmina_public.h</a>
 , <a class="el" href="remmina__public_8c.html#ad1feef5a6d19225b8fcbfd0f9555306b">remmina_public.c</a>
 </li>
 <li>remmina_public_create_combo_text_d()
-: <a class="el" href="remmina__public_8c.html#a3796b536244067e9a85923b1cefa6cde">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a3796b536244067e9a85923b1cefa6cde">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a3796b536244067e9a85923b1cefa6cde">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a3796b536244067e9a85923b1cefa6cde">remmina_public.c</a>
 </li>
 <li>remmina_public_create_group()
 : <a class="el" href="remmina__public_8c.html#a995da243f78002153d18616b46dcdf63">remmina_public.c</a>
@@ -2522,8 +2547,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__public_8c.html#a7ff5e5c4dabc3fb001125a6da14ad758">remmina_public.c</a>
 </li>
 <li>remmina_public_get_keycode_for_keyval()
-: <a class="el" href="remmina__public_8c.html#a95f1d68c7ab3e2a6b158db45f63538fb">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a95f1d68c7ab3e2a6b158db45f63538fb">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a95f1d68c7ab3e2a6b158db45f63538fb">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a95f1d68c7ab3e2a6b158db45f63538fb">remmina_public.c</a>
 </li>
 <li>remmina_public_get_modifier_for_keycode()
 : <a class="el" href="remmina__public_8h.html#a1fac51670815da6a72700a10866c179a">remmina_public.h</a>
@@ -2534,48 +2559,48 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__public_8h.html#adc8b77823386e00e610527d6b0b61149">remmina_public.h</a>
 </li>
 <li>remmina_public_get_window_workspace()
-: <a class="el" href="remmina__public_8h.html#a9c0688cfe4ec55f8b563943aab570b25">remmina_public.h</a>
-, <a class="el" href="remmina__public_8c.html#a9c0688cfe4ec55f8b563943aab570b25">remmina_public.c</a>
+: <a class="el" href="remmina__public_8c.html#a9c0688cfe4ec55f8b563943aab570b25">remmina_public.c</a>
+, <a class="el" href="remmina__public_8h.html#a9c0688cfe4ec55f8b563943aab570b25">remmina_public.h</a>
 </li>
 <li>remmina_public_get_xauth_cookie()
-: <a class="el" href="remmina__public_8c.html#a12ba081432e5f32cf8287231d4779ecf">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a12ba081432e5f32cf8287231d4779ecf">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a12ba081432e5f32cf8287231d4779ecf">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a12ba081432e5f32cf8287231d4779ecf">remmina_public.c</a>
 </li>
 <li>remmina_public_gtk_builder_new_from_file()
-: <a class="el" href="remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a3031598a6e4f67d1519d8e5afba7da41">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a3031598a6e4f67d1519d8e5afba7da41">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a3031598a6e4f67d1519d8e5afba7da41">remmina_public.c</a>
 </li>
 <li>remmina_public_gtk_widget_reparent()
-: <a class="el" href="remmina__public_8c.html#ac0f480277a5929212d389b4bcdd56912">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#ac0f480277a5929212d389b4bcdd56912">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#ac0f480277a5929212d389b4bcdd56912">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#ac0f480277a5929212d389b4bcdd56912">remmina_public.c</a>
 </li>
 <li>remmina_public_load_combo_text_d()
 : <a class="el" href="remmina__public_8h.html#aa5eacff7c9dab7457dd65525d01047f8">remmina_public.h</a>
 , <a class="el" href="remmina__public_8c.html#aa5eacff7c9dab7457dd65525d01047f8">remmina_public.c</a>
 </li>
 <li>remmina_public_open_xdisplay()
-: <a class="el" href="remmina__public_8c.html#a52656bbe00a83068f36337f449bdc767">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a52656bbe00a83068f36337f449bdc767">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a52656bbe00a83068f36337f449bdc767">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a52656bbe00a83068f36337f449bdc767">remmina_public.c</a>
 </li>
 <li>remmina_public_popup_position()
-: <a class="el" href="remmina__public_8c.html#a92025b5f6512955f9c29608b5451a12c">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a92025b5f6512955f9c29608b5451a12c">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a92025b5f6512955f9c29608b5451a12c">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a92025b5f6512955f9c29608b5451a12c">remmina_public.c</a>
 </li>
 <li>remmina_public_resolution_validation_func()
 : <a class="el" href="remmina__public_8c.html#a098786d3aa6991aeba43a61e29d534d0">remmina_public.c</a>
 , <a class="el" href="remmina__public_8h.html#a098786d3aa6991aeba43a61e29d534d0">remmina_public.h</a>
 </li>
 <li>remmina_public_send_notification()
-: <a class="el" href="remmina__public_8c.html#a893f0cfe2d694ab700975f4f427ee2f6">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#a893f0cfe2d694ab700975f4f427ee2f6">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#a893f0cfe2d694ab700975f4f427ee2f6">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#a893f0cfe2d694ab700975f4f427ee2f6">remmina_public.c</a>
 </li>
 <li>remmina_public_split_resolution_string()
-: <a class="el" href="remmina__public_8c.html#aaf3fdb980c24cd06965b85ebcdd79173">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#aaf3fdb980c24cd06965b85ebcdd79173">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#aaf3fdb980c24cd06965b85ebcdd79173">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#aaf3fdb980c24cd06965b85ebcdd79173">remmina_public.c</a>
 </li>
 <li>remmina_public_str_replace()
-: <a class="el" href="remmina__public_8c.html#aea7547abe3a67e6126addc9ed91af640">remmina_public.c</a>
-, <a class="el" href="remmina__public_8h.html#aea7547abe3a67e6126addc9ed91af640">remmina_public.h</a>
+: <a class="el" href="remmina__public_8h.html#aea7547abe3a67e6126addc9ed91af640">remmina_public.h</a>
+, <a class="el" href="remmina__public_8c.html#aea7547abe3a67e6126addc9ed91af640">remmina_public.c</a>
 </li>
 <li>remmina_public_str_replace_in_place()
 : <a class="el" href="remmina__public_8c.html#a8d7d9b3c8050545469b1af9a35b043a2">remmina_public.c</a>
@@ -2599,7 +2624,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="rdp__cliprdr_8c.html#ac3300142e3c2f416896948681ecd45f3">rdp_cliprdr.c</a>
 </li>
 <li>remmina_rdp_cliprdr_detach_owner()
-: <a class="el" href="rdp__cliprdr_8c.html#a9a632fe72a00f2aef95b884a0dc60912">rdp_cliprdr.c</a>
+: <a class="el" href="rdp__cliprdr_8h.html#a7d911246d8a6efed5a64b7ecd7b059bf">rdp_cliprdr.h</a>
+, <a class="el" href="rdp__cliprdr_8c.html#a7d911246d8a6efed5a64b7ecd7b059bf">rdp_cliprdr.c</a>
 </li>
 <li>remmina_rdp_cliprdr_empty_clipboard()
 : <a class="el" href="rdp__cliprdr_8c.html#a719b6820f66508f8acb943a1bf1a495d">rdp_cliprdr.c</a>
@@ -2618,8 +2644,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="rdp__cliprdr_8c.html#a5378f6a230a35d2a84e94ee029a10af4">rdp_cliprdr.c</a>
 </li>
 <li>remmina_rdp_cliprdr_init()
-: <a class="el" href="rdp__cliprdr_8c.html#a2c900a8369c1081e3084f5b17efbe47d">rdp_cliprdr.c</a>
-, <a class="el" href="rdp__cliprdr_8h.html#a9425378cc9b2da11eb4b866c8069e4aa">rdp_cliprdr.h</a>
+: <a class="el" href="rdp__cliprdr_8h.html#a9425378cc9b2da11eb4b866c8069e4aa">rdp_cliprdr.h</a>
+, <a class="el" href="rdp__cliprdr_8c.html#a2c900a8369c1081e3084f5b17efbe47d">rdp_cliprdr.c</a>
 </li>
 <li>remmina_rdp_cliprdr_monitor_ready()
 : <a class="el" href="rdp__cliprdr_8c.html#a5c9890f4354ef9a8dedcf3a371a2a16f">rdp_cliprdr.c</a>
@@ -2682,8 +2708,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="rdp__event_8c.html#a35376ff50915de1c14285e6326bc943e">rdp_event.c</a>
 </li>
 <li>remmina_rdp_event_event_push()
-: <a class="el" href="rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580">rdp_event.c</a>
-, <a class="el" href="rdp__plugin_8h.html#ad446d6471bddba97f8bfcee8c51e4580">rdp_plugin.h</a>
+: <a class="el" href="rdp__plugin_8h.html#ad446d6471bddba97f8bfcee8c51e4580">rdp_plugin.h</a>
+, <a class="el" href="rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580">rdp_event.c</a>
 </li>
 <li>remmina_rdp_event_free_cursor()
 : <a class="el" href="rdp__event_8c.html#a740d33b9c229ada638eeeebe2ffca461">rdp_event.c</a>
@@ -2692,8 +2718,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="rdp__event_8c.html#a40b4fd190055c10d5d2248a6eca5f50f">rdp_event.c</a>
 </li>
 <li>remmina_rdp_event_init()
-: <a class="el" href="rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc">rdp_event.h</a>
-, <a class="el" href="rdp__event_8c.html#af3a991a02d35fb09c85f2e752a5393ca">rdp_event.c</a>
+: <a class="el" href="rdp__event_8c.html#af3a991a02d35fb09c85f2e752a5393ca">rdp_event.c</a>
+, <a class="el" href="rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc">rdp_event.h</a>
 </li>
 <li>remmina_rdp_event_on_button()
 : <a class="el" href="rdp__event_8c.html#a0caf4ffb4011d001301ea10f2c3f75e6">rdp_event.c</a>
@@ -2802,8 +2828,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="rdp__file_8c.html#af8f66ae61f0a025b3f69cd8e08d2c229">rdp_file.c</a>
 </li>
 <li>remmina_rdp_file_export_test()
-: <a class="el" href="rdp__file_8c.html#a6d00c37987b9f5b09959944d01142310">rdp_file.c</a>
-, <a class="el" href="rdp__file_8h.html#a6d00c37987b9f5b09959944d01142310">rdp_file.h</a>
+: <a class="el" href="rdp__file_8h.html#a6d00c37987b9f5b09959944d01142310">rdp_file.h</a>
+, <a class="el" href="rdp__file_8c.html#a6d00c37987b9f5b09959944d01142310">rdp_file.c</a>
 </li>
 <li>remmina_rdp_file_import()
 : <a class="el" href="rdp__file_8h.html#aae001941e15e94a2d6456cc02e5ef75c">rdp_file.h</a>
@@ -2845,8 +2871,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="rdp__channels_8h.html#a759a6601ddb16301f0f6c39a6e88425a">rdp_channels.h</a>
 </li>
 <li>remmina_rdp_OnChannelDisconnectedEventHandler()
-: <a class="el" href="rdp__channels_8c.html#a5850b939a52886321d6e4c3e5e62f97d">rdp_channels.c</a>
-, <a class="el" href="rdp__channels_8h.html#a5850b939a52886321d6e4c3e5e62f97d">rdp_channels.h</a>
+: <a class="el" href="rdp__channels_8h.html#a5850b939a52886321d6e4c3e5e62f97d">rdp_channels.h</a>
+, <a class="el" href="rdp__channels_8c.html#a5850b939a52886321d6e4c3e5e62f97d">rdp_channels.c</a>
 </li>
 <li>remmina_rdp_open_connection()
 : <a class="el" href="rdp__plugin_8c.html#a5f88cb338f10185c43bfc7d711dddee5">rdp_plugin.c</a>
@@ -2867,8 +2893,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="rdp__settings_8c.html#ab69390b3995c4b4fed872d5bb363d9d5">rdp_settings.c</a>
 </li>
 <li>remmina_rdp_settings_get_keyboard_layout()
-: <a class="el" href="rdp__settings_8c.html#a4052ab6359b14e8f9a4cf76bed4da90c">rdp_settings.c</a>
-, <a class="el" href="rdp__settings_8h.html#a4052ab6359b14e8f9a4cf76bed4da90c">rdp_settings.h</a>
+: <a class="el" href="rdp__settings_8h.html#a4052ab6359b14e8f9a4cf76bed4da90c">rdp_settings.h</a>
+, <a class="el" href="rdp__settings_8c.html#a4052ab6359b14e8f9a4cf76bed4da90c">rdp_settings.c</a>
 </li>
 <li>remmina_rdp_settings_get_orientation_scale_prefs()
 : <a class="el" href="rdp__settings_8c.html#a5f05047cf10611ffb7a23a248650cb4c">rdp_settings.c</a>
@@ -2952,8 +2978,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__scrolled__viewport_8c.html#ab6821a1bbe2dbd787512236a68493b4f">remmina_scrolled_viewport.c</a>
 </li>
 <li>remmina_scrolled_viewport_new()
-: <a class="el" href="remmina__scrolled__viewport_8h.html#aadfe00c3960eab12d17bdb47495dd1ee">remmina_scrolled_viewport.h</a>
-, <a class="el" href="remmina__scrolled__viewport_8c.html#aadfe00c3960eab12d17bdb47495dd1ee">remmina_scrolled_viewport.c</a>
+: <a class="el" href="remmina__scrolled__viewport_8c.html#aadfe00c3960eab12d17bdb47495dd1ee">remmina_scrolled_viewport.c</a>
+, <a class="el" href="remmina__scrolled__viewport_8h.html#aadfe00c3960eab12d17bdb47495dd1ee">remmina_scrolled_viewport.h</a>
 </li>
 <li>remmina_scrolled_viewport_remove_motion()
 : <a class="el" href="remmina__scrolled__viewport_8h.html#a0ba56f429a9c1ec05b093f5f78be692c">remmina_scrolled_viewport.h</a>
@@ -3035,20 +3061,20 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__sftp__client_8c.html#a989f55fb6d44337caba7bbf98e93f3ce">remmina_sftp_client.c</a>
 </li>
 <li>remmina_sftp_free()
-: <a class="el" href="remmina__ssh_8h.html#aaaf171c31b73f06f1026239253d9f6b9">remmina_ssh.h</a>
-, <a class="el" href="remmina__ssh_8c.html#aaaf171c31b73f06f1026239253d9f6b9">remmina_ssh.c</a>
+: <a class="el" href="remmina__ssh_8c.html#aaaf171c31b73f06f1026239253d9f6b9">remmina_ssh.c</a>
+, <a class="el" href="remmina__ssh_8h.html#aaaf171c31b73f06f1026239253d9f6b9">remmina_ssh.h</a>
 </li>
 <li>remmina_sftp_new_from_file()
-: <a class="el" href="remmina__ssh_8c.html#a3d7138d9cbbe44aea15440436ce85d6e">remmina_ssh.c</a>
-, <a class="el" href="remmina__ssh_8h.html#a3d7138d9cbbe44aea15440436ce85d6e">remmina_ssh.h</a>
+: <a class="el" href="remmina__ssh_8h.html#a3d7138d9cbbe44aea15440436ce85d6e">remmina_ssh.h</a>
+, <a class="el" href="remmina__ssh_8c.html#a3d7138d9cbbe44aea15440436ce85d6e">remmina_ssh.c</a>
 </li>
 <li>remmina_sftp_new_from_ssh()
-: <a class="el" href="remmina__ssh_8h.html#a1500d65d1f0751812f237c1cb4d15188">remmina_ssh.h</a>
-, <a class="el" href="remmina__ssh_8c.html#a1500d65d1f0751812f237c1cb4d15188">remmina_ssh.c</a>
+: <a class="el" href="remmina__ssh_8c.html#a1500d65d1f0751812f237c1cb4d15188">remmina_ssh.c</a>
+, <a class="el" href="remmina__ssh_8h.html#a1500d65d1f0751812f237c1cb4d15188">remmina_ssh.h</a>
 </li>
 <li>remmina_sftp_open()
-: <a class="el" href="remmina__ssh_8c.html#a1e09b32044c240a7dce0ad8afcbf0ff2">remmina_ssh.c</a>
-, <a class="el" href="remmina__ssh_8h.html#a1e09b32044c240a7dce0ad8afcbf0ff2">remmina_ssh.h</a>
+: <a class="el" href="remmina__ssh_8h.html#a1e09b32044c240a7dce0ad8afcbf0ff2">remmina_ssh.h</a>
+, <a class="el" href="remmina__ssh_8c.html#a1e09b32044c240a7dce0ad8afcbf0ff2">remmina_ssh.c</a>
 </li>
 <li>remmina_sftp_plugin_register()
 : <a class="el" href="remmina__sftp__plugin_8c.html#a14a447ab8a10b109967d92c8d2db0ff9">remmina_sftp_plugin.c</a>
@@ -3092,8 +3118,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__ssh_8c.html#ab6d8bdad543b3caead2b2b0339484798">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_free()
-: <a class="el" href="remmina__ssh_8c.html#acdb9f57d2f9b47913715a8d8a0ea0c02">remmina_ssh.c</a>
-, <a class="el" href="remmina__ssh_8h.html#acdb9f57d2f9b47913715a8d8a0ea0c02">remmina_ssh.h</a>
+: <a class="el" href="remmina__ssh_8h.html#acdb9f57d2f9b47913715a8d8a0ea0c02">remmina_ssh.h</a>
+, <a class="el" href="remmina__ssh_8c.html#acdb9f57d2f9b47913715a8d8a0ea0c02">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_identity_path()
 : <a class="el" href="remmina__ssh_8h.html#a72a58e416c4eeb9d17eaf76360ebee42">remmina_ssh.h</a>
@@ -3125,16 +3151,16 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__ssh__plugin_8h.html#af9f9487a10fb1a9c4b494ce3657359b9">remmina_ssh_plugin.h</a>
 </li>
 <li>remmina_ssh_set_application_error()
-: <a class="el" href="remmina__ssh_8h.html#a1f3297263703b4259c1c9607d710995d">remmina_ssh.h</a>
-, <a class="el" href="remmina__ssh_8c.html#a1f3297263703b4259c1c9607d710995d">remmina_ssh.c</a>
+: <a class="el" href="remmina__ssh_8c.html#a1f3297263703b4259c1c9607d710995d">remmina_ssh.c</a>
+, <a class="el" href="remmina__ssh_8h.html#a1f3297263703b4259c1c9607d710995d">remmina_ssh.h</a>
 </li>
 <li>remmina_ssh_set_error()
 : <a class="el" href="remmina__ssh_8c.html#abc556f0a4335083436f6e19c204fa553">remmina_ssh.c</a>
 , <a class="el" href="remmina__ssh_8h.html#abc556f0a4335083436f6e19c204fa553">remmina_ssh.h</a>
 </li>
 <li>remmina_ssh_shell_free()
-: <a class="el" href="remmina__ssh_8h.html#a316f97b879e147ec52967344f6ad1d84">remmina_ssh.h</a>
-, <a class="el" href="remmina__ssh_8c.html#a316f97b879e147ec52967344f6ad1d84">remmina_ssh.c</a>
+: <a class="el" href="remmina__ssh_8c.html#a316f97b879e147ec52967344f6ad1d84">remmina_ssh.c</a>
+, <a class="el" href="remmina__ssh_8h.html#a316f97b879e147ec52967344f6ad1d84">remmina_ssh.h</a>
 </li>
 <li>remmina_ssh_shell_new_from_file()
 : <a class="el" href="remmina__ssh_8h.html#a30412e0b4302f5ae0b9be2749390a48d">remmina_ssh.h</a>
@@ -3149,11 +3175,14 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__ssh_8c.html#a1c095a955af21b3ed9952ba2ea94691b">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_shell_set_size()
-: <a class="el" href="remmina__ssh_8h.html#ac2d3f3b6550e4d1fe4caabe1df6af508">remmina_ssh.h</a>
-, <a class="el" href="remmina__ssh_8c.html#ac2d3f3b6550e4d1fe4caabe1df6af508">remmina_ssh.c</a>
+: <a class="el" href="remmina__ssh_8c.html#ac2d3f3b6550e4d1fe4caabe1df6af508">remmina_ssh.c</a>
+, <a class="el" href="remmina__ssh_8h.html#ac2d3f3b6550e4d1fe4caabe1df6af508">remmina_ssh.h</a>
 </li>
 <li>remmina_ssh_shell_thread()
 : <a class="el" href="remmina__ssh_8c.html#abef9f1315d5a79b1588ab898988e051a">remmina_ssh.c</a>
+</li>
+<li>remmina_ssh_tunnel_accept_local_connection()
+: <a class="el" href="remmina__ssh_8c.html#adfb126fb9595267014cd23fff62b263f">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_tunnel_add_channel()
 : <a class="el" href="remmina__ssh_8c.html#adaef1d3421eb94d12d1b5df1fb88f9b5">remmina_ssh.c</a>
@@ -3165,11 +3194,14 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__ssh_8c.html#ae2c4f938ccb0f2b94e3ef8af9f69747a">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_tunnel_cancel_accept()
-: <a class="el" href="remmina__ssh_8c.html#ae9f52b1a3a545acae8c93007e20ec909">remmina_ssh.c</a>
-, <a class="el" href="remmina__ssh_8h.html#ae9f52b1a3a545acae8c93007e20ec909">remmina_ssh.h</a>
+: <a class="el" href="remmina__ssh_8h.html#ae9f52b1a3a545acae8c93007e20ec909">remmina_ssh.h</a>
+, <a class="el" href="remmina__ssh_8c.html#ae9f52b1a3a545acae8c93007e20ec909">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_tunnel_close_all_channels()
 : <a class="el" href="remmina__ssh_8c.html#a0a0aff99448b4eec63bf11d7a4bb9ab7">remmina_ssh.c</a>
+</li>
+<li>remmina_ssh_tunnel_create_forward_channel()
+: <a class="el" href="remmina__ssh_8c.html#a66cb74166024b200057742c2759f2bd4">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_tunnel_free()
 : <a class="el" href="remmina__ssh_8h.html#a223f8dd7a678bcec2ece40a2d8f7ea06">remmina_ssh.h</a>
@@ -3182,12 +3214,12 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__ssh_8c.html#a2c47bcbe038c0d5a393a781c96a5a549">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_tunnel_new_from_file()
-: <a class="el" href="remmina__ssh_8c.html#abf04fd329ab77bbd4f6aa1cb1eaa349d">remmina_ssh.c</a>
-, <a class="el" href="remmina__ssh_8h.html#abf04fd329ab77bbd4f6aa1cb1eaa349d">remmina_ssh.h</a>
+: <a class="el" href="remmina__ssh_8h.html#abf04fd329ab77bbd4f6aa1cb1eaa349d">remmina_ssh.h</a>
+, <a class="el" href="remmina__ssh_8c.html#abf04fd329ab77bbd4f6aa1cb1eaa349d">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_tunnel_open()
-: <a class="el" href="remmina__ssh_8h.html#a52b3f47eac79f2781ba81d61505f4f53">remmina_ssh.h</a>
-, <a class="el" href="remmina__ssh_8c.html#a52b3f47eac79f2781ba81d61505f4f53">remmina_ssh.c</a>
+: <a class="el" href="remmina__ssh_8c.html#a52b3f47eac79f2781ba81d61505f4f53">remmina_ssh.c</a>
+, <a class="el" href="remmina__ssh_8h.html#a52b3f47eac79f2781ba81d61505f4f53">remmina_ssh.h</a>
 </li>
 <li>remmina_ssh_tunnel_remove_channel()
 : <a class="el" href="remmina__ssh_8c.html#a1788658f417dd6b5c3a71b5d0816ec1a">remmina_ssh.c</a>
@@ -3205,8 +3237,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__ssh_8c.html#ac6d58beb4df141c6353e897c39748146">remmina_ssh.c</a>
 </li>
 <li>remmina_ssh_tunnel_xport()
-: <a class="el" href="remmina__ssh_8h.html#aba49db2ced40e21e8adfad69dcfda2c4">remmina_ssh.h</a>
-, <a class="el" href="remmina__ssh_8c.html#aba49db2ced40e21e8adfad69dcfda2c4">remmina_ssh.c</a>
+: <a class="el" href="remmina__ssh_8c.html#aba49db2ced40e21e8adfad69dcfda2c4">remmina_ssh.c</a>
+, <a class="el" href="remmina__ssh_8h.html#aba49db2ced40e21e8adfad69dcfda2c4">remmina_ssh.h</a>
 </li>
 <li>remmina_ssh_unconvert()
 : <a class="el" href="remmina__ssh_8h.html#aeccf94afb57bcad37b4241d45fcb3fea">remmina_ssh.h</a>
@@ -3226,8 +3258,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__stats_8c.html#a14c9cf442dc07a27989b27d16a5c73e6">remmina_stats.c</a>
 </li>
 <li>remmina_stats_get_all()
-: <a class="el" href="remmina__stats_8h.html#a7a1c9ab1abc1fdf78239d11b802843ae">remmina_stats.h</a>
-, <a class="el" href="remmina__stats_8c.html#a7398b36347e3621772776c466b565641">remmina_stats.c</a>
+: <a class="el" href="remmina__stats_8c.html#a7398b36347e3621772776c466b565641">remmina_stats.c</a>
+, <a class="el" href="remmina__stats_8h.html#a7a1c9ab1abc1fdf78239d11b802843ae">remmina_stats.h</a>
 </li>
 <li>remmina_stats_get_gtk_backend()
 : <a class="el" href="remmina__stats_8c.html#a73fbf1064af209f1f7272d737168971c">remmina_stats.c</a>
@@ -3257,16 +3289,16 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__stats__sender_8c.html#a9893f8bc18fa81d40fabcf60e7353bb2">remmina_stats_sender.c</a>
 </li>
 <li>remmina_stats_sender_schedule()
-: <a class="el" href="remmina__stats__sender_8h.html#ab800d60b2014cf18c0791de01cf33802">remmina_stats_sender.h</a>
-, <a class="el" href="remmina__stats__sender_8c.html#a03db556341f727fb2fe482cae80351a9">remmina_stats_sender.c</a>
+: <a class="el" href="remmina__stats__sender_8c.html#a03db556341f727fb2fe482cae80351a9">remmina_stats_sender.c</a>
+, <a class="el" href="remmina__stats__sender_8h.html#ab800d60b2014cf18c0791de01cf33802">remmina_stats_sender.h</a>
 </li>
 <li>remmina_stats_sender_send()
-: <a class="el" href="remmina__stats__sender_8c.html#a9c0f9ad95fc501b4e71185d923a348db">remmina_stats_sender.c</a>
-, <a class="el" href="remmina__stats__sender_8h.html#a7ff2484b933c8cbd9a6d545da1c0eb2f">remmina_stats_sender.h</a>
+: <a class="el" href="remmina__stats__sender_8c.html#adcfe144769bc83b3a6cc216eb3589919">remmina_stats_sender.c</a>
+, <a class="el" href="remmina__stats__sender_8h.html#adcfe144769bc83b3a6cc216eb3589919">remmina_stats_sender.h</a>
 </li>
 <li>remmina_string_array_add()
-: <a class="el" href="remmina__string__array_8h.html#a2aaacca7db4b86f836486cfb559398f0">remmina_string_array.h</a>
-, <a class="el" href="remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0">remmina_string_array.c</a>
+: <a class="el" href="remmina__string__array_8c.html#a2aaacca7db4b86f836486cfb559398f0">remmina_string_array.c</a>
+, <a class="el" href="remmina__string__array_8h.html#a2aaacca7db4b86f836486cfb559398f0">remmina_string_array.h</a>
 </li>
 <li>remmina_string_array_compare_func()
 : <a class="el" href="remmina__string__array_8c.html#a404140e205363c778476feb6f320f5f5">remmina_string_array.c</a>
@@ -3276,44 +3308,44 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__string__array_8c.html#ab93a69850cfb4117c223a3f145ced986">remmina_string_array.c</a>
 </li>
 <li>remmina_string_array_free()
-: <a class="el" href="remmina__string__array_8h.html#a8ab78913d299df665a408a8a5ec51bbe">remmina_string_array.h</a>
-, <a class="el" href="remmina__string__array_8c.html#a8ab78913d299df665a408a8a5ec51bbe">remmina_string_array.c</a>
+: <a class="el" href="remmina__string__array_8c.html#a8ab78913d299df665a408a8a5ec51bbe">remmina_string_array.c</a>
+, <a class="el" href="remmina__string__array_8h.html#a8ab78913d299df665a408a8a5ec51bbe">remmina_string_array.h</a>
 </li>
 <li>remmina_string_array_intersect()
-: <a class="el" href="remmina__string__array_8c.html#abf64b35316d6e97f5c5001913b307308">remmina_string_array.c</a>
-, <a class="el" href="remmina__string__array_8h.html#abf64b35316d6e97f5c5001913b307308">remmina_string_array.h</a>
+: <a class="el" href="remmina__string__array_8h.html#abf64b35316d6e97f5c5001913b307308">remmina_string_array.h</a>
+, <a class="el" href="remmina__string__array_8c.html#abf64b35316d6e97f5c5001913b307308">remmina_string_array.c</a>
 </li>
 <li>remmina_string_array_new()
 : <a class="el" href="remmina__string__array_8h.html#aff90e964c6541b1af02adf7ea39e6e02">remmina_string_array.h</a>
 , <a class="el" href="remmina__string__array_8c.html#aff90e964c6541b1af02adf7ea39e6e02">remmina_string_array.c</a>
 </li>
 <li>remmina_string_array_new_from_allocated_string()
-: <a class="el" href="remmina__string__array_8c.html#a462a635b3a55cc0e3af087ff996fba9a">remmina_string_array.c</a>
-, <a class="el" href="remmina__string__array_8h.html#a462a635b3a55cc0e3af087ff996fba9a">remmina_string_array.h</a>
+: <a class="el" href="remmina__string__array_8h.html#a462a635b3a55cc0e3af087ff996fba9a">remmina_string_array.h</a>
+, <a class="el" href="remmina__string__array_8c.html#a462a635b3a55cc0e3af087ff996fba9a">remmina_string_array.c</a>
 </li>
 <li>remmina_string_array_new_from_string()
-: <a class="el" href="remmina__string__array_8h.html#a7f1c8e427a25c2d5cede3952b1d0ad90">remmina_string_array.h</a>
-, <a class="el" href="remmina__string__array_8c.html#a7f1c8e427a25c2d5cede3952b1d0ad90">remmina_string_array.c</a>
+: <a class="el" href="remmina__string__array_8c.html#a7f1c8e427a25c2d5cede3952b1d0ad90">remmina_string_array.c</a>
+, <a class="el" href="remmina__string__array_8h.html#a7f1c8e427a25c2d5cede3952b1d0ad90">remmina_string_array.h</a>
 </li>
 <li>remmina_string_array_remove()
-: <a class="el" href="remmina__string__array_8c.html#a2a8a9753ebf61c9418a77ba3dd654ff3">remmina_string_array.c</a>
-, <a class="el" href="remmina__string__array_8h.html#a2a8a9753ebf61c9418a77ba3dd654ff3">remmina_string_array.h</a>
+: <a class="el" href="remmina__string__array_8h.html#a2a8a9753ebf61c9418a77ba3dd654ff3">remmina_string_array.h</a>
+, <a class="el" href="remmina__string__array_8c.html#a2a8a9753ebf61c9418a77ba3dd654ff3">remmina_string_array.c</a>
 </li>
 <li>remmina_string_array_remove_index()
 : <a class="el" href="remmina__string__array_8c.html#a40811c036e46f6544ab6c4cff445454b">remmina_string_array.c</a>
 , <a class="el" href="remmina__string__array_8h.html#a40811c036e46f6544ab6c4cff445454b">remmina_string_array.h</a>
 </li>
 <li>remmina_string_array_sort()
-: <a class="el" href="remmina__string__array_8h.html#a3eab4bae72ff130ad10ec8fc7364ce70">remmina_string_array.h</a>
-, <a class="el" href="remmina__string__array_8c.html#a3eab4bae72ff130ad10ec8fc7364ce70">remmina_string_array.c</a>
+: <a class="el" href="remmina__string__array_8c.html#a3eab4bae72ff130ad10ec8fc7364ce70">remmina_string_array.c</a>
+, <a class="el" href="remmina__string__array_8h.html#a3eab4bae72ff130ad10ec8fc7364ce70">remmina_string_array.h</a>
 </li>
 <li>remmina_string_array_to_string()
-: <a class="el" href="remmina__string__array_8c.html#a96f7bec7ce32de6cf5deadcd5aec51ec">remmina_string_array.c</a>
-, <a class="el" href="remmina__string__array_8h.html#a96f7bec7ce32de6cf5deadcd5aec51ec">remmina_string_array.h</a>
+: <a class="el" href="remmina__string__array_8h.html#a96f7bec7ce32de6cf5deadcd5aec51ec">remmina_string_array.h</a>
+, <a class="el" href="remmina__string__array_8c.html#a96f7bec7ce32de6cf5deadcd5aec51ec">remmina_string_array.c</a>
 </li>
 <li>remmina_string_list_get_text()
-: <a class="el" href="remmina__string__list_8h.html#a74058eac0af28c05a55d041103457aec">remmina_string_list.h</a>
-, <a class="el" href="remmina__string__list_8c.html#a74058eac0af28c05a55d041103457aec">remmina_string_list.c</a>
+: <a class="el" href="remmina__string__list_8c.html#a74058eac0af28c05a55d041103457aec">remmina_string_list.c</a>
+, <a class="el" href="remmina__string__list_8h.html#a74058eac0af28c05a55d041103457aec">remmina_string_list.h</a>
 </li>
 <li>remmina_string_list_init()
 : <a class="el" href="remmina__string__list_8c.html#a3c7633dffb5b6bab089c71c44506d8ab">remmina_string_list.c</a>
@@ -3345,23 +3377,23 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__string__list_8c.html#ab1bacc097f59c20b477d954bb863a5e0">remmina_string_list.c</a>
 </li>
 <li>remmina_string_list_set_titles()
-: <a class="el" href="remmina__string__list_8h.html#aa9ca6ccf40b954051a0daa5c1efeef87">remmina_string_list.h</a>
-, <a class="el" href="remmina__string__list_8c.html#aa9ca6ccf40b954051a0daa5c1efeef87">remmina_string_list.c</a>
+: <a class="el" href="remmina__string__list_8c.html#aa9ca6ccf40b954051a0daa5c1efeef87">remmina_string_list.c</a>
+, <a class="el" href="remmina__string__list_8h.html#aa9ca6ccf40b954051a0daa5c1efeef87">remmina_string_list.h</a>
 </li>
 <li>remmina_string_list_set_validation_func()
-: <a class="el" href="remmina__string__list_8h.html#a500b85eafd23280f998d2980d1eba80e">remmina_string_list.h</a>
-, <a class="el" href="remmina__string__list_8c.html#a500b85eafd23280f998d2980d1eba80e">remmina_string_list.c</a>
+: <a class="el" href="remmina__string__list_8c.html#a500b85eafd23280f998d2980d1eba80e">remmina_string_list.c</a>
+, <a class="el" href="remmina__string__list_8h.html#a500b85eafd23280f998d2980d1eba80e">remmina_string_list.h</a>
 </li>
 <li>remmina_string_list_update_buttons_state()
 : <a class="el" href="remmina__string__list_8c.html#a777917055c80821e9bde6ac8fd06e2ff">remmina_string_list.c</a>
 </li>
 <li>remmina_sysinfo_get_gnome_shell_version()
-: <a class="el" href="remmina__sysinfo_8h.html#a9f1ea6410d45aaf5603439a5919aa1cb">remmina_sysinfo.h</a>
-, <a class="el" href="remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f">remmina_sysinfo.c</a>
+: <a class="el" href="remmina__sysinfo_8c.html#a79fd36823613c320001f0cdd2a97490f">remmina_sysinfo.c</a>
+, <a class="el" href="remmina__sysinfo_8h.html#a9f1ea6410d45aaf5603439a5919aa1cb">remmina_sysinfo.h</a>
 </li>
 <li>remmina_sysinfo_get_wm_name()
-: <a class="el" href="remmina__sysinfo_8c.html#ae4441d62bb4075d1618b5750fea064b4">remmina_sysinfo.c</a>
-, <a class="el" href="remmina__sysinfo_8h.html#ae4441d62bb4075d1618b5750fea064b4">remmina_sysinfo.h</a>
+: <a class="el" href="remmina__sysinfo_8h.html#ae4441d62bb4075d1618b5750fea064b4">remmina_sysinfo.h</a>
+, <a class="el" href="remmina__sysinfo_8c.html#ae4441d62bb4075d1618b5750fea064b4">remmina_sysinfo.c</a>
 </li>
 <li>remmina_sysinfo_is_appindicator_available()
 : <a class="el" href="remmina__sysinfo_8h.html#a9e89ac64e13b47a651554d6a77af6b23">remmina_sysinfo.h</a>
@@ -3417,23 +3449,23 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="telepathy__handler_8c.html#a74b0c331f63ae06d690d26a9ab6aa67c">telepathy_handler.c</a>
 </li>
 <li>remmina_tp_handler_new()
-: <a class="el" href="telepathy__handler_8c.html#a9a0d7f717ce6b2d808b18d5da290f3d6">telepathy_handler.c</a>
-, <a class="el" href="telepathy__handler_8h.html#a9a0d7f717ce6b2d808b18d5da290f3d6">telepathy_handler.h</a>
+: <a class="el" href="telepathy__handler_8h.html#a9a0d7f717ce6b2d808b18d5da290f3d6">telepathy_handler.h</a>
+, <a class="el" href="telepathy__handler_8c.html#a9a0d7f717ce6b2d808b18d5da290f3d6">telepathy_handler.c</a>
 </li>
 <li>remmina_tp_handler_register()
 : <a class="el" href="telepathy__handler_8c.html#ae71fa1e8591ba79daedb9ad8bc5714c9">telepathy_handler.c</a>
 </li>
 <li>remmina_utils_get_etc_release()
-: <a class="el" href="remmina__utils_8h.html#a3a4890c24ee976284941d102e99baf5d">remmina_utils.h</a>
-, <a class="el" href="remmina__utils_8c.html#a3a4890c24ee976284941d102e99baf5d">remmina_utils.c</a>
+: <a class="el" href="remmina__utils_8c.html#a54cee350c4ecc6e77af835c4ba90df4c">remmina_utils.c</a>
+, <a class="el" href="remmina__utils_8h.html#a54cee350c4ecc6e77af835c4ba90df4c">remmina_utils.h</a>
 </li>
 <li>remmina_utils_get_kernel_arch()
-: <a class="el" href="remmina__utils_8c.html#a116e7cd4565386fe531d3a6d1a3d3730">remmina_utils.c</a>
-, <a class="el" href="remmina__utils_8h.html#a116e7cd4565386fe531d3a6d1a3d3730">remmina_utils.h</a>
+: <a class="el" href="remmina__utils_8h.html#a116e7cd4565386fe531d3a6d1a3d3730">remmina_utils.h</a>
+, <a class="el" href="remmina__utils_8c.html#a116e7cd4565386fe531d3a6d1a3d3730">remmina_utils.c</a>
 </li>
 <li>remmina_utils_get_kernel_name()
-: <a class="el" href="remmina__utils_8c.html#abfc722d07d9936711794411bfbed0522">remmina_utils.c</a>
-, <a class="el" href="remmina__utils_8h.html#abfc722d07d9936711794411bfbed0522">remmina_utils.h</a>
+: <a class="el" href="remmina__utils_8h.html#abfc722d07d9936711794411bfbed0522">remmina_utils.h</a>
+, <a class="el" href="remmina__utils_8c.html#abfc722d07d9936711794411bfbed0522">remmina_utils.c</a>
 </li>
 <li>remmina_utils_get_kernel_release()
 : <a class="el" href="remmina__utils_8h.html#a57603aa88df56e77e1a6de0f215f21aa">remmina_utils.h</a>
@@ -3444,12 +3476,12 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__utils_8h.html#a2b4dbb0da7c8ba4bd86877097b85d10c">remmina_utils.h</a>
 </li>
 <li>remmina_utils_get_lsb_description()
-: <a class="el" href="remmina__utils_8c.html#ac00cb21c5cb5efcf7afc6eeae2147a75">remmina_utils.c</a>
-, <a class="el" href="remmina__utils_8h.html#ac00cb21c5cb5efcf7afc6eeae2147a75">remmina_utils.h</a>
+: <a class="el" href="remmina__utils_8h.html#ac00cb21c5cb5efcf7afc6eeae2147a75">remmina_utils.h</a>
+, <a class="el" href="remmina__utils_8c.html#ac00cb21c5cb5efcf7afc6eeae2147a75">remmina_utils.c</a>
 </li>
 <li>remmina_utils_get_lsb_id()
-: <a class="el" href="remmina__utils_8c.html#aa768b6fe171695d212da4c6eaf74cf22">remmina_utils.c</a>
-, <a class="el" href="remmina__utils_8h.html#aa768b6fe171695d212da4c6eaf74cf22">remmina_utils.h</a>
+: <a class="el" href="remmina__utils_8h.html#aa768b6fe171695d212da4c6eaf74cf22">remmina_utils.h</a>
+, <a class="el" href="remmina__utils_8c.html#aa768b6fe171695d212da4c6eaf74cf22">remmina_utils.c</a>
 </li>
 <li>remmina_utils_get_lsb_release()
 : <a class="el" href="remmina__utils_8c.html#a5ee50df5d7585d229a154a712c9161ca">remmina_utils.c</a>
@@ -3460,15 +3492,15 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 , <a class="el" href="remmina__utils_8h.html#af1acfeca84e3efd47ab1ef8365f94f99">remmina_utils.h</a>
 </li>
 <li>remmina_utils_read_distrofile()
-: <a class="el" href="remmina__utils_8c.html#af63b56d4c8a33d3a568bf807dcfbfb0d">remmina_utils.c</a>
+: <a class="el" href="remmina__utils_8c.html#a297576937e5f9be372f1861a87c41dfa">remmina_utils.c</a>
 </li>
 <li>remmina_utils_string_find()
-: <a class="el" href="remmina__utils_8c.html#a75eb5f79df692dfe4db221d03a5fa355">remmina_utils.c</a>
-, <a class="el" href="remmina__utils_8h.html#a3ce53eeb3b090f86cfcdbce3e7cf71be">remmina_utils.h</a>
+: <a class="el" href="remmina__utils_8h.html#a3ce53eeb3b090f86cfcdbce3e7cf71be">remmina_utils.h</a>
+, <a class="el" href="remmina__utils_8c.html#a75eb5f79df692dfe4db221d03a5fa355">remmina_utils.c</a>
 </li>
 <li>remmina_utils_string_replace()
-: <a class="el" href="remmina__utils_8c.html#aa6859a61aa28f46591750c9afdef66f4">remmina_utils.c</a>
-, <a class="el" href="remmina__utils_8h.html#aa6859a61aa28f46591750c9afdef66f4">remmina_utils.h</a>
+: <a class="el" href="remmina__utils_8h.html#aa6859a61aa28f46591750c9afdef66f4">remmina_utils.h</a>
+, <a class="el" href="remmina__utils_8c.html#aa6859a61aa28f46591750c9afdef66f4">remmina_utils.c</a>
 </li>
 <li>remmina_utils_string_replace_all()
 : <a class="el" href="remmina__utils_8h.html#ac804e6111e538ee2fa425b8b6fd1fb66">remmina_utils.h</a>
@@ -3482,16 +3514,16 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="remmina__utils_8c.html#ae4318060ee81f8fbd907904892dd71d3">remmina_utils.c</a>
 </li>
 <li>remmina_widget_pool_count()
-: <a class="el" href="remmina__widget__pool_8h.html#af888e4e0c2d590e61c72608a7482f18a">remmina_widget_pool.h</a>
-, <a class="el" href="remmina__widget__pool_8c.html#a9cbb5b8d01a6d44ba7b46434467c02f8">remmina_widget_pool.c</a>
+: <a class="el" href="remmina__widget__pool_8c.html#a9cbb5b8d01a6d44ba7b46434467c02f8">remmina_widget_pool.c</a>
+, <a class="el" href="remmina__widget__pool_8h.html#af888e4e0c2d590e61c72608a7482f18a">remmina_widget_pool.h</a>
 </li>
 <li>remmina_widget_pool_find()
-: <a class="el" href="remmina__widget__pool_8c.html#ab776b24a3b829a1d5dd7974cb8582c05">remmina_widget_pool.c</a>
-, <a class="el" href="remmina__widget__pool_8h.html#ab776b24a3b829a1d5dd7974cb8582c05">remmina_widget_pool.h</a>
+: <a class="el" href="remmina__widget__pool_8h.html#ab776b24a3b829a1d5dd7974cb8582c05">remmina_widget_pool.h</a>
+, <a class="el" href="remmina__widget__pool_8c.html#ab776b24a3b829a1d5dd7974cb8582c05">remmina_widget_pool.c</a>
 </li>
 <li>remmina_widget_pool_find_by_window()
-: <a class="el" href="remmina__widget__pool_8c.html#a0a6a2069cdbbb920fb09f95bec3e997e">remmina_widget_pool.c</a>
-, <a class="el" href="remmina__widget__pool_8h.html#a0a6a2069cdbbb920fb09f95bec3e997e">remmina_widget_pool.h</a>
+: <a class="el" href="remmina__widget__pool_8h.html#a0a6a2069cdbbb920fb09f95bec3e997e">remmina_widget_pool.h</a>
+, <a class="el" href="remmina__widget__pool_8c.html#a0a6a2069cdbbb920fb09f95bec3e997e">remmina_widget_pool.c</a>
 </li>
 <li>remmina_widget_pool_foreach()
 : <a class="el" href="remmina__widget__pool_8c.html#a53fad3994b2550300cfd4fd8bb2a2b5b">remmina_widget_pool.c</a>

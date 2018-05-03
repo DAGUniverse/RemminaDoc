@@ -1,0 +1,15 @@
+digraph "remmina_stats_sender_periodic_check"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node244 [label="remmina_stats_sender\l_periodic_check",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node244 -> Node245 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node245 [label="remmina_stats_sender\l_schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats__sender_8h.html#ab800d60b2014cf18c0791de01cf33802"];
+  Node245 -> Node246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node246 [label="remmina_on_startup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a"];
+  Node246 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node247 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node245 -> Node248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node248 [label="remmina_main_on_click\l_ustat_yes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#a5994672eab85d9500cc37f4cabb39136"];
+}

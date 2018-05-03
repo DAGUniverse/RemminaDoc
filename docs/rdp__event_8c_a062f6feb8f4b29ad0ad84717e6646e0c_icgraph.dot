@@ -1,0 +1,15 @@
+digraph "remmina_rdp_event_release_key"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node708 [label="remmina_rdp_event_release_key",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node708 -> Node709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node709 [label="keypress_list_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ab6e9a485532ccf8c22005dd7a7137fd2"];
+  Node709 -> Node710 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node710 [label="remmina_rdp_event_on_key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ad8f0d0f1b1b75646523f3b241f124e56"];
+  Node710 -> Node711 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node711 [label="remmina_rdp_event_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc"];
+  Node711 -> Node712 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node712 [label="remmina_rdp_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309"];
+}

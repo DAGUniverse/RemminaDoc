@@ -1,0 +1,31 @@
+digraph "remmina_utils_read_distrofile"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node114 [label="remmina_utils_read\l_distrofile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node114 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node115 [label="remmina_utils_get_etc\l_release",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8h.html#a54cee350c4ecc6e77af835c4ba90df4c",tooltip="Print the distribution description if found. "];
+  Node115 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node116 [label="remmina_stats_get_os_info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats_8c.html#a43133d5e00f481d315ef0d58cb52e70a"];
+  Node116 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node117 [label="remmina_stats_get_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats_8h.html#a7a1c9ab1abc1fdf78239d11b802843ae",tooltip="Get all statistics in json format to send periodically to the PHP server. "];
+  Node117 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node118 [label="remmina_stats_collector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats__sender_8c.html#a9fb1f78014c902387de47961e8245518"];
+  Node118 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node119 [label="remmina_stats_sender_send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats__sender_8h.html#adcfe144769bc83b3a6cc216eb3589919"];
+  Node119 -> Node120 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node120 [label="remmina_log_on_keypress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a43a42f51f64b54924564e166c56b39e1"];
+  Node120 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node121 [label="remmina_log_window_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__log_8c.html#a1e5960f194353bd36d82bd9476c309bd"];
+  Node119 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node122 [label="remmina_stats_sender\l_periodic_check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats__sender_8c.html#a9893f8bc18fa81d40fabcf60e7353bb2"];
+  Node122 -> Node123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node123 [label="remmina_stats_sender\l_schedule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__stats__sender_8h.html#ab800d60b2014cf18c0791de01cf33802"];
+  Node123 -> Node124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node124 [label="remmina_on_startup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a"];
+  Node124 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node125 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node123 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node126 [label="remmina_main_on_click\l_ustat_yes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__main_8c.html#a5994672eab85d9500cc37f4cabb39136"];
+}

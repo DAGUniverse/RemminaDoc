@@ -1,0 +1,25 @@
+digraph "remmina_stats_get_os_info"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node243 [label="remmina_stats_get_os_info",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node243 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node244 [label="remmina_utils_get_kernel_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#abfc722d07d9936711794411bfbed0522",tooltip="Return the OS name as in \"uname -s\". "];
+  Node243 -> Node245 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node245 [label="remmina_utils_get_kernel\l_release",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a57603aa88df56e77e1a6de0f215f21aa",tooltip="Return the OS version as in \"uname -r\". "];
+  Node243 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node246 [label="remmina_utils_get_kernel_arch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a116e7cd4565386fe531d3a6d1a3d3730",tooltip="Return the machine hardware name as in \"uname -m\". "];
+  Node243 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node247 [label="remmina_utils_get_lsb_id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#aa768b6fe171695d212da4c6eaf74cf22",tooltip="Print the Distributor as specified by the lsb_release command. "];
+  Node243 -> Node248 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node248 [label="remmina_utils_get_lsb\l_description",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#ac00cb21c5cb5efcf7afc6eeae2147a75",tooltip="Print the Distribution description as specified by the lsb_release command. "];
+  Node243 -> Node249 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node249 [label="remmina_utils_get_lsb\l_release",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a5ee50df5d7585d229a154a712c9161ca",tooltip="Print the Distribution release name as specified by the lsb_release command. "];
+  Node243 -> Node250 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node250 [label="remmina_utils_get_lsb\l_codename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a2b4dbb0da7c8ba4bd86877097b85d10c",tooltip="Print the Distribution codename as specified by the lsb_release command. "];
+  Node243 -> Node251 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node251 [label="remmina_utils_get_etc\l_release",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a54cee350c4ecc6e77af835c4ba90df4c",tooltip="Print the distribution description if found. "];
+  Node251 -> Node252 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node252 [label="remmina_utils_read\l_distrofile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__utils_8c.html#a297576937e5f9be372f1861a87c41dfa",tooltip="OS related functions. "];
+}

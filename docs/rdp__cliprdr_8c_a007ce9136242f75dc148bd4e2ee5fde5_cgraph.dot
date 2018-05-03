@@ -1,0 +1,13 @@
+digraph "remmina_rdp_cliprdr_set_clipboard_data"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node553 [label="remmina_rdp_cliprdr\l_set_clipboard_data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node553 -> Node554 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node554 [label="remmina_rdp_cliprdr\l_request_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a48904924b1064d1bb3bfb6116bac6bd3"];
+  Node554 -> Node555 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node555 [label="remmina_rdp_event_event_push",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580"];
+  Node553 -> Node556 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node556 [label="remmina_rdp_cliprdr\l_empty_clipboard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a719b6820f66508f8acb943a1bf1a495d"];
+}

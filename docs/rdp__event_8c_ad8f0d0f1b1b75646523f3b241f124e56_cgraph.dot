@@ -1,0 +1,13 @@
+digraph "remmina_rdp_event_on_key"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node322 [label="remmina_rdp_event_on_key",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node322 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node323 [label="remmina_rdp_event_event_push",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580"];
+  Node322 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node324 [label="keypress_list_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ab6e9a485532ccf8c22005dd7a7137fd2"];
+  Node324 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node325 [label="remmina_rdp_event_release_key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a062f6feb8f4b29ad0ad84717e6646e0c"];
+}

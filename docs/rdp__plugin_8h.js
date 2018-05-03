@@ -27,8 +27,7 @@ var rdp__plugin_8h =
       [ "REMMINA_RDP_UI_CLIPBOARD_FORMATLIST", "rdp__plugin_8h.html#a051d1d2ab58b0119d656f5036277b7c6a6ed2696cd28620a9d41f501fe22162bc", null ],
       [ "REMMINA_RDP_UI_CLIPBOARD_GET_DATA", "rdp__plugin_8h.html#a051d1d2ab58b0119d656f5036277b7c6a8d48530ae1a868c40e3804aa2df205c7", null ],
       [ "REMMINA_RDP_UI_CLIPBOARD_SET_DATA", "rdp__plugin_8h.html#a051d1d2ab58b0119d656f5036277b7c6a8d1ee3147da1c703472c152799330dad", null ],
-      [ "REMMINA_RDP_UI_CLIPBOARD_SET_CONTENT", "rdp__plugin_8h.html#a051d1d2ab58b0119d656f5036277b7c6a428268194cfa31b71241bdebf8359bbe", null ],
-      [ "REMMINA_RDP_UI_CLIPBOARD_DETACH_OWNER", "rdp__plugin_8h.html#a051d1d2ab58b0119d656f5036277b7c6a7e7b3ee1f3eef5387c1d3f315cff3f01", null ]
+      [ "REMMINA_RDP_UI_CLIPBOARD_SET_CONTENT", "rdp__plugin_8h.html#a051d1d2ab58b0119d656f5036277b7c6a428268194cfa31b71241bdebf8359bbe", null ]
     ] ],
     [ "RemminaPluginRdpUiEeventType", "rdp__plugin_8h.html#a70cc17b1d3603d036f962a0ae8496b35", [
       [ "REMMINA_RDP_UI_EVENT_UPDATE_SCALE", "rdp__plugin_8h.html#a70cc17b1d3603d036f962a0ae8496b35a5bec41fd19576fc5c3e397366461dfe4", null ]

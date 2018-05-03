@@ -1,11 +1,11 @@
 var spice__plugin_8c =
 [
-    [ "REMMINA_PLUGIN_SPICE_FEATURE_PREF_VIEWONLY", "spice__plugin_8c.html#a56a0f36da7f9eaaf54bd05cc2bf49173ac0cdff2ecbe3da84d4ed6af8fffd49e1", null ],
-    [ "REMMINA_PLUGIN_SPICE_FEATURE_PREF_RESIZEGUEST", "spice__plugin_8c.html#a56a0f36da7f9eaaf54bd05cc2bf49173a81609f1f6e0072a78a2df6821e37f7b7", null ],
-    [ "REMMINA_PLUGIN_SPICE_FEATURE_PREF_DISABLECLIPBOARD", "spice__plugin_8c.html#a56a0f36da7f9eaaf54bd05cc2bf49173aebe753cb882aa4977fd65cf95608c48d", null ],
-    [ "REMMINA_PLUGIN_SPICE_FEATURE_TOOL_SENDCTRLALTDEL", "spice__plugin_8c.html#a56a0f36da7f9eaaf54bd05cc2bf49173ab8e58c2e2b8f0c94101c892ff98c4278", null ],
-    [ "REMMINA_PLUGIN_SPICE_FEATURE_TOOL_USBREDIR", "spice__plugin_8c.html#a56a0f36da7f9eaaf54bd05cc2bf49173a913ab805b98fd1f69ee85765733d16aa", null ],
-    [ "REMMINA_PLUGIN_SPICE_FEATURE_SCALE", "spice__plugin_8c.html#a56a0f36da7f9eaaf54bd05cc2bf49173a67d7c8f0daf1509c7404eb0a9062bf28", null ],
+    [ "REMMINA_PLUGIN_SPICE_FEATURE_PREF_VIEWONLY", "spice__plugin_8c.html#aa156d1cebb38c8a65846c4d9c006012aac0cdff2ecbe3da84d4ed6af8fffd49e1", null ],
+    [ "REMMINA_PLUGIN_SPICE_FEATURE_PREF_RESIZEGUEST", "spice__plugin_8c.html#aa156d1cebb38c8a65846c4d9c006012aa81609f1f6e0072a78a2df6821e37f7b7", null ],
+    [ "REMMINA_PLUGIN_SPICE_FEATURE_PREF_DISABLECLIPBOARD", "spice__plugin_8c.html#aa156d1cebb38c8a65846c4d9c006012aaebe753cb882aa4977fd65cf95608c48d", null ],
+    [ "REMMINA_PLUGIN_SPICE_FEATURE_TOOL_SENDCTRLALTDEL", "spice__plugin_8c.html#aa156d1cebb38c8a65846c4d9c006012aab8e58c2e2b8f0c94101c892ff98c4278", null ],
+    [ "REMMINA_PLUGIN_SPICE_FEATURE_TOOL_USBREDIR", "spice__plugin_8c.html#aa156d1cebb38c8a65846c4d9c006012aa913ab805b98fd1f69ee85765733d16aa", null ],
+    [ "REMMINA_PLUGIN_SPICE_FEATURE_SCALE", "spice__plugin_8c.html#aa156d1cebb38c8a65846c4d9c006012aa67d7c8f0daf1509c7404eb0a9062bf28", null ],
     [ "remmina_plugin_entry", "spice__plugin_8c.html#a56e5020de11446dbc23f3480e313f208", null ],
     [ "remmina_plugin_spice_ask_auth", "spice__plugin_8c.html#a98f60b1a056aa5ab19c8fb5728d4915b", null ],
     [ "remmina_plugin_spice_call_feature", "spice__plugin_8c.html#ad4b4ee0d3b22a9a7b505819120fd5ab2", null ],

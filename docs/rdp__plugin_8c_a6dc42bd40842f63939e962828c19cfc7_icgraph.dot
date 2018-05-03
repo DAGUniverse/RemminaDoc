@@ -1,0 +1,15 @@
+digraph "rf_auto_reconnect"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node429 [label="rf_auto_reconnect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node429 -> Node430 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node430 [label="remmina_rdp_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#adb2d2f801618ad1e5ff14b4ebf2a9eb9"];
+  Node430 -> Node431 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node431 [label="remmina_rdp_main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a12e0199d082d510648cb27168486f4e0"];
+  Node431 -> Node432 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node432 [label="remmina_rdp_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a3b62e33da1cb6cfa69c44f565ad53c54"];
+  Node432 -> Node433 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node433 [label="remmina_rdp_open_connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a5f88cb338f10185c43bfc7d711dddee5"];
+}

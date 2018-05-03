@@ -1,0 +1,23 @@
+digraph "remmina_protocol_widget_chat_open"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node729 [label="remmina_protocol_widget\l_chat_open",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node729 -> Node730 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node730 [label="remmina_chat_window_new",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__chat__window_8c.html#a5e4fa655fddf361fed13bbd759bea24f"];
+  Node730 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node731 [label="remmina_chat_window\l_send_text_on_key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__chat__window_8c.html#a55ac61e450ce6d37e57fcb5ac3ed507a"];
+  Node731 -> Node732 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 [label="remmina_chat_window_send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__chat__window_8c.html#a62d706863c048c8ddb580786c6abcf50"];
+  Node732 -> Node733 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node733 [label="remmina_chat_window\l_append_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__chat__window_8c.html#adfffc86df4856aabe2593de07742985f"];
+  Node733 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node734 [label="remmina_chat_window\l_scroll_proc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__chat__window_8c.html#a2a4bc3ded8ebf89c8f60d9b565fe2d70"];
+  Node732 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node735 [label="remmina_chat_window\l_clear_send_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__chat__window_8c.html#a4372d0db2832db8ed190390580f1dd1e"];
+  Node730 -> Node732 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node730 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node729 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node736 [label="remmina_protocol_widget\l_chat_on_destroy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8c.html#a04f0a11e50cdbd98ab80984fd5aca16d"];
+}

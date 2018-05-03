@@ -1,0 +1,24 @@
+digraph "remmina_rdp_event_queue_ui_async"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node51 [label="remmina_rdp_event_queue\l_ui_async",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node51 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="rf_auto_reconnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a6dc42bd40842f63939e962828c19cfc7"];
+  Node52 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="remmina_rdp_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#adb2d2f801618ad1e5ff14b4ebf2a9eb9"];
+  Node53 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="remmina_rdp_main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a12e0199d082d510648cb27168486f4e0"];
+  Node54 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="remmina_rdp_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a3b62e33da1cb6cfa69c44f565ad53c54"];
+  Node55 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="remmina_rdp_open_connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a5f88cb338f10185c43bfc7d711dddee5"];
+  Node51 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="rf_end_paint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#ab5b2b1181588e07e68c083c9539fa84f"];
+  Node57 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="remmina_rdp_post_connect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#ac8d1ec82167ad20b7634ed545d4badbc"];
+  Node58 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="remmina_rdp_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309"];
+  Node51 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

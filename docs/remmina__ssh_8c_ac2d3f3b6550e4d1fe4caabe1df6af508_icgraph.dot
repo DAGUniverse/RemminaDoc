@@ -1,0 +1,11 @@
+digraph "remmina_ssh_shell_set_size"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node752 [label="remmina_ssh_shell_set_size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node752 -> Node753 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node753 [label="remmina_plugin_ssh\l_on_size_allocate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#ac54051cfe6fedf5d60160f2540917718"];
+  Node753 -> Node754 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node754 [label="remmina_plugin_ssh_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#a62f9ea89d10bb2e375d70c9578ca95fd",tooltip="Remmina SSH plugin initialization. "];
+}

@@ -1,0 +1,9 @@
+digraph "remmina_plugin_manager_query_feature_by_type"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node738 [label="remmina_plugin_manager\l_query_feature_by_type",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node738 -> Node739 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node739 [label="remmina_plugin_manager\l_get_plugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__plugin__manager_8c.html#a3872c8656a8a3d5147bcc603471c1932"];
+}

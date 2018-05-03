@@ -1,0 +1,31 @@
+digraph "remmina_ssh_unconvert"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1310 [label="remmina_ssh_unconvert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1310 -> Node1311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1311 [label="remmina_sftp_client\l_thread_download_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a7b25ac5d22898d2e8a16d8d62bb62ae4"];
+  Node1311 -> Node1312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1312 [label="remmina_sftp_client\l_thread_main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#aea3e3b72fb51d466fee78af11234d7b7"];
+  Node1312 -> Node1313 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1313 [label="remmina_sftp_client\l_on_newtask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a788420fb944ee5059cbc53f8648e9636"];
+  Node1313 -> Node1314 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1314 [label="remmina_sftp_client_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a52b86e14d8abd0a5b6ddeb464a22a5f0"];
+  Node1310 -> Node1315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1315 [label="remmina_sftp_client\l_thread_recursive_dir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#adcbfd655b050ff016dedfe177c9e0dee"];
+  Node1315 -> Node1312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1310 -> Node1316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1316 [label="remmina_sftp_client\l_thread_upload_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a989f55fb6d44337caba7bbf98e93f3ce"];
+  Node1316 -> Node1312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1310 -> Node1317 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1317 [label="remmina_sftp_client\l_on_opendir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a476effba1e0cf529dab3f75a501341ea"];
+  Node1317 -> Node1314 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1317 -> Node1318 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1318 [label="remmina_sftp_client\l_refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#ae87948f1c87c6eb6b16664665cac9a2c"];
+  Node1318 -> Node1319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1319 [label="G_DEFINE_TYPE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#aa43b65303f43a0658201bf8f27e232f8"];
+  Node1310 -> Node1320 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1320 [label="remmina_sftp_client\l_on_deletefile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__client_8c.html#a0a7129a1bf066b4aa5106c9599a84a6b"];
+  Node1320 -> Node1314 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

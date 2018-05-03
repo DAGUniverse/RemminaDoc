@@ -190,11 +190,18 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Given a remmina file, fills a structure containing profiles keys/value tuples. </p>
-<p>This is used as a callback function with remmina_file_manager_iterate. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>Move this in a separate file. </dd></dl>
+<p>This is used as a callback function with remmina_file_manager_iterate. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Move this in a separate file. </dd></dl>
 <p>Source date -&gt; from profile</p>
-<p>Destination date -&gt; The date in the pdata structure </p>
+<p>Destination date -&gt; The date in the pdata structure</p>
+<p>When both date in the has and in the profile are valid we compare the date</p>
+<p>If the date in the hash less than the date in the profile, we take the latter</p>
+<p>If the date in the hash is NOT valid and the date in the profile is valid we keep the latter</p>
+<p>If both date are NULL, we insert NULL for that protocol</p>
+<p>If there is not the protocol in the hash, we add it</p>
+<p>If the date in the profile is not NULL we use it</p>
+<p>Otherwise we set it to NULL </p>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00522">522</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00540">540</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -337,7 +344,7 @@ Here is the caller graph for this function:</div>
 <p>The caller should free the returned buffer with g_free() </p><dl class="section warning"><dt>Warning</dt><dd>This function is usually executed on a dedicated thread, not on the main thread. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>a pointer to the JSON string. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00695">695</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00727">727</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -429,7 +436,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section warning"><dt>Warning</dt><dd>this function is usually executed on a dedicated thread, not on the main thread</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00391">391</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00409">409</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -466,7 +473,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section warning"><dt>Warning</dt><dd>this function is usually executed on a dedicated thread, not on the main thread</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00366">366</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00384">384</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -511,7 +518,7 @@ Here is the caller graph for this function:</div>
 <p>Remmina fallback to GtkStatusIcon/xembed</p>
 <p>Remmina icon is NOT active </p>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00467">467</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00485">485</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -557,7 +564,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <dl class="section warning"><dt>Warning</dt><dd>this function is usually executed on a dedicated thread, not on the main thread</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>Add other means to identify a release name/description to cover as much OS as possible, like /etc/issue </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Add other means to identify a release name/description to cover as much OS as possible, like /etc/issue </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00230">230</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
@@ -639,7 +646,7 @@ Here is the caller graph for this function:</div>
 </table>
 <dl class="section warning"><dt>Warning</dt><dd>this function is usually executed on a dedicated thread, not on the main thread </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00625">625</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00657">657</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -776,9 +783,10 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section warning"><dt>Warning</dt><dd>this function is usually executed on a dedicated thread, not on the main thread </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>this function is usually executed on a dedicated thread, not on the main thread</dd></dl>
+<p>Detect if we are running under Flatpak</p>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00339">339</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00342">342</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -816,7 +824,7 @@ Here is the caller graph for this function:</div>
 <p>We try to get the Gnome SHELL version</p>
 <p>When everything else fails with set the WM name to NULL </p>
 
-<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00423">423</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="remmina__stats_8c_source.html#l00441">441</a> of file <a class="el" href="remmina__stats_8c_source.html">remmina_stats.c</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -872,7 +880,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a7b173271d93cbf421f16394d9116fe0.html">remmina</a></li><li class="navelem"><a class="el" href="dir_77551dfb79d2dc134bf6b6b50e985072.html">src</a></li><li class="navelem"><a class="el" href="remmina__stats_8c.html">remmina_stats.c</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="remmina__stats_8c.html">remmina_stats.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

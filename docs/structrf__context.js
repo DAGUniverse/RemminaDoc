@@ -1,5 +1,8 @@
 var structrf__context =
 [
+    [ "REMMINA_POSTCONNECT_ERROR_OK", "structrf__context.html#aa0aafcfa61ad736204a06281153f0a5da6fd8f1c40304866e0168e9d496c26a68", null ],
+    [ "REMMINA_POSTCONNECT_ERROR_GDI_INIT", "structrf__context.html#aa0aafcfa61ad736204a06281153f0a5da2266700ffb95b7f2c38eea7294f6fba6", null ],
+    [ "REMMINA_POSTCONNECT_ERROR_NO_H264", "structrf__context.html#aa0aafcfa61ad736204a06281153f0a5da0b7e911f34ade078b572b43780fc6982", null ],
     [ "_p", "structrf__context.html#a4d2f365e1aa65f65b734b5d31540ec5b", null ],
     [ "bpp", "structrf__context.html#a40e89e126e5dd96a3f67e6f945a8867b", null ],
     [ "cairo_format", "structrf__context.html#aa13bb4f72f3024d81e9051de4bd65ec0", null ],
@@ -21,6 +24,7 @@ var structrf__context =
     [ "is_reconnecting", "structrf__context.html#af40c80ff8296b9bcc3ac437bf0be55f8", null ],
     [ "object_id_seq", "structrf__context.html#adeee1ea1db2e19b99e4deb80b8a6a960", null ],
     [ "object_table", "structrf__context.html#aafce196b029d2578151275acd07ccb82", null ],
+    [ "postconnect_error", "structrf__context.html#ada1ddaadc15cc017185d7114cbea4d56", null ],
     [ "pressed_keys", "structrf__context.html#a335c40ccb90ae472525b203c832e7701", null ],
     [ "primary_buffer", "structrf__context.html#a79e13a95cf9b00ae1980da5bdda7132e", null ],
     [ "protocol_widget", "structrf__context.html#a05f37c213b04dfb9ae9b38c12bcdf7e3", null ],

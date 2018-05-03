@@ -1,0 +1,11 @@
+digraph "remmina_protocol_widget_ssh_exec"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4194 [label="remmina_protocol_widget\l_ssh_exec",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4194 -> Node4195 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4195 [label="remmina_ssh_set_application\l_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#a1f3297263703b4259c1c9607d710995d"];
+  Node4194 -> Node4196 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4196 [label="remmina_ssh_set_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#abc556f0a4335083436f6e19c204fa553"];
+}

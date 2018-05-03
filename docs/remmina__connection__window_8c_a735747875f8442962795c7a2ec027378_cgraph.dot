@@ -1,0 +1,11 @@
+digraph "remmina_connection_holder_toolbar_pin"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7587 [label="remmina_connection\l_holder_toolbar_pin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7587 -> Node7588 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7588 [label="remmina_pref_save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__pref_8c.html#a1c614a5e7dc3cd415be6e0a926e26983"];
+  Node7587 -> Node7589 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7589 [label="remmina_connection\l_holder_update_pin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__connection__window_8c.html#aac226c5115a432b09cff71ecd772ea6c"];
+}

@@ -1,0 +1,15 @@
+digraph "remmina_protocol_widget_get_init_dialog"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1859 [label="remmina_protocol_widget\l_get_init_dialog",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1859 -> Node1860 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1860 [label="remmina_plugin_sftp\l_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__plugin_8c.html#ab524c406d78b2e32a339884fbdae56a9"];
+  Node1860 -> Node1861 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1861 [label="remmina_plugin_sftp\l_open_connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__sftp__plugin_8c.html#a0553d8f4834a1865e3640ec4180e63c4"];
+  Node1859 -> Node1862 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1862 [label="remmina_plugin_ssh\l_main_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#a4fa1cd6e50c66d79e727d7264fc454ee",tooltip="Remmina Protocol plugin main function. "];
+  Node1862 -> Node1863 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1863 [label="remmina_plugin_ssh\l_open_connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh__plugin_8c.html#a01bb81cfc23add39c9260e888ef1d88f",tooltip="Initialize the the main window properties and the pthread. "];
+}

@@ -5,6 +5,7 @@ var struct___remmina_s_s_h =
     [ "callback", "struct___remmina_s_s_h.html#aa8e75d0a635b3390100218bee6b49378", null ],
     [ "charset", "struct___remmina_s_s_h.html#a0b35a5a573abb5e8b8a27a91434a00a5", null ],
     [ "ciphers", "struct___remmina_s_s_h.html#a0b3e071eb2c6011efdcea3f65f8e7fa0", null ],
+    [ "compression", "struct___remmina_s_s_h.html#ab017331f59fceff63bb33ff00d088870", null ],
     [ "error", "struct___remmina_s_s_h.html#a3aaebd7f03b7d8601818fabc46b787ed", null ],
     [ "hostkeytypes", "struct___remmina_s_s_h.html#a69e209a1ee77d6dfe5d87961e2a50a6a", null ],
     [ "kex_algorithms", "struct___remmina_s_s_h.html#ae4f1ed5a4852134afb89a00530601ae6", null ],

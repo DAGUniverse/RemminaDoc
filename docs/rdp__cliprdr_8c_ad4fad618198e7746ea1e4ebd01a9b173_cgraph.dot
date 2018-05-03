@@ -1,0 +1,28 @@
+digraph "remmina_rdp_event_process_clipboard"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node589 [label="remmina_rdp_event_process\l_clipboard",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node589 -> Node590 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node590 [label="remmina_rdp_cliprdr\l_mt_get_format_list",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a9d9b4fd8f4efbac086e3a2a274647ce5"];
+  Node590 -> Node591 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node591 [label="remmina_rdp_cliprdr\l_get_client_format_list",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#accb7cad54767b8f658b8ea438690ef4f"];
+  Node591 -> Node592 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node592 [label="remmina_rdp_cliprdr\l_get_format_from_gdkatom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a7eb7cd7eeab0e52c33721cc0564964ea"];
+  Node589 -> Node593 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node593 [label="remmina_rdp_cliprdr\l_get_clipboard_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a1875ac25f73dd93e4b716746e7c6b8d5"];
+  Node593 -> Node594 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node594 [label="lf2crlf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a4f9d059736e69df00273ec853d15c772"];
+  Node593 -> Node595 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node595 [label="remmina_rdp_event_event_push",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580"];
+  Node589 -> Node596 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node596 [label="remmina_rdp_cliprdr\l_set_clipboard_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a007ce9136242f75dc148bd4e2ee5fde5"];
+  Node596 -> Node597 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node597 [label="remmina_rdp_cliprdr\l_request_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a48904924b1064d1bb3bfb6116bac6bd3"];
+  Node597 -> Node595 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node596 -> Node598 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node598 [label="remmina_rdp_cliprdr\l_empty_clipboard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#a719b6820f66508f8acb943a1bf1a495d"];
+  Node589 -> Node599 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node599 [label="remmina_rdp_cliprdr\l_set_clipboard_content",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__cliprdr_8c.html#ac3bc1f06354bf50b72d770f6d14ce0b3"];
+}

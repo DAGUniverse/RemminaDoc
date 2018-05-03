@@ -4,6 +4,7 @@ var struct___remmina_connection_object =
     [ "cnnhld", "struct___remmina_connection_object.html#a7c854f5cba54518e846372e01891f013", null ],
     [ "connected", "struct___remmina_connection_object.html#aed1d667ed3085ee229c0dfdcf715084d", null ],
     [ "dynres_unlocked", "struct___remmina_connection_object.html#a71136a01b1cc4d14e0047b32ec4d8a4a", null ],
+    [ "open_from_file_event_time", "struct___remmina_connection_object.html#ae7205323d4ddcfcba920d7568ac0637d", null ],
     [ "plugin_can_scale", "struct___remmina_connection_object.html#a1f3920f6710917d6944491ae1d7b1250", null ],
     [ "proto", "struct___remmina_connection_object.html#aea86c673d5c1600844e0d1642c856995", null ],
     [ "remmina_file", "struct___remmina_connection_object.html#a431b19fa993d0810e88cc973a307303c", null ],

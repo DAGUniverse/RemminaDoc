@@ -1,0 +1,9 @@
+digraph "remmina_rdp_event_uninit"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node837 [label="remmina_rdp_event_uninit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node837 -> Node838 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node838 [label="remmina_rdp_event_free\l_event",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a40b4fd190055c10d5d2248a6eca5f50f"];
+}

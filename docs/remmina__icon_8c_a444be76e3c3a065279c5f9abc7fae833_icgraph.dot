@@ -1,0 +1,17 @@
+digraph "remmina_icon_popdown_menu"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3022 [label="remmina_icon_popdown_menu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3022 -> Node3023 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3023 [label="remmina_icon_on_activate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__icon_8c.html#af175fef31eb95974094088235b3a2b1d"];
+  Node3023 -> Node3024 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3024 [label="remmina_icon_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__icon_8h.html#a741c81815e562f40672c4485172306d6"];
+  Node3024 -> Node3025 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3025 [label="remmina_on_startup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina_8c.html#a26d2c20be18ff44f239b756f1d5be01a"];
+  Node3025 -> Node3026 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3026 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina_8c.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node3024 -> Node3027 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3027 [label="remmina_pref_on_dialog\l_destroy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__pref__dialog_8c.html#ab9776574663e2c3fcb793ec70887336d"];
+}

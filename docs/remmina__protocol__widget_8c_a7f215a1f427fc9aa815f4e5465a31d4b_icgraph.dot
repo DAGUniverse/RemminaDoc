@@ -1,0 +1,9 @@
+digraph "remmina_protocol_widget_tunnel_init_callback"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4706 [label="remmina_protocol_widget\l_tunnel_init_callback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4706 -> Node4707 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4707 [label="remmina_protocol_widget\l_start_xport_tunnel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__protocol__widget_8h.html#a172fa9cf2ce196c9846a3e47ea9036b4"];
+}

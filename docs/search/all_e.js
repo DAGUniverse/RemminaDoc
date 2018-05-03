@@ -11,6 +11,7 @@ var searchData=
   ['open_5fconnection',['open_connection',['../struct___remmina_protocol_plugin.html#a12c738cfe1ad1e982e519c47fddee4c2',1,'_RemminaProtocolPlugin::open_connection()'],['../struct___remmina_plugin_service.html#a8cc8cc627e22e71e257afa9c74d373ef',1,'_RemminaPluginService::open_connection()']]],
   ['open_5fdir',['open_dir',['../struct___remmina_f_t_p_client_class.html#a50c3b5a263a2b348c6a192c0e138aab7',1,'_RemminaFTPClientClass']]],
   ['open_5fdir_5fsignal',['OPEN_DIR_SIGNAL',['../remmina__ftp__client_8c.html#abc6126af1d45847bc59afa0aa3216b04aab6192f5c24116559ad3f816da0ade64',1,'remmina_ftp_client.c']]],
+  ['open_5ffrom_5ffile_5fevent_5ftime',['open_from_file_event_time',['../struct___remmina_connection_object.html#ae7205323d4ddcfcba920d7568ac0637d',1,'_RemminaConnectionObject']]],
   ['opt1',['opt1',['../struct___remmina_protocol_feature.html#aa7ac5ec9d95867734619583a2049e952',1,'_RemminaProtocolFeature::opt1()'],['../struct___remmina_protocol_setting.html#af533231bb1281d09d98a14d3d218fba0',1,'_RemminaProtocolSetting::opt1()']]],
   ['opt2',['opt2',['../struct___remmina_protocol_feature.html#aab44850c13a7e5e20a02603ae173d53d',1,'_RemminaProtocolFeature::opt2()'],['../struct___remmina_protocol_setting.html#ac4d859a06af12d7ce5b20cc8ff815167',1,'_RemminaProtocolSetting::opt2()']]],
   ['opt3',['opt3',['../struct___remmina_protocol_feature.html#ab3c15094a16418c5951c5382c8a44190',1,'_RemminaProtocolFeature']]],

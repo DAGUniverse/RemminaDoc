@@ -1,0 +1,13 @@
+digraph "remmina_ssh_tunnel_free"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node623 [label="remmina_ssh_tunnel_free",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node623 -> Node624 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node624 [label="remmina_ssh_tunnel\l_close_all_channels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#a0a0aff99448b4eec63bf11d7a4bb9ab7"];
+  Node624 -> Node625 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node625 [label="remmina_ssh_tunnel\l_buffer_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#a2dc66f410992afe4c2b9ad5bda770d6c"];
+  Node623 -> Node626 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node626 [label="remmina_ssh_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__ssh_8c.html#acdb9f57d2f9b47913715a8d8a0ea0c02"];
+}

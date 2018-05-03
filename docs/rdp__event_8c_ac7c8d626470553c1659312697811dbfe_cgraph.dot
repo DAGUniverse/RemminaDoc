@@ -1,0 +1,13 @@
+digraph "remmina_rdp_event_send_delayed_monitor_layout"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node781 [label="remmina_rdp_event_send\l_delayed_monitor_layout",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node781 -> Node782 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node782 [label="remmina_rdp_event_delayed\l_monitor_layout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a35376ff50915de1c14285e6326bc943e"];
+  Node782 -> Node783 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node783 [label="remmina_rdp_settings\l_get_orientation_scale_prefs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__settings_8c.html#a5f05047cf10611ffb7a23a248650cb4c"];
+  Node782 -> Node784 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node784 [label="remmina_rdp_event_event_push",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ad446d6471bddba97f8bfcee8c51e4580"];
+}

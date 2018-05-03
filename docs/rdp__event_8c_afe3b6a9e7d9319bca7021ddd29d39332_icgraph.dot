@@ -1,0 +1,19 @@
+digraph "remmina_rdp_event_translate_pos"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node826 [label="remmina_rdp_event_translate_pos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node826 -> Node827 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node827 [label="remmina_rdp_event_on\l_motion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#ac27328f2796bd021d174c0f4b172c024"];
+  Node827 -> Node828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node828 [label="remmina_rdp_event_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8h.html#afba21c241e7abe9fe72f6e5aeeaa99cc"];
+  Node828 -> Node829 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node829 [label="remmina_rdp_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__plugin_8c.html#a6dd204e4f7a63fdcdfb6cd3066cbf309"];
+  Node826 -> Node830 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node830 [label="remmina_rdp_event_on\l_button",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a0caf4ffb4011d001301ea10f2c3f75e6"];
+  Node830 -> Node828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node826 -> Node831 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node831 [label="remmina_rdp_event_on\l_scroll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdp__event_8c.html#a9d63c3ac635001e62851ec4bc5fb7469"];
+  Node831 -> Node828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,11 @@
+digraph "remmina_protocol_widget_send_keys_signals"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3289 [label="remmina_protocol_widget\l_send_keys_signals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3289 -> Node3290 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3290 [label="remmina_public_get\l_keycode_for_keyval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__public_8c.html#a95f1d68c7ab3e2a6b158db45f63538fb"];
+  Node3289 -> Node3291 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3291 [label="remmina_public_get\l_modifier_for_keycode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__public_8c.html#a1fac51670815da6a72700a10866c179a"];
+}

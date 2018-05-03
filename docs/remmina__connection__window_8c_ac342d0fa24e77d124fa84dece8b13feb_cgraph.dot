@@ -1,0 +1,9 @@
+digraph "remmina_connection_window_after_configure_scrolled"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11933 [label="remmina_connection\l_window_after_configure\l_scrolled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11933 -> Node11934 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11934 [label="remmina_file_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$remmina__file_8c.html#af153b0d289ac93f6ecdaa15d5f3b9b8c"];
+}

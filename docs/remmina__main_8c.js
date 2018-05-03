@@ -69,6 +69,7 @@ var remmina__main_8c =
     [ "remmina_main_save_size", "remmina__main_8c.html#ac448c53d7a2066763d2b747d269f60ee", null ],
     [ "remmina_main_select_file", "remmina__main_8c.html#aa20963aed43242994c88d5a97a546355", null ],
     [ "remmina_main_selection_func", "remmina__main_8c.html#a3c5043279b5d98d4d08635d33402ea66", null ],
+    [ "remmina_main_show_snap_welcome", "remmina__main_8c.html#ab08aae433b625c3a84330630fe2bd2d5", null ],
     [ "remmina_main_show_warning_dialog", "remmina__main_8c.html#ad99b9c0bf2fa8c166a8b4a09e06ffdf7", null ],
     [ "remmina_main_update_file_datetime", "remmina__main_8c.html#a5ae0372dafe41f96a09097c07d1b270a", null ],
     [ "quick_connect_plugin_list", "remmina__main_8c.html#aace9ecdd0b74d392ad6ed541bd605c1c", null ],
